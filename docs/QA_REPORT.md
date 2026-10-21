@@ -1,7 +1,9 @@
 # Anatomy Atlas — QA Report
 
 **Owner:** qa-dev · **Repo:** `/Users/shanto/Documents/deepseek-harness/default-workspace/anatomy-atlas`
-**Verdict:** **PASS — SHIP.** No product defects remain in the frozen build; all automated gates are green.
+**Verdict:** **PASS — SHIPPED & LIVE-VERIFIED.** No product defects remain in the frozen build; all automated
+gates are green and the deployed production build passes live verification.
+**Live URL:** https://anatomy-atlas-b2m.pages.dev · **Cloudflare deployment:** `89309a61` · **Source commit:** `c740ce7`
 **Content snapshot:** 12 systems, 95 organs, 12 lessons (96 steps), 96 quiz questions, 120 glossary terms,
 80 facts, 16 history events, 7 regions.
 
@@ -163,6 +165,28 @@ account for the macOS Tab-order platform behaviour; WebGL test no longer calls `
 No application source file was modified by QA.
 
 ## 8. Sign-off
+
+**PASS — SHIP.** Verified against the live deployment on 2026-10-21.
+
+### Live production verification (deployed build, not local)
+
+```
+node scripts/verify-live.mjs https://anatomy-atlas-b2m.pages.dev
+→ 14/14 routes PASS
+```
+
+| Check | Result |
+|---|---|
+| All 13 key routes + intentional 404: HTTP 200, non-empty title/h1, primary nav | **14/14 PASS** |
+| Console errors / uncaught page errors / failed requests | **0 / 0 / 0** |
+| Horizontal overflow at 1280px | none |
+| Route screenshots | 12/14 captured; 2 warnings (`/systems/cardiovascular`, `/explore?organ=heart` — headless full-page screenshot timed out on the live WebGL canvas; functional checks still passed) |
+| Home resource weight | 551 KB JS across 4 files (8 resources) |
+| Real-WebGL smoke on live build (`/`, `/organs/heart`, `/explore?organ=heart`) | all `data-webgl="ready"`, canvas visible, Heart panel on the deep link, 0 console errors — `test-results/live/webgl-live-*.png` |
+
+Live report: `test-results/live-report.json` · screenshots: `test-results/live/*.png`.
+
+### Gates at freeze (local, frozen source)
 
 **PASS — SHIP.**
 
