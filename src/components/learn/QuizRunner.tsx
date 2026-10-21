@@ -112,7 +112,7 @@ export default function QuizRunner({
 
   const finish = useCallback(() => {
     const scored = scoreQuiz(quiz.questions, answers, quiz.id);
-    const beatBest = Boolean(best) && isBetterQuizResult(best, scored.score, scored.total);
+    const beatBest = isBetterQuizResult(best, scored.score, scored.total);
     setResult(scored);
     setImproved(beatBest);
     onSaveResult(quiz.id, scored.score, scored.total);

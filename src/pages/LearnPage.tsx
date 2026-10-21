@@ -18,7 +18,7 @@ export default function LearnPage() {
     path: '/learn',
   });
 
-  const { isLessonComplete, hasProgress, completedLessonCount } = useProgress();
+  const { isLessonComplete, completedLessonCount } = useProgress();
   const [filter, setFilter] = useState<Filter>('all');
 
   const totalSteps = useMemo(
@@ -76,7 +76,7 @@ export default function LearnPage() {
         {nextSystem ? (
           <aside className="continue-card" aria-labelledby="continue-title">
             <p className="caps continue-card__caps">
-              {hasProgress ? 'Continue learning' : 'A good place to start'}
+              {completedLessonCount > 0 ? 'Next lesson' : 'A good place to start'}
             </p>
             <h2 id="continue-title" className="h3 continue-card__title">
               {nextSystem.lesson.title}
@@ -86,7 +86,7 @@ export default function LearnPage() {
               {nextSystem.name} · {nextSystem.lesson.durationMin} min · {nextSystem.lesson.steps.length} steps
             </p>
             <Link className="btn btn--primary continue-card__cta" to={`/learn/${nextSystem.lesson.id}`}>
-              {hasProgress ? 'Continue lesson' : 'Start lesson'}
+              {completedLessonCount > 0 ? 'Next lesson' : 'Start lesson'}
               <ArrowRight size={16} aria-hidden="true" />
             </Link>
             <p className="continue-card__note">

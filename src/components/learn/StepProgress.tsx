@@ -17,7 +17,8 @@ export interface StepProgressProps {
 export default function StepProgress({ total, current, titles, onSelect, className }: StepProgressProps) {
   if (total <= 0) return null;
   const safeCurrent = Math.max(0, Math.min(total - 1, current));
-  const percent = Math.round(((safeCurrent + 1) / total) * 100);
+  // The bar reflects steps actually finished, not the step currently being read.
+  const percent = Math.round((safeCurrent / total) * 100);
   const steps = Array.from({ length: total }, (_, index) => index);
 
   return (
@@ -26,7 +27,9 @@ export default function StepProgress({ total, current, titles, onSelect, classNa
         <span className="caps">
           Step {safeCurrent + 1} of {total}
         </span>
-        <span className="step-progress__hint">{percent}% through the lesson</span>
+        <span className="step-progress__hint">
+          {safeCurrent === 0 ? 'Starting the lesson' : `${safeCurrent} of ${total} steps read`}
+        </span>
       </div>
       <div className="step-progress__track" aria-hidden="true">
         <span className="step-progress__fill" style={{ width: `${percent}%` }} />

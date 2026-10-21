@@ -86,6 +86,8 @@ test.describe('quiz', () => {
     await expect(page.locator('.result-ring__percent')).toHaveText('100%');
     await expect(page.getByRole('heading', { name: /review your answers/i })).toBeVisible();
     await expect(page.locator('.result-review__list')).toContainText(cardiovascular.quiz[0].explanation.slice(0, 40));
+    // A first completed attempt is acknowledged as a new best.
+    await expect(page.locator('.result-summary__best--new')).toContainText(/new best/i);
 
     await waitForProgress(
       page,

@@ -45,6 +45,7 @@ export default function LessonReader({ lesson, system }: LessonReaderProps) {
   const [step, setStep] = useState(() => readSavedStep(lesson.id, lesson.steps.length));
   const headingRef = useRef<HTMLHeadingElement>(null);
   const mainRef = useRef<HTMLDivElement>(null);
+  const finishTitleRef = useRef<HTMLHeadingElement>(null);
   const mountedRef = useRef(false);
 
   const stepCount = lesson.steps.length;
@@ -66,6 +67,13 @@ export default function LessonReader({ lesson, system }: LessonReaderProps) {
     },
     [stepCount],
   );
+
+  // Completing removes the button, so move focus to the confirmation heading and
+  // let assistive technology hear the state change.
+  const completeLesson = useCallback(() => {
+    markLessonComplete(lesson.id);
+    window.requestAnimationFrame(() => finishTitleRef.current?.focus({ preventScroll: true }));
+  }, [lesson.id, markLessonComplete]);
 
   // Persist the reading position for the rest of the browser session.
   useEffect(() => {
@@ -221,9 +229,17 @@ export default function LessonReader({ lesson, system }: LessonReaderProps) {
               ) : (
                 <ListChecks className="lesson-finish__icon" size={28} aria-hidden="true" />
               )}
-              <h3 id="lesson-finish-title" className="h3 lesson-finish__title">
+              <h3
+                id="lesson-finish-title"
+                ref={finishTitleRef}
+                tabIndex={-1}
+                className="h3 lesson-finish__title"
+              >
                 {isComplete ? 'Lesson complete.' : 'You have reached the end of the lesson.'}
               </h3>
+              <p className="visually-hidden" role="status" aria-live="polite">
+                {isComplete ? `${lesson.title} is marked complete.` : ''}
+              </p>
               <p className="lesson-finish__text">
                 {isComplete
                   ? 'This one is marked as read on this device. The quiz is the best way to find out what stuck.'
@@ -241,11 +257,11 @@ export default function LessonReader({ lesson, system }: LessonReaderProps) {
               ) : null}
               <div className="lesson-finish__actions">
                 {!isComplete ? (
-                  <button type="button" className="btn btn--primary" onClick={() => markLessonComplete(lesson.id)}>
+                  <button type="button" className="btn btn--primary" onClick={completeLesson}>
                     Mark lesson complete
                   </button>
                 ) : null}
-                <Link className="btn btn--ghost" to={quizHref}>
+                <Link className={`btn ${isComplete ? 'btn--primary' : 'btn--ghost'}`} to={quizHref}>
                   Take the quiz
                 </Link>
                 {nextSystem ? (
@@ -321,7 +337,7 @@ export default function LessonReader({ lesson, system }: LessonReaderProps) {
               </div>
               <div>
                 <dt>Status</dt>
-                <dd>{isComplete ? 'Lesson complete' : 'In progress'}</dd>
+                <dd>{isComplete ? 'Lesson complete' : step > 0 ? 'In progress' : 'Not started'}</dd>
               </div>
             </dl>
             {!isComplete ? (

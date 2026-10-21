@@ -1,4 +1,4 @@
-import { Link, useParams } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import {
   ArrowLeft,
   ArrowRight,
@@ -26,6 +26,7 @@ import NotFoundPage from '@/pages/NotFoundPage';
 
 export default function SystemPage() {
   const { systemId } = useParams();
+  const navigate = useNavigate();
   const system = getSystem(systemId);
 
   usePageMeta({
@@ -107,6 +108,9 @@ export default function SystemPage() {
               controls
               showLabels={false}
               resetKey={system.id}
+              onSelectOrgan={(organId) => {
+                if (organId) navigate(`/organs/${organId}`);
+              }}
               plate={{
                 eyebrow: `Fig. 02 · System ${String(index + 1).padStart(2, '0')}`,
                 title: system.shortName,

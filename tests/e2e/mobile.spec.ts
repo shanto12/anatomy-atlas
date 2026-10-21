@@ -112,7 +112,7 @@ test.describe('reduced motion', () => {
   });
 
   test('animations are disabled across primary routes', async ({ page }) => {
-    const routes = ['/systems', '/organs/heart', '/learn'];
+    const routes = ['/systems', '/organs/heart', '/learn', '/learn/lesson-cardiovascular', '/quiz'];
     const offenders: string[] = [];
     for (const route of routes) {
       await gotoApp(page, route);

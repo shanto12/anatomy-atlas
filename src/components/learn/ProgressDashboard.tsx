@@ -44,13 +44,16 @@ export default function ProgressDashboard() {
     .sort((a, b) => Date.parse(b[1].at) - Date.parse(a[1].at))
     .slice(0, 3);
 
+  // Organ views alone should not trigger a "look how far you've come" headline.
+  const hasLearningProgress = completedLessonCount > 0 || quizAttemptCount > 0;
+
   return (
     <section className="progress-dash" aria-labelledby="progress-dashboard-title">
       <header className="progress-dash__header">
         <div>
           <p className="eyebrow">Your progress</p>
           <h2 id="progress-dashboard-title" className="h3 progress-dash__title">
-            {hasProgress ? 'The ground you have covered' : 'A record of what you learn'}
+            {hasLearningProgress ? 'The ground you have covered' : 'A record of what you learn'}
           </h2>
         </div>
         <p className="progress-dash__privacy">
