@@ -19,11 +19,12 @@ mkdirSync(OUT, { recursive: true });
 async function captureHero(browser) {
   try {
     const page = await browser.newPage({ viewport: { width: 1440, height: 1000 }, deviceScaleFactor: 2 });
-    await page.goto(BASE, { waitUntil: 'networkidle', timeout: 30000 });
-    const stage = page.locator('.home-hero__stage, .viewer-shell').first();
-    await stage.waitFor({ state: 'visible', timeout: 15000 });
-    await page.waitForTimeout(2500);
-    const buffer = await stage.screenshot({ type: 'png' });
+    await page.goto(BASE, { waitUntil: 'load', timeout: 60000 });
+    const canvas = page.locator('.home-hero__stage canvas, .viewer-canvas').first();
+    await canvas.waitFor({ state: 'visible', timeout: 30000 });
+    // Let the lazy three.js chunk compile and the camera settle on the model.
+    await page.waitForTimeout(7000);
+    const buffer = await canvas.screenshot({ type: 'png', timeout: 90000 });
     await page.close();
     return `data:image/png;base64,${buffer.toString('base64')}`;
   } catch (error) {
@@ -79,7 +80,9 @@ function figureSvg() {
 }
 
 async function main() {
-  const browser = await chromium.launch();
+  // Headed Chromium uses the real GPU (Metal on macOS), avoiding slow/hanging
+  // software-WebGL screenshots. This script is a local authoring tool, not CI.
+  const browser = await chromium.launch({ headless: process.env.OG_HEADLESS === '1' });
   const hero = await captureHero(browser);
 
   const stage = hero

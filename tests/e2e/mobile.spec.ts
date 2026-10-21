@@ -23,9 +23,10 @@ test.describe('mobile navigation', () => {
     const mobileNav = page.getByRole('navigation', { name: 'Mobile' });
     await expect(mobileNav).toBeVisible();
     await expect(page.getByRole('button', { name: /close menu/i })).toHaveAttribute('aria-expanded', 'true');
-    for (const label of ['Explore', 'Systems', 'Learn', 'Quiz', 'Glossary', 'About']) {
+    for (const label of ['Explore', 'Systems', 'Learn', 'Quiz', 'Glossary']) {
       await expect(mobileNav.getByRole('link', { name: label, exact: true })).toBeVisible();
     }
+    await expect(mobileNav.getByRole('link', { name: /about/i })).toBeVisible();
 
     await capture(page, testInfo, 'mobile-menu-open', { fullPage: false });
 

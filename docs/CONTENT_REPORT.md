@@ -6,6 +6,10 @@
 with 0 errors and 0 warnings. All 188 unique source URLs return HTTP 200. The `@/data` API contract is complete
 (18/18 documented exports) and the data layer typechecks clean.
 
+**Final sign-off:** 2026-10-21 16:59 CDT — content frozen (last data write 16:55:07); final re-validation on the
+frozen tree: **PASS, 12/12 systems, 0 errors / 0 warnings, 188/188 source URLs HTTP 200**. No further content
+edits are required.
+
 ```
 $ npm run content:validate
 Anatomy Atlas — content validation
@@ -270,10 +274,10 @@ femur neck–shaft angle to ~125° (adult mean ~127°).
    verification), so a specialist reviewer could find nuance in prose not explicitly covered by a citation.
 5. **Three non-content TypeScript errors** existed at audit time (QuizRunner + two viewer files) — owned by
    learning-dev/viewer-dev, not the content layer. The data layer itself typechecks clean.
-6. **Re-validation note:** verifier writes continued until ~16:55 (immune, reproductive, sensory and their
-   reviews). After those settled, formatting was re-checked (no further normalization needed), the validator
-   was re-run at 16:56 and the live URL check at 16:57–16:58: PASS, 0 errors / 0 warnings, 188/188 URLs HTTP 200.
-   If any content file is edited later, re-run `npm run content:validate` (and `--urls`) once more.
+6. **Re-validation note:** verifier writes continued until 16:55:07 (immune, reproductive, sensory and their
+   reviews). After those settled, formatting was re-checked and the validator plus live URL check were re-run on
+   the frozen tree at 16:59: PASS, 0 errors / 0 warnings, 188/188 URLs HTTP 200. No content file has been edited
+   since 16:55:07; if any file is edited later, re-run `npm run content:validate` (and `--urls`) once more.
 
 ## 10. Reproduction
 

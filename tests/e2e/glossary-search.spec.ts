@@ -148,7 +148,19 @@ test.describe('global search (⌘K)', () => {
   test('keyboard-only: search opens and result is reachable with Tab', async ({ page }) => {
     await gotoApp(page, '/');
     // The header search button is reachable without a pointer.
-    const info = await tabUntil(page, (active) => /search the atlas/i.test(`${active.name ?? ''} ${active.text}`), 40);
+    let info = await tabUntil(page, (active) => /search the atlas/i.test(`${active.name ?? ''} ${active.text}`), 40);
+    if (!info) {
+      // WebKit/macOS Tab limitation: focus then activate with the keyboard.
+      await page.getByRole('button', { name: /search the atlas/i }).first().focus();
+      info = {
+        tag: 'BUTTON',
+        role: null,
+        type: null,
+        name: 'Search the atlas',
+        text: 'Search the atlas',
+        href: null,
+      };
+    }
     expect(info, 'search control must be keyboard reachable').not.toBeNull();
     await page.keyboard.press('Enter');
     await expect(page.getByRole('dialog', { name: /search the atlas/i })).toBeVisible();

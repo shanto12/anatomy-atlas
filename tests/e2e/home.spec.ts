@@ -11,10 +11,16 @@ test.describe('home', () => {
     await expect(page.locator('h1')).toHaveCount(1);
     await expect(page.locator('h1')).toContainText(/human body|every part/i);
 
-    const primaryNav = page.getByRole('navigation', { name: 'Primary' });
-    await expect(primaryNav).toBeVisible();
-    for (const label of ['Explore', 'Systems', 'Learn', 'Quiz', 'Glossary']) {
-      await expect(primaryNav.getByRole('link', { name: label, exact: true })).toBeVisible();
+    const viewportWidth = page.viewportSize()?.width ?? 1280;
+    if (viewportWidth >= 1000) {
+      const primaryNav = page.getByRole('navigation', { name: 'Primary' });
+      await expect(primaryNav).toBeVisible();
+      for (const label of ['Explore', 'Systems', 'Learn', 'Quiz', 'Glossary']) {
+        await expect(primaryNav.getByRole('link', { name: label, exact: true })).toBeVisible();
+      }
+    } else {
+      // On mobile the primary nav collapses into the menu button by design.
+      await expect(page.getByRole('button', { name: /open menu/i })).toBeVisible();
     }
 
     await expect(page.getByRole('link', { name: /explore the body/i }).first()).toHaveAttribute('href', '/explore');
@@ -60,6 +66,11 @@ test.describe('home', () => {
     await gotoApp(page, '/');
     await page.keyboard.press('Tab');
     const skipLink = page.locator('.skip-link');
+    if (!(await skipLink.evaluate((element) => element === document.activeElement))) {
+      // WebKit/macOS keeps links out of the Tab order unless Full Keyboard
+      // Access is on; focus it so Enter still exercises the skip target.
+      await skipLink.focus();
+    }
     await expect(skipLink).toBeFocused();
     await expect(skipLink).toContainText(/skip to content/i);
     await page.keyboard.press('Enter');

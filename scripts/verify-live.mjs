@@ -20,7 +20,13 @@ import path from 'node:path';
 
 import { chromium } from '@playwright/test';
 
-const baseUrl = (process.argv[2] || process.env.LIVE_URL || 'https://anatomy-atlas-b2m.pages.dev').replace(/\/+$/, '');
+const args = process.argv.slice(2);
+const noWebgl = args.includes('--no-webgl');
+const baseUrl = (
+  args.find((argument) => !argument.startsWith('--')) ||
+  process.env.LIVE_URL ||
+  'https://anatomy-atlas-b2m.pages.dev'
+).replace(/\/+$/, '');
 const outDir = path.resolve('test-results', 'live');
 mkdirSync(outDir, { recursive: true });
 
@@ -67,8 +73,21 @@ for (const route of ROUTES) {
     overflow: { scrollWidth: 0, clientWidth: 0 },
     pass: true,
     problems: [],
+    warnings: [],
   };
   const page = await context.newPage();
+  if (noWebgl) {
+    // Software WebGL can make headless full-page screenshots time out. The
+    // production fallback is a supported path, so --no-webgl gives a fast,
+    // deterministic functional check; run without it to also exercise 3D.
+    await page.addInitScript(() => {
+      const original = HTMLCanvasElement.prototype.getContext;
+      HTMLCanvasElement.prototype.getContext = function (type, ...rest) {
+        if (typeof type === 'string' && /webgl/i.test(type)) return null;
+        return original.call(this, type, ...rest);
+      };
+    });
+  }
   page.on('console', (message) => {
     if (message.type() === 'error') result.consoleErrors.push(message.text());
   });
@@ -88,7 +107,7 @@ for (const route of ROUTES) {
     await page.waitForTimeout(800);
     result.title = await page.title();
     const h1 = page.locator('main h1, h1').first();
-    result.h1 = ((await h1.textContent({ timeout: 8_000 })) ?? '').replace(/\s+/g, ' ').trim();
+    result.h1 = ((await h1.textContent({ timeout: 15_000 })) ?? '').replace(/\s+/g, ' ').trim();
     result.nav = await page
       .locator('nav[aria-label="Primary"] a, nav a')
       .evaluateAll((elements) => [...new Set(elements.map((element) => (element.textContent ?? '').trim()))]);
@@ -97,8 +116,15 @@ for (const route of ROUTES) {
       clientWidth: document.documentElement.clientWidth,
     }));
     const screenshot = path.join(outDir, `${route.name}.png`);
-    await page.screenshot({ path: screenshot, fullPage: true, animations: 'disabled' });
-    result.screenshots.push(screenshot);
+    try {
+      await page.screenshot({ path: screenshot, fullPage: true, animations: 'disabled', timeout: 20_000 });
+      result.screenshots.push(screenshot);
+    } catch (error) {
+      // Very tall pages with a live WebGL canvas can defeat the GPU
+      // screenshot path under software rendering. Treat this as a warning:
+      // it must not mask functional checks.
+      result.warnings.push(`screenshot unavailable: ${error instanceof Error ? error.message.split('\n')[0] : String(error)}`);
+    }
   } catch (error) {
     fail(result, `navigation failed: ${error instanceof Error ? error.message : String(error)}`);
   }
@@ -144,7 +170,10 @@ for (const route of ROUTES) {
   await page.close();
 }
 
-await browser.close();
+await Promise.race([
+  browser.close(),
+  new Promise((resolve) => setTimeout(resolve, 5_000)),
+]);
 
 const failures = results.filter((result) => !result.pass);
 const report = {
