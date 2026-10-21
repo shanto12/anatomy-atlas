@@ -1,0 +1,75 @@
+{
+  "systemId": "integumentary",
+  "reviewedAt": "2026-10-21T16:46:43-05:00",
+  "checks": [
+    {
+      "name": "JSON validity, schema and required fields",
+      "passed": true,
+      "notes": "Parses as UTF-8 JSON with 2-space indentation, double quotes and no trailing commas. All required system, organ, lesson and quiz keys exist with the specified types; optional keys (latin, alsoKnownAs, keyPoint, heroStat) are either valid or absent. Color matches the spec (#c99a76)."
+    },
+    {
+      "name": "Organ IDs, order and systemId consistency",
+      "passed": true,
+      "notes": "Exactly the six required organs in order: skin, hair, nails, sweat-glands, sebaceous-glands, subcutaneous-fat. All IDs are kebab-case and globally unique across the 12 systems, and every organ.systemId equals 'integumentary'."
+    },
+    {
+      "name": "Counts and IDs for lesson and quiz",
+      "passed": true,
+      "notes": "Six organs (spec range 5-12). Lesson id is 'lesson-integumentary' with exactly 8 steps; steps 2-7 each carry a different organId (6 total, minimum 5) and steps 1 and 8 carry none. Quiz has exactly 8 questions, ids integumentary-q1 through integumentary-q8, four options each, answerIndex 0-3, difficulty mix 3 easy / 3 medium / 2 hard."
+    },
+    {
+      "name": "Field lengths and counts",
+      "passed": true,
+      "notes": "System tagline 53 chars, summary 198 words in 3 paragraphs, 3 stats and 6 functions. Organ summaries are 148-169 words in exactly 2 paragraphs; every organ has 3 facts, 3 conditions, 3-4 related organs, 5-6 keywords and exactly 2 sources. Lesson step bodies are 101-137 words with keyPoints of 32-85 chars; quiz explanations are 20-30 words. No string carries markdown, HTML, emoji or bullet characters."
+    },
+    {
+      "name": "Medical accuracy spot-check (10 claims)",
+      "passed": true,
+      "notes": "Verified against Cleveland Clinic skin, eccrine gland and subcutaneous fat pages, Kenhub's integumentary article, NCBI Bookshelf and the histology literature: 2 square meters of skin surface; whole-skin thickness about 0.5 mm on the eyelids and 4 mm on the soles (the 1.5 mm figure is the epidermis, and the file previously mixed the two); two true skin layers plus the fatty hypodermis; 5 million hair follicles at birth with about 100,000 on the scalp; 2-4 million eccrine glands; fingernail growth near 3 mm a month with toenails roughly half that; 1-4 liters of sweat per hour; meibomian glands about 50-70 per eye; sebaceous holocrine secretion; subcutaneous fat about 90 percent of body fat at 9 kcal per gram. Errors found were corrected (see changes)."
+    },
+    {
+      "name": "Sources on allowlist and live",
+      "passed": true,
+      "notes": "12 unique source URLs across the six organs, each requested with curl -L (browser user agent): all 12 returned HTTP 200. Hosts are my.clevelandclinic.org, www.kenhub.com and medlineplus.gov, all on the spec allowlist. Page titles were checked to confirm no soft-404 pages (e.g. 'Nails: Fingernail & Toenail Anatomy', 'What Are Eccrine Glands?'). No URL is repeated within an organ."
+    },
+    {
+      "name": "Safety and medical-advice language",
+      "passed": true,
+      "notes": "No dosages, treatments, diagnoses, instructions to seek care or second-person behavior advice. Conditions are described by mechanism and consequence only (eczema, psoriasis, skin cancer, pattern hair loss, alopecia areata, telogen effluvium, fungal nail infection, ingrown toenail, nail psoriasis, hyperhidrosis, anhidrosis, heat rash, acne, seborrheic dermatitis, sebaceous hyperplasia, obesity, lipedema, cellulite)."
+    },
+    {
+      "name": "Learning quality and quiz defensibility",
+      "passed": true,
+      "notes": "Every question is answerable from the file. All eight have exactly one defensible answer after fixing q4, whose stem previously admitted sebaceous glands as a second correct answer. Answer indexes are 1,2,3,1,2,0,2,3 (all four positions used). Distractors are plausible same-category terms, there are no 'all/none of the above' options, and explanations teach the underlying mechanism rather than restating the stem."
+    },
+    {
+      "name": "Lesson flow and voice",
+      "passed": true,
+      "notes": "Step 1 hooks, steps 2-7 tour skin, hair, nails, sweat glands, sebaceous glands and fat in anatomical order, and step 8 recaps and points to skeletal and cardiovascular content. Each of steps 2-7 now ends with a forward pull. Repeated 'which is why' constructions were cut from ten to five, and the duplicated lost-toenail sentence in the nails summary and lesson was varied."
+    },
+    {
+      "name": "Cross-system relatedOrganIds",
+      "passed": true,
+      "notes": "Twenty relatedOrganIds resolve: hair, nails, sweat-glands, sebaceous-glands and subcutaneous-fat internally, plus capillaries (cardiovascular), kidneys (urinary) and peripheral-nerves (nervous). No dangling references and each organ lists 3-4."
+    }
+  ],
+  "changes": [
+    "Corrected skin thickness: eyelids about 0.5 mm and soles about 4 mm; the previous 1.5 mm sole figure is epidermal thickness, not whole-skin thickness, and contradicted the 0.5 mm eyelid value. Updated both the skin summary and the skin size field.",
+    "Removed the misleading 'about as thick as a paperback cover' comparison, which does not match average skin thickness.",
+    "Resolved the layer contradiction: the skin summary now says two layers make up the skin itself with a fatty hypodermis beneath, and the subcutaneous fat entry no longer claims it is 'not really part of the skin's three layers' while the rest of the file treats it as the third layer.",
+    "Removed the incorrect hair alias 'Hair shaft' (the shaft is a part of a hair, not another name for it) and corrected the Latin from Pili to Pilus.",
+    "Rewrote quiz q4 to ask specifically about sweat glands, because sebaceous glands also open into hair follicles and become active at puberty, giving the old stem two defensible answers. Expanded the explanation to name the eccrine contrast.",
+    "Refined the sweat-volume fact to 'up to 4 liters in extreme conditions', matching the cited Cleveland Clinic eccrine gland page, instead of stopping at 2 liters.",
+    "Added short forward hooks to lesson steps 3-7 so every guided step pulls the reader into the next one, as the spec requires, while keeping each body within 90-140 words.",
+    "Aligned lesson step 2 with the two-layers-plus-hypodermis wording used in the skin entry.",
+    "Varied repeated causal phrasing: five of the ten 'which is why' constructions were rewritten (nails summary, sebaceous summary, scar fact, palm-sweat fact, lesson step 4), one 'That is why' in lesson step 3 became 'So', and the lesson's lost-toenail sentence no longer duplicates the summary verbatim."
+  ],
+  "sourcesChecked": 12,
+  "sourcesOk": 12,
+  "remainingConcerns": [
+    "Nail growth is rounded to about 3 mm a month to stay consistent with the hero stat; measured averages are about 3.47 mm for fingernails and 1.62 mm for toenails, so fingernail growth is slightly understated.",
+    "Whole-skin thickness values differ between authoritative sources (Kenhub gives 1.5-5 mm overall, histology texts give 0.5-4 mm). The file uses the commonly cited 0.5 mm eyelid to 4 mm sole range.",
+    "The 100,000 scalp-hair figure follows dermatology texts; the cited Cleveland Clinic hair-follicle page counts over one million follicles on the whole head, a wider region than the scalp.",
+    "Skin is described as about 15 percent of body weight, a widely repeated figure that NCBI gives as roughly one seventh, with a wide 3.5-10 kg range depending on body size."
+  ]
+}

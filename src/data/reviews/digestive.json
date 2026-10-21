@@ -1,0 +1,77 @@
+{
+  "systemId": "digestive",
+  "reviewedAt": "2026-10-21T21:25:32Z",
+  "checks": [
+    {
+      "name": "JSON validity and schema",
+      "passed": true,
+      "notes": "Parses as UTF-8 JSON with 2-space indentation and a trailing newline. All required top-level, organ, lesson, and quiz keys are present with the specified types; no markdown, HTML, emoji, bullets, double spaces, or trailing commas."
+    },
+    {
+      "name": "Organ inventory and IDs",
+      "passed": true,
+      "notes": "Exactly the ten required IDs in spec order: mouth, salivary-glands, esophagus, stomach, liver, gallbladder, pancreas, small-intestine, large-intestine, rectum. All ten systemId values are digestive, and none of the IDs duplicates an organ in another system."
+    },
+    {
+      "name": "Field lengths and counts",
+      "passed": true,
+      "notes": "System summary is 198 words across 3 paragraphs. Organ summaries run 129-147 words, each in exactly 2 paragraphs. Every organ has 3-5 functions with 12-21 word details, exactly 3 facts, 2-3 conditions, 2 sources, 4-5 lowercase keywords, a valid region, and a heroStat within limits. Taglines are 48-65 characters; system functions are 44-70 characters."
+    },
+    {
+      "name": "Lesson structure",
+      "passed": true,
+      "notes": "Lesson id is lesson-digestive, subtitle 75 characters, duration 9 minutes, level beginner. Exactly 8 steps: a hook, six organ stops (mouth, esophagus, stomach, liver, pancreas, small-intestine), and a recap that covers the large intestine and rectum. Bodies are 98-116 words, step titles 2-5 words, keyPoints 55-70 characters, and the six organIds are valid and unique."
+    },
+    {
+      "name": "Quiz quality",
+      "passed": true,
+      "notes": "Exactly 8 questions with ids digestive-q1 through q8. Each has 4 unique options, one defensible answer, and a 25-34 word explanation. Answer indexes are 1,2,0,3,1,2,0,3, so each index is correct twice; the difficulty mix is 3 easy, 3 medium, 2 hard. No all-of-the-above or none-of-the-above options, and every answer is supported by the entries or lesson."
+    },
+    {
+      "name": "Medical accuracy",
+      "passed": true,
+      "notes": "Spot-checked more than twelve claims against NCBI/PubMed, Cleveland Clinic, NIDDK, Kenhub, TeachMeAnatomy, and published morphometric data, including the 9 m tract length, 30 square meter small-intestine surface, 1.5 L stomach capacity and pH 1.5-3.5, 25 cm esophagus, 1.5 kg liver and 1.5 L/min hepatic blood flow, 30-50 mL gallbladder with tenfold bile concentration, 15 cm pancreas with 1.5 L juice and 1-2 percent islets, 1.5 m colon, 12-15 cm rectum, and 1-1.5 L saliva per day. Corrected the liver's fat-absorption overgeneralization, the large-intestine/rectum boundary, and several imprecise anatomical phrasings."
+    },
+    {
+      "name": "Sources",
+      "passed": true,
+      "notes": "20 unique source URLs, all on the allowlist: clevelandclinic.org, medlineplus.gov, teachmeanatomy.info, kenhub.com, and niddk.nih.gov. Every URL returned HTTP 200 with curl -L using the project validator user agent. Cleveland Clinic's CDN answers a bare curl user agent with 403 but returns the pages with a browser-style user agent. The large-intestine source now points at TeachMeAnatomy's canonical colon page instead of its redirecting URL."
+    },
+    {
+      "name": "Safety and medical advice",
+      "passed": true,
+      "notes": "No dosages, treatment instructions, diagnostic directives, or clinician-referral language. Condition descriptions remain educational: risk factors and natural history are stated without telling readers what to do about symptoms."
+    },
+    {
+      "name": "Voice and style",
+      "passed": true,
+      "notes": "US English spelling throughout, with no markdown, emoji, or bullet characters. Removed repeated 'chemical refinery' and 'soupy paste' imagery, the 'never works alone' cliché, a dangling modifier, and several duplicated phrases while preserving the file's concrete second-person voice."
+    },
+    {
+      "name": "Cross-system relatedOrgIds",
+      "passed": true,
+      "notes": "Every relatedOrgans entry resolves in the full dataset, which contains 95 unique organ IDs with no duplicates. Digestive entries link to tongue in sensory and diaphragm in muscular as well as to digestive neighbors."
+    }
+  ],
+  "changes": [
+    "Corrected the liver entry and quiz 7 so only water-soluble nutrients are said to pass through the liver first; dietary fats are routed to lymph.",
+    "Fixed the large intestine's boundaries: the colon is now described as its main section, and the organ continues through the colon into the rectum instead of ending at it.",
+    "Reframed the system summary so the tract, not the whole digestive system, is the muscular tube, and separated the four accessory organs from the stomach.",
+    "Repaired a dangling modifier: the small intestine's lining, not the organ itself, is now folded into the absorptive surface.",
+    "Removed repeated 'chemical refinery' and 'soupy paste' phrasing and the 'never works alone' cliché, keeping the refinery image in the liver tagline.",
+    "Corrected 'pylorus' to 'pyloric sphincter' in lesson step 4 and 'stores glucose' to 'stores sugar as glycogen' in lesson step 5.",
+    "Corrected the esophagus's relations to the trachea and heart, and changed 'Food covers the esophagus' to 'Food clears the esophagus'.",
+    "Softened an unsupported satiety-causation claim in the mouth entry and lesson step 2, and changed saliva's wound-repair claim to protection of the mouth's lining.",
+    "Removed duplicated saliva wording, varied the stomach texture description, and corrected the appendix fact to say the large intestine begins at the cecum.",
+    "Updated the large-intestine source to TeachMeAnatomy's canonical colon page, which the old URL redirected to."
+  ],
+  "sourcesChecked": 20,
+  "sourcesOk": 20,
+  "remainingConcerns": [
+    "Total digestive-tract length is conventionally quoted as about 9 m (30 ft), but in vivo measurements are shorter (about 5 m in a 2014 morphometric review). The file keeps the conventional 9 m figure used by major consumer-health sources.",
+    "Small-intestine length and surface area vary by source and method (about 6-7 m and 30-32 square meters with villi and microvilli). The file uses the conventional 6 m and 30 square meter figures, both well supported.",
+    "Ten Cleveland Clinic URLs return 403 to a bare curl user agent but 200 with a browser-style or validator user agent; they were retained because they are allowlisted, live, authoritative pages.",
+    "The 8-step lesson gives dedicated stops to six of ten organs; the large intestine and rectum are taught in the recap, which fits the format but leaves those entries carrying more of the teaching load.",
+    "Three organ source pairs use condition-oriented MedlinePlus pages (mouth, stomach, gallbladder) alongside anatomy pages; the pages are authoritative and relevant but frame the organ through disease."
+  ]
+}

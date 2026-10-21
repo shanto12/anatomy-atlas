@@ -1,0 +1,87 @@
+{
+  "systemId": "nervous",
+  "reviewedAt": "2026-10-21T16:32:42-05:00",
+  "checks": [
+    {
+      "name": "JSON validity and schema",
+      "passed": true,
+      "notes": "Valid UTF-8 JSON with two-space indentation and a trailing newline. Top-level keys match the spec; all 10 organs carry the required fields, 3 facts, 2-3 conditions, 3-5 functions, 3-6 keywords and exactly 2 sources. No trailing commas or unknown fields."
+    },
+    {
+      "name": "Required organ IDs, order and systemId",
+      "passed": true,
+      "notes": "Exactly the 10 required IDs appear in the required order: brain, cerebellum, brainstem, hypothalamus, hippocampus, amygdala, spinal-cord, peripheral-nerves, sciatic-nerve, meninges. Every organ, lesson step and quiz question uses systemId nervous, and the lesson id is lesson-nervous."
+    },
+    {
+      "name": "Lengths and counts",
+      "passed": true,
+      "notes": "System summary 199 words in 3 paragraphs; organ summaries 134-163 words in exactly 2 paragraphs; lesson 8 steps at 100-120 words; quiz 8 questions with 20-29 word explanations and a 3 easy / 3 medium / 2 hard mix."
+    },
+    {
+      "name": "Lesson structure, organ focus and flow",
+      "passed": true,
+      "notes": "Step 1 is a hook and step 8 is a recap. Steps 2-7 focus on six distinct organs: brain, cerebellum, brainstem, spinal-cord, hypothalamus, hippocampus. Transitions were added at the end of steps 3, 5, 6 and 7, and the recap now matches the actual order of the tour."
+    },
+    {
+      "name": "Quiz quality",
+      "passed": true,
+      "notes": "Eight questions, four distinct options each, no all/none-of-the-above, one defensible answer per question. Correct indexes are 2,1,0,3,3,0,2,3. Explanations teach the underlying anatomy. Q3 distractors are now all meningeal orderings; Q4 no longer offers the ambiguous balance option; Q7 uses precise thalamic-shortcut wording."
+    },
+    {
+      "name": "Medical accuracy spot-check",
+      "passed": true,
+      "notes": "Ten specific claims were checked against Cleveland Clinic, NCBI Bookshelf/PubMed, NINDS and MedlinePlus: brain 20 percent oxygen/glucose, 86 billion neurons, cerebellum more than half of neurons and ~11.5 cm width, brainstem 7-10 cm length with 10 of 12 cranial nerves, hypothalamus almond size and suprachiasmatic ~20,000 neurons, hippocampus ~5 cm length, amygdala ~1.5 cubic centimeters, spinal cord 43-45 cm ending at L1-L2 with 31 nerve pairs, CSF ~500 mL/day, sciatic L4-S3 roots and up to 2 cm width. Inaccuracies found in the draft were corrected."
+    },
+    {
+      "name": "Sources",
+      "passed": true,
+      "notes": "20 unique source URLs, all HTTPS and on the allowlist (Kenhub, TeachMeAnatomy, MedlinePlus, NIMH, Cleveland Clinic). Every URL returned HTTP 200 with curl redirects followed, and page titles/content were checked so none is a soft 404. The hypothalamus entry now cites Cleveland Clinic instead of a pituitary page."
+    },
+    {
+      "name": "Safety and editorial policy",
+      "passed": true,
+      "notes": "No diagnosis, treatment, dosage or clinician-seeking instructions. Conditions remain educational. No markdown, HTML, emoji, bullet characters or British spellings. Second-person voice and US English retained."
+    },
+    {
+      "name": "Cross-system relatedOrganIds",
+      "passed": true,
+      "notes": "Every relatedOrganId resolves to one of the 95 organ IDs defined across the 12 systems. No self-references or duplicates within an organ."
+    },
+    {
+      "name": "Scope discipline",
+      "passed": true,
+      "notes": "Only src/data/systems/nervous.json was edited and this review report was added. No other system, component or data file was touched."
+    }
+  ],
+  "changes": [
+    "Corrected hippocampus length from 3-3.5 cm to about 5 cm, matching the standard adult measurement.",
+    "Corrected amygdala size from 1.5 cm in length to about 1.5 cubic centimeters in volume, which is what the source actually reports.",
+    "Corrected cerebellum width from 10 cm to about 11.5 cm (4.5 inches).",
+    "Corrected brainstem dimensions from 7 cm long and 2.5 cm wide to 7-10 cm long and up to 4 cm wide at the pons; changed the absolute 'all traffic' claim to 'almost all'.",
+    "Corrected spinal cord length to 43-45 cm, changed the thumb-thick comparison to little-finger thickness in the summary, tagline and lesson, and changed sciatic width to 'up to about 2 cm'.",
+    "Fixed sciatic compression wording: a herniated disc pinches the nerve roots, while the nerve itself is compressed by the piriformis or a back-pocket wallet.",
+    "Corrected peripheral nerve anatomy: cranial nerves leave the brain and exit through the skull, not 'emerge from the skull'; replaced a count-based 'size' field with actual fiber and bundle dimensions.",
+    "Fixed reflex attribution: peripheral nerves carry reflex signals, while spinal circuits integrate them; the old text implied peripheral nerves coordinated reflexes on their own.",
+    "Replaced the unsupported 'shiver before you feel cold' hypothalamus fact with the pituitary portal-blood-supply and nerve-stalk fact, and replaced the mismatched pituitary source with Cleveland Clinic's hypothalamus page.",
+    "Added the fast thalamic pathway to the amygdala summary and aligned quiz Q7 with it; softened PTSD wording from control circuits that 'fail' to circuits that 'struggle'.",
+    "Corrected the concussion description from the outdated 'brain shakes inside the skull' image to a brief functional disruption with headache, confusion or memory trouble.",
+    "Refined the H.M. fact to note nearby temporal-lobe tissue, and changed the Schwann-cell fact from 'some' nerves to myelinated peripheral nerves.",
+    "Fixed the brainstem stroke grammar ('can slur speech, cause double vision, or weaken') and the lesson's absolute 'everything' claim.",
+    "Fixed two lesson key points: the brainstem now says 'almost everything' passes through it, and 'Most of your nervous system lies outside the skull' became 'The nervous system reaches far beyond the skull', since most neurons are inside the skull.",
+    "Rewrote the lesson recap so it follows the real order of the tour and added forward transitions in steps 3, 5, 6 and 7.",
+    "Improved quiz distractors: Q3 now uses four meningeal orderings, Q4 drops the ambiguous balance option, and Q7 uses precise thalamic-shortcut wording.",
+    "Fixed the redundant stats label '43 pairs of peripheral nerve pairs' to '43 pairs of cranial and spinal nerves'.",
+    "Changed meningitis wording from bacteria-only to microbes, and 'alcohol affects' to 'alcohol impairs'.",
+    "Replaced the vague sciatic nickname 'The big nerve' with the anatomical synonym 'Ischiadic nerve'.",
+    "Tightened vague or overstated claims: brain 'deep nuclei weave senses' became cortical networks; 'every voluntary action' became voluntary actions; brain fuel 'calories' became glucose; spinal nerve distribution now includes the pelvis."
+  ],
+  "sourcesChecked": 20,
+  "sourcesOk": 20,
+  "remainingConcerns": [
+    "Estimates of the cerebellum's share of neurons range from about half to about 80 percent depending on counting method; the text keeps the conservative 'more than half'.",
+    "Brainstem length is reported differently across sources (roughly 7-10 cm); the range is used rather than a single figure.",
+    "Adult hippocampal neurogenesis remains debated, so the text keeps an explicit hedge.",
+    "Fact-checking was a targeted spot check of ten claims, not a clause-by-clause audit; qualitative lines such as 'a frightening moment can stay with you for decades' are illustrative rather than quantified.",
+    "Hippocampus and amygdala dimensions vary with measurement method; the figures given are representative adult values."
+  ]
+}

@@ -3,7 +3,7 @@
   "name": "Cardiovascular System",
   "shortName": "Circulatory",
   "tagline": "The body's never-resting delivery network.",
-  "summary": "Every cell in your body is a small, demanding city. It needs fuel, oxygen, and a way to throw out waste, and it needs these things every minute of every day. The cardiovascular system is the delivery service that makes that possible: a heart that never stops pumping, a tree of arteries that carries blood outward, a web of capillaries where goods are exchanged, and a set of veins that brings the blood home. Laid end to end, your blood vessels would stretch roughly 100,000 kilometers, enough to circle the planet more than twice.\n\nThe system runs two loops at once. In the pulmonary circuit, the right side of the heart sends oxygen-poor blood to the lungs and receives it back refreshed. In the systemic circuit, the left side pushes that refreshed blood through the aorta to the brain, muscles, skin, and organs. Valves keep traffic one-way, and elastic walls keep pressure steady between beats. Together, the loops move about 5 liters of blood around your body, roughly a gallon, in about a minute.\n\nWhat makes it remarkable is the tuning. Arterioles widen and narrow to send blood where it is needed, capillaries slow the flow so oxygen can cross, and veins hold most of your blood in reserve. When you sprint, the system redirects. When you sleep, it eases back.",
+  "summary": "Every cell in your body is a small, demanding city. It needs fuel, oxygen, and a way to throw out waste, and it needs these things every minute of every day. The cardiovascular system is the delivery service that makes that possible: a heart that never stops pumping, a tree of arteries that carries blood outward, a web of capillaries where goods are exchanged, and a set of veins that brings the blood home. Laid end to end, your blood vessels would stretch roughly 100,000 kilometers (60,000 miles), enough to circle the planet more than twice.\n\nThe system runs two loops at once. In the pulmonary circuit, the right side of the heart sends oxygen-poor blood to the lungs, where it picks up oxygen and returns to the left side. In the systemic circuit, the left side pushes that refreshed blood through the aorta to the brain, muscles, skin, and organs. Valves keep traffic one-way, and elastic walls keep pressure steady between beats. Together, the loops move about 5 liters of blood around your body, a little more than a gallon, in about a minute.\n\nWhat makes it remarkable is the tuning. Arterioles widen and narrow to send blood where it is needed, capillaries slow the flow so oxygen can cross, and veins hold most of your blood in reserve. When you sprint, the system redirects. When you sleep, it eases back.",
   "color": "#b23a4a",
   "stats": [
     {
@@ -23,7 +23,7 @@
     "Delivers oxygen and nutrients to every cell in the body",
     "Carries carbon dioxide and other waste away from tissues",
     "Distributes hormones and immune cells through the bloodstream",
-    "Keeps blood pressure steady enough to perfuse the brain",
+    "Keeps blood pressure steady enough to keep the brain supplied",
     "Helps regulate body temperature by rerouting blood flow"
   ],
   "organs": [
@@ -37,7 +37,7 @@
       ],
       "region": "thorax",
       "tagline": "A tireless four-chambered pump the size of your fist.",
-      "summary": "Your heart sits in the middle of your chest, tucked between your lungs and tipped slightly to the left. It is about the size of your closed fist and weighs roughly 300 grams (about 10 ounces). A tough sac called the pericardium wraps it, and four chambers hide inside: two small atria on top that receive blood, and two muscular ventricles below that push it out. Valves between them snap shut with every beat, making the familiar lub-dub.\n\nBlood enters the right atrium from your body, drops to the right ventricle, and travels to your lungs for oxygen. It returns to the left atrium, then the left ventricle drives it into the aorta and out to every tissue you have. The left ventricle's wall is three times thicker than the right's because it pushes against the whole body's resistance. No pause, no shift change: this four-chambered pump repeats the cycle about 100,000 times a day, for your entire life.",
+      "summary": "Your heart sits in the middle of your chest, tucked between your lungs and tipped slightly to the left. It is about the size of your closed fist and weighs roughly 300 grams (about 10 ounces). A tough sac called the pericardium wraps it, and four chambers hide inside: two small atria on top that receive blood, and two muscular ventricles below that push it out. Valves snap shut in two stages with every beat, making the familiar lub-dub.\n\nBlood enters the right atrium from your body, drops to the right ventricle, and travels to your lungs for oxygen. It returns to the left atrium, then the left ventricle drives it into the aorta and out to the rest of your body. The left ventricle's wall is roughly three times thicker than the right's because it pushes against the whole body's resistance. No shift change, no day off: this four-chambered pump repeats the cycle about 100,000 times a day, for your entire life.",
       "functions": [
         {
           "title": "Pumps oxygen-poor blood to the lungs",
@@ -49,7 +49,7 @@
         },
         {
           "title": "Keeps two circuits separate",
-          "detail": "A four-valve design stops fresh and used blood from mixing, so each circuit gets the blood it needs."
+          "detail": "A muscular septum separates the two circuits, and four one-way valves stop blood from flowing backward."
         },
         {
           "title": "Sets the rhythm",
@@ -59,7 +59,7 @@
       "location": "In the center of the chest, behind the sternum and between the lungs, with its lower tip angled toward the left.",
       "size": "About the size of a closed fist, roughly 12 cm (4.7 in) long and 250 to 350 g (9 to 12 oz) in adults.",
       "facts": [
-        "Your heart beats about 100,000 times a day, close to 3 billion times over an average lifetime.",
+        "Your heart beats about 100,000 times a day, more than 2.5 billion times over an average lifetime.",
         "The heart's own supply comes from the coronary arteries, which branch off the aorta just above the aortic valve.",
         "At rest, an adult heart moves about 5 liters of blood every minute, roughly the body's entire blood volume."
       ],
@@ -70,7 +70,7 @@
         },
         {
           "name": "Heart failure",
-          "description": "The heart cannot pump strongly enough to meet the body's needs, so fluid can collect in the lungs and legs."
+          "description": "The heart cannot pump strongly enough or fill properly to meet the body's needs, so fluid can collect in the lungs and legs."
         },
         {
           "name": "Arrhythmia",
@@ -115,7 +115,7 @@
       ],
       "region": "thorax",
       "tagline": "The body's main highway, built to stretch with every beat.",
-      "summary": "The aorta is the body's main highway, a thick elastic pipe about 2.5 to 3 cm (1 to 1.2 in) wide that leaves the left ventricle and arches over the heart like a cane handle. From there it descends through the chest and abdomen, tucked just in front of the spine, before splitting into two iliac arteries near your navel. Its wall is packed with elastic fibers and smooth muscle, built to handle the highest pressure in your circulation.\n\nEvery heartbeat sends a wave of blood into the aorta, and its stretchy wall absorbs the surge, then recoils to keep blood moving between beats. Along the way, branches peel off to feed your brain, arms, kidneys, gut, and legs. Because the aorta carries so much pressure, its wall can balloon into an aneurysm or tear into a dissection, both of which are serious. Think of it as the trunk of a tree that every other artery grows from.",
+      "summary": "The aorta is the body's main highway, a thick elastic pipe about 2.5 to 3 cm (1 to 1.2 in) wide that leaves the left ventricle and arches over the heart like a cane handle. From there it descends through the chest and abdomen, tucked just in front of the spine, before splitting into two iliac arteries near your navel. Its wall is packed with elastic fibers and smooth muscle, built to handle the highest pressure in your circulation.\n\nEvery heartbeat sends a wave of blood into the aorta, and its stretchy wall absorbs the surge, then recoils to keep blood moving between beats. Along the way, branches peel off to feed your brain, arms, kidneys, gut, and legs. Because it operates under such high pressure, its wall can balloon into an aneurysm or tear into a dissection, both of which are serious. Think of it as the trunk of a tree that every systemic artery grows from.",
       "functions": [
         {
           "title": "Carries the full output of the heart",
@@ -137,7 +137,7 @@
       "location": "It begins at the left ventricle, arches over the heart, and descends through the chest and abdomen in front of the spine.",
       "size": "About 2.5 to 3 cm (1 to 1.2 in) across at its widest, roughly the width of a quarter.",
       "facts": [
-        "The aorta is about as wide as a quarter, roughly 2.5 to 3 cm (1 to 1.2 in) across.",
+        "The aorta is the largest blood vessel in the body, more than 30 cm (1 ft) long.",
         "It is not straight: it rises, arches like a cane handle, then descends behind the heart.",
         "Its elastic wall stores energy with each beat and releases it between beats, smoothing the pulse."
       ],
@@ -192,11 +192,11 @@
       ],
       "region": "thorax",
       "tagline": "The heart's own fuel lines, only millimeters wide.",
-      "summary": "Your heart is a muscle that works every second, and like any muscle it needs its own blood supply. Two coronary arteries, the left and the right, branch off the aorta just above the aortic valve and wrap around the heart's surface like a crown, which is what coronary means. The left one quickly splits into two main branches that run down the front and around the side; the right circles toward the back. Most are only 3 to 4 mm wide.\n\nThese small vessels deliver oxygen and fuel to the working muscle and carry carbon dioxide away. When you climb stairs, they widen to meet the extra demand. Plaque can narrow them, so the muscle complains with chest pain during exertion, and a sudden clot can block one entirely, starving a patch of heart muscle. That is why doctors call the coronary arteries the heart's own lifeline.",
+      "summary": "Your heart is a muscle that works every second, and like any muscle it needs its own blood supply. Two coronary arteries, the left and the right, branch off the aorta just above the aortic valve and wrap around the heart's surface like a crown, which is what coronary means. The left one quickly splits into two main branches that run down the front and around the side; the right circles toward the back. The main branches are only 3 to 4 mm wide.\n\nThese small vessels deliver oxygen and fuel to the working muscle and carry carbon dioxide away. When you climb stairs, they widen to meet the extra demand. Plaque can narrow them, so the muscle complains with chest pain during exertion, and a sudden clot can block one entirely, starving a patch of heart muscle. That is why doctors call the coronary arteries the heart's own lifeline.",
       "functions": [
         {
           "title": "Nourish the heart muscle",
-          "detail": "They deliver oxygen and fuel to the myocardium, which cannot absorb oxygen from the blood inside its own chambers."
+          "detail": "They deliver oxygen and fuel to the heart muscle, which cannot get enough oxygen from the blood inside its own chambers."
         },
         {
           "title": "Branch into a fine network",
@@ -211,11 +211,11 @@
           "detail": "Small branches feed the nodes and fibers that carry electrical signals, helping keep the rhythm reliable."
         }
       ],
-      "location": "They branch from the aortic root and run along the outer surface of the heart, dipping into the muscle.",
+      "location": "They branch from the base of the aorta and run along the outer surface of the heart, dipping into the muscle.",
       "size": "Main branches are typically 3 to 4 mm wide, with smaller branches tapering to less than a millimeter.",
       "facts": [
-        "Coronary arteries are only about 3 to 4 mm wide, narrower than a drinking straw.",
-        "The heart cannot use the oxygen in the blood inside its chambers; it depends on these vessels instead.",
+        "The main coronary arteries are only about 3 to 4 mm wide, narrower than a drinking straw.",
+        "The heart cannot get enough oxygen from the blood inside its chambers; it depends on these vessels instead.",
         "The coronary arteries receive roughly 5 percent of the heart's output at rest, though the heart is less than 1 percent of body weight."
       ],
       "conditions": [
@@ -266,7 +266,7 @@
       "latin": "Arteriae",
       "region": "whole-body",
       "tagline": "Outbound roads that carry oxygen to every tissue.",
-      "summary": "Arteries are the outbound lanes of your circulation: muscular, elastic tubes that carry blood away from the heart and branch into smaller and smaller roads. A large artery has three layers, an inner lining of smooth cells, a thick middle layer of muscle and elastic fibers, and an outer coat of connective tissue. That middle layer is why arteries hold their round shape even when empty and can tighten or relax to change blood flow.\n\nAs arteries travel outward, they narrow into arterioles, the tiny adjustable taps that decide which tissues get blood right now. During a meal, your gut arterioles widen; during a sprint, your leg muscles win. This constant tuning is a major reason blood pressure stays stable. One quirk: not every artery carries oxygen-rich blood. The pulmonary arteries are the exception, carrying used blood from the heart to the lungs.",
+      "summary": "Arteries are the outbound lanes of your circulation: muscular, elastic tubes that carry blood away from the heart and branch into smaller and smaller roads. A large artery has three layers, a slick inner lining of flat cells, a thick middle layer of muscle and elastic fibers, and an outer coat of connective tissue. That middle layer is why arteries hold their round shape even when empty and can tighten or relax to change blood flow.\n\nAs arteries travel outward, they narrow into arterioles, the tiny adjustable taps that decide which tissues get blood right now. During a meal, your gut arterioles widen; during a sprint, your leg muscles win. This constant tuning is a major reason blood pressure stays stable. One quirk: in adults, not every artery carries oxygen-rich blood. The pulmonary arteries are the exception, carrying used blood from the heart to the lungs.",
       "functions": [
         {
           "title": "Carry blood away from the heart",
@@ -290,7 +290,7 @@
       "facts": [
         "Arteries have thicker, more muscular walls than veins because they carry blood at much higher pressure.",
         "The smallest arteries, arterioles, can change diameter to redirect blood and help set blood pressure.",
-        "The pulmonary arteries are the only arteries that carry oxygen-poor blood."
+        "In adults, the pulmonary arteries are the only arteries that carry oxygen-poor blood."
       ],
       "conditions": [
         {
@@ -340,7 +340,7 @@
       "latin": "Venae",
       "region": "whole-body",
       "tagline": "Low-pressure return lanes with one-way valves.",
-      "summary": "Veins are the return lanes. Their walls are thinner and floppier than arteries because the blood inside arrives at low pressure, and many of them carry one-way valves that keep blood from sliding backward. Superficial veins run just under your skin, which is why you can see blue-green lines on your wrist; deep veins travel beside the major arteries. The largest, the vena cava, empties into the right atrium.\n\nRoughly 60 to 70 percent of your blood sits in your veins at any moment, making them the body's quiet reservoir. They do not have a pump of their own, so they borrow yours: when leg muscles squeeze, they milk blood upward, and valves catch it between squeezes. Breathing helps too, pulling blood toward the chest. Stand still for a long time and that system struggles, which is why your feet can feel heavy.",
+      "summary": "Veins are the return lanes. Their walls are thinner and floppier than arteries because the blood inside arrives at low pressure, and many of them carry one-way valves that keep blood from sliding backward. Superficial veins run just under your skin, which is why you can see blue-green lines on your wrist; deep veins travel beside the major arteries. The great veins, the venae cavae, empty into the right atrium.\n\nRoughly 70 percent of your blood sits in your veins at any moment, making them the body's quiet reservoir. They do not have a pump of their own, so they borrow yours: when leg muscles squeeze, they milk blood upward, and valves catch it between squeezes. Breathing helps too, pulling blood toward the chest. Stand still for a long time and that system struggles, which is why your feet can feel heavy.",
       "functions": [
         {
           "title": "Return blood to the heart",
@@ -352,7 +352,7 @@
         },
         {
           "title": "Store most of your blood",
-          "detail": "Veins hold roughly 60 to 70 percent of total blood volume, acting as a reservoir the body can tap when needed."
+          "detail": "Veins hold roughly 70 percent of total blood volume, acting as a reservoir the body can tap when needed."
         },
         {
           "title": "Borrow the muscle pump",
@@ -360,9 +360,9 @@
         }
       ],
       "location": "They run throughout the body, with superficial veins under the skin and deep veins alongside the major arteries.",
-      "size": "They range from tiny venules under a millimeter to the vena cava at about 2.5 cm (1 in) across.",
+      "size": "They range from tiny venules under a millimeter to the vena cava at about 2 to 3 cm (0.8 to 1.2 in) across.",
       "facts": [
-        "Veins hold roughly 60 to 70 percent of your blood at any moment, making them the body's main reservoir.",
+        "Veins hold roughly 70 percent of your blood at any moment, making them the body's main reservoir.",
         "Veins look blue through skin because of how light scatters, not because the blood inside is blue.",
         "If a vein valve weakens, blood can pool and the vein may bulge into a varicose vein."
       ],
@@ -403,7 +403,7 @@
         }
       ],
       "heroStat": {
-        "value": "60-70%",
+        "value": "~70%",
         "label": "of your blood"
       }
     },
@@ -417,7 +417,7 @@
       ],
       "region": "whole-body",
       "tagline": "One-cell-thick vessels where blood meets tissue.",
-      "summary": "Capillaries are where the circulation stops being plumbing and starts being chemistry. These are the smallest vessels in the body, most just 5 to 10 micrometers across, barely wider than a single red blood cell. Their walls are only one cell thick. Rather than running alone, they form dense webs called capillary beds inside almost every tissue, so close together that almost every cell sits within a tenth of a millimeter of one.\n\nHere oxygen slips out of the blood and into cells, while carbon dioxide and waste slip in. The exchange happens by diffusion, driven by simple differences in concentration, and it needs no pump at all. Blood also slows to a crawl as it spreads through these vast, narrow networks, giving the swap time to finish. Then the capillaries merge into small veins, and the journey home begins. Your life depends on this quiet, microscopic handoff.",
+      "summary": "Capillaries are where the circulation stops being plumbing and starts being chemistry. These are the smallest vessels in the body, most just 5 to 10 micrometers across, often no wider than a single red blood cell. Their walls are only one cell thick. Rather than running alone, they form dense webs called capillary beds inside almost every tissue, so close together that almost every cell sits within a tenth of a millimeter of one.\n\nHere oxygen slips out of the blood and into cells, while carbon dioxide and waste slip in. The exchange happens by diffusion, driven by simple differences in concentration, and it needs no pump at all. Blood also slows to a crawl as it spreads through these vast, narrow networks, giving the swap time to finish. Then the capillaries merge into small veins, and the journey home begins. Your life depends on this quiet, microscopic handoff.",
       "functions": [
         {
           "title": "Exchange oxygen and carbon dioxide",
@@ -439,7 +439,7 @@
       "location": "They form dense networks inside nearly every tissue, bridging the smallest arteries and veins.",
       "size": "Most are 5 to 10 micrometers wide, about the diameter of a single red blood cell.",
       "facts": [
-        "Most capillaries are 5 to 10 micrometers wide, so red blood cells pass through in single file, sometimes folding to fit.",
+        "Most capillaries are 5 to 10 micrometers wide, so red blood cells pass through in single file, sometimes squeezing to fit.",
         "Capillaries are so numerous that almost every cell in your body sits within about a tenth of a millimeter of one.",
         "Blood slows dramatically in capillaries, giving oxygen and nutrients time to cross into tissues."
       ],
@@ -490,7 +490,7 @@
       ],
       "region": "thorax",
       "tagline": "Two great veins emptying into the right atrium.",
-      "summary": "The vena cava is not one vessel but two. The superior vena cava drains the head, neck, arms, and chest, while the much larger inferior vena cava runs up the back of the abdomen beside the spine, collecting blood from the legs, kidneys, liver, and gut. Both empty into the right atrium of the heart. The inferior vena cava is the widest vein in your body, about 2.5 cm (1 in) across.\n\nThese are low-pressure pipes. Blood arriving through them is moving slowly, pushed by muscles, breathing, and the suction of the heart's relaxed atrium. Because the inferior vena cava is so wide and sits deep in the abdomen, a clot in a leg vein can travel into it, and pressure from a tumor or clot can back up into the organs below. Still, on an ordinary day, it quietly returns nearly every drop of blood you have.",
+      "summary": "The vena cava is not one vessel but two. The superior vena cava drains the head, neck, arms, and chest, while the larger inferior vena cava runs up the back of the abdomen beside the spine, collecting blood from the legs, pelvis, kidneys, and liver. Both empty into the right atrium of the heart. The inferior vena cava is the widest vein in your body, about 2 to 3 cm (0.8 to 1.2 in) across.\n\nThese are low-pressure pipes. Blood arriving through them is moving slowly, pushed by muscles, breathing, and the suction of the heart's relaxed atrium. Because it sits deep in the abdomen and connects directly to the leg veins, a clot in a leg vein can spread into it, and pressure from a tumor or clot can back up into the organs below. Still, on an ordinary day, it quietly returns nearly every drop of blood you have.",
       "functions": [
         {
           "title": "Drain the upper body",
@@ -498,7 +498,7 @@
         },
         {
           "title": "Drain the lower body",
-          "detail": "The inferior vena cava carries blood from the legs, kidneys, liver, and gut back toward the heart."
+          "detail": "The inferior vena cava carries blood from the legs, pelvis, kidneys, and liver back toward the heart."
         },
         {
           "title": "Act as a low-pressure reservoir",
@@ -510,11 +510,11 @@
         }
       ],
       "location": "The superior vena cava runs down the right side of the upper chest; the inferior vena cava climbs the back of the abdomen.",
-      "size": "The inferior vena cava is about 2.5 cm (1 in) wide, making it the largest vein in the body.",
+      "size": "The inferior vena cava is about 2 to 3 cm (0.8 to 1.2 in) wide, making it the widest vein in the body.",
       "facts": [
-        "The inferior vena cava is the largest vein in the body, about 2.5 cm (1 in) across.",
-        "The superior vena cava drains the head, neck, arms, and chest, while the inferior drains everything below the diaphragm.",
-        "Blood returning from your feet passes through the inferior vena cava before reaching the heart."
+        "The inferior vena cava is the widest vein in the body, about 2 to 3 cm (0.8 to 1.2 in) across.",
+        "The superior vena cava drains the head, neck, arms, and chest, while the inferior drains the abdomen, pelvis, and legs.",
+        "The inferior vena cava passes through an opening in your diaphragm before it reaches the right atrium."
       ],
       "conditions": [
         {
@@ -559,8 +559,8 @@
       "name": "Pulmonary Arteries",
       "latin": "Arteriae pulmonales",
       "region": "thorax",
-      "tagline": "The only arteries that carry oxygen-poor blood.",
-      "summary": "The pulmonary arteries are the great exception in your circulation. Most arteries carry oxygen-rich blood away from the heart, but these carry oxygen-poor blood from the right ventricle to the lungs. They begin as a single short, wide trunk, about 5 cm long and 3 cm across, which splits into a right and left artery, one for each lung. Inside the lungs they branch alongside the airways, shrinking until they become capillary nets around the air sacs.\n\nBecause the lungs are close to the heart and their delicate air sacs cannot take high pressure, this circuit runs at roughly a fifth of aortic pressure. That is enough to push blood through the lungs in a couple of seconds, just long enough to pick up oxygen and drop off carbon dioxide. Oxygen-rich blood then returns to the left atrium through the pulmonary veins, ready for the next trip around the body.",
+      "tagline": "In adults, the only arteries carrying oxygen-poor blood.",
+      "summary": "The pulmonary arteries are the great exception in your circulation. Most arteries carry oxygen-rich blood away from the heart, but these carry oxygen-poor blood from the right ventricle to the lungs. They begin as a single short, wide trunk, about 5 cm long and 3 cm across, which splits into a right and left artery, one for each lung. Inside the lungs they branch alongside the airways, shrinking until they become capillary nets around the air sacs.\n\nThe right ventricle pumps into a short, low-resistance circuit, so pressure here is roughly a fifth of aortic pressure, low enough to protect the delicate air sacs. That is enough to push blood through the lungs in a few seconds, just long enough to pick up oxygen and drop off carbon dioxide. Oxygen-rich blood then returns to the left atrium through the pulmonary veins, ready for the next trip around the body.",
       "functions": [
         {
           "title": "Carry blood to the lungs",
@@ -582,7 +582,7 @@
       "location": "The pulmonary trunk leaves the right ventricle and splits into right and left pulmonary arteries at about the level of the upper chest.",
       "size": "The trunk is roughly 5 cm (2 in) long and 3 cm (1.2 in) wide before it divides.",
       "facts": [
-        "Pulmonary arteries are the only arteries that carry oxygen-poor blood.",
+        "In adults, pulmonary arteries are the only arteries that carry oxygen-poor blood.",
         "The pulmonary trunk is only about 5 cm (2 in) long and 3 cm (1.2 in) wide before it splits.",
         "Pressure in the pulmonary arteries is roughly a fifth of the pressure in the aorta, protecting the lungs' delicate air sacs."
       ],
@@ -596,7 +596,7 @@
           "description": "The small pulmonary arteries thicken and narrow, raising pressure in the lung circuit and straining the right ventricle."
         },
         {
-          "name": "Pulmonary stenosis",
+          "name": "Pulmonary valve stenosis",
           "description": "A narrowed pulmonary valve forces the right ventricle to work harder to push blood toward the lungs."
         }
       ],
@@ -638,20 +638,20 @@
     "steps": [
       {
         "title": "A knock at the wrist",
-        "body": "Put two fingers on the inside of your wrist and wait. There it is, a small, steady knock that has been happening since before you were born. That knock is the sound of pressure arriving, the front edge of a wave of blood pushed out by a pump roughly the size of your fist. In the next few minutes, follow one drop of that blood all the way around: out through the arteries, through the tiniest vessels you have, and back through the veins. By the end, the number at your wrist will mean something different. Ready?",
+        "body": "Put two fingers on the inside of your wrist and wait. There it is, a small, steady knock that has been happening since before you were born. That knock is the sound of pressure arriving, the front edge of a wave of blood pushed out by a pump roughly the size of your fist. In the next few minutes, follow one drop of that blood all the way around: out through the arteries, through the tiniest vessels you have, and back through the veins. By the end, the knock at your wrist will mean something different. Ready?",
         "keyPoint": "A pulse is pressure you can feel, arriving with every heartbeat."
       },
       {
         "title": "Two pumps in one",
-        "body": "Your heart is two pumps bolted together. The right side collects blood that has already delivered its oxygen and sends it to the lungs. The left side takes the refreshed blood back and drives it out to the body. Each side has an upper chamber, the atrium, that receives, and a lower chamber, the ventricle, that pushes. Valves between them close with each beat, which is the lub-dub you hear through a stethoscope. Notice the left ventricle's wall: it is much thicker, because it has the harder job. Follow the blood it just launched.",
+        "body": "Your heart is two pumps bolted together. The right side collects blood that has already delivered its oxygen and sends it to the lungs. The left side takes the refreshed blood back and drives it out to the body. Each side has an upper chamber, the atrium, that receives, and a lower chamber, the ventricle, that pushes. Valves close in two stages with each beat, which is the lub-dub you hear through a stethoscope. Notice the left ventricle's wall: it is much thicker, because it has the harder job. Now follow a drop as the right side sends it to the lungs.",
         "organId": "heart",
         "keyPoint": "The left ventricle is thicker because it pumps against the resistance of the whole body."
       },
       {
         "title": "The detour to the lungs",
-        "body": "From the right ventricle, blood leaves through the pulmonary arteries, the only arteries in your body that carry oxygen-poor blood. They rise a short distance and split, one branch to each lung, then keep dividing until they wrap around millions of tiny air sacs. There the blood gives up carbon dioxide and picks up oxygen. The walls here are thin and the pressure is low, because the lungs are delicate. In a few seconds, the same drop is oxygen-rich and heading back to the left side of the heart. Now it is ready for the long trip.",
+        "body": "From the right ventricle, blood leaves through the pulmonary arteries, the only arteries in your body after birth that carry oxygen-poor blood. They rise a short distance and split, one branch to each lung, then keep dividing until they wrap around millions of tiny air sacs. There the blood gives up carbon dioxide and picks up oxygen. The walls here are thin and the pressure is low, gentle enough for the lungs' delicate air sacs. In a few seconds, the same drop is oxygen-rich and heading back to the left side of the heart. Now it is ready for the long trip.",
         "organId": "pulmonary-arteries",
-        "keyPoint": "This is the one place where an artery carries used, oxygen-poor blood."
+        "keyPoint": "After birth, this is the one circuit where an artery carries used blood."
       },
       {
         "title": "Out through the trunk",
@@ -661,25 +661,25 @@
       },
       {
         "title": "The heart feeds itself",
-        "body": "Here is a puzzle: the heart is full of blood, but it cannot use any of it. The muscle wall is far too thick for oxygen to diffuse in from the chamber blood. So the heart feeds itself through the coronary arteries, two small vessels that branch off the aorta just above the aortic valve and wrap around the muscle like a crown. They are only a few millimeters wide. When you climb stairs, they widen to meet the demand. When plaque narrows them, that demand becomes chest pain. The heart, in other words, is its own most demanding customer.",
+        "body": "Here is a puzzle: the heart is full of blood, but it cannot get enough oxygen from it. The muscle wall is too thick for enough oxygen to diffuse in from the chamber blood. So the heart feeds itself through the coronary arteries, two small vessels that branch off the aorta just above the aortic valve and wrap around the muscle like a crown. They are only a few millimeters wide. When you climb stairs, they widen to meet the demand. When plaque narrows them, that demand becomes chest pain. The heart, in other words, is its own most demanding customer. Your drop, meanwhile, stays in the aorta and keeps moving.",
         "organId": "coronary-arteries",
-        "keyPoint": "A muscle that never rests needs a blood supply that never stops."
+        "keyPoint": "A muscle that works every second needs a blood supply that keeps up."
       },
       {
         "title": "Where the handoff happens",
-        "body": "The aorta branches into arteries, arteries into arterioles, and arterioles into capillaries, vessels so narrow that red blood cells pass in single file. Their walls are one cell thick. This is where the real business happens: oxygen diffuses out, carbon dioxide diffuses in, and nutrients cross into tissues. Blood slows here on purpose, giving the exchange time. Every tissue you have, from retina to toenail, holds a dense web of these tiny tubes. It is less like a pipe and more like a marketplace, with goods crossing in both directions.",
+        "body": "The aorta branches into arteries, arteries into arterioles, and arterioles into capillaries, vessels so narrow that red blood cells pass in single file. Their walls are one cell thick. This is where the real business happens: oxygen diffuses out, carbon dioxide diffuses in, and nutrients cross into tissues. Blood slows here, giving the exchange plenty of time. Every tissue you have, from retina to fingertip, holds a dense web of these tiny tubes. It is less like a pipe and more like a marketplace, with goods crossing in both directions.",
         "organId": "capillaries",
         "keyPoint": "Capillaries trade speed for contact, slowing blood so oxygen can cross."
       },
       {
         "title": "The road home",
-        "body": "Now the blood turns homeward. Capillaries merge into venules, then veins, which widen as they climb. Veins are thin-walled and low-pressure, so many of them carry one-way valves that stop blood from sliding back down. Your leg muscles help: each step squeezes the veins and milks blood upward, while breathing lowers pressure in your chest and pulls it along. The largest veins, the superior and inferior vena cava, empty into the right atrium. And just like that, the drop is back where it started. This is also why a long flight can leave your ankles feeling puffy.",
+        "body": "Now the blood turns homeward. Capillaries merge into venules, then veins, which widen as they climb. Veins are thin-walled and low-pressure, so many of them carry one-way valves that stop blood from sliding back down. Your leg muscles help: each step squeezes the veins and milks blood upward, while breathing lowers pressure in your chest and pulls it along. The great veins, the superior and inferior venae cavae, empty into the right atrium. And just like that, the drop is back where it started. This is also why a long flight can leave your ankles feeling puffy.",
         "organId": "veins",
         "keyPoint": "Your veins have no pump, so they borrow your muscles and your breath."
       },
       {
         "title": "One loop, endlessly",
-        "body": "One loop, two circuits, and a lifetime of repetitions. Blood leaves the left ventricle through the aorta, reaches the tissues through arteries and capillaries, and returns through veins and the vena cava to the right atrium. The right ventricle sends it to the lungs and back to the left atrium. Four chambers, four valves, and a pressure difference keep it all moving one way. Next time you feel your pulse, you are feeling the aorta's elastic recoil. Explore the heart next, then the coronary arteries that keep it running. From there, the cycle begins again.",
+        "body": "One loop, two circuits, and a lifetime of repetitions. Blood leaves the left ventricle through the aorta, reaches the tissues through arteries and capillaries, and returns through veins and the vena cava to the right atrium. The right ventricle sends it to the lungs and back to the left atrium. Four chambers, four valves, and a pressure difference keep it all moving one way. Next time you feel your pulse, you are feeling a pressure wave that began in the aorta. Explore the heart in more detail next, then the coronary arteries that keep it running. From there, the cycle begins again.",
         "keyPoint": "Every drop of blood passes through your heart twice on each full circuit."
       }
     ]
@@ -696,7 +696,7 @@
         "Left atrium"
       ],
       "answerIndex": 1,
-      "explanation": "The left ventricle has the thickest wall because it must drive blood through the aorta to the entire body, while the right ventricle only sends blood to the nearby lungs.",
+      "explanation": "The left ventricle has the thickest wall because it must drive blood through the aorta to the entire body, while the right ventricle sends the same volume to the nearby, low-pressure lungs.",
       "difficulty": "easy"
     },
     {
@@ -710,7 +710,7 @@
         "Pulmonary veins"
       ],
       "answerIndex": 2,
-      "explanation": "The pulmonary arteries are the one exception to the rule that arteries carry oxygen-rich blood. They carry used blood to the lungs, where it picks up oxygen.",
+      "explanation": "In adults, the pulmonary arteries are the exception to the rule that arteries carry oxygen-rich blood. They carry used blood to the lungs, where it picks up oxygen.",
       "difficulty": "easy"
     },
     {
@@ -724,7 +724,7 @@
         "Veins"
       ],
       "answerIndex": 0,
-      "explanation": "Capillaries are 5 to 10 micrometers wide, barely wider than a red blood cell, and their one-cell-thick walls let oxygen and waste cross by diffusion.",
+      "explanation": "Capillaries are 5 to 10 micrometers wide, often no wider than a red blood cell, and their one-cell-thick walls let oxygen and waste cross by diffusion.",
       "difficulty": "easy"
     },
     {
@@ -734,11 +734,11 @@
       "options": [
         "It holds more blood at rest",
         "It contains more valves",
-        "It receives blood from the lungs",
+        "It contracts more often than the right ventricle",
         "It must push blood through the entire body"
       ],
       "answerIndex": 3,
-      "explanation": "The left ventricle drives blood into the aorta against the resistance of the whole systemic circulation. The right ventricle only pushes blood through the nearby, low-pressure lungs.",
+      "explanation": "The left ventricle drives blood into the aorta against the resistance of the whole systemic circulation. The right ventricle pushes the same volume through the nearby, low-pressure lungs.",
       "difficulty": "medium"
     },
     {
@@ -772,15 +772,15 @@
     {
       "id": "cardiovascular-q7",
       "systemId": "cardiovascular",
-      "question": "Why do the coronary arteries branch off the aorta so close to the aortic valve?",
+      "question": "Why do the coronary arteries branch off the aorta just above the aortic valve?",
       "options": [
         "To carry blood directly to the lungs",
-        "To supply the heart muscle with freshly oxygenated blood",
+        "To keep pressure in the aorta lower",
         "To let blood bypass the capillaries",
-        "To keep pressure in the aorta lower"
+        "To supply the heart muscle with oxygen-rich blood at aortic pressure"
       ],
-      "answerIndex": 1,
-      "explanation": "The heart cannot absorb oxygen from the blood inside its chambers. Coronary arteries branch from the aortic root so the working muscle receives oxygen-rich blood straight from the aorta.",
+      "answerIndex": 3,
+      "explanation": "The heart cannot get enough oxygen from the blood inside its chambers. Branching at the base of the aorta gives the working muscle first access to oxygen-rich blood at aortic pressure.",
       "difficulty": "hard"
     },
     {
@@ -794,7 +794,7 @@
         "Blood flows backward through the pulmonary circuit"
       ],
       "answerIndex": 2,
-      "explanation": "The pulmonary circuit is short and its capillary beds in the lungs are thin-walled, so it runs at roughly a fifth of aortic pressure. High pressure there would damage the air sacs.",
+      "explanation": "The right ventricle pumps into a short, low-resistance circuit, so pulmonary pressure is roughly a fifth of aortic pressure. That low pressure protects the delicate air sacs.",
       "difficulty": "hard"
     }
   ]

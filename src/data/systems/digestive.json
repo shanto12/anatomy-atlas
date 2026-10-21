@@ -3,7 +3,7 @@
   "name": "Digestive System",
   "shortName": "Digestive",
   "tagline": "A nine-meter journey from first bite to last stop.",
-  "summary": "Every meal begins a journey that will last a day or more. Your digestive system is a single muscular tube, about nine meters (30 feet) long, that runs from your lips to your anus. Along the way, food is crushed, soaked, churned, and broken into molecules small enough to slip through the gut wall into your blood and lymph.\n\nThe tube does most of the work itself, but it never works alone. Salivary glands wet each bite, the stomach adds acid and enzymes, the liver makes bile, the gallbladder stores it, and the pancreas sends a powerful enzyme cocktail. The small intestine, folded into a vast velvety surface, absorbs the useful pieces; the large intestine reclaims water and houses a microbial garden; the rectum holds what is left until you decide to let it go.\n\nDigestion is also a nervous and hormonal conversation. Stretch receptors, acidity, and the sight or smell of food trigger signals that speed up or slow down each segment. Nothing about this system is passive. It is a processing plant, a chemical refinery, and a sensory organ wrapped into one continuous, self-renewing tube, and it touches nearly every other system in your body.",
+  "summary": "Every meal begins a journey that will last a day or more. At the core of your digestive system is a single muscular tube, about nine meters (30 feet) long, that runs from your lips to your anus. Along the way, food is crushed, soaked, churned, and broken into molecules small enough to slip through the gut wall into your blood and lymph.\n\nThe tube does most of the work itself, but it leans on four accessory organs. Salivary glands wet each bite, the liver makes bile, the gallbladder stores it, and the pancreas sends a powerful enzyme cocktail. The small intestine, its lining folded into a vast velvety surface, absorbs the useful pieces; the large intestine reclaims water and houses a microbial garden; the rectum holds what is left until you decide to let it go.\n\nDigestion is also a nervous and hormonal conversation. Stretch receptors, acidity, and the sight or smell of food trigger signals that speed up or slow down each segment. Nothing about this system is passive. It is part processing plant, part sensory organ, and part immune barrier, all wrapped into one self-renewing tube that touches nearly every other system in your body.",
   "color": "#9a6b3f",
   "stats": [
     {
@@ -38,7 +38,7 @@
       ],
       "region": "head-neck",
       "tagline": "The wet, muscular gateway where digestion begins.",
-      "summary": "Your mouth is the gateway of the digestive tract: a warm, wet cavity framed by lips, teeth, and jaws, with a muscular tongue resting on its floor. The roof is a hard bony palate in front and a softer one behind, and the whole space is lined with a mucous membrane that stays slick with saliva. It is small, but it holds the body's first tools for dismantling a meal.\n\nDigestion starts the moment you bite. Teeth shear and grind food into smaller pieces, the tongue rolls it into a ball called a bolus, and saliva soaks it with enzymes that begin splitting starch. Chewing also gives your brain time to register fullness, which is why a rushed meal can feel unsatisfying. Once you swallow, the bolus leaves the mouth and the rest of the tube takes over.",
+      "summary": "Your mouth is the gateway of the digestive tract: a warm, wet cavity framed by lips, teeth, and jaws, with a muscular tongue resting on its floor. The roof is a hard bony palate in front and a softer one behind, and the whole space is lined with a mucous membrane that stays slick with saliva. It is small, but it holds the body's first tools for dismantling a meal.\n\nDigestion starts the moment you bite. Teeth shear and grind food into smaller pieces, the tongue rolls it into a ball called a bolus, and saliva soaks it with enzymes that begin splitting starch. Chewing also slows the meal, giving your brain's fullness signals time to catch up. Once you swallow, the bolus leaves the mouth and the rest of the tube takes over.",
       "functions": [
         {
           "title": "Bites and grinds food",
@@ -112,7 +112,7 @@
       "latin": "Glandulae salivariae",
       "region": "head-neck",
       "tagline": "Three pairs of glands that keep your mouth wet and ready.",
-      "summary": "Three pairs of major glands do the heavy lifting: the parotids in front of each ear, the submandibular glands under the jaw, and the sublinguals beneath the tongue. Hundreds of tiny minor glands dot the lips, cheeks, and palate. The parotid is the largest, but at rest the submandibular glands produce most of the flow.\n\nSaliva is about 99 percent water, yet the remaining fraction is a busy chemical toolkit. It moistens food so you can swallow, dissolves flavors so you can taste, and carries amylase, an enzyme that starts breaking starch into sugar. It also rinses teeth, neutralizes some acid, and carries antibodies and proteins that help repair small wounds. Without it, chewing and speaking would feel like trying to talk with a mouth full of cotton.",
+      "summary": "Three pairs of major glands do the heavy lifting: the parotids in front of each ear, the submandibular glands under the jaw, and the sublinguals beneath the tongue. Hundreds of tiny minor glands dot the lips, cheeks, and palate. The parotid is the largest, but at rest the submandibular glands produce most of the flow.\n\nSaliva is about 99 percent water, yet the remaining fraction is a busy chemical toolkit. It moistens food so you can swallow, dissolves flavors so you can taste, and carries amylase, an enzyme that starts breaking starch into sugar. It also rinses teeth, neutralizes some acid, and carries antibodies and proteins that help protect the mouth's lining. Without it, chewing and speaking would feel like trying to talk with a mouth full of cotton.",
       "functions": [
         {
           "title": "Moistens and lubricates",
@@ -124,7 +124,7 @@
         },
         {
           "title": "Protects teeth and tissue",
-          "detail": "Saliva rinses away food debris, neutralizes some acid, and carries antibodies and proteins that limit microbes."
+          "detail": "Saliva rinses away food debris, buffers acid, and carries antibodies and proteins that limit microbes."
         },
         {
           "title": "Helps you taste",
@@ -175,7 +175,7 @@
         }
       ],
       "heroStat": {
-        "value": "1.5 L",
+        "value": "1–1.5 L",
         "label": "of saliva a day"
       }
     },
@@ -190,7 +190,7 @@
       ],
       "region": "thorax",
       "tagline": "A muscular chute that moves food without gravity.",
-      "summary": "The esophagus is a muscular tube about 25 centimeters (10 inches) long that links your throat to your stomach. It runs down the center of your chest, passes behind the heart, and slips through an opening in the diaphragm called the esophageal hiatus. When empty, its walls collapse against each other, so it looks more like a flattened ribbon than a pipe.\n\nYou do not need gravity to swallow. Rings of muscle above the food squeeze, and rings below relax, passing the bolus downward in a wave called peristalsis. A valve at the bottom, the lower esophageal sphincter, stays tight between meals to keep stomach acid where it belongs. Mucus keeps the lining slippery, and the trip takes only a few seconds. Next, the bolus drops into the stomach's acid bath.",
+      "summary": "The esophagus is a muscular tube about 25 centimeters (10 inches) long that links your throat to your stomach. It runs down the center of your chest, passes behind the trachea and the heart, and slips through an opening in the diaphragm called the esophageal hiatus. When empty, its walls collapse against each other, so it looks more like a flattened ribbon than a pipe.\n\nYou do not need gravity to swallow. Rings of muscle above the food squeeze, and rings below relax, passing the bolus downward in a wave called peristalsis. A valve at the bottom, the lower esophageal sphincter, stays tight between meals to keep stomach acid where it belongs. Mucus keeps the lining slippery, and the trip takes only a few seconds. Next, the bolus drops into the stomach's acid bath.",
       "functions": [
         {
           "title": "Carries food to the stomach",
@@ -208,7 +208,7 @@
       "location": "It begins below the pharynx, behind the trachea, and descends through the chest to the upper stomach just below the diaphragm.",
       "size": "In adults it is about 25 centimeters (10 inches) long and roughly 2 centimeters (0.8 inches) wide.",
       "facts": [
-        "Food covers the esophagus in a few seconds, even though the tube is about as long as your forearm.",
+        "Food clears the esophagus in a few seconds, even though the tube is about as long as your forearm.",
         "You can swallow while lying down or even upside down, because peristalsis does not depend on gravity.",
         "An empty esophagus is collapsed almost shut; it opens only when a bolus arrives."
       ],
@@ -240,8 +240,8 @@
           "url": "https://my.clevelandclinic.org/health/body/21728-esophagus"
         },
         {
-          "label": "TeachMeAnatomy — The Esophagus",
-          "url": "https://teachmeanatomy.info/abdomen/gi-tract/oesophagus/"
+          "label": "Kenhub — Esophagus",
+          "url": "https://www.kenhub.com/en/library/anatomy/esophagus"
         }
       ],
       "heroStat": {
@@ -256,7 +256,7 @@
       "latin": "Gaster",
       "region": "abdomen",
       "tagline": "A churning acid bag that turns dinner into soup.",
-      "summary": "Your stomach is a J-shaped muscular bag in the upper left abdomen, tucked under the diaphragm and partly covered by the liver. Its inner surface is folded into ridges called rugae, which let it expand from about the size of your fist to roughly 1.5 liters after a large meal. The wall has three layers of muscle, more than most organs, so it can twist and churn.\n\nStomach acid, with a pH between about 1.5 and 3.5, kills many microbes and helps unfold proteins. Cells in the lining release pepsinogen, which acid turns into pepsin, an enzyme that snips proteins apart. A thick mucus layer keeps the acid from digesting the stomach itself, and the lining replaces its cells every few days. The result is chyme, a soupy paste that squirts through the pyloric sphincter into the small intestine.",
+      "summary": "Your stomach is a J-shaped muscular bag in the upper left abdomen, tucked under the diaphragm and partly covered by the liver. Its inner surface is folded into ridges called rugae, which let it expand from about the size of your fist to roughly 1.5 liters after a large meal. The wall has three layers of muscle, more than most organs, so it can twist and churn.\n\nStomach acid, with a pH between about 1.5 and 3.5, kills many microbes and helps unfold proteins. Cells in the lining release pepsinogen, which acid turns into pepsin, an enzyme that snips proteins apart. A thick mucus layer keeps the acid from digesting the stomach itself, and the lining replaces its cells every few days. The result is chyme, a thick slurry that squirts through the pyloric sphincter into the small intestine.",
       "functions": [
         {
           "title": "Stores a meal",
@@ -264,7 +264,7 @@
         },
         {
           "title": "Churns food into chyme",
-          "detail": "Three layers of muscle twist and squeeze, mixing food with acid and enzymes until it becomes a soupy paste."
+          "detail": "Three muscle layers squeeze in different directions, mixing food with acid and enzymes until it becomes a thick paste."
         },
         {
           "title": "Starts protein digestion",
@@ -335,7 +335,7 @@
       "latin": "Hepar",
       "region": "abdomen",
       "tagline": "A quiet chemical refinery that touches almost everything you eat.",
-      "summary": "Your liver is the largest internal organ, a reddish-brown wedge weighing about 1.5 kilograms (3.3 pounds) in adults. It fills the upper right abdomen, tucked beneath the diaphragm and overlapping the stomach. Two main lobes, a larger right and a smaller left, are separated by a ligament, and a network of ducts carries bile out toward the gallbladder and intestine.\n\nThe liver is a chemical refinery with a dual blood supply: the hepatic artery brings oxygen-rich blood, while the portal vein delivers nutrient-laden blood from the gut. It stores sugar as glycogen, builds proteins such as albumin and clotting factors, breaks down drugs and toxins, and makes bile continuously. Remarkably, it can regrow lost tissue, which is why living donors can give part of their liver and both pieces recover. Most of what you absorb from the gut passes through it first.",
+      "summary": "Your liver is the largest internal organ, a reddish-brown wedge weighing about 1.5 kilograms (3.3 pounds) in adults. It fills the upper right abdomen, tucked beneath the diaphragm and overlapping the stomach. Two main lobes, a larger right and a smaller left, are separated by a ligament, and a network of ducts carries bile out toward the gallbladder and intestine.\n\nTwo blood supplies feed the liver: the hepatic artery brings oxygen-rich blood, while the portal vein delivers nutrient-laden blood from the gut. It stores sugar as glycogen, builds proteins such as albumin and clotting factors, breaks down drugs and toxins, and makes bile continuously. Remarkably, it can regrow lost tissue, which is why living donors can give part of their liver and both pieces recover. Most water-soluble nutrients absorbed from the gut pass through it first.",
       "functions": [
         {
           "title": "Makes bile",
@@ -636,7 +636,7 @@
       ],
       "region": "abdomen",
       "tagline": "The water-reclaiming colon and its resident microbial garden.",
-      "summary": "The large intestine, also called the colon, is a wider, shorter tube than the small intestine: about 1.5 meters (5 feet) long and 6 centimeters (2.4 inches) across. It frames the abdomen like a picture frame, rising on the right, crossing under the stomach, and descending on the left. It begins at the cecum, a pouch that carries the appendix, and ends at the rectum.\n\nBy the time waste arrives, most nutrients are gone, but plenty of water and salts remain. The colon reclaims much of that water, turning liquid slurry into soft, formed stool. It also houses trillions of bacteria that ferment fiber, produce some vitamin K and B vitamins, and compete with harmful microbes. Muscular waves move the contents slowly, segment by segment, over roughly a day or more. The final product waits in the rectum until you are ready.",
+      "summary": "The large intestine, whose main section is the colon, is a wider, shorter tube than the small intestine: about 1.5 meters (5 feet) long and 6 centimeters (2.4 inches) across. It frames the abdomen like a picture frame, rising on the right, crossing under the stomach, and descending on the left. It begins at the cecum, a pouch that carries the appendix, and runs through the colon into the rectum.\n\nBy the time waste arrives, most nutrients are gone, but plenty of water and salts remain. The colon reclaims much of that water, turning liquid slurry into soft, formed stool. It also houses trillions of bacteria that ferment fiber, produce some vitamin K and B vitamins, and compete with harmful microbes. Muscular waves move the contents slowly, segment by segment, over roughly a day or more. The final product waits in the rectum until you are ready.",
       "functions": [
         {
           "title": "Reclaims water",
@@ -660,7 +660,7 @@
       "facts": [
         "The colon is only about a quarter as long as the small intestine, but roughly twice as wide.",
         "Its resident bacteria make some vitamin K, which the body can absorb and use for clotting.",
-        "The appendix dangles from the cecum, the pouch where the colon begins."
+        "The appendix dangles from the cecum, the pouch where the large intestine begins."
       ],
       "conditions": [
         {
@@ -695,7 +695,7 @@
         },
         {
           "label": "TeachMeAnatomy — The Colon",
-          "url": "https://teachmeanatomy.info/abdomen/gi-tract/large-intestine/"
+          "url": "https://teachmeanatomy.info/abdomen/gi-tract/colon/"
         }
       ],
       "heroStat": {
@@ -781,7 +781,7 @@
       },
       {
         "title": "The mouth gets to work",
-        "body": "Put a cracker in your mouth and hold it there. After a minute it starts to taste sweet, because salivary amylase is already snipping starch into sugar. Your teeth do the mechanical work, shearing and grinding food into pieces with more surface area for enzymes to attack. Your tongue shapes the mess into a round bolus and pushes it toward the back of your throat. Chewing also slows you down, giving stretch signals from the stomach time to register. When you swallow, a flap called the epiglottis tips over the airway so the bolus can pass safely. Next, it enters a muscular chute.",
+        "body": "Put a cracker in your mouth and hold it there. After a minute it starts to taste sweet, because salivary amylase is already snipping starch into sugar. Your teeth do the mechanical work, shearing and grinding food into pieces with more surface area for enzymes to attack. Your tongue shapes the mess into a round bolus and pushes it toward the back of your throat. Chewing also slows you down, giving fullness signals time to catch up. When you swallow, a flap called the epiglottis tips over the airway so the bolus can pass safely. Next, it enters a muscular chute.",
         "organId": "mouth",
         "keyPoint": "Digestion begins in the mouth, before you swallow a single bite."
       },
@@ -793,13 +793,13 @@
       },
       {
         "title": "The churning bag",
-        "body": "The stomach is a muscular bag that does two jobs at once: it stores a meal and starts digesting it. Three layers of muscle twist and churn the contents, while glands release acid and pepsinogen. Acid unfolds proteins and kills many microbes; pepsin then cuts the proteins into shorter chains. A mucus layer keeps the stomach from digesting itself, and its lining renews every few days. The stomach also makes intrinsic factor, which your body needs to absorb vitamin B12. After an hour or two, the meal has become chyme, a soupy paste. A ring of muscle called the pylorus lets it out in squirts.",
+        "body": "The stomach is a muscular bag that does two jobs at once: it stores a meal and starts digesting it. Three layers of muscle twist and churn the contents, while glands release acid and pepsinogen. Acid unfolds proteins and kills many microbes; pepsin then cuts the proteins into shorter chains. A mucus layer keeps the stomach from digesting itself, and its lining renews every few days. The stomach also makes intrinsic factor, which your body needs to absorb vitamin B12. After an hour or two, the meal has become chyme, a soupy paste. A ring of muscle called the pyloric sphincter lets it out in squirts.",
         "organId": "stomach",
         "keyPoint": "The stomach stores, churns, and starts protein digestion all at once."
       },
       {
         "title": "The liver and its sidekick",
-        "body": "Most of what you absorb from the gut travels first to the liver through the portal vein; fats take a slower route through lymph. This reddish-brown organ is a refinery: it stores glucose, builds proteins, breaks down drugs, and makes bile. Bile is not an enzyme; it is a detergent that breaks fat into tiny droplets so enzymes can reach it. The liver makes bile continuously, but between meals the gallbladder stores it and concentrates it. When fat arrives in the small intestine, a hormone called cholecystokinin makes the gallbladder squeeze. The result is a bitter, greenish burst that turns a slick of oil into an emulsion. Now the pancreas adds its own chemistry.",
+        "body": "Most of what you absorb from the gut travels first to the liver through the portal vein; fats take a slower route through lymph. This reddish-brown organ is a refinery: it stores sugar as glycogen, builds proteins, breaks down drugs, and makes bile. Bile is not an enzyme; it is a detergent that breaks fat into tiny droplets so enzymes can reach it. The liver makes bile continuously, but between meals the gallbladder stores it and concentrates it. When fat arrives in the small intestine, a hormone called cholecystokinin makes the gallbladder squeeze. The result is a bitter, greenish burst that turns a slick of oil into an emulsion. Now the pancreas adds its own chemistry.",
         "organId": "liver",
         "keyPoint": "The liver makes bile; the gallbladder stores and concentrates it."
       },
@@ -917,7 +917,7 @@
         "It receives oxygen only from the stomach"
       ],
       "answerIndex": 0,
-      "explanation": "The hepatic artery brings oxygen-rich blood, while the portal vein carries nutrient-laden blood from the gut. Most absorbed nutrients pass through the liver before reaching the rest of the body.",
+      "explanation": "The hepatic artery brings oxygen-rich blood, while the portal vein carries nutrient-laden blood from the gut. Most water-soluble nutrients absorbed from the gut pass through the liver before reaching the rest of the body.",
       "difficulty": "hard"
     },
     {

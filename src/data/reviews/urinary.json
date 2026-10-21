@@ -1,0 +1,83 @@
+{
+  "systemId": "urinary",
+  "reviewedAt": "2026-10-21T16:32:41-05:00",
+  "checks": [
+    {
+      "name": "JSON validity and schema",
+      "passed": true,
+      "notes": "Parses as UTF-8 JSON with 2-space indentation and a trailing newline. Top-level keys, organ keys, lesson keys, and quiz keys match CONTENT_SPEC v1 exactly; color is #5c7a9e; no trailing commas, markdown, HTML, emoji, or bullet characters anywhere in the strings."
+    },
+    {
+      "name": "Organ inventory, IDs, and order",
+      "passed": true,
+      "notes": "Exactly five organs in the required order: kidneys, ureters, bladder, urethra, nephrons. IDs are unique, each organ carries systemId \"urinary\", and none of these IDs appears in any other system file (95 organ IDs checked across all 12 files)."
+    },
+    {
+      "name": "Field lengths and counts",
+      "passed": true,
+      "notes": "System summary 213 words in 3 paragraphs. Organ summaries 162-170 words, each exactly 2 paragraphs. Every organ has 2 sources, exactly 3 facts, 3 conditions, 3-5 functions with 12-40 word details, 3-6 lowercase keywords, 2-4 relatedOrgans, and a heroStat within 12/24 characters. Taglines are 45-58 characters."
+    },
+    {
+      "name": "Lesson structure",
+      "passed": true,
+      "notes": "Lesson id is lesson-urinary, duration 8 minutes, level beginner, subtitle 78 characters. Exactly 8 steps, titles 3-5 words, bodies 91-101 words. Steps 2-7 each link an organ: kidneys for structure and blood supply, nephrons, ureters, bladder, urethra, then the kidneys again for their hormonal output. Step 8 is the recap and points to further exploration. scripts/validate-content.mjs reports 0 errors and 0 warnings for this system."
+    },
+    {
+      "name": "Quiz quality",
+      "passed": true,
+      "notes": "8 questions with ids urinary-q1 through q8, four unique options each, 20-50 word explanations (23-30 actual), 3 easy / 3 medium / 2 hard, and answer indexes 2,0,1,3,2,1,3,0 - two of each position. No all-of-the-above or none-of-the-above options."
+    },
+    {
+      "name": "Medical accuracy",
+      "passed": true,
+      "notes": "Checked against NIDDK, Cleveland Clinic, Kenhub, and TeachMeAnatomy: kidney 10-12 cm and about 150 g; renal blood flow about 20-25 percent of cardiac output (about 1.2 L/min); about 1 million nephrons per kidney; 180 L filtered daily with roughly 99 percent reabsorbed and 1.5 L excreted; ureter 25-30 cm long and 3-4 mm wide with three relative narrowings; bladder 400-600 mL with first urge near 150-250 mL; female urethra 3-4 cm and male 18-20 cm; detrusor, trigone, urothelium, and the smooth versus skeletal sphincters; right kidney lower because of the liver. Corrected the bladder cup conversion, one urethra segment claim, and two duplicated or vague facts."
+    },
+    {
+      "name": "Sources and allowlist",
+      "passed": true,
+      "notes": "9 unique URLs, all returning HTTP 200 with curl -L and all serving the expected page title. Domains are limited to my.clevelandclinic.org, niddk.nih.gov, kenhub.com, and teachmeanatomy.info, every one on the CONTENT_SPEC allowlist. No URL needed replacing."
+    },
+    {
+      "name": "Safety and medical advice",
+      "passed": true,
+      "notes": "Conditions are educational descriptions only, with no dosages, treatments, referrals, or self-check instructions. Removed the urine-color step that invited readers to read their own urine for health, and kept only the underlying physiology of antidiuretic hormone in the kidney's signaling step."
+    },
+    {
+      "name": "Voice and style",
+      "passed": true,
+      "notes": "US English, second person, short sentences, jargon defined on first use (nephron, glomerulus, Bowman's capsule, detrusor, urothelium, trigone). Removed filler openers ('The scale is hard to imagine'), a duplicated 'You have followed' opening across steps 7 and 8, a pronoun mismatch in step 1, and repeated restatements of the same numbers across summary, facts, and lesson."
+    },
+    {
+      "name": "Cross-system relatedOrgans",
+      "passed": true,
+      "notes": "All 11 referenced IDs resolve in the dataset: aorta and capillaries (cardiovascular), adrenal-glands (endocrine), prostate and penis (reproductive), pelvis (skeletal), plus kidneys, ureters, bladder, urethra, and nephrons (urinary)."
+    }
+  ],
+  "changes": [
+    "Fixed the bladder volume conversion: 400-600 mL is about 1.5 to 2.5 cups, not 1.5 to 2 cups, in the summary and the size line.",
+    "Replaced the urethra fact that merely repeated its length in three places with the male urethra's three named segments, worded as named for the tissue each passes through rather than following the pelvic route, since the spongy segment runs through the penis.",
+    "Replaced the bladder fact that restated capacity with the fact that a full bladder rises above the pubic bone into the lower abdomen.",
+    "Replaced the kidney fact that restated nephron count and blood flow with the renal artery's five segmental branches.",
+    "Replaced the ureter fact that restated its dimensions with the bolus pattern of urine delivery, a few squirts a minute rather than a steady trickle.",
+    "Removed the spaghetti-width simile from the ureters size line and described the caliber as narrow enough for a small stone to block the flow; softened 'narrow at three points' to 'narrowest at three points'.",
+    "Changed the nephron claim from the vague 'many kilometers' to 'tens of kilometers' for the combined tubule length, and named Bowman's capsule on first use.",
+    "Removed latin: \"Nephron\" from the nephrons entry, since nephron is a Greek-derived term rather than a Latin name.",
+    "Reworked the kidney summary from 'a fifth of your blood' to 'a fifth of the blood your heart pumps', and changed 'drugs' to 'drug byproducts' in the summary and functions.",
+    "Added the calyces to the hydronephrosis description so the swelling is not attributed to the renal pelvis alone.",
+    "Restructured the lesson so the tour runs in flow order (kidneys, nephrons, ureters, bladder, urethra) instead of jumping back to the kidneys mid-route, and rebuilt the final organ stop as the kidney's signaling role (antidiuretic hormone, renin, erythropoietin) rather than a second pass at its gross anatomy.",
+    "Rewrote the closing step as 'Back to the glass' so its title matches its body and bookends the opening, removing the repeated 'You have followed' opening it shared with step 7.",
+    "Fixed a pronoun mismatch in step 1 ('it touches nearly every other organ by adjusting the fluid around them') and cut filler phrasing in the nephron step.",
+    "Rebalanced quiz answer indexes to 2,0,1,3,2,1,3,0, replaced the 'Fallopian tubes' distractor with 'Collecting ducts', and replaced the implausible 'None of it' option with 'About 75 percent'.",
+    "Rewrote the bladder quiz explanation so it teaches emptying rather than restating the 400-600 mL figure for a fourth time.",
+    "Removed the 'Reading the color' lesson step, which read as self-assessment guidance, and kept only the physiology of concentrated versus dilute urine."
+  ],
+  "sourcesChecked": 9,
+  "sourcesOk": 9,
+  "remainingConcerns": [
+    "Six guided-tour slots cannot map one-to-one onto five organs, so the kidneys appear twice: step 2 covers their structure and blood supply, step 7 covers their hormonal output. Every other organ gets exactly one stop, no facts are repeated between the two kidney steps, and the project validator requires each of steps 2-7 to link an organ.",
+    "Bladder capacity is reported differently by good sources: Kenhub gives an average of 400-600 mL, Cleveland Clinic says 500-700 mL, and first-urge thresholds run 150-250 mL or 200-350 mL depending on the source. The file follows Kenhub for capacity and the common 150-250 mL figure for the first urge.",
+    "The nephrons entry shares the NIDDK kidney page with the kidneys entry. Nephron-specific pages on Kenhub and TeachMeAnatomy returned 404 and Britannica refused curl with 403, so a distinct second allowlisted source was not available.",
+    "The three-narrowing model of the ureter is still widely taught, but TeachMeAnatomy notes that recent radiological evidence has questioned it. The file claims only that the tube is narrowest at those three points, not that stones lodge nowhere else.",
+    "Ureter caliber varies with distension and imaging method (roughly 2-5 mm); the 3-4 mm figure is the conventional anatomical range used by Kenhub and standard texts."
+  ]
+}

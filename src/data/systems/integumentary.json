@@ -1,0 +1,684 @@
+{
+  "id": "integumentary",
+  "name": "Integumentary System",
+  "shortName": "Integument",
+  "tagline": "The body's living boundary, from scalp to fingernail.",
+  "summary": "Reach out and touch the desk in front of you. The surface you feel is not a wrapper around your body; it is an organ, and the largest one you have. Your skin, hair, nails, and the glands tucked beneath them form the integumentary system, a continuous boundary about 2 square meters (22 square feet) in area. It keeps water in, keeps microbes and sunlight out, and reports the world through millions of nerve endings.\n\nThe system works in layers. The epidermis is a self-renewing sheet of keratin-packed cells that sheds and replaces itself constantly. Below it, the dermis holds collagen and elastin fibers, blood vessels, sweat glands, sebaceous glands, and hair follicles. Deeper still, subcutaneous fat cushions the body, stores energy, and slows heat loss. Each appendage is a specialist: hair insulates and senses, nails stiffen fingertips, sweat glands cool you, and sebaceous glands oil the surface.\n\nTogether these parts do quiet, constant work. They repair cuts, make vitamin D from sunlight, and tighten blood vessels when you are cold. They also carry the visible record of your life in scars, calluses, and gray hair. No other system is so exposed, or so busy keeping you intact.",
+  "color": "#c99a76",
+  "stats": [
+    {
+      "value": "2 m²",
+      "label": "of skin surface area"
+    },
+    {
+      "value": "5 million",
+      "label": "hair follicles at birth"
+    },
+    {
+      "value": "2 to 4 million",
+      "label": "sweat glands in your skin"
+    }
+  ],
+  "functions": [
+    "Forms a waterproof barrier that keeps water in and microbes out",
+    "Cools the body by producing sweat and widening surface blood vessels",
+    "Senses touch, pressure, temperature, and pain through nerve endings",
+    "Makes vitamin D when sunlight strikes the skin",
+    "Stores energy and cushions the body in a layer of subcutaneous fat",
+    "Repairs itself, sealing cuts and replacing worn-out cells"
+  ],
+  "organs": [
+    {
+      "id": "skin",
+      "systemId": "integumentary",
+      "name": "Skin",
+      "latin": "Cutis",
+      "alsoKnownAs": [
+        "Integument"
+      ],
+      "region": "whole-body",
+      "tagline": "The largest organ you have, and the one you see every day.",
+      "summary": "Skin is the body's outer covering, a sheet roughly 2 square meters (22 square feet) in area. It is thinnest on your eyelids, about half a millimeter, and thickest on the soles of your feet, where it reaches about 4 millimeters (0.16 inch). Two layers make up the skin itself: the epidermis on top and the dermis beneath. A third, the fatty hypodermis, anchors the sheet to the body. Hair, nails, and glands grow from this same tissue.\n\nThe epidermis is a factory of keratin, a tough protein that makes the surface waterproof. Its deepest cells divide constantly, pushing older cells upward until they flatten, die, and flake away. The dermis does the sensing and supplying: collagen gives it strength, elastin lets it snap back, and a dense net of capillaries and nerve endings runs through it. Skin also makes vitamin D from sunlight and helps set your temperature by flushing or narrowing its vessels. A paper cut or a sunburn is a reminder that this barrier is alive.",
+      "functions": [
+        {
+          "title": "Forms a barrier",
+          "detail": "The epidermis seals water in and blocks microbes, allergens, and ultraviolet light from reaching deeper tissues."
+        },
+        {
+          "title": "Controls temperature",
+          "detail": "Blood vessels in the dermis widen to release heat or narrow to conserve it, while sweat glands add evaporative cooling."
+        },
+        {
+          "title": "Senses the world",
+          "detail": "Nerve endings for touch, pressure, vibration, temperature, and pain turn the skin into your largest sensory surface."
+        },
+        {
+          "title": "Makes vitamin D",
+          "detail": "Ultraviolet light converts a cholesterol-like molecule in the skin into vitamin D, which the body needs to absorb calcium."
+        },
+        {
+          "title": "Repairs damage",
+          "detail": "Keratinocytes multiply at the edges of a wound, closing the gap and rebuilding a protective surface."
+        }
+      ],
+      "location": "Covers the entire body, merging into mucous membranes at the lips, eyelids, nostrils, and other body openings.",
+      "size": "About 2 square meters (22 square feet) in area, from roughly 0.5 mm on the eyelids to about 4 mm on the soles.",
+      "facts": [
+        "Skin makes up roughly 15 percent of an adult's body weight, more than any other single organ.",
+        "The outer layer renews itself about every four weeks, so the surface you touch today will have flaked away by next month.",
+        "Scars contain collagen but no hair follicles or sweat glands, so scarred skin stays dry and hairless."
+      ],
+      "conditions": [
+        {
+          "name": "Eczema",
+          "description": "In eczema, the skin barrier leaks moisture and lets irritants in, leaving patches red, dry, and intensely itchy."
+        },
+        {
+          "name": "Psoriasis",
+          "description": "Psoriasis speeds up the life cycle of skin cells, building thick, scaly plaques, often on elbows, knees, and scalp."
+        },
+        {
+          "name": "Skin cancer",
+          "description": "Skin cancer begins when ultraviolet damage triggers uncontrolled growth in skin cells; melanoma is the most dangerous form."
+        }
+      ],
+      "relatedOrgans": [
+        "hair",
+        "sweat-glands",
+        "sebaceous-glands",
+        "capillaries"
+      ],
+      "keywords": [
+        "skin",
+        "epidermis",
+        "dermis",
+        "barrier",
+        "keratin",
+        "touch"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Skin",
+          "url": "https://my.clevelandclinic.org/health/body/10978-skin"
+        },
+        {
+          "label": "Kenhub — Integumentary system",
+          "url": "https://www.kenhub.com/en/library/anatomy/integumentary-system"
+        }
+      ],
+      "heroStat": {
+        "value": "2 m²",
+        "label": "surface area"
+      }
+    },
+    {
+      "id": "hair",
+      "systemId": "integumentary",
+      "name": "Hair",
+      "latin": "Pilus",
+      "region": "whole-body",
+      "tagline": "A keratin thread grown by a follicle buried in your skin.",
+      "summary": "Hair is a thread of dead keratin pushed out by a living follicle. The follicle is a tiny pit in the dermis, lined with cells that divide and pack protein into a shaft. At the base, a bulb wraps around a small blood supply, and a sebaceous gland often opens into the same canal. A thin muscle, the arrector pili, connects each follicle to the dermis; when it contracts, you get goosebumps.\n\nHair grows in cycles. During the anagen phase, which lasts years on the scalp, the follicle builds a full shaft. Then growth pauses, the root loosens, and the hair falls out before the cycle restarts. That is why you routinely lose dozens of hairs a day without going bald. The average scalp carries about 100,000 hairs, and each grows roughly a centimeter a month. Hair insulates the head, shields the eyes and nostrils, carries touch signals, and spreads sebum along the skin.",
+      "functions": [
+        {
+          "title": "Insulates and protects",
+          "detail": "Hair traps a layer of air above the skin and shields the scalp, eyes, and nostrils from sun, cold, and debris."
+        },
+        {
+          "title": "Extends touch",
+          "detail": "Each follicle is wrapped in nerve endings, so a hair can detect an insect landing or a breeze before your skin does."
+        },
+        {
+          "title": "Spreads oil",
+          "detail": "Sebaceous glands empty into hair follicles, and the shaft carries sebum along the surface to keep skin supple."
+        },
+        {
+          "title": "Raises goosebumps",
+          "detail": "Erector muscles lift hairs when you are cold or frightened, producing goosebumps that once fluffed a furry coat."
+        },
+        {
+          "title": "Filters the air",
+          "detail": "Fine hairs in the nose and ears trap dust and particles before they reach deeper airways."
+        }
+      ],
+      "location": "Everywhere on the body except the palms, soles, lips, and parts of the genitals, with the densest growth on the scalp, face, and armpits.",
+      "size": "A scalp hair is about 0.05 to 0.1 mm wide, and an adult scalp holds roughly 100,000 follicles.",
+      "facts": [
+        "You are born with all the hair follicles you will ever have; no new ones form after birth.",
+        "A scalp hair grows about 1 cm (0.4 in) per month, and each follicle cycles through growth, rest, and shedding.",
+        "Eyebrow hairs fall out after a few months, while a scalp hair can keep growing for years."
+      ],
+      "conditions": [
+        {
+          "name": "Pattern hair loss",
+          "description": "Pattern hair loss runs in families and reflects a shrinking response of follicles to hormones, thinning the scalp over years."
+        },
+        {
+          "name": "Alopecia areata",
+          "description": "The immune system attacks hair follicles, producing smooth round patches of loss that can later regrow."
+        },
+        {
+          "name": "Telogen effluvium",
+          "description": "Telogen effluvium is a temporary shedding phase after illness, stress, or childbirth, when many follicles pause at once."
+        }
+      ],
+      "relatedOrgans": [
+        "skin",
+        "sebaceous-glands",
+        "subcutaneous-fat"
+      ],
+      "keywords": [
+        "hair",
+        "follicle",
+        "keratin",
+        "scalp",
+        "growth cycle"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Hair Follicle",
+          "url": "https://my.clevelandclinic.org/health/body/23435-hair-follicle"
+        },
+        {
+          "label": "Kenhub — Hair follicle",
+          "url": "https://www.kenhub.com/en/library/anatomy/hair-follicle"
+        }
+      ],
+      "heroStat": {
+        "value": "100,000",
+        "label": "hairs per scalp"
+      }
+    },
+    {
+      "id": "nails",
+      "systemId": "integumentary",
+      "name": "Nails",
+      "latin": "Ungues",
+      "alsoKnownAs": [
+        "Nail plates"
+      ],
+      "region": "upper-limb",
+      "tagline": "Keratin shields that stiffen your fingertips and toes.",
+      "summary": "A nail is a plate of tightly packed keratin growing from a pocket in your skin. The visible plate sits on the nail bed, a pink layer of tissue packed with blood vessels; the pink shows through because the plate is slightly translucent. At the base, a crescent-shaped white area called the lunula marks the front edge of the matrix, the tissue that actually makes the nail. A fold of skin, the cuticle, seals the gap where the plate emerges.\n\nNails grow continuously. Cells in the matrix divide, flatten, and push older cells forward, so the plate slides over the bed rather than growing outward from its tip. Fingernails advance about 3 mm (0.12 in) a month, toenails about half that, so a lost toenail takes many months to replace. The plate protects the sensitive fingertip, gives your grip a firm back edge, and works as a tiny tool for scratching and peeling. Its color and shape also offer a visible window onto circulation and general health.",
+      "functions": [
+        {
+          "title": "Protects fingertips",
+          "detail": "The plate shields the dense nerve endings and blood vessels at the fingertip from pressure and injury."
+        },
+        {
+          "title": "Sharpens touch",
+          "detail": "A firm plate behind the fingertip gives your skin something to press against, improving fine discrimination."
+        },
+        {
+          "title": "Extends your grip",
+          "detail": "Nails let you pick at a knot, peel fruit, or scratch an itch with a precision your bare finger lacks."
+        },
+        {
+          "title": "Shows signs of health",
+          "detail": "Changes in nail color, thickness, or shape can accompany anemia, lung disease, or thyroid problems."
+        }
+      ],
+      "location": "On the back of each fingertip and toe tip, growing from a matrix tucked beneath a fold of skin.",
+      "size": "A fingernail plate is roughly 0.5 mm thick, about 1.5 cm (0.6 in) long on an average finger, and grows about 3 mm a month.",
+      "facts": [
+        "Fingernails grow about twice as fast as toenails, which is why a lost toenail can take a year or more to grow back.",
+        "The white lunula at the base of your nail is the visible edge of the matrix, the tissue that builds the plate.",
+        "Nails are made of keratin, the same protein as hair and the outer layer of skin, but pressed into a harder, flatter sheet."
+      ],
+      "conditions": [
+        {
+          "name": "Fungal nail infection",
+          "description": "Fungal nail infection makes nails thick, discolored, and crumbly, most often on the toenails."
+        },
+        {
+          "name": "Ingrown toenail",
+          "description": "An ingrown toenail occurs when the edge of the plate presses into the surrounding skin, causing pain and swelling."
+        },
+        {
+          "name": "Nail psoriasis",
+          "description": "Nail psoriasis can cause pitting, ridges, and separation of the plate from the nail bed."
+        }
+      ],
+      "relatedOrgans": [
+        "skin",
+        "hair",
+        "peripheral-nerves"
+      ],
+      "keywords": [
+        "nails",
+        "keratin",
+        "nail bed",
+        "lunula",
+        "cuticle"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Nail Anatomy",
+          "url": "https://my.clevelandclinic.org/health/body/nail-anatomy"
+        },
+        {
+          "label": "MedlinePlus — Nail Diseases",
+          "url": "https://medlineplus.gov/naildiseases.html"
+        }
+      ],
+      "heroStat": {
+        "value": "3 mm",
+        "label": "growth per month"
+      }
+    },
+    {
+      "id": "sweat-glands",
+      "systemId": "integumentary",
+      "name": "Sweat Glands",
+      "latin": "Glandulae sudoriferae",
+      "alsoKnownAs": [
+        "Sudoriferous glands"
+      ],
+      "region": "whole-body",
+      "tagline": "Coiled tubes that cool you with a film of salty water.",
+      "summary": "A sweat gland is a tiny coiled tube sunk in the dermis, with a duct that spirals up to a pore on the surface. The common type, the eccrine gland, is found almost everywhere, but it is packed most densely on your palms, soles, forehead, and back. A second type, the apocrine gland, opens into hair follicles in the armpits and groin and becomes active around puberty. Each gland is barely visible, yet together they can release liters of fluid in an hour.\n\nSweat is mostly water, with small amounts of salt, urea, and lactate. When your body overheats, nerves trigger the glands and blood vessels near the skin widen; sweat evaporates and carries heat away. That is why a breeze feels so good on a hot day, and why humid air, which slows evaporation, makes heat feel worse. Sweat also carries antimicrobial peptides and helps maintain the skin's slightly acidic surface. Body odor comes not from fresh sweat but from bacteria that break it down.",
+      "functions": [
+        {
+          "title": "Cools the body",
+          "detail": "Evaporating sweat pulls heat from the skin, which is why a sweaty forehead feels cool in a breeze."
+        },
+        {
+          "title": "Keeps skin acidic",
+          "detail": "Sweat carries salts and antimicrobial peptides that help maintain a slightly acidic surface hostile to microbes."
+        },
+        {
+          "title": "Responds to stress",
+          "detail": "Palms and soles sweat quickly under stress or concentration, even when the body is not overheated."
+        },
+        {
+          "title": "Excretes a little waste",
+          "detail": "Sweat removes small amounts of urea, salt, and lactate, though the kidneys do most of the body's waste removal."
+        },
+        {
+          "title": "Leaves a scent",
+          "detail": "Apocrine glands release a thicker fluid in the armpits and groin, and skin bacteria convert it into body odor."
+        }
+      ],
+      "location": "In the dermis all over the body, densest on the palms, soles, forehead, and upper back; apocrine glands open into hair follicles in the armpits and groin.",
+      "size": "Each eccrine gland is a coil a few tenths of a millimeter wide, and an adult has roughly 2 to 4 million of them.",
+      "facts": [
+        "Your palms and soles have the highest density of eccrine glands, so nervous sweating shows up there first.",
+        "An adult can lose 1 to 2 liters (about a quart to half a gallon) of sweat in an hour of hard exercise in heat, and up to 4 liters in extreme conditions.",
+        "Fresh sweat has almost no odor; the smell comes from bacteria breaking down its proteins and lipids."
+      ],
+      "conditions": [
+        {
+          "name": "Hyperhidrosis",
+          "description": "Hyperhidrosis is excessive sweating beyond what temperature or exercise would explain, often on the palms, soles, or underarms."
+        },
+        {
+          "name": "Anhidrosis",
+          "description": "Anhidrosis is the reduced or absent ability to sweat, which can leave the body vulnerable to overheating."
+        },
+        {
+          "name": "Heat rash",
+          "description": "Heat rash appears when sweat ducts become blocked, trapping sweat and forming tiny itchy bumps."
+        }
+      ],
+      "relatedOrgans": [
+        "skin",
+        "hair",
+        "kidneys",
+        "capillaries"
+      ],
+      "keywords": [
+        "sweat",
+        "thermoregulation",
+        "eccrine",
+        "apocrine",
+        "cooling"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Eccrine Glands",
+          "url": "https://my.clevelandclinic.org/health/body/eccrine-glands"
+        },
+        {
+          "label": "MedlinePlus — Sweating",
+          "url": "https://medlineplus.gov/ency/article/003218.htm"
+        }
+      ],
+      "heroStat": {
+        "value": "2–4 million",
+        "label": "glands per body"
+      }
+    },
+    {
+      "id": "sebaceous-glands",
+      "systemId": "integumentary",
+      "name": "Sebaceous Glands",
+      "latin": "Glandulae sebaceae",
+      "alsoKnownAs": [
+        "Oil glands"
+      ],
+      "region": "whole-body",
+      "tagline": "Small oil factories that keep your skin supple.",
+      "summary": "A sebaceous gland is a cluster of oil-filled cells attached to the side of a hair follicle. Most sit in the dermis of the face, scalp, chest, and upper back, where they are large and numerous. Instead of releasing their product through a duct, the cells swell with fat and then break apart, a mode called holocrine secretion. Their product, sebum, is a blend of triglycerides, wax esters, squalene, and cholesterol.\n\nSebum coats the hair shaft and spreads across the skin, forming a thin, oily film that slows water loss and keeps the surface flexible. It also carries vitamin E and antimicrobial lipids, and it helps maintain the skin's acidic pH. Hormones drive production up at puberty, when oily skin and acne often appear. Some sebaceous glands open directly onto skin rather than into a follicle, such as the glands along the eyelids that lubricate the eye surface.",
+      "functions": [
+        {
+          "title": "Waterproofs the skin",
+          "detail": "A thin film of sebum slows evaporation from the surface and keeps the outer layer flexible instead of brittle."
+        },
+        {
+          "title": "Conditions the hair",
+          "detail": "Sebum travels along the hair shaft, making it supple and less likely to fray or absorb water."
+        },
+        {
+          "title": "Carries vitamin E",
+          "detail": "Sebum delivers vitamin E and other lipids to the skin surface, where they help limit oxidative damage."
+        },
+        {
+          "title": "Guards the surface",
+          "detail": "Sebum's lipids and acidity help restrain bacteria and fungi on the skin."
+        },
+        {
+          "title": "Lubricates the eyes",
+          "detail": "Meibomian glands in the eyelids release a sebum-like oil that coats tears and slows their evaporation."
+        }
+      ],
+      "location": "In the dermis, attached to hair follicles almost everywhere except the palms and soles, with the largest glands on the face and upper back.",
+      "size": "Each gland is a small lobed cluster, often less than 1 mm across, and can hold dozens of oil-filled cells.",
+      "facts": [
+        "Sebaceous glands are holocrine glands: their cells fill with oil and then disintegrate to release it.",
+        "The eyelids contain roughly 50 to 70 meibomian glands that release oil onto the eye surface.",
+        "Acne develops when sebum and dead skin cells block a follicle, creating a feast for skin bacteria."
+      ],
+      "conditions": [
+        {
+          "name": "Acne",
+          "description": "Acne forms when excess sebum and dead cells plug a follicle, and skin bacteria multiply inside the blockage."
+        },
+        {
+          "name": "Seborrheic dermatitis",
+          "description": "Seborrheic dermatitis causes greasy, flaky patches on areas rich in sebaceous glands, such as the scalp and eyebrows."
+        },
+        {
+          "name": "Sebaceous hyperplasia",
+          "description": "Sebaceous hyperplasia is a harmless enlargement of a gland that appears as a small, yellowish bump, often on the face."
+        }
+      ],
+      "relatedOrgans": [
+        "skin",
+        "hair",
+        "sweat-glands"
+      ],
+      "keywords": [
+        "sebum",
+        "oil",
+        "follicle",
+        "acne",
+        "holocrine"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Sebaceous Glands",
+          "url": "https://my.clevelandclinic.org/health/body/24538-sebaceous-glands"
+        },
+        {
+          "label": "MedlinePlus — Acne",
+          "url": "https://medlineplus.gov/acne.html"
+        }
+      ],
+      "heroStat": {
+        "value": "1 mm",
+        "label": "gland width"
+      }
+    },
+    {
+      "id": "subcutaneous-fat",
+      "systemId": "integumentary",
+      "name": "Subcutaneous Fat",
+      "latin": "Panniculus adiposus",
+      "alsoKnownAs": [
+        "Hypodermis",
+        "Subcutis"
+      ],
+      "region": "whole-body",
+      "tagline": "The soft, insulating layer beneath your skin.",
+      "summary": "Subcutaneous fat is the layer of fat that sits between the dermis and the muscles beneath it. You can pinch it on your belly, upper arms, and thighs. It is organized into lobules of fat cells held in place by collagen walls, with blood vessels and nerves running between them. This layer, also called the hypodermis or subcutis, is the deepest of the skin's three layers, and it anchors the skin to the body.\n\nEach fat cell stores a droplet of triglyceride, a concentrated fuel reserve. When you need energy, hormones signal the cells to release fatty acids into the blood. The layer also works as insulation, slowing heat loss in cold water and cold air, and as packing around joints, heels, and the eyes. Thickness varies enormously: several centimeters at the waist, only millimeters on the back of the hand. It is also an endocrine tissue, releasing hormones such as leptin that influence appetite and metabolism.",
+      "functions": [
+        {
+          "title": "Insulates the body",
+          "detail": "Fat conducts heat poorly, so the layer slows heat loss and helps hold your core temperature steady in the cold."
+        },
+        {
+          "title": "Cushions impact",
+          "detail": "Soft fat pads absorb shock around the heels, buttocks, palms, and eyes, protecting bones and organs beneath."
+        },
+        {
+          "title": "Stores energy",
+          "detail": "Triglycerides packed into fat cells are the body's densest fuel store, yielding about 9 calories per gram."
+        },
+        {
+          "title": "Anchors the skin",
+          "detail": "Collagen walls inside the fat bind the skin to deeper tissues while still letting it slide over muscle."
+        },
+        {
+          "title": "Sends hormonal signals",
+          "detail": "Fat cells release leptin and other hormones that influence appetite, insulin sensitivity, and inflammation."
+        }
+      ],
+      "location": "Directly beneath the dermis over most of the body, thickest at the abdomen, buttocks, and thighs.",
+      "size": "Thickness ranges from a few millimeters on the eyelids and hands to several centimeters at the waist, and fat cells are about 0.1 mm across.",
+      "facts": [
+        "Subcutaneous fat makes up roughly 80 to 90 percent of body fat in most people, with visceral fat accounting for the rest.",
+        "Fat cells can swell to many times their original size and shrink again, but their number stays fairly stable in adults.",
+        "Subcutaneous fat is the pinchable kind, while visceral fat wraps the organs deeper inside the abdomen."
+      ],
+      "conditions": [
+        {
+          "name": "Obesity",
+          "description": "Obesity is excess body fat that can raise the risk of diabetes, heart disease, and joint problems; it reflects many factors, not willpower alone."
+        },
+        {
+          "name": "Lipedema",
+          "description": "Lipedema is a condition in which fat accumulates symmetrically in the legs and arms, often with pain and easy bruising."
+        },
+        {
+          "name": "Cellulite",
+          "description": "Cellulite describes dimpled skin on the thighs and buttocks, where fat lobules push against fibrous bands beneath the skin."
+        }
+      ],
+      "relatedOrgans": [
+        "skin",
+        "sweat-glands",
+        "capillaries"
+      ],
+      "keywords": [
+        "fat",
+        "hypodermis",
+        "adipose",
+        "insulation",
+        "energy storage"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Subcutaneous Fat",
+          "url": "https://my.clevelandclinic.org/health/diseases/23968-subcutaneous-fat"
+        },
+        {
+          "label": "Kenhub — Subcutaneous tissue",
+          "url": "https://www.kenhub.com/en/library/anatomy/subcutaneous-tissue"
+        }
+      ],
+      "heroStat": {
+        "value": "9 kcal",
+        "label": "per gram of fat"
+      }
+    }
+  ],
+  "lesson": {
+    "id": "lesson-integumentary",
+    "title": "Your body's living border: a tour of skin",
+    "subtitle": "Peel back the surface and meet the organs that keep the outside out.",
+    "durationMin": 8,
+    "level": "beginner",
+    "steps": [
+      {
+        "title": "The edge of you",
+        "body": "Run a finger along the back of your hand. The surface you touch is the boundary between you and everything else, and it is alive. It bends, repairs, sweats, and grows. It is also an organ, the largest one you own, with a surface area of roughly 2 square meters (22 square feet). Most of what we call the integumentary system is built from this same material: skin, hair, nails, and the glands and fat beneath. In the next few minutes, we will take that surface apart layer by layer, then follow each appendage to the job it does. Start with the sheet itself.",
+        "keyPoint": "Skin is an organ, not a wrapper."
+      },
+      {
+        "title": "Three layers deep",
+        "body": "Skin has two main layers, with a third beneath them. The epidermis is the top sheet, a self-renewing wall of keratin-packed cells with no blood vessels of its own. Beneath it, the dermis holds collagen for strength, elastin for rebound, blood vessels, nerves, and the roots of hair and glands. Below that, subcutaneous fat cushions and insulates. Your epidermis replaces itself roughly every four weeks: new cells form at the base, flatten as they rise, and flake away at the surface. That turnover is why a shallow scrape can heal without a scar, and why the surface you touch today is not the one you had last month. Now look at what grows out of it.",
+        "organId": "skin",
+        "keyPoint": "The epidermis rebuilds itself from the bottom up, about once a month."
+      },
+      {
+        "title": "The living follicle",
+        "body": "Each hair is a thread of dead keratin pushed out by a living follicle, a tiny pit in the dermis. At the follicle's base, a bulb wraps around a small blood supply, and a sebaceous gland often opens into the same canal. A slip of muscle, the arrector pili, connects the follicle to the dermis; when it contracts, your hair stands up and you get goosebumps. Growth runs in cycles. A scalp follicle can build a shaft for years, then rest, then shed and start again. So losing dozens of hairs a day is normal. The average scalp holds about 100,000 hairs, each growing roughly a centimeter a month. Your nails are made of the same protein, pressed into a very different shape.",
+        "organId": "hair",
+        "keyPoint": "Every hair is made by a follicle that cycles between building, resting, and shedding."
+      },
+      {
+        "title": "Keratin at your tips",
+        "body": "Look at your fingertip. The nail plate is a sheet of keratin made by a pocket of tissue called the matrix, tucked beneath the skin at the base. Cells divide there, flatten, and push older cells forward, so the plate slides over the nail bed instead of growing from its tip. The pale crescent at the base, the lunula, is the visible edge of that matrix. A fold called the cuticle seals the gap where the plate emerges. Fingernails advance about 3 mm a month and toenails about half that, so a lost toenail can take the better part of a year to replace. The plate is not decoration: it stiffens the fingertip and gives your grip a firm back edge. Hard keratin is only part of the story, though. The skin also has a cooling system.",
+        "organId": "nails",
+        "keyPoint": "Nails grow forward from a hidden matrix, sliding over the nail bed."
+      },
+      {
+        "title": "Built-in cooling",
+        "body": "Now turn up the heat. Coiled in the dermis are sweat glands, each with a duct that spirals to a pore. The common eccrine gland sits almost everywhere but clusters on your palms, soles, forehead, and back. When your core temperature rises, nerves fire and the glands release a watery fluid onto the surface. As it evaporates, it carries heat away. That is why a breeze feels wonderful on a hot day, and why humid air, which slows evaporation, makes heat feel heavier. Apocrine glands take a different route, emptying into hair follicles in the armpits and groin. Fresh sweat barely smells; skin bacteria create the odor. Cooling is one job. Keeping the surface supple is another, and it belongs to a different gland.",
+        "organId": "sweat-glands",
+        "keyPoint": "Sweat cools you only when it evaporates, which is why humidity feels worse."
+      },
+      {
+        "title": "The oil partners",
+        "body": "Every hair follicle usually comes with a partner: a sebaceous gland, a lobed cluster of cells that fills with oil. Instead of sending its product through a duct, the whole cell swells and breaks apart, releasing sebum into the follicle. Sebum is a mix of fats that coats the hair and spreads across the skin, slowing water loss and keeping the surface flexible. It also carries vitamin E and antimicrobial lipids. Production climbs at puberty, which is why skin turns oilier and acne becomes common. When sebum and dead cells plug a follicle, bacteria multiply inside, and the result is a pimple. Some glands, like those in the eyelids, open directly onto the surface. Every one of these parts needs a foundation, and yours is a layer of fat.",
+        "organId": "sebaceous-glands",
+        "keyPoint": "Sebaceous cells sacrifice themselves to release their oil."
+      },
+      {
+        "title": "The layer you can pinch",
+        "body": "Beneath the dermis lies the layer you can pinch: subcutaneous fat. It is built from lobules of fat cells, each holding a droplet of triglyceride, held in place by thin collagen walls. This layer is not idle padding. Fat conducts heat poorly, so it slows heat loss; it cushions the heels, buttocks, palms, and eyes; and it stores fuel in the densest form the body has, about 9 calories per gram. Fat cells also release hormones such as leptin, which influences appetite. Thickness varies from several centimeters at the waist to a few millimeters on the back of the hand, and it shifts with age, hormones, and weight. That foundation is the last layer between you and the world.",
+        "organId": "subcutaneous-fat",
+        "keyPoint": "Subcutaneous fat is insulation, cushion, fuel tank, and hormone source at once."
+      },
+      {
+        "title": "One continuous border",
+        "body": "You have crossed the body's border and back. The epidermis renews itself, the dermis senses and supplies, and subcutaneous fat cushions and insulates. Hair grows from follicles, nails slide forward from a matrix, sweat glands cool you, and sebaceous glands oil the surface. None of these parts works alone: a follicle carries sebum, a sweat duct crosses the epidermis, and fat anchors the whole arrangement to the body beneath. Together they hold water in, keep microbes out, and report the world through touch. Next, compare this living boundary with the bones that support it, or follow the capillaries that feed it.",
+        "keyPoint": "The integument is a single system of skin, appendages, glands, and fat."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": "integumentary-q1",
+      "systemId": "integumentary",
+      "question": "Which organ is the largest in the human body?",
+      "options": [
+        "Liver",
+        "Skin",
+        "Lungs",
+        "Brain"
+      ],
+      "answerIndex": 1,
+      "explanation": "Skin covers roughly 2 square meters and weighs more than any other single organ, which is why it is called the body's largest organ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "integumentary-q2",
+      "systemId": "integumentary",
+      "question": "Which skin layer is the thin, self-renewing outer sheet?",
+      "options": [
+        "Dermis",
+        "Hypodermis",
+        "Epidermis",
+        "Fascia"
+      ],
+      "answerIndex": 2,
+      "explanation": "The epidermis is the thin outer sheet. It has no blood vessels of its own and is constantly rebuilding itself from cells at its base.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "integumentary-q3",
+      "systemId": "integumentary",
+      "question": "Nails are built mainly from which protein?",
+      "options": [
+        "Collagen",
+        "Melanin",
+        "Elastin",
+        "Keratin"
+      ],
+      "answerIndex": 3,
+      "explanation": "Nails, hair, and the outer layer of skin are built from keratin, a tough protein that resists water and wear.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "integumentary-q4",
+      "systemId": "integumentary",
+      "question": "Which sweat glands open into hair follicles in the armpits and groin?",
+      "options": [
+        "Eccrine glands",
+        "Apocrine glands",
+        "Sebaceous glands",
+        "Meibomian glands"
+      ],
+      "answerIndex": 1,
+      "explanation": "Apocrine glands are sweat glands that open into hair follicles in the armpits and groin, and they become active around puberty, unlike eccrine glands, which reach the surface through pores.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "integumentary-q5",
+      "systemId": "integumentary",
+      "question": "What do sebaceous glands release into hair follicles?",
+      "options": [
+        "Sweat",
+        "Keratin",
+        "Sebum",
+        "Melanin"
+      ],
+      "answerIndex": 2,
+      "explanation": "Sebaceous glands produce sebum, an oily mix of fats that coats the hair and skin, slowing water loss and keeping the surface flexible.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "integumentary-q6",
+      "systemId": "integumentary",
+      "question": "Why does humid air make heat feel worse?",
+      "options": [
+        "Sweat evaporates more slowly",
+        "Sweat evaporates faster",
+        "Blood vessels narrow",
+        "Sweat glands shut down"
+      ],
+      "answerIndex": 0,
+      "explanation": "Sweat cools you as it evaporates. Humid air already holds water vapor, so evaporation slows and heat stays on your skin.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "integumentary-q7",
+      "systemId": "integumentary",
+      "question": "What happens in holocrine secretion, the method used by sebaceous glands?",
+      "options": [
+        "Cells release oil through a duct",
+        "Cells divide to make more glands",
+        "Cells fill with oil and then break apart",
+        "Cells absorb oil from the follicle"
+      ],
+      "answerIndex": 2,
+      "explanation": "In holocrine secretion, the cell itself fills with product and then disintegrates, releasing its contents. Sebaceous glands work this way.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "integumentary-q8",
+      "systemId": "integumentary",
+      "question": "Which statement about subcutaneous fat is correct?",
+      "options": [
+        "It lies above the epidermis",
+        "It is the same as visceral fat",
+        "It cannot store energy",
+        "It lies beneath the dermis and stores triglycerides"
+      ],
+      "answerIndex": 3,
+      "explanation": "Subcutaneous fat lies just beneath the dermis, stores triglycerides for energy, and insulates the body. Visceral fat wraps the internal organs instead.",
+      "difficulty": "hard"
+    }
+  ]
+}

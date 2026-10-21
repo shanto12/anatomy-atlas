@@ -1,0 +1,661 @@
+{
+  "id": "endocrine",
+  "name": "Endocrine System",
+  "shortName": "Hormonal",
+  "tagline": "The body's quiet chemical conversation, gland to cell.",
+  "summary": "Your body runs on messages. Nerves send the fast ones, electrical and precise, but the endocrine system sends the slow ones: hormones released into the bloodstream, carried everywhere, heard only by cells that happen to have the right receptor. That is why a change can take minutes or hours, and why it can reach nearly every tissue at once.\n\nThe system is less a set of organs than a circuit of them. A pea-sized pituitary sits under the brain, the thyroid wraps the windpipe with the parathyroids tucked against its back, the adrenal glands cap the kidneys, and tiny hormone-making islands scatter through the pancreas. Each gland senses a key variable and adjusts its output in a feedback loop. When thyroid hormone rises, the pituitary eases off the signal that made it. The result is a body that holds its temperature, blood sugar, calcium, water, and sleep cycle within narrow, livable limits.\n\nHormones are also why growth, puberty, and the stress response unfold on schedule. They shape a child into an adult, then keep the adult steady. Nothing about this system is loud. It works in the background, quietly keeping the conditions of your life inside the range where cells can survive.",
+  "color": "#8a5a8f",
+  "stats": [
+    {
+      "value": "0.5 g",
+      "label": "weight of your pituitary gland"
+    },
+    {
+      "value": "~1 million",
+      "label": "hormone-making islets per pancreas"
+    },
+    {
+      "value": "4",
+      "label": "rice-grain parathyroid glands"
+    }
+  ],
+  "functions": [
+    "Releases hormones that travel in blood to distant target cells",
+    "Sets the pace of metabolism, heat production, and energy use",
+    "Holds blood sugar, calcium, water, and salt within narrow ranges",
+    "Drives growth, puberty, and the body's response to stress",
+    "Tunes sleep and wakefulness to the daily light-dark cycle",
+    "Adjusts hormone output through feedback loops that sense and correct"
+  ],
+  "organs": [
+    {
+      "id": "pituitary-gland",
+      "systemId": "endocrine",
+      "name": "Pituitary Gland",
+      "latin": "Hypophysis",
+      "alsoKnownAs": [
+        "The master gland"
+      ],
+      "region": "head-neck",
+      "tagline": "A pea-sized gland that issues orders to several other endocrine glands.",
+      "summary": "Your pituitary gland sits in a bony saddle called the sella turcica, at the base of the brain just behind the bridge of your nose. It is about the size of a pea, roughly 1 centimeter across and half a gram, and it hangs from the hypothalamus by a short stalk of nerve tissue and blood vessels. Two lobes share that small space: a glandular front lobe and a nerve-like back lobe.\n\nThe front lobe is a factory. It releases growth hormone, thyroid-stimulating hormone, adrenocorticotropic hormone, prolactin, and two hormones that direct the ovaries and testes. The back lobe is a warehouse: it stores oxytocin and vasopressin, both built in the hypothalamus, and releases them when nerves fire. Nearly every instruction is checked by feedback. When thyroid hormone climbs, the hypothalamus and pituitary dial their signals down; when it falls, they dial up. That loop keeps growth, metabolism, water balance, and reproduction on a steady course.",
+      "functions": [
+        {
+          "title": "Directs several glands",
+          "detail": "Its hormones tell the thyroid, adrenal cortex, and gonads how much hormone to make."
+        },
+        {
+          "title": "Controls growth",
+          "detail": "Growth hormone tells the liver to release insulin-like growth factor 1, which lengthens bones and builds muscle."
+        },
+        {
+          "title": "Balances water",
+          "detail": "Vasopressin signals the kidneys to reabsorb water, concentrating urine when you are short on fluid."
+        },
+        {
+          "title": "Triggers birth and bonding",
+          "detail": "Oxytocin drives uterine contractions during labor and the milk-ejection reflex when a baby nurses."
+        },
+        {
+          "title": "Supports milk production",
+          "detail": "Prolactin tells the breasts to make milk after birth and keeps production going while a baby nurses."
+        }
+      ],
+      "location": "At the base of the brain in the sella turcica, a bony pocket of the sphenoid bone, connected to the hypothalamus above by a thin stalk.",
+      "size": "About 1 cm (0.4 in) across and 0.5 g in adults, roughly the size and weight of a pea; it enlarges during pregnancy.",
+      "facts": [
+        "The pituitary is often called the master gland, but it takes orders from the hypothalamus, which sits directly above it.",
+        "Its back lobe makes no hormones of its own. It stores oxytocin and vasopressin, which are built by nerve cells in the hypothalamus.",
+        "The gland releases at least eight hormones while weighing about as much as a raisin."
+      ],
+      "conditions": [
+        {
+          "name": "Pituitary adenoma",
+          "description": "A benign growth in the gland can flood the body with one hormone or press on nearby tissue, sometimes narrowing peripheral vision."
+        },
+        {
+          "name": "Diabetes insipidus",
+          "description": "Too little vasopressin, or kidneys that ignore it, lets large amounts of dilute urine pass, leaving a person constantly thirsty."
+        },
+        {
+          "name": "Hypopituitarism",
+          "description": "One or more pituitary hormones fall short, which can slow growth, lower thyroid or adrenal output, and disrupt reproduction."
+        }
+      ],
+      "relatedOrgans": [
+        "hypothalamus",
+        "thyroid",
+        "adrenal-glands",
+        "brain"
+      ],
+      "keywords": [
+        "pituitary",
+        "hypophysis",
+        "master gland",
+        "growth hormone",
+        "vasopressin"
+      ],
+      "sources": [
+        {
+          "label": "MedlinePlus — Pituitary Disorders",
+          "url": "https://medlineplus.gov/pituitarydisorders.html"
+        },
+        {
+          "label": "Cleveland Clinic — Pituitary Gland",
+          "url": "https://my.clevelandclinic.org/health/body/21459-pituitary-gland"
+        }
+      ],
+      "heroStat": {
+        "value": "0.5 g",
+        "label": "weight of the gland"
+      }
+    },
+    {
+      "id": "thyroid",
+      "systemId": "endocrine",
+      "name": "Thyroid",
+      "latin": "Glandula thyroidea",
+      "alsoKnownAs": [
+        "The butterfly gland"
+      ],
+      "region": "head-neck",
+      "tagline": "A butterfly-shaped gland in your neck that sets the pace of your cells.",
+      "summary": "Your thyroid lies low in the front of your neck, just below the voice box, where two lobes wrap around the windpipe and meet in a bridge called the isthmus. It weighs about 25 grams, roughly five nickels, and it is the only endocrine gland that stores large amounts of hormone outside its cells. The tissue is packed with tiny spheres called follicles, each filled with a jelly-like substance called colloid.\n\nThose follicles build thyroid hormone from an amino acid and iodine, then hold weeks of supply in the colloid. When the pituitary sends thyroid-stimulating hormone, the gland releases T4 and T3 into the blood, and nearly every cell in the body carries receptors for them. The hormones set the rate at which cells burn fuel and generate heat. In a fetus or young child they are essential for brain development. Too much speeds the body up, too little slows it down, and a feedback loop between thyroid, pituitary, and hypothalamus keeps the level steady.",
+      "functions": [
+        {
+          "title": "Sets your metabolic rate",
+          "detail": "Thyroid hormone tells cells how quickly to burn fuel, which sets body heat and energy use."
+        },
+        {
+          "title": "Builds the growing brain",
+          "detail": "In fetuses and infants, thyroid hormone is required for normal brain and skeletal development."
+        },
+        {
+          "title": "Tunes heart and gut",
+          "detail": "It influences heart rate, digestion, and how quickly food moves through the intestines."
+        },
+        {
+          "title": "Keeps a hormone reserve",
+          "detail": "Colloid stores weeks of hormone, so the gland can keep releasing it even when iodine is scarce."
+        },
+        {
+          "title": "Makes calcitonin",
+          "detail": "Special C cells release calcitonin, which slightly lowers blood calcium by slowing its release from bone."
+        }
+      ],
+      "location": "In the front of the neck below the larynx, with one lobe on each side of the trachea and the isthmus crossing in front of it.",
+      "size": "About 5 cm (2 in) wide and 20 to 30 g in adults, close to the weight of five nickels.",
+      "facts": [
+        "The thyroid keeps a reserve of hormone in colloid that can last for weeks, enough to ride out a stretch of low iodine.",
+        "Every thyroid hormone molecule contains iodine, which is why an iodine-poor diet can make the gland swell into a goiter.",
+        "Its name comes from the Greek word for shield, though most people think the shape looks like a butterfly."
+      ],
+      "conditions": [
+        {
+          "name": "Hypothyroidism",
+          "description": "The gland makes too little hormone, so metabolism slows and a person may feel cold, tired, and foggy."
+        },
+        {
+          "name": "Hyperthyroidism",
+          "description": "The gland makes too much hormone, speeding up the heart, raising body temperature, and causing weight loss."
+        },
+        {
+          "name": "Goiter",
+          "description": "An enlarged thyroid can swell the neck, often because of iodine shortage or an autoimmune condition."
+        }
+      ],
+      "relatedOrgans": [
+        "pituitary-gland",
+        "parathyroid",
+        "larynx",
+        "trachea"
+      ],
+      "keywords": [
+        "thyroid",
+        "metabolism",
+        "t4",
+        "iodine",
+        "goiter"
+      ],
+      "sources": [
+        {
+          "label": "MedlinePlus — Thyroid Diseases",
+          "url": "https://medlineplus.gov/thyroiddiseases.html"
+        },
+        {
+          "label": "Yale Medicine — Thyroid Disease",
+          "url": "https://www.yalemedicine.org/conditions/thyroid-disease"
+        }
+      ],
+      "heroStat": {
+        "value": "25 g",
+        "label": "weight in adults"
+      }
+    },
+    {
+      "id": "parathyroid",
+      "systemId": "endocrine",
+      "name": "Parathyroid Glands",
+      "latin": "Glandulae parathyroideae",
+      "alsoKnownAs": [
+        "The calcium thermostats"
+      ],
+      "region": "head-neck",
+      "tagline": "Four rice-grain glands that guard the calcium in your blood.",
+      "summary": "Most people have four parathyroid glands, each about the size of a grain of rice, tucked against the back surface of the thyroid in the lower neck. Two usually sit behind each lobe, though the number and position vary: some people have three, some have five or more, and an extra gland can hide lower in the chest near the thymus. Together the set weighs less than a paper clip.\n\nThese glands are the body's calcium thermostats. Chief cells carry a receptor that feels the level of calcium in the blood. When it drops, they release parathyroid hormone, which tells bone to release a little calcium, tells the kidneys to hold onto calcium and dump phosphate, and switches on vitamin D so the gut can absorb more calcium from food. When calcium rises, the hormone falls. That loop matters because calcium is the signal that lets nerves fire and muscles contract. Drift too far in either direction and the whole body feels it.",
+      "functions": [
+        {
+          "title": "Raises blood calcium",
+          "detail": "Parathyroid hormone pulls calcium from bone, saves it in the kidney, and boosts absorption from food."
+        },
+        {
+          "title": "Activates vitamin D",
+          "detail": "It tells the kidney to convert vitamin D into calcitriol, the form that lets the gut absorb calcium."
+        },
+        {
+          "title": "Clears phosphate",
+          "detail": "The same hormone makes the kidneys excrete phosphate, keeping calcium and phosphate from binding in tissue."
+        },
+        {
+          "title": "Protects nerve and muscle",
+          "detail": "By holding calcium steady, the glands keep nerve signals and muscle contractions from becoming erratic."
+        }
+      ],
+      "location": "On the back surface of the thyroid gland in the lower neck, usually two small glands behind each lobe.",
+      "size": "Each roughly 3 to 6 mm long and 25 to 40 mg, about the size and weight of a grain of rice.",
+      "facts": [
+        "The name describes location, not family: parathyroid glands sit near the thyroid but do a completely different job.",
+        "The usual count is four, but studies find anywhere from three to eight, and some sit in the chest near the thymus.",
+        "A Swedish medical student, Ivar Sandström, first described the glands in 1880, long after the thyroid was well known."
+      ],
+      "conditions": [
+        {
+          "name": "Hyperparathyroidism",
+          "description": "One or more glands overproduce hormone, pulling calcium from bone and leaving too much in the blood."
+        },
+        {
+          "name": "Hypoparathyroidism",
+          "description": "Too little hormone drops blood calcium, which can cause tingling, cramps, and muscle spasms."
+        }
+      ],
+      "relatedOrgans": [
+        "thyroid",
+        "kidneys",
+        "femur"
+      ],
+      "keywords": [
+        "parathyroid",
+        "calcium",
+        "pth",
+        "vitamin d",
+        "bone"
+      ],
+      "sources": [
+        {
+          "label": "MedlinePlus — Parathyroid Disorders",
+          "url": "https://medlineplus.gov/parathyroiddisorders.html"
+        },
+        {
+          "label": "NIDDK — Primary Hyperparathyroidism",
+          "url": "https://www.niddk.nih.gov/health-information/endocrine-diseases/primary-hyperparathyroidism"
+        }
+      ],
+      "heroStat": {
+        "value": "4",
+        "label": "rice-grain glands"
+      }
+    },
+    {
+      "id": "adrenal-glands",
+      "systemId": "endocrine",
+      "name": "Adrenal Glands",
+      "latin": "Glandulae suprarenales",
+      "alsoKnownAs": [
+        "The stress glands"
+      ],
+      "region": "abdomen",
+      "tagline": "Two small caps on your kidneys that run your stress response.",
+      "summary": "Each kidney wears an adrenal gland like a cap. The right one is shaped like a pyramid, the left more like a crescent, and both sit high in the abdomen behind the lining that holds your organs in place. Each is about 4 to 5 centimeters long and weighs 4 to 6 grams, roughly a nickel. Cut one open and you find two layers: a yellowish outer cortex and a gray inner medulla, built from different tissues and acting almost like two glands in one shell.\n\nThe cortex is a chemical assembly line. Its outer zone makes aldosterone, which tells the kidneys to keep sodium and release potassium, helping set blood pressure. The middle zone makes cortisol, which raises blood sugar, quiets inflammation, and helps you weather stress. The inner zone makes weak androgens. The medulla, meanwhile, is a knot of modified nerve cells that dump epinephrine and norepinephrine into the blood within seconds of a fright, speeding the heart and opening the airways.",
+      "functions": [
+        {
+          "title": "Makes cortisol",
+          "detail": "Cortisol raises blood glucose, dampens inflammation, and helps the body cope with sustained stress."
+        },
+        {
+          "title": "Holds salt and water",
+          "detail": "Aldosterone tells the kidneys to keep sodium and shed potassium, which helps set blood volume and pressure."
+        },
+        {
+          "title": "Fires adrenaline",
+          "detail": "The medulla releases epinephrine within seconds, speeding the heart and opening airways for action."
+        },
+        {
+          "title": "Adds sex hormones",
+          "detail": "The inner cortex makes weak androgens that contribute to body hair and other secondary traits."
+        }
+      ],
+      "location": "Perched on top of each kidney, high in the back of the abdomen and behind the peritoneal lining.",
+      "size": "Each about 4 to 5 cm (1.5 to 2 in) long and 4 to 6 g, close to the weight of a nickel.",
+      "facts": [
+        "The medulla is really a cluster of modified nerve cells, which is why adrenaline reaches the blood in seconds rather than minutes.",
+        "Cortex and medulla come from different embryonic tissues: one from mesoderm, the other from the neural crest.",
+        "Cortisol rises before you wake, peaks in the morning, and falls to its lowest around midnight."
+      ],
+      "conditions": [
+        {
+          "name": "Addison's disease",
+          "description": "The cortex makes too little cortisol and aldosterone, causing fatigue, low blood pressure, and salt cravings."
+        },
+        {
+          "name": "Cushing's syndrome",
+          "description": "Too much cortisol over time changes fat distribution, thins the skin, and raises blood sugar and pressure."
+        },
+        {
+          "name": "Pheochromocytoma",
+          "description": "A rare tumor of the medulla releases surges of adrenaline, causing episodes of racing heart and high blood pressure."
+        }
+      ],
+      "relatedOrgans": [
+        "kidneys",
+        "pituitary-gland",
+        "hypothalamus"
+      ],
+      "keywords": [
+        "adrenal",
+        "cortisol",
+        "adrenaline",
+        "aldosterone",
+        "stress"
+      ],
+      "sources": [
+        {
+          "label": "MedlinePlus — Adrenal Gland Disorders",
+          "url": "https://medlineplus.gov/adrenalglanddisorders.html"
+        },
+        {
+          "label": "NIDDK — Adrenal Insufficiency and Addison's Disease",
+          "url": "https://www.niddk.nih.gov/health-information/endocrine-diseases/adrenal-insufficiency-addisons-disease"
+        }
+      ],
+      "heroStat": {
+        "value": "2",
+        "label": "glands, one per kidney"
+      }
+    },
+    {
+      "id": "pineal-gland",
+      "systemId": "endocrine",
+      "name": "Pineal Gland",
+      "latin": "Glandula pinealis",
+      "alsoKnownAs": [
+        "The body clock's keeper"
+      ],
+      "region": "head-neck",
+      "tagline": "A tiny pine cone deep in your brain that counts the dark.",
+      "summary": "The pineal gland sits almost exactly in the middle of your brain, attached to the roof of the third ventricle and tucked beneath the back of the corpus callosum. It looks like a tiny pine cone, which is where its name comes from, and it measures only about 5 to 8 millimeters and weighs a fraction of a gram. Unlike most brain structures, it has no blood-brain barrier, so it samples molecules circulating in the blood almost directly.\n\nIts main cells, pinealocytes, never see light themselves. They receive signals from the eyes by way of the hypothalamus and the sympathetic nervous system, and at night they convert serotonin into melatonin. Melatonin does not make you sleep; it tells the body that darkness has arrived, helping set the timing of sleep, body temperature, and hormone release. Light at night suppresses it. In many animals the gland also measures day length and times seasonal breeding, a reminder that this small organ once tracked the sun.",
+      "functions": [
+        {
+          "title": "Makes melatonin",
+          "detail": "Pinealocytes convert serotonin into melatonin, releasing most of it during the dark hours."
+        },
+        {
+          "title": "Times your sleep",
+          "detail": "Melatonin signals the biological night, helping align sleep and wakefulness with the light cycle."
+        },
+        {
+          "title": "Sets the body clock",
+          "detail": "Melatonin feeds back to the hypothalamus, helping align daily rhythms across the body."
+        },
+        {
+          "title": "Tracks seasons",
+          "detail": "In many animals, pineal melatonin measures day length and times breeding and other seasonal changes."
+        }
+      ],
+      "location": "Deep in the midline of the brain, attached to the roof of the third ventricle, behind the thalamus and beneath the corpus callosum.",
+      "size": "About 5 to 8 mm (0.2 to 0.3 in) long and roughly 0.1 g, the size of a grain of rice.",
+      "facts": [
+        "In the tuatara and some lizards, the pineal sits beneath a thin patch of skull and works as a light-sensing third eye.",
+        "The gland often gathers tiny calcium deposits called pineal sand, which mark the midline on brain scans.",
+        "Melatonin is built from serotonin in two chemical steps, linking the sleep signal to the same molecule that helps regulate mood."
+      ],
+      "conditions": [
+        {
+          "name": "Pineal cyst",
+          "description": "A small fluid-filled pocket in the gland is common and usually silent, often discovered during a brain scan."
+        },
+        {
+          "name": "Circadian rhythm sleep-wake disorder",
+          "description": "The internal clock falls out of step with the light-dark cycle, so sleep and alertness arrive at the wrong times."
+        }
+      ],
+      "relatedOrgans": [
+        "hypothalamus",
+        "retina",
+        "brain"
+      ],
+      "keywords": [
+        "pineal",
+        "melatonin",
+        "circadian",
+        "sleep",
+        "body clock"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Pineal Gland",
+          "url": "https://my.clevelandclinic.org/health/body/23334-pineal-gland"
+        },
+        {
+          "label": "MedlinePlus — Hormones",
+          "url": "https://medlineplus.gov/hormones.html"
+        }
+      ],
+      "heroStat": {
+        "value": "0.1 g",
+        "label": "weight of the gland"
+      }
+    },
+    {
+      "id": "pancreatic-islets",
+      "systemId": "endocrine",
+      "name": "Pancreatic Islets",
+      "latin": "Insulae pancreaticae",
+      "alsoKnownAs": [
+        "Islets of Langerhans"
+      ],
+      "region": "abdomen",
+      "tagline": "A million microscopic islands that decide what your blood sugar does.",
+      "summary": "Scattered through the pancreas, a soft organ tucked behind your stomach, are roughly a million tiny clusters called pancreatic islets. Each is only 0.1 to 0.3 millimeters across, far too small to see without a microscope, and together they make up just 1 to 2 percent of the pancreas. The rest of the organ belongs to digestion, sending enzymes into the small intestine. The islets are the endocrine minority: small islands of hormone cells in a sea of digestive tissue.\n\nEach islet is a miniature conference of cells. Beta cells, the majority, sense glucose and release insulin, which tells muscle and fat to take up sugar and tells the liver to stop making it. Alpha cells release glucagon when glucose falls, prompting the liver to release stored glycogen. Delta cells add somatostatin, which tempers both. The islets are threaded with capillaries, so their hormones reach the liver first, where insulin's message lands hardest. When beta cells are destroyed, or the body ignores insulin, glucose stays in the blood.",
+      "functions": [
+        {
+          "title": "Lowers blood glucose",
+          "detail": "Beta cells release insulin, which moves glucose into muscle and fat and slows the liver's output."
+        },
+        {
+          "title": "Raises blood glucose",
+          "detail": "Alpha cells release glucagon when sugar dips, prompting the liver to release stored glucose."
+        },
+        {
+          "title": "Balances the two",
+          "detail": "Delta cells release somatostatin, which dampens insulin and glucagon so the islet does not overcorrect."
+        },
+        {
+          "title": "Senses glucose constantly",
+          "detail": "Islet cells read glucose in the blood that passes through them and adjust output minute by minute."
+        }
+      ],
+      "location": "Scattered throughout the pancreas, which lies behind the stomach and in front of the spine.",
+      "size": "Each islet about 0.1 to 0.3 mm across; together they form only 1 to 2 percent of the pancreas.",
+      "facts": [
+        "Islets make up only 1 to 2 percent of the pancreas, yet they help set the fuel supply for the whole body.",
+        "Beta cells release insulin in two waves: a fast burst within minutes of a meal, then a slower, longer release.",
+        "Insulin released by the islets drains first to the liver, so the liver hears the signal before the rest of the body."
+      ],
+      "conditions": [
+        {
+          "name": "Type 1 diabetes",
+          "description": "The immune system destroys beta cells, so the body makes little or no insulin and glucose builds in the blood."
+        },
+        {
+          "name": "Type 2 diabetes",
+          "description": "Cells respond poorly to insulin and beta cells cannot keep up, leaving glucose high over time."
+        }
+      ],
+      "relatedOrgans": [
+        "pancreas",
+        "liver",
+        "stomach"
+      ],
+      "keywords": [
+        "islets",
+        "insulin",
+        "glucagon",
+        "blood sugar",
+        "langerhans"
+      ],
+      "sources": [
+        {
+          "label": "MedlinePlus — Pancreatic Diseases",
+          "url": "https://medlineplus.gov/pancreaticdiseases.html"
+        },
+        {
+          "label": "NIDDK — What Is Diabetes?",
+          "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes"
+        }
+      ],
+      "heroStat": {
+        "value": "~1 million",
+        "label": "islets per pancreas"
+      }
+    }
+  ],
+  "lesson": {
+    "id": "lesson-endocrine",
+    "title": "Slow signals, steady body",
+    "subtitle": "Meet the glands that keep your blood, your sleep, and your stress in balance.",
+    "durationMin": 9,
+    "level": "beginner",
+    "steps": [
+      {
+        "title": "A quiet kind of signal",
+        "body": "Put your hand on your throat and swallow. Something small and soft rides up, then settles back. That is your thyroid, and it has been working since before you were born, releasing hormone at a rate your cells depend on. You never feel it happen. The endocrine system is the body's slow conversation: no wires, no spark, just molecules released into the blood and read by cells that know how to listen. Speed is not the point. Reach is. In the next few minutes we will visit six organs, from a pea under your brain to islands inside your pancreas, and see how each one holds a different number steady.",
+        "keyPoint": "Hormones are slow by design, which lets one signal reach the whole body at once."
+      },
+      {
+        "title": "The pea-sized boss",
+        "body": "Behind the bridge of your nose, in a bony saddle, sits a gland the size of a pea. It is the pituitary, and it directs the thyroid, the adrenal cortex, and the gonads. But do not call it the boss just yet. A short stalk connects it to the hypothalamus, which sits above it like a manager watching a dashboard, sending releasing hormones down that stalk. The pituitary answers by adjusting its own output. It also stores two hormones made in the hypothalamus, oxytocin and vasopressin, and releases them on cue. That arrangement is the pattern for the whole system: a sensor, a signal, and a response that feeds back.",
+        "organId": "pituitary-gland",
+        "keyPoint": "The pituitary directs other glands, but the hypothalamus directs the pituitary."
+      },
+      {
+        "title": "A thermostat for cells",
+        "body": "Find the base of your throat and imagine two wings wrapping your windpipe: that is your thyroid. It builds hormone from iodine and an amino acid, stores weeks of it in a jelly called colloid, and releases it when the pituitary asks. The hormone sets how fast your cells burn fuel. Too little, and everything slows, including your thoughts. Too much, and your heart races while your body runs hot. The feedback is elegant: rising thyroid hormone tells the pituitary to stop shouting, so production falls. Your thyroid is not adjusting to one thing; it is holding a number, the way a thermostat holds a room at 20 degrees Celsius.",
+        "organId": "thyroid",
+        "keyPoint": "The thyroid holds your metabolic rate steady through negative feedback."
+      },
+      {
+        "title": "Four grains of calcium sense",
+        "body": "On the back of that same thyroid sit four glands the size of rice grains. They look like afterthoughts, but they guard the calcium in your blood with startling precision. Calcium is the spark that lets nerves fire and muscles contract, and the body keeps it within a narrow band. When calcium dips, chief cells release parathyroid hormone, which borrows calcium from bone, saves it in the kidney, and activates vitamin D so the gut can absorb more. When calcium rises, the hormone falls. Bone is not just scaffolding here; it is a calcium bank, and these four grains hold the key.",
+        "organId": "parathyroid",
+        "keyPoint": "Calcium is a signal, not just a building material, and these glands protect it."
+      },
+      {
+        "title": "A cap on each kidney",
+        "body": "Each kidney wears a small cap called an adrenal gland, and each cap is really two glands stacked together. The outer cortex makes cortisol, which raises blood sugar and helps you endure stress, and aldosterone, which tells the kidneys to keep sodium. The inner medulla is a knot of modified nerve cells that releases adrenaline in seconds, speeding your heart and opening your airways. That split explains a strange feeling: a near miss can leave you shaking long after the danger passes. The fast layer has already fired; the slow layer keeps working for hours. Two timescales, one small gland.",
+        "organId": "adrenal-glands",
+        "keyPoint": "Your adrenal glands run on two clocks: seconds for adrenaline, minutes for cortisol."
+      },
+      {
+        "title": "The clock in the dark",
+        "body": "Almost in the center of your brain sits a tiny cone-shaped gland, about the size of a grain of rice. It receives signals from your eyes through the hypothalamus and the sympathetic nerves, and at night it turns serotonin into melatonin. Melatonin does not knock you out; it announces that darkness has arrived, tuning the timing of sleep, temperature, and hormone release. Bright light at night quiets it. In the tuatara, a reptile from New Zealand, and in some lizards, the same organ sits under a thin patch of skull and senses light directly, a hint that this small gland once did something more like seeing than signaling. Yours keeps time instead.",
+        "organId": "pineal-gland",
+        "keyPoint": "Melatonin is a timing signal, not a sedative."
+      },
+      {
+        "title": "Islands inside the pancreas",
+        "body": "Your pancreas mostly makes digestive enzymes, but scattered through it are a million tiny clusters called islets. Each is a few tenths of a millimeter wide and packed with beta cells that sense glucose and release insulin. Insulin is a storage order: muscle and fat take sugar in, and the liver stops releasing its own. Alpha cells do the reverse, releasing glucagon when glucose falls. The islets drain into capillaries that feed the portal vein, so the liver hears the message first. When beta cells fail or are destroyed, sugar stays in the blood. That is the core of diabetes, and it begins in islands too small to see.",
+        "organId": "pancreatic-islets",
+        "keyPoint": "Insulin and glucagon are opposites that keep your blood sugar in a narrow lane."
+      },
+      {
+        "title": "A body held steady",
+        "body": "Six organs, one strategy. Each measures something, releases a hormone when the measurement drifts, and stands down when it returns. The pituitary reads signals from the hypothalamus and the level of thyroid hormone. The parathyroids read calcium, the adrenals respond to stress signals and salt balance, the pineal reads the light-dark cycle, and the islets read glucose. None of them works alone; each is a loop. That is why endocrine problems can feel whole-body: a single number left too high or too low ripples through sleep, mood, weight, and energy. Next, explore the kidneys to see how aldosterone and vasopressin change what your body keeps and what it lets go.",
+        "keyPoint": "Every endocrine gland is part of a loop, which is why one fault can echo everywhere."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": "endocrine-q1",
+      "systemId": "endocrine",
+      "question": "Which gland is often called the master gland because it directs several other endocrine glands?",
+      "options": [
+        "Thyroid",
+        "Pituitary gland",
+        "Pineal gland",
+        "Adrenal gland"
+      ],
+      "answerIndex": 1,
+      "explanation": "The pituitary sits at the base of the brain and releases hormones that tell the thyroid, adrenal cortex, and gonads how much hormone to produce.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "endocrine-q2",
+      "systemId": "endocrine",
+      "question": "Which hormone lowers blood glucose by helping cells take it in?",
+      "options": [
+        "Glucagon",
+        "Cortisol",
+        "Insulin",
+        "Thyroxine"
+      ],
+      "answerIndex": 2,
+      "explanation": "Insulin is released by beta cells in the pancreatic islets. It signals muscle and fat to absorb glucose and tells the liver to stop releasing its own.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "endocrine-q3",
+      "systemId": "endocrine",
+      "question": "Where are the adrenal glands located?",
+      "options": [
+        "On top of the kidneys",
+        "On the back of the thyroid",
+        "At the base of the brain",
+        "Behind the stomach"
+      ],
+      "answerIndex": 0,
+      "explanation": "Each kidney wears an adrenal gland like a cap. The right gland is pyramid-shaped and the left is more crescent-shaped, both high in the abdomen.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "endocrine-q4",
+      "systemId": "endocrine",
+      "question": "Which action does parathyroid hormone perform?",
+      "options": [
+        "Signals the kidneys to keep calcium",
+        "Lowers blood calcium by storing it in bone",
+        "Blocks the activation of vitamin D",
+        "Increases phosphate retention in the kidneys"
+      ],
+      "answerIndex": 0,
+      "explanation": "Parathyroid hormone tells the kidneys to reabsorb calcium, prompts bone to release a little, and activates vitamin D so the gut absorbs more.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "endocrine-q5",
+      "systemId": "endocrine",
+      "question": "The adrenal medulla can release adrenaline within seconds because it is made of what?",
+      "options": [
+        "Thyroid follicles",
+        "Pinealocytes",
+        "Pancreatic beta cells",
+        "Modified nerve cells"
+      ],
+      "answerIndex": 3,
+      "explanation": "The medulla develops from neural crest tissue and acts like a bundle of sympathetic nerve cells that pours epinephrine into the blood.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "endocrine-q6",
+      "systemId": "endocrine",
+      "question": "Pineal melatonin release is mainly triggered by which condition?",
+      "options": [
+        "Bright light",
+        "Darkness",
+        "High blood calcium",
+        "A rise in cortisol"
+      ],
+      "answerIndex": 1,
+      "explanation": "The pineal converts serotonin to melatonin mostly at night. Light reaching the eyes suppresses the signal, which helps align sleep with the day.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "endocrine-q7",
+      "systemId": "endocrine",
+      "question": "If thyroid hormone levels rise, what happens to thyroid-stimulating hormone from the pituitary?",
+      "options": [
+        "It rises",
+        "It stays exactly the same",
+        "It falls",
+        "It is converted into T3"
+      ],
+      "answerIndex": 2,
+      "explanation": "This is negative feedback. High thyroid hormone tells the hypothalamus and pituitary to reduce thyroid-stimulating hormone, so the thyroid slows its output.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "endocrine-q8",
+      "systemId": "endocrine",
+      "question": "Why does insulin reach the liver before most of the rest of the body?",
+      "options": [
+        "The liver makes its own insulin",
+        "Insulin travels only through lymph",
+        "The liver stores insulin in bile",
+        "Islet capillaries drain into the portal vein"
+      ],
+      "answerIndex": 3,
+      "explanation": "Blood from the pancreatic islets drains into the portal vein, so insulin arrives at the liver first and can switch off glucose production there.",
+      "difficulty": "hard"
+    }
+  ]
+}

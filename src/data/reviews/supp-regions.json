@@ -1,0 +1,62 @@
+{
+  "key": "regions",
+  "reviewedAt": "2026-10-21T16:11:00-05:00",
+  "checks": [
+    {
+      "name": "JSON validity, schema and counts",
+      "passed": true,
+      "notes": "Valid JSON array of 7 regions. Each item has exactly the five brief keys in order (id, name, tagline, description, landmarks); all values are strings or arrays of strings; landmark counts are 5-6."
+    },
+    {
+      "name": "Description length and formatting",
+      "passed": true,
+      "notes": "Descriptions run 126-147 words, within the 100-150 range. Two-space indentation, UTF-8, trailing newline. No markdown, HTML, emoji, bullets, double spaces or trailing spaces."
+    },
+    {
+      "name": "Region IDs and names match src/lib/types.ts",
+      "passed": true,
+      "notes": "All seven BodyRegion IDs appear once, in canonical order: head-neck, thorax, abdomen, pelvis, upper-limb, lower-limb, whole-body. Names match BODY_REGIONS exactly, including 'Chest & Thorax'."
+    },
+    {
+      "name": "Landmark accuracy and overlap",
+      "passed": true,
+      "notes": "No duplicate landmark within a region. The only cross-region repeat is Heart in thorax and whole-body, which is intentional because whole-body is an aggregate view; no incorrect overlap. Each listed structure belongs to its region."
+    },
+    {
+      "name": "Factual spot-check (8 claims)",
+      "passed": true,
+      "notes": "Verified against Britannica, MedlinePlus, NIDDK and Cleveland Clinic: mandible is the only freely movable skull bone; 12 pairs of cranial nerves; the pharynx carries food and air while the larynx is airway-only; 27 bones in the wrist and hand; femur is the longest and strongest bone; fibula is non-weight-bearing and supports the ankle; heart sits slightly left of center; the pelvic ring is two hip bones plus the sacrum, with the coccyx outside the ring. Several inaccuracies and vague phrases were corrected."
+    },
+    {
+      "name": "Medical advice and editorial policy",
+      "passed": true,
+      "notes": "No instructions, diagnoses, dosages, treatments or calls to seek care. No markdown or emoji. US English and the warm second-person voice are retained."
+    },
+    {
+      "name": "Scope discipline",
+      "passed": true,
+      "notes": "Only regions.json was edited; this review report is new. Glossary, facts, history and system files were left untouched."
+    }
+  ],
+  "changes": [
+    "head-neck: changed 'only freely movable bone in the head' to 'of the skull', the standard claim that excludes neck structures such as the hyoid.",
+    "head-neck: corrected the claim that the pharynx and larynx share the food-and-air route; the pharynx carries both, while the larynx guards the airway and food passes to the esophagus.",
+    "head-neck: replaced 'the thyroid gland and major vessels sit close to the surface' with 'sit in a tight space', since the large neck vessels are not all superficial.",
+    "thorax: rewrote 'The sternum and ribs curve around to meet the thoracic spine' as 'The ribs curve from the thoracic spine around to the sternum'; the sternum is anterior and does not meet the spine.",
+    "thorax: changed 'The diaphragm seals the bottom' to 'forms the floor' for anatomical precision.",
+    "thorax: softened 'the body's most protected space' to 'one of the body's most protected spaces', since the brain is comparably protected.",
+    "abdomen: noted that the kidneys sit behind the peritoneum, correcting the implication that all the listed organs are intraperitoneal.",
+    "pelvis: corrected the ring description: the two hip bones and the sacrum form it, and the coccyx hangs below rather than closing the ring.",
+    "pelvis: changed 'in some bodies' to 'in some people' for plain, respectful wording; no factual change.",
+    "upper-limb: fixed the number disagreement in 'the clavicle and scapula, which floats' and clarified that the clavicle braces the shoulder while the scapula glides over the ribcage.",
+    "lower-limb: replaced 'dozens of bones' in the foot arch with 'a springy lattice of bones', since one foot has 26 bones, not dozens.",
+    "lower-limb: made 'the gluteals drive your hips' precise as 'the gluteal muscles extend your hip'.",
+    "whole-body: changed 'Skin wraps the whole surface' to 'outer surface' for accuracy about the body's external covering."
+  ],
+  "remainingConcerns": [
+    "Heart is intentionally a landmark in both thorax and whole-body; a strict global uniqueness rule would flag this even though whole-body is an aggregate region.",
+    "Fact-checking was a targeted spot check of eight claims; the remaining prose is standard anatomy but was not individually source-verified clause by clause.",
+    "A few qualitative superlatives remain for editorial voice (for example 'busiest workshop' and 'most mechanically interesting'); they are not quantitative claims.",
+    "The brief's glossary, facts and history checks apply to other files and were outside this regions-only review."
+  ]
+}

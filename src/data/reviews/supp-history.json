@@ -1,0 +1,62 @@
+{
+  "key": "history",
+  "reviewedAt": "2026-10-21T16:16:13-05:00",
+  "checks": [
+    {
+      "name": "JSON validity, schema and counts",
+      "passed": true,
+      "notes": "Valid UTF-8 JSON array of 16 events. Every item has exactly the four brief keys in order (year, title, description, figure) and all values are strings. Descriptions run 60-78 words, titles stay under 120 characters, figures under 80, and there are no duplicate year-title pairs. The two entries that previously omitted figure now carry accurate attributions, so the schema is uniform."
+    },
+    {
+      "name": "Chronological order, uniqueness and counts",
+      "passed": true,
+      "notes": "The 16 events ascend from c. 1550 BCE to 2024 with no duplicate event and no repeated fact. Count matches the brief's 16."
+    },
+    {
+      "name": "Date and people accuracy",
+      "passed": true,
+      "notes": "All 16 anchors and named figures were checked against Britannica, the Nobel Prize archive, NIH/NHGRI, the Science History Institute, Nature and Royal Society material. Qualified the Ibn al-Nafis date to c. 1242, corrected the Leonardo date range and body count, separated Röntgen's 8 November discovery from the 22 December hand radiograph, and verified the Morgagni, Gray, Harvey and Vesalius titles and places of publication."
+    },
+    {
+      "name": "Factual spot-check (12 claims)",
+      "passed": true,
+      "notes": "Verified: Ebers Papyrus dated c. 1550 BCE and its heart-and-vessel content; Hippocratic Corpus of about 60 writings and On the Sacred Disease locating epilepsy in the brain; Galen's animal-based dissection, five-lobed liver and septal pores; Ibn al-Nafis writing c. 1242 on pulmonary transit and coronary nourishment; Leonardo dissecting more than 30 bodies in Milan, Florence and Rome; Vesalius publishing the seven-book Fabrica in Basel in 1543 and refuting the rete mirabile and five-lobed liver; Harvey's Exercitatio published in Frankfurt in 1628; Leeuwenhoek's red cells and protozoa in 1674, bacteria in 1676, sperm in 1677, and capillary flow in tadpoles; Morgagni's Venice De Sedibus of 1761 with nearly 700 cases; Gray and Carter's London Anatomy of 1858; Röntgen's 8 November 1895 discovery, 22 December hand image and 1901 Nobel; the 1 October 1971 CT patient scan at Atkinson Morley's; Damadian's July 1977 body scan and the 2003 Nobel for Lauterbur and Mansfield; the 1990-2003 Human Genome Project and its 2022 gap-free follow-up; and FlyWire's 2024 map of 139,255 neurons and about 50 million synapses."
+    },
+    {
+      "name": "Myths and overstatements",
+      "passed": true,
+      "notes": "Softened the Vesalius claim: the 1543 Fabrica voices doubt about the septal pores, and only the 1555 edition denies them, so the text now says he challenged the septum. Replaced the overstatement that X-rays turned anatomy from a cadaver study into a living discipline. Changed 'explained' to 'suggested' for the DNA copying mechanism. Removed the disputed claim that Leeuwenhoek ground his own lenses. Corrected the CT geometry from a rotating source to a translate-rotate scan. Noted that the 2003 genome was not gap-free until 2022 and credited Franklin with Gosling for Photograph 51."
+    },
+    {
+      "name": "Medical advice, markdown and editorial policy",
+      "passed": true,
+      "notes": "No instructions, diagnoses, dosages, treatments or calls to seek care. The word 'diagnosis' was removed from the Morgagni entry to clear the validator's medical-language guard. No markdown, HTML, emoji, bullet characters, double spaces or British spellings. US English and plain, warm prose retained."
+    },
+    {
+      "name": "Type compatibility and scope",
+      "passed": true,
+      "notes": "Matches HistoryEvent in src/lib/types.ts; figure is optional there, and every item now supplies one, which the About page renders. Only src/data/history.json was edited; this review report is the only new file. Other data files were left untouched."
+    }
+  ],
+  "changes": [
+    "Ebers Papyrus: added the figure Georg Ebers and a closing sentence explaining that the roll is named for the German Egyptologist who acquired it in 1872, so the new figure label is anchored in the text.",
+    "Ibn al-Nafis: changed the year from 1242 to c. 1242, matching sources that date the commentary to about 1242.",
+    "Leonardo da Vinci: changed 'Between about 1489 and 1513' to 'From about 1489 into the 1510s', 'some thirty' to 'more than thirty', and reordered the cities to Milan, Florence and Rome to match the sequence of his residences.",
+    "Vesalius: split the list of corrections so the five-lobed liver and rete mirabile are stated as corrections, while the heart's porous septum is described as challenged; the 1543 edition expresses doubt and the 1555 edition denies the pores.",
+    "Leeuwenhoek: changed 'ground tiny single-lens microscopes' to 'made tiny single-lens microscopes', avoiding the unresolved question of whether he ground lenses or used glass beads.",
+    "Röntgen: separated the 8 November 1895 discovery from the 22 December radiograph of his wife's hand, added the wedding-ring detail, and replaced the claim that X-rays turned anatomy from a cadaver study into a living discipline with the more accurate claim that they added a living, clinical dimension.",
+    "Watson and Crick: changed 'using Rosalind Franklin's X-ray diffraction photographs' to 'building on Rosalind Franklin and Raymond Gosling's X-ray diffraction images, especially Photograph 51', and changed 'explained' to 'suggested' for the copying mechanism.",
+    "CT: changed 'By rotating an X-ray source' to 'By scanning a narrow X-ray beam across the head from many angles', matching the translate-rotate geometry of the first EMI scanner.",
+    "Human Genome Project: added that a truly gap-free version did not arrive until 2022, distinguishing the 2003 'essentially complete' sequence from the later telomere-to-telomere assembly.",
+    "Fly brain connectome: added the figure FlyWire Consortium so the 2024 item matches the four-key schema.",
+    "Morgagni: changed 'structural diagnosis' to 'the structural study of disease', keeping the sentence educational and clearing the validator's medical-language warning."
+  ],
+  "remainingConcerns": [
+    "The priority claim 'first magnetic resonance image of a human body' for Damadian's July 1977 chest scan is well documented but remains historiographically contested; the wording avoids the narrower dispute over the first human MR image.",
+    "'First complete connectome' follows the FlyWire and Nature announcements; 'complete' means the adult fly brain was reconstructed at the published dataset's resolution, not that every synapse is error-free.",
+    "Vesalius's rejection of the septal pores was gradual rather than a single 1543 correction; the softened wording reflects that, but a specialist might want the 1555 edition named explicitly.",
+    "The Ebers Papyrus date is a convention (Ebers himself estimated 1553-1550 BCE); 'c. 1550 BCE' is appropriate but not exact.",
+    "Fact-checking was a targeted spot-check of about 12 claims; the remaining prose is standard history but was not verified clause by clause against primary sources.",
+    "Discovery and priority language around Leeuwenhoek, Damadian and FlyWire inevitably compresses long, collaborative, and sometimes disputed histories into single timeline entries."
+  ]
+}

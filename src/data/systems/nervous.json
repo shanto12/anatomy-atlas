@@ -3,19 +3,28 @@
   "name": "Nervous System",
   "shortName": "Nervous",
   "tagline": "The body's electrical network, from a thought to a fingertip.",
-  "summary": "Your nervous system is the body's electrical conversation with itself. It begins with the brain, a wrinkled organ that weighs about 1.4 kilograms and holds roughly 86 billion neurons, and it continues through the spinal cord, a thumb-thick cable that runs down your back. Together they form the central nervous system, the command center that reads the world, decides what matters, and issues orders.\n\nBranching from that center is the peripheral nervous system, forty-three pairs of nerves that reach every fingertip, organ, and toe. Some carry sensation inward; others carry movement commands outward. A separate autonomic branch runs the machinery you never think about, adjusting heart rate, digestion, and sweat. The whole network speaks in electrical pulses and chemical messages, and it can move a signal from your spine to your foot in a fraction of a second.\n\nThe nervous system also makes you, you. It stores memories, assigns emotion to events, and shapes how you respond to danger and to other people. It is protected by bone, by three membranes called the meninges, and by a cushion of cerebrospinal fluid. Nothing about it is static: every skill you practice and every experience you repeat physically reshapes its connections.",
+  "summary": "Your nervous system is the body's electrical conversation with itself. It begins with the brain, a wrinkled organ that weighs about 1.4 kilograms and holds roughly 86 billion neurons, and it continues through the spinal cord, a finger-thick cable that runs down your back. Together they form the central nervous system, the command center that reads the world, decides what matters, and issues orders.\n\nBranching from that center is the peripheral nervous system, forty-three pairs of nerves that reach every fingertip, organ, and toe. Some carry sensation inward; others carry movement commands outward. A separate autonomic branch runs the machinery you never think about, adjusting heart rate, digestion, and sweat. The whole network speaks in electrical pulses and chemical messages, and it can move a signal from your spine to your foot in a fraction of a second.\n\nThe nervous system also makes you, you. It stores memories, assigns emotion to events, and shapes how you respond to danger and to other people. It is protected by bone, by three membranes called the meninges, and by a cushion of cerebrospinal fluid. Nothing about it is static: every skill you practice and every experience you repeat physically reshapes its connections.",
   "color": "#c9973f",
   "stats": [
-    { "value": "86 billion", "label": "neurons in the brain" },
-    { "value": "43 pairs", "label": "of nerves beyond the brain" },
-    { "value": "20%", "label": "of your oxygen at rest" }
+    {
+      "value": "86 billion",
+      "label": "neurons in the brain"
+    },
+    {
+      "value": "43 pairs",
+      "label": "of cranial and spinal nerves"
+    },
+    {
+      "value": "20%",
+      "label": "of your oxygen at rest"
+    }
   ],
   "functions": [
     "Turns light, sound, touch, and chemicals into perception",
     "Directs movement, from a reflex blink to a practiced piano scale",
     "Regulates breathing, heart rate, temperature, and hunger without your notice",
     "Stores memories and attaches emotion to experience",
-    "Carries electrical commands along 43 pairs of nerves",
+    "Carries sensory reports and motor commands along 43 nerve pairs",
     "Shields the brain and spinal cord with bone, membranes, and fluid"
   ],
   "organs": [
@@ -28,28 +37,65 @@
       "tagline": "A three-pound universe of neurons that builds your experienced world.",
       "summary": "Your brain is a soft, wrinkled organ about the size of two clenched fists, sealed inside the bony vault of your skull. From the outside it looks like a pale pink walnut, creased into ridges called gyri and grooves called sulci. Those folds pack an enormous surface area into a small space; flattened out, the cortex would cover about 2,000 square centimeters. Most of what you see is the cerebrum, split into left and right hemispheres and wired for language, planning, and imagination.\n\nBeneath the cortex, deeper structures handle memory, emotion, and movement, while a stalk of tissue called the brainstem links everything to the spinal cord. The brain runs on electricity and chemistry. Neurons fire in chains and release chemical messengers at junctions called synapses. It weighs about 1.4 kilograms (3 pounds) yet burns around 20 percent of your resting energy. Every sight, song, and sentence you have ever known exists as a pattern of activity inside this organ.",
       "functions": [
-        { "title": "Thinking and perceiving", "detail": "Cortex and deep nuclei weave signals from your senses into sights, sounds, and ideas." },
-        { "title": "Controlling movement", "detail": "Motor areas plan and launch every voluntary action, from typing to walking." },
-        { "title": "Storing memory", "detail": "Circuits in the temporal lobes and hippocampus encode experiences so you can retrieve them later." },
-        { "title": "Regulating the body", "detail": "The brain sets breathing, temperature, hunger, and hormone release through the brainstem and hypothalamus." }
+        {
+          "title": "Thinking and perceiving",
+          "detail": "Cortical networks weave signals from your senses into sights, sounds, and ideas."
+        },
+        {
+          "title": "Controlling movement",
+          "detail": "Motor areas plan and launch voluntary actions, from typing on a keyboard to walking."
+        },
+        {
+          "title": "Storing memory",
+          "detail": "Circuits in the temporal lobes and hippocampus encode experiences so you can retrieve them later."
+        },
+        {
+          "title": "Regulating the body",
+          "detail": "The brain sets breathing, temperature, hunger, and hormone release through the brainstem and hypothalamus."
+        }
       ],
       "location": "Inside the cranial cavity, above the brainstem and behind the eyes.",
       "size": "About 1.3 to 1.4 kilograms (roughly 3 pounds) in adults, with a cortex 2 to 4 millimeters thick.",
       "facts": [
-        "It uses about 20 percent of your body's oxygen and calories, even while you rest.",
+        "It uses about 20 percent of your body's oxygen and glucose, even while you rest.",
         "It packs roughly 86 billion neurons, each able to connect with thousands of others.",
         "The cerebral cortex is only 2 to 4 millimeters thick, thinner than a pencil eraser."
       ],
       "conditions": [
-        { "name": "Stroke", "description": "When blood flow to part of the brain is blocked or a vessel bursts, brain cells can begin to die within minutes." },
-        { "name": "Concussion", "description": "A blow to the head can shake the brain inside the skull and briefly disrupt how it works." },
-        { "name": "Epilepsy", "description": "A seizure is a sudden surge of synchronized electrical activity, and epilepsy is when such seizures recur." }
+        {
+          "name": "Stroke",
+          "description": "When blood flow to part of the brain is blocked or a vessel bursts, brain cells can begin to die within minutes."
+        },
+        {
+          "name": "Concussion",
+          "description": "A blow to the head can briefly disrupt brain function, causing headache, confusion, or trouble with memory."
+        },
+        {
+          "name": "Epilepsy",
+          "description": "A seizure is a sudden surge of synchronized electrical activity, and epilepsy is when such seizures recur."
+        }
       ],
-      "relatedOrgans": ["cerebellum", "brainstem", "meninges"],
-      "keywords": ["cortex", "neurons", "thought", "memory", "cerebrum"],
+      "relatedOrgans": [
+        "cerebellum",
+        "brainstem",
+        "meninges"
+      ],
+      "keywords": [
+        "cortex",
+        "neurons",
+        "thought",
+        "memory",
+        "cerebrum"
+      ],
       "sources": [
-        { "label": "Kenhub — Cerebrum", "url": "https://www.kenhub.com/en/library/anatomy/cerebrum" },
-        { "label": "TeachMeAnatomy — Cerebrum", "url": "https://teachmeanatomy.info/neuroanatomy/structures/cerebrum/" }
+        {
+          "label": "Kenhub — Cerebrum",
+          "url": "https://www.kenhub.com/en/library/anatomy/cerebrum"
+        },
+        {
+          "label": "TeachMeAnatomy — Cerebrum",
+          "url": "https://teachmeanatomy.info/neuroanatomy/structures/cerebrum/"
+        }
       ]
     },
     {
@@ -57,32 +103,68 @@
       "systemId": "nervous",
       "name": "Cerebellum",
       "latin": "Cerebellum",
-      "alsoKnownAs": ["Little brain"],
+      "alsoKnownAs": [
+        "Little brain"
+      ],
       "region": "head-neck",
       "tagline": "A quiet, folded coordinator tucked beneath the back of your brain.",
       "summary": "Tucked under the back of your brain, behind the brainstem, sits the cerebellum, whose name is Latin for little brain. It is a compact, deeply folded structure with a surface creased into thin ridges, a little like a cauliflower. Although it takes up only about 10 percent of the brain's volume, it holds more than half of its neurons, packed into a dense and tightly wound sheet.\n\nThe cerebellum does not start movements. It watches them. It receives a constant stream of reports from muscles, joints, and the inner ear, compares what you intended with what is actually happening, and fine-tunes the output. That is why you can walk without staring at your feet, touch your nose with your eyes closed, or learn a new dance step. It also helps hold your gaze steady and contributes to attention and language, though movement remains its specialty.",
       "functions": [
-        { "title": "Smoothing movement", "detail": "It compares intended motion with feedback from muscles and joints, then adjusts signals so actions stay fluid." },
-        { "title": "Keeping balance", "detail": "It blends inner-ear, muscle, and joint signals to keep you upright on uneven ground." },
-        { "title": "Learning motor skills", "detail": "Repeated practice reshapes cerebellar circuits, which is how a wobbly skill becomes automatic." },
-        { "title": "Steadying the eyes", "detail": "It coordinates eye movements so the world stays stable when your head turns." }
+        {
+          "title": "Smoothing movement",
+          "detail": "It compares intended motion with feedback from muscles and joints, then adjusts signals so actions stay fluid."
+        },
+        {
+          "title": "Keeping balance",
+          "detail": "It blends inner-ear, muscle, and joint signals to keep you upright on uneven ground."
+        },
+        {
+          "title": "Learning motor skills",
+          "detail": "Repeated practice reshapes cerebellar circuits, which is how a wobbly skill becomes automatic."
+        },
+        {
+          "title": "Steadying the eyes",
+          "detail": "It coordinates eye movements so the world stays stable when your head turns."
+        }
       ],
       "location": "In the lower back of the skull, behind the brainstem and beneath the occipital lobes.",
-      "size": "About 10 centimeters (4 inches) across and roughly 10 percent of total brain volume.",
+      "size": "About 11.5 centimeters (4.5 inches) wide and roughly 10 percent of total brain volume.",
       "facts": [
         "It holds more than half the brain's neurons while making up about a tenth of its volume.",
-        "Its output cells, Purkinje cells, branch into flat fans that can receive as many as 200,000 inputs each.",
-        "Alcohol affects it early, which is why a roadside test asks you to walk heel to toe."
+        "Its cortical output cells, Purkinje cells, branch into flat fans that can receive as many as 200,000 inputs each.",
+        "Alcohol impairs it early, which is why a roadside test asks you to walk heel to toe."
       ],
       "conditions": [
-        { "name": "Cerebellar ataxia", "description": "Damage to the cerebellum causes unsteady, wide-based walking and shaky, overshooting hand movements." },
-        { "name": "Cerebellar stroke", "description": "A blocked or burst artery feeding the cerebellum can cause sudden dizziness, vomiting, and trouble walking." }
+        {
+          "name": "Cerebellar ataxia",
+          "description": "Damage to the cerebellum causes unsteady, wide-based walking and shaky, overshooting hand movements."
+        },
+        {
+          "name": "Cerebellar stroke",
+          "description": "A blocked or burst artery feeding the cerebellum can cause sudden dizziness, vomiting, and trouble walking."
+        }
       ],
-      "relatedOrgans": ["brain", "brainstem", "spinal-cord"],
-      "keywords": ["balance", "coordination", "movement", "ataxia", "motor learning"],
+      "relatedOrgans": [
+        "brain",
+        "brainstem",
+        "spinal-cord"
+      ],
+      "keywords": [
+        "balance",
+        "coordination",
+        "movement",
+        "ataxia",
+        "motor learning"
+      ],
       "sources": [
-        { "label": "Kenhub — Cerebellum", "url": "https://www.kenhub.com/en/library/anatomy/cerebellum-gross-anatomy" },
-        { "label": "TeachMeAnatomy — Cerebellum", "url": "https://teachmeanatomy.info/neuroanatomy/structures/cerebellum/" }
+        {
+          "label": "Kenhub — Cerebellum",
+          "url": "https://www.kenhub.com/en/library/anatomy/cerebellum-gross-anatomy"
+        },
+        {
+          "label": "TeachMeAnatomy — Cerebellum",
+          "url": "https://teachmeanatomy.info/neuroanatomy/structures/cerebellum/"
+        }
       ]
     },
     {
@@ -92,31 +174,71 @@
       "latin": "Truncus encephali",
       "region": "head-neck",
       "tagline": "The stalk where brain meets spinal cord and life support runs.",
-      "summary": "The brainstem is the stalk that connects your brain to your spinal cord. It is only about 7 centimeters (under 3 inches) long, yet it contains three stacked segments: the midbrain, the pons, and the medulla oblongata. Picture a thumb-width column of tissue passing through a bony tunnel at the base of the skull, carrying cables in both directions and housing clusters that run the body's automatic systems.\n\nAll traffic between brain and body squeezes through this narrow channel. Motor commands travel down, sensory reports travel up, and ten of your twelve cranial nerves emerge here or just above it. The brainstem also contains the centers that generate breathing rhythms, control heart rate and blood pressure, trigger coughing and swallowing, and keep you awake. That is why a small injury here can be catastrophic out of proportion to its size.",
+      "summary": "The brainstem is the stalk that connects your brain to your spinal cord. It is about 7 to 10 centimeters (3 to 4 inches) long, yet it packs in three stacked segments: the midbrain, the pons, and the medulla oblongata. Picture a short column of tissue passing through a bony tunnel at the base of the skull, carrying cables in both directions and housing clusters that run the body's automatic systems.\n\nAlmost all traffic between brain and body squeezes through this narrow channel. Motor commands travel down, sensory reports travel up, and ten of your twelve cranial nerves emerge here or just above it. The brainstem also contains the centers that generate breathing rhythms, control heart rate and blood pressure, trigger coughing and swallowing, and keep you awake. That is why a small injury here can be catastrophic out of proportion to its size.",
       "functions": [
-        { "title": "Relaying signals", "detail": "Every message between brain and body, except smell, passes through or near this stalk." },
-        { "title": "Running automatic functions", "detail": "Pacemaker-like groups set the rhythm of breathing and adjust heart rate and blood pressure." },
-        { "title": "Connecting cranial nerves", "detail": "Ten of the twelve cranial nerves emerge here, handling face, eye, and throat control." },
-        { "title": "Keeping you awake", "detail": "The reticular formation arouses the cortex and sustains alertness and sleep-wake cycles." },
-        { "title": "Guarding the airway", "detail": "Centers here trigger coughing, sneezing, swallowing, and vomiting to protect the airway." }
+        {
+          "title": "Relaying signals",
+          "detail": "Every message between brain and body, except smell, passes through or near this stalk."
+        },
+        {
+          "title": "Running automatic functions",
+          "detail": "Pacemaker-like groups set the rhythm of breathing and adjust heart rate and blood pressure."
+        },
+        {
+          "title": "Connecting cranial nerves",
+          "detail": "Ten of the twelve cranial nerves emerge here, handling eye movement, facial sensation, hearing, and swallowing."
+        },
+        {
+          "title": "Keeping you awake",
+          "detail": "The reticular formation arouses the cortex and sustains alertness and sleep-wake cycles."
+        },
+        {
+          "title": "Guarding the airway",
+          "detail": "Centers here trigger coughing, sneezing, swallowing, and vomiting to protect the airway."
+        }
       ],
       "location": "At the base of the brain, passing through the foramen magnum and continuing as the spinal cord.",
-      "size": "About 7 centimeters (under 3 inches) long and roughly 2.5 centimeters wide.",
+      "size": "About 7 to 10 centimeters (3 to 4 inches) long and up to 4 centimeters (1.6 inches) wide at the pons.",
       "facts": [
         "Ten of your twelve cranial nerves emerge from it, so a small injury here can affect speech and swallowing.",
         "The medulla contains the crossing point where most motor fibers swap sides, so the left brain controls the right body.",
         "It can generate a breathing rhythm even when cut off from the rest of the brain."
       ],
       "conditions": [
-        { "name": "Brainstem stroke", "description": "Interrupted blood flow here can cause double vision, slurred speech, and weakness on both sides of the body." },
-        { "name": "Brainstem glioma", "description": "A tumor growing in the brainstem can disrupt breathing, swallowing, and eye movement." },
-        { "name": "Central sleep apnea", "description": "When the brainstem's breathing signals falter during sleep, breathing pauses without any effort to breathe." }
+        {
+          "name": "Brainstem stroke",
+          "description": "Interrupted blood flow here can cause double vision, slurred speech, and weakness on both sides of the body."
+        },
+        {
+          "name": "Brainstem glioma",
+          "description": "A tumor growing in the brainstem can disrupt breathing, swallowing, and eye movement."
+        },
+        {
+          "name": "Central sleep apnea",
+          "description": "When the brainstem's breathing signals falter during sleep, breathing pauses without any effort to breathe."
+        }
       ],
-      "relatedOrgans": ["brain", "cerebellum", "spinal-cord"],
-      "keywords": ["medulla", "pons", "midbrain", "breathing", "cranial nerves"],
+      "relatedOrgans": [
+        "brain",
+        "cerebellum",
+        "spinal-cord"
+      ],
+      "keywords": [
+        "medulla",
+        "pons",
+        "midbrain",
+        "breathing",
+        "cranial nerves"
+      ],
       "sources": [
-        { "label": "Kenhub — Brainstem", "url": "https://www.kenhub.com/en/library/anatomy/the-brainstem" },
-        { "label": "TeachMeAnatomy — Brainstem", "url": "https://teachmeanatomy.info/neuroanatomy/brainstem/" }
+        {
+          "label": "Kenhub — Brainstem",
+          "url": "https://www.kenhub.com/en/library/anatomy/the-brainstem"
+        },
+        {
+          "label": "TeachMeAnatomy — Brainstem",
+          "url": "https://teachmeanatomy.info/neuroanatomy/brainstem/"
+        }
       ]
     },
     {
@@ -124,34 +246,76 @@
       "systemId": "nervous",
       "name": "Hypothalamus",
       "latin": "Hypothalamus",
-      "alsoKnownAs": ["The body's thermostat"],
+      "alsoKnownAs": [
+        "The body's thermostat"
+      ],
       "region": "head-neck",
       "tagline": "An almond-sized command center for hunger, heat, sleep, and hormones.",
-      "summary": "The hypothalamus is a small region at the floor of the brain, sitting just above the roof of your mouth and below the thalamus. It is roughly the size of an almond, yet it is one of the busiest control rooms in the body. It is wired into almost everything: temperature sensors, hunger signals, light information from the eyes, and hormone feedback carried in the blood.\n\nIts job is to keep your internal conditions within narrow limits, a process called homeostasis. When you are cold, it triggers shivering and narrows skin blood vessels; when you are dehydrated, it drives thirst and tells your kidneys to conserve water. It also sets your daily rhythm, influences sleep and wakefulness, and directs the pituitary gland, the hormone factory just beneath it. Think of it as the body's thermostat, metronome, and appetite dial rolled into one.",
+      "summary": "The hypothalamus is a small region at the base of the brain, just behind your eyes and above the pituitary gland. It is roughly the size of an almond, yet it helps run nearly every system in the body. It is wired into almost everything: temperature sensors, hunger signals, light information from the eyes, and hormone feedback carried in the blood.\n\nIts job is to keep your internal conditions within narrow limits, a process called homeostasis. When you are cold, it triggers shivering and narrows skin blood vessels; when you are dehydrated, it drives thirst and tells your kidneys to conserve water. It also sets your daily rhythm, influences sleep and wakefulness, and directs the pituitary gland, the hormone factory just beneath it. Think of it as the body's thermostat, metronome, and appetite dial rolled into one.",
       "functions": [
-        { "title": "Regulating temperature", "detail": "It triggers sweating, shivering, and changes in skin blood flow to hold your core near 37 degrees Celsius." },
-        { "title": "Controlling hunger and thirst", "detail": "It reads blood sugar, fat signals, and hydration, then nudges you to eat or drink." },
-        { "title": "Setting daily rhythms", "detail": "It uses light from your eyes to synchronize your body clock with day and night." },
-        { "title": "Directing the pituitary", "detail": "It releases hormones that tell the pituitary when to speed up or slow other glands." },
-        { "title": "Managing stress", "detail": "It activates the adrenal response through a hormone chain that begins in the brain." }
+        {
+          "title": "Regulating temperature",
+          "detail": "It triggers sweating, shivering, and changes in skin blood flow to hold your core near 37 degrees Celsius."
+        },
+        {
+          "title": "Controlling hunger and thirst",
+          "detail": "It reads blood sugar, fat signals, and hydration, then nudges you to eat or drink."
+        },
+        {
+          "title": "Setting daily rhythms",
+          "detail": "It uses light from your eyes to synchronize your body clock with day and night."
+        },
+        {
+          "title": "Directing the pituitary",
+          "detail": "It releases hormones that tell the pituitary when to speed up or slow other glands."
+        },
+        {
+          "title": "Managing stress",
+          "detail": "It activates the adrenal response through a hormone chain that begins in the brain."
+        }
       ],
       "location": "At the base of the brain, below the thalamus and directly above the pituitary gland.",
       "size": "Roughly the size of an almond, just a few grams in an adult.",
       "facts": [
         "Part of it lacks the usual blood-brain barrier, letting it sample hormones and nutrients directly from the blood.",
         "Its suprachiasmatic nucleus holds about 20,000 neurons and keeps your 24-hour clock.",
-        "It can make you shiver before you consciously feel cold."
+        "It controls the pituitary through a private network of blood vessels and a direct nerve stalk."
       ],
       "conditions": [
-        { "name": "Hypothalamic dysfunction", "description": "Injury, tumors, or inflammation can disturb appetite, temperature control, and hormone release." },
-        { "name": "Narcolepsy", "description": "Loss of hypothalamic neurons that make orexin causes sudden sleep attacks and fragmented sleep." },
-        { "name": "Diabetes insipidus", "description": "Too little antidiuretic hormone leads to constant thirst and large volumes of dilute urine." }
+        {
+          "name": "Hypothalamic dysfunction",
+          "description": "Injury, tumors, or inflammation can disturb appetite, temperature control, and hormone release."
+        },
+        {
+          "name": "Narcolepsy",
+          "description": "Loss of hypothalamic neurons that make orexin causes sudden sleep attacks and fragmented sleep."
+        },
+        {
+          "name": "Diabetes insipidus",
+          "description": "Too little antidiuretic hormone leads to constant thirst and large volumes of dilute urine."
+        }
       ],
-      "relatedOrgans": ["brain", "pituitary-gland", "amygdala"],
-      "keywords": ["homeostasis", "temperature", "hunger", "circadian", "hormones"],
+      "relatedOrgans": [
+        "brain",
+        "pituitary-gland",
+        "amygdala"
+      ],
+      "keywords": [
+        "homeostasis",
+        "temperature",
+        "hunger",
+        "circadian",
+        "hormones"
+      ],
       "sources": [
-        { "label": "Kenhub — Hypothalamus", "url": "https://www.kenhub.com/en/library/anatomy/hypothalamus" },
-        { "label": "TeachMeAnatomy — Pituitary Gland", "url": "https://teachmeanatomy.info/neuroanatomy/structures/pituitary-gland/" }
+        {
+          "label": "Kenhub — Hypothalamus",
+          "url": "https://www.kenhub.com/en/library/anatomy/hypothalamus"
+        },
+        {
+          "label": "Cleveland Clinic — Hypothalamus",
+          "url": "https://my.clevelandclinic.org/health/body/22566-hypothalamus"
+        }
       ]
     },
     {
@@ -159,33 +323,72 @@
       "systemId": "nervous",
       "name": "Hippocampus",
       "latin": "Hippocampus",
-      "alsoKnownAs": ["The seahorse"],
+      "alsoKnownAs": [
+        "The seahorse"
+      ],
       "region": "head-neck",
       "tagline": "A seahorse-shaped sliver of brain where new memories take shape.",
       "summary": "The hippocampus is a curved strip of tissue tucked deep in each temporal lobe, one on each side of your brain. Its name comes from the Greek words for horse and sea monster, because its shape reminded early anatomists of a seahorse. It is part of the limbic system, a loose network involved in emotion and memory, and it sits close to the amygdala and to the entorhinal cortex, its main input route.\n\nThe hippocampus is where many conscious memories are assembled. When you meet someone new, signals pass from your senses through the cortex and into the hippocampus, which helps bind the sights, sounds, and feelings into a single episode. Sleep appears to replay those patterns, helping move them into longer-term storage across the cortex. The hippocampus is also one of the first areas to shrink in Alzheimer's disease, which is why recent memories often slip away early.",
       "functions": [
-        { "title": "Forming new memories", "detail": "It links the sights, sounds, and feelings of an event into one retrievable episode." },
-        { "title": "Spatial navigation", "detail": "Place cells fire in specific locations, giving you an internal map of familiar routes." },
-        { "title": "Consolidating during sleep", "detail": "It replays the day's patterns during sleep, helping transfer them to the cortex." },
-        { "title": "Connecting context to emotion", "detail": "It pairs situations with the feelings attached to them, shaping how you respond next time." }
+        {
+          "title": "Forming new memories",
+          "detail": "It links the sights, sounds, and feelings of an event into one retrievable episode."
+        },
+        {
+          "title": "Spatial navigation",
+          "detail": "Place cells fire in specific locations, giving you an internal map of familiar routes."
+        },
+        {
+          "title": "Consolidating during sleep",
+          "detail": "It replays the day's patterns during sleep, helping transfer them to the cortex."
+        },
+        {
+          "title": "Connecting context to emotion",
+          "detail": "It ties memories to the place and context where they happened, shaping how you respond next time."
+        }
       ],
       "location": "Deep in the medial temporal lobe, one on each side, curving above the parahippocampal gyrus.",
-      "size": "About 3 to 3.5 centimeters (roughly 1.3 inches) long on each side.",
+      "size": "About 5 centimeters (2 inches) long on each side.",
       "facts": [
-        "A famous patient known as H.M. lost both hippocampi and could not form new lasting memories, yet still learned new motor skills.",
+        "A famous patient known as H.M. lost both hippocampi and nearby temporal-lobe tissue, could not form new lasting memories, yet still learned new motor skills.",
         "London taxi drivers have shown larger posterior hippocampi than non-drivers, hinting that navigation practice reshapes it.",
         "It is one of the few brain regions where new neurons appear to be born in adults, though how much in humans is still debated."
       ],
       "conditions": [
-        { "name": "Alzheimer's disease", "description": "The hippocampus often shrinks early, which helps explain why recent events slip away first." },
-        { "name": "Temporal lobe epilepsy", "description": "Seizures arising in the temporal lobe can involve the hippocampus and disturb memory." },
-        { "name": "Anterograde amnesia", "description": "Damage to both hippocampi leaves people unable to form new lasting memories." }
+        {
+          "name": "Alzheimer's disease",
+          "description": "The hippocampus often shrinks early, which helps explain why recent events slip away first."
+        },
+        {
+          "name": "Temporal lobe epilepsy",
+          "description": "Seizures arising in the temporal lobe can involve the hippocampus and disturb memory."
+        },
+        {
+          "name": "Anterograde amnesia",
+          "description": "Damage to both hippocampi leaves people unable to form new lasting memories."
+        }
       ],
-      "relatedOrgans": ["amygdala", "brain", "hypothalamus"],
-      "keywords": ["memory", "seahorse", "temporal lobe", "navigation", "consolidation"],
+      "relatedOrgans": [
+        "amygdala",
+        "brain",
+        "hypothalamus"
+      ],
+      "keywords": [
+        "memory",
+        "seahorse",
+        "temporal lobe",
+        "navigation",
+        "consolidation"
+      ],
       "sources": [
-        { "label": "Kenhub — Hippocampus", "url": "https://www.kenhub.com/en/library/anatomy/hippocampus" },
-        { "label": "MedlinePlus — Memory", "url": "https://medlineplus.gov/memory.html" }
+        {
+          "label": "Kenhub — Hippocampus",
+          "url": "https://www.kenhub.com/en/library/anatomy/hippocampus"
+        },
+        {
+          "label": "MedlinePlus — Memory",
+          "url": "https://medlineplus.gov/memory.html"
+        }
       ]
     },
     {
@@ -193,33 +396,72 @@
       "systemId": "nervous",
       "name": "Amygdala",
       "latin": "Corpus amygdaloideum",
-      "alsoKnownAs": ["The almond"],
+      "alsoKnownAs": [
+        "The almond"
+      ],
       "region": "head-neck",
       "tagline": "An almond-shaped alarm system that tags experience with feeling.",
-      "summary": "The amygdala is a small, almond-shaped cluster of nuclei deep inside each temporal lobe, just in front of the hippocampus. Its name comes from the Latin word for almond. Despite its size, it has wide connections to the cortex, the hypothalamus, and the brainstem, which lets it influence attention, hormone release, and the body's fight-or-flight response.\n\nThe amygdala is often called the brain's fear center, but that is too simple. It attaches emotional significance to events, especially threats, and helps you learn which cues predict danger. It also responds to rewards, faces, and social signals. When it fires, your heart rate climbs, your senses sharpen, and you remember the moment vividly. That is why a frightening experience can stay with you for decades.",
+      "summary": "The amygdala is a small, almond-shaped cluster of nuclei deep inside each temporal lobe, just in front of the hippocampus. Its name comes from the Latin word for almond. Despite its size, it has wide connections to the cortex, the hypothalamus, and the brainstem, which lets it influence attention, hormone release, and the body's fight-or-flight response.\n\nThe amygdala is often called the brain's fear center, but that is too simple. It attaches emotional significance to events, especially threats, and helps you learn which cues predict danger. Fast thalamic pathways reach it before the cortex finishes a detailed analysis. It also responds to rewards, faces, and social signals. When it fires, your heart rate climbs, your senses sharpen, and you remember the moment vividly. It is a fast, rough judge rather than a careful one, and a single bad experience can be enough to teach it. That is why a phobia can form quickly and a frightening moment can stay with you for decades.",
       "functions": [
-        { "title": "Detecting threats", "detail": "It flags sights, sounds, and smells that may signal danger, often before you can name them." },
-        { "title": "Learning fear", "detail": "It links neutral cues with frightening outcomes, which is how a sound can start to make you tense." },
-        { "title": "Adding emotional weight", "detail": "It tags experiences with feeling so they are more likely to be remembered." },
-        { "title": "Triggering the stress response", "detail": "It signals the hypothalamus and brainstem to raise heart rate, breathing, and alertness." },
-        { "title": "Reading social signals", "detail": "It helps you judge faces and tone of voice, especially signals of distress or threat." }
+        {
+          "title": "Detecting threats",
+          "detail": "It flags sights, sounds, and smells that may signal danger, often before you can name them."
+        },
+        {
+          "title": "Learning fear",
+          "detail": "It links neutral cues with frightening outcomes, which is how a sound can start to make you tense."
+        },
+        {
+          "title": "Adding emotional weight",
+          "detail": "It tags experiences with feeling so they are more likely to be remembered."
+        },
+        {
+          "title": "Triggering the stress response",
+          "detail": "It signals the hypothalamus and brainstem to raise heart rate, breathing, and alertness."
+        },
+        {
+          "title": "Reading social signals",
+          "detail": "It helps you judge faces and tone of voice, especially signals of distress or threat."
+        }
       ],
       "location": "Deep in the medial temporal lobe, just in front of the hippocampus, one on each side.",
-      "size": "About 1.5 centimeters (0.6 inches) long, roughly the size and shape of an almond.",
+      "size": "About 1.5 cubic centimeters in volume, roughly the size and shape of an almond.",
       "facts": [
         "It can begin a fear response before the cortex has consciously identified the threat.",
         "It responds to exciting or rewarding events as well as frightening ones.",
         "A rare condition that damages both amygdalae can leave people unusually fearless in everyday situations."
       ],
       "conditions": [
-        { "name": "Post-traumatic stress disorder", "description": "After severe trauma, the amygdala can stay overreactive while control circuits fail to calm it." },
-        { "name": "Anxiety disorders", "description": "Heightened amygdala responses to ambiguous cues are part of many anxiety conditions." }
+        {
+          "name": "Post-traumatic stress disorder",
+          "description": "After severe trauma, the amygdala can stay overreactive while prefrontal control circuits struggle to calm it."
+        },
+        {
+          "name": "Anxiety disorders",
+          "description": "Heightened amygdala responses to ambiguous cues are part of many anxiety conditions."
+        }
       ],
-      "relatedOrgans": ["hippocampus", "hypothalamus", "brain"],
-      "keywords": ["fear", "emotion", "threat", "stress", "almond"],
+      "relatedOrgans": [
+        "hippocampus",
+        "hypothalamus",
+        "brain"
+      ],
+      "keywords": [
+        "fear",
+        "emotion",
+        "threat",
+        "stress",
+        "almond"
+      ],
       "sources": [
-        { "label": "Kenhub — Amygdala", "url": "https://www.kenhub.com/en/library/anatomy/amygdala" },
-        { "label": "NIMH — Post-Traumatic Stress Disorder", "url": "https://www.nimh.nih.gov/health/topics/post-traumatic-stress-disorder-ptsd" }
+        {
+          "label": "Kenhub — Amygdala",
+          "url": "https://www.kenhub.com/en/library/anatomy/amygdala"
+        },
+        {
+          "label": "NIMH — Post-Traumatic Stress Disorder",
+          "url": "https://www.nimh.nih.gov/health/topics/post-traumatic-stress-disorder-ptsd"
+        }
       ]
     },
     {
@@ -228,31 +470,68 @@
       "name": "Spinal Cord",
       "latin": "Medulla spinalis",
       "region": "whole-body",
-      "tagline": "A thumb-thick cable of nerve tissue from brain to lower back.",
-      "summary": "Your spinal cord is a soft, pale cable of nerve tissue about as thick as your thumb. It runs from the base of the brain down through a tunnel of bone called the vertebral canal, ending near the first or second lumbar vertebra, roughly at your waist. Like the brain, it is wrapped in three membranes and bathed in cerebrospinal fluid.\n\nThe cord is not just a pipe. It carries signals up to the brain and commands down to the body, and it also organizes reflexes on its own. A sharp touch on a hot pan can trigger a withdrawal before the pain signal even reaches your consciousness. Thirty-one pairs of spinal nerves branch from the cord, each carrying sensory and motor fibers to a specific strip of skin and set of muscles.",
+      "tagline": "A finger-thick cable of nerve tissue from brain to lower back.",
+      "summary": "Your spinal cord is a soft, pale cable of nerve tissue about as thick as your little finger. It runs from the base of the brain down through a tunnel of bone called the vertebral canal, ending near the first or second lumbar vertebra, roughly at your waist. Like the brain, it is wrapped in three membranes and bathed in cerebrospinal fluid.\n\nThe cord is not just a pipe. It carries signals up to the brain and commands down to the body, and it also organizes reflexes on its own. A sharp touch on a hot pan can trigger a withdrawal before the pain signal even reaches your consciousness. Thirty-one pairs of spinal nerves branch from the cord, each carrying sensory and motor fibers to a specific strip of skin and set of muscles.",
       "functions": [
-        { "title": "Carrying signals", "detail": "Sensory information travels up and motor commands travel down in organized bundles called tracts." },
-        { "title": "Generating reflexes", "detail": "Local circuits produce quick withdrawals and stretch responses without waiting for the brain." },
-        { "title": "Distributing spinal nerves", "detail": "Thirty-one pairs of nerves leave the cord to serve the neck, trunk, arms, and legs." },
-        { "title": "Carrying cerebrospinal fluid", "detail": "A central canal runs its length, connected to the fluid-filled spaces of the brain." }
+        {
+          "title": "Carrying signals",
+          "detail": "Sensory information travels up and motor commands travel down in organized bundles called tracts."
+        },
+        {
+          "title": "Generating reflexes",
+          "detail": "Local circuits produce quick withdrawals and stretch responses without waiting for the brain."
+        },
+        {
+          "title": "Distributing spinal nerves",
+          "detail": "Thirty-one pairs of nerves leave the cord to serve the neck, trunk, limbs, and pelvis."
+        },
+        {
+          "title": "Carrying cerebrospinal fluid",
+          "detail": "A central canal runs its length, connected to the fluid-filled spaces of the brain."
+        }
       ],
       "location": "Inside the vertebral canal, from the foramen magnum down to the upper lumbar spine.",
-      "size": "About 45 centimeters (18 inches) long and roughly 1 centimeter (0.4 inches) thick.",
+      "size": "About 43 to 45 centimeters (17 to 18 inches) long and roughly 1 centimeter (0.4 inches) thick.",
       "facts": [
         "It ends near the first or second lumbar vertebra, but the nerves below continue like a horse's tail, the cauda equina.",
         "Some reflexes complete in a fraction of a second, before the brain registers pain.",
         "It is shorter than the vertebral column because the column grows faster during development."
       ],
       "conditions": [
-        { "name": "Spinal cord injury", "description": "Damage to the cord can interrupt signals below the injury, causing paralysis or loss of sensation." },
-        { "name": "Spina bifida", "description": "When the neural tube fails to close during early pregnancy, the cord and its coverings can be exposed." },
-        { "name": "Transverse myelitis", "description": "Inflammation across the cord can cause sudden weakness, numbness, and bladder problems." }
+        {
+          "name": "Spinal cord injury",
+          "description": "Damage to the cord can interrupt signals below the injury, causing paralysis or loss of sensation."
+        },
+        {
+          "name": "Spina bifida",
+          "description": "When the neural tube fails to close during early pregnancy, the cord and its coverings can be exposed."
+        },
+        {
+          "name": "Transverse myelitis",
+          "description": "Inflammation across the cord can cause sudden weakness, numbness, and bladder problems."
+        }
       ],
-      "relatedOrgans": ["brainstem", "vertebral-column", "peripheral-nerves"],
-      "keywords": ["reflex", "tracts", "vertebrae", "spinal nerves", "cauda equina"],
+      "relatedOrgans": [
+        "brainstem",
+        "vertebral-column",
+        "peripheral-nerves"
+      ],
+      "keywords": [
+        "reflex",
+        "tracts",
+        "vertebrae",
+        "spinal nerves",
+        "cauda equina"
+      ],
       "sources": [
-        { "label": "Kenhub — Spinal Cord", "url": "https://www.kenhub.com/en/library/anatomy/the-spinal-cord" },
-        { "label": "TeachMeAnatomy — Spinal Cord", "url": "https://teachmeanatomy.info/neuroanatomy/spinal-cord/" }
+        {
+          "label": "Kenhub — Spinal Cord",
+          "url": "https://www.kenhub.com/en/library/anatomy/the-spinal-cord"
+        },
+        {
+          "label": "TeachMeAnatomy — Spinal Cord",
+          "url": "https://teachmeanatomy.info/neuroanatomy/spinal-cord/"
+        }
       ]
     },
     {
@@ -260,33 +539,72 @@
       "systemId": "nervous",
       "name": "Peripheral Nerves",
       "latin": "Systema nervosum periphericum",
-      "alsoKnownAs": ["The body's wiring"],
+      "alsoKnownAs": [
+        "The body's wiring"
+      ],
       "region": "whole-body",
       "tagline": "The sprawling network that carries brain signals to every fingertip.",
-      "summary": "The peripheral nervous system is everything outside your brain and spinal cord. It is a branching network of nerves and ganglia, small clusters of nerve cells, that reaches into your skin, muscles, organs, and bones. Twelve pairs of cranial nerves emerge from the skull, and thirty-one pairs of spinal nerves leave the vertebral column, splitting again and again until the fibers are thinner than a hair.\n\nThese nerves do two jobs at once. The somatic division carries voluntary commands to muscles and brings back touch, temperature, and position sense. The autonomic division runs quietly in the background, speeding or slowing the heart, moving food through the gut, and adjusting sweat and blood flow. Some of its fibers are wrapped in myelin, a fatty insulation that lets signals travel up to 120 meters per second.",
+      "summary": "The peripheral nervous system is everything outside your brain and spinal cord. It is a branching network of nerves and ganglia, small clusters of nerve cells, that reaches into your skin, muscles, organs, and bones. Twelve pairs of cranial nerves leave the brain and exit through the skull, and thirty-one pairs of spinal nerves leave the vertebral column, splitting again and again until the fibers are thinner than a hair.\n\nThese nerves do two jobs at once. The somatic division carries voluntary commands to muscles and brings back touch, temperature, and position sense. The autonomic division runs quietly in the background, speeding or slowing the heart, moving food through the gut, and adjusting sweat and blood flow. Many of its fibers are wrapped in myelin, a fatty insulation that lets signals travel up to 120 meters per second.",
       "functions": [
-        { "title": "Carrying sensation", "detail": "Touch, temperature, pain, and body position travel inward from skin, joints, and organs." },
-        { "title": "Delivering movement commands", "detail": "Motor fibers carry commands from the spinal cord to skeletal muscles throughout the body." },
-        { "title": "Running organs", "detail": "Autonomic fibers adjust heart rate, digestion, sweating, and the width of blood vessels." },
-        { "title": "Coordinating reflexes", "detail": "Local nerve circuits can act on their own, producing reflexes without waiting for the brain." }
+        {
+          "title": "Carrying sensation",
+          "detail": "Touch, temperature, pain, and body position travel inward from skin, joints, and organs."
+        },
+        {
+          "title": "Delivering movement commands",
+          "detail": "Motor fibers carry commands from the spinal cord to skeletal muscles throughout the body."
+        },
+        {
+          "title": "Running organs",
+          "detail": "Autonomic fibers adjust heart rate, digestion, sweating, and the width of blood vessels."
+        },
+        {
+          "title": "Carrying reflex signals",
+          "detail": "Sensory fibers trigger spinal circuits that fire motor fibers back within milliseconds."
+        }
       ],
       "location": "Throughout the body, branching from the brainstem and spinal cord to skin, muscles, and organs.",
-      "size": "Twelve pairs of cranial nerves and 31 pairs of spinal nerves, branching to fibers thinner than a hair.",
+      "size": "Individual fibers can be thinner than a hair, while the largest bundles approach 2 centimeters (0.8 inches) across.",
       "facts": [
         "The longest fibers run from your spine to your toes, close to a meter in a tall adult.",
         "Damaged peripheral nerves can regrow, but usually only about a millimeter per day.",
-        "Some peripheral nerves are wrapped by Schwann cells, which help guide regrowth after injury."
+        "Myelinated peripheral nerves are wrapped by Schwann cells, which help guide regrowth after injury."
       ],
       "conditions": [
-        { "name": "Peripheral neuropathy", "description": "Damage to small nerve fibers can cause numbness, tingling, or burning in the hands and feet." },
-        { "name": "Carpal tunnel syndrome", "description": "Pressure on the median nerve at the wrist causes numbness in the thumb, index, and middle fingers." },
-        { "name": "Guillain-Barré syndrome", "description": "The immune system can attack peripheral nerves, causing rapidly worsening weakness." }
+        {
+          "name": "Peripheral neuropathy",
+          "description": "Damage to small nerve fibers can cause numbness, tingling, or burning in the hands and feet."
+        },
+        {
+          "name": "Carpal tunnel syndrome",
+          "description": "Pressure on the median nerve at the wrist causes numbness in the thumb, index, and middle fingers."
+        },
+        {
+          "name": "Guillain-Barré syndrome",
+          "description": "The immune system can attack peripheral nerves, causing rapidly worsening weakness."
+        }
       ],
-      "relatedOrgans": ["spinal-cord", "brain", "sciatic-nerve"],
-      "keywords": ["nerves", "somatic", "autonomic", "myelin", "sensation"],
+      "relatedOrgans": [
+        "spinal-cord",
+        "brain",
+        "sciatic-nerve"
+      ],
+      "keywords": [
+        "nerves",
+        "somatic",
+        "autonomic",
+        "myelin",
+        "sensation"
+      ],
       "sources": [
-        { "label": "Kenhub — Peripheral Nervous System", "url": "https://www.kenhub.com/en/library/anatomy/the-peripheral-nervous-system" },
-        { "label": "MedlinePlus — Peripheral Neuropathy", "url": "https://medlineplus.gov/peripheralnervedisorders.html" }
+        {
+          "label": "Kenhub — Peripheral Nervous System",
+          "url": "https://www.kenhub.com/en/library/anatomy/the-peripheral-nervous-system"
+        },
+        {
+          "label": "MedlinePlus — Peripheral Neuropathy",
+          "url": "https://medlineplus.gov/peripheralnervedisorders.html"
+        }
       ]
     },
     {
@@ -294,33 +612,72 @@
       "systemId": "nervous",
       "name": "Sciatic Nerve",
       "latin": "Nervus ischiadicus",
-      "alsoKnownAs": ["The big nerve"],
+      "alsoKnownAs": [
+        "Ischiadic nerve"
+      ],
       "region": "lower-limb",
       "tagline": "The body's thickest nerve, running from lower back to your toes.",
-      "summary": "The sciatic nerve is the largest nerve in your body, roughly as wide as your thumb at its thickest point. It begins in the lower back, where fibers from several spinal nerves gather into one cable, then passes through the buttock and down the back of each thigh. Near the knee it splits into two main branches, the tibial and common fibular nerves, which continue into the lower leg and foot.\n\nIt carries both sensation and movement. Branches supply the hamstrings and part of the hip muscles, while its lower branches power the calf and foot and bring back feeling from the sole, toes, and shin. Because it runs deep through the buttock, it can be compressed by a herniated disc, a tight piriformis muscle, or a long wallet in a back pocket. The result is sciatica: pain that can shoot from the lower back down the leg.",
+      "summary": "The sciatic nerve is the largest nerve in your body, roughly as wide as your thumb at its thickest point. It begins in the lower back, where fibers from several spinal nerves gather into one cable, then passes through the buttock and down the back of each thigh. Near the knee it splits into two main branches, the tibial and common fibular nerves, which continue into the lower leg and foot.\n\nIt carries both sensation and movement. Branches supply the hamstrings and the adductor magnus, while its lower branches power the calf and foot and bring back feeling from the sole, toes, and shin. Its roots can be pinched by a herniated disc, and the nerve itself can be compressed by a tight piriformis muscle or a long wallet in a back pocket. The result is sciatica: pain that can shoot from the lower back down the leg.",
       "functions": [
-        { "title": "Powering the leg", "detail": "Branches drive the hamstrings, calf, and many muscles of the lower leg and foot." },
-        { "title": "Carrying sensation", "detail": "It brings back touch, temperature, and pain signals from much of the leg and sole." },
-        { "title": "Connecting the plexus", "detail": "It gathers fibers from spinal nerves L4 to S3 into one major cable." },
-        { "title": "Supplying the knee", "detail": "Small articular branches carry sensation from the knee joint back toward the spine." }
+        {
+          "title": "Powering the leg",
+          "detail": "Branches drive the hamstrings, the adductor magnus, and most muscles of the lower leg and foot."
+        },
+        {
+          "title": "Carrying sensation",
+          "detail": "It brings back touch, temperature, and pain signals from much of the leg and sole."
+        },
+        {
+          "title": "Connecting the plexus",
+          "detail": "It gathers fibers from spinal nerves L4 to S3 into one major cable."
+        },
+        {
+          "title": "Supplying the knee",
+          "detail": "Small articular branches carry sensation from the knee joint back toward the spine."
+        }
       ],
       "location": "From the lower back through the buttock and down the back of the thigh, dividing near the knee.",
-      "size": "About 2 centimeters (under an inch) wide at its thickest, the largest nerve in the body.",
+      "size": "Up to about 2 centimeters (0.8 inches) wide at its thickest, the largest nerve in the body.",
       "facts": [
         "It is really two nerves, the tibial and common fibular, bundled inside one sheath for much of its length.",
         "At its thickest it can be wider than the spinal cord.",
         "It passes under or through the piriformis muscle, so a tight piriformis can mimic a herniated disc."
       ],
       "conditions": [
-        { "name": "Sciatica", "description": "Irritation of the nerve or its roots causes burning pain that travels from the buttock down the leg." },
-        { "name": "Piriformis syndrome", "description": "A tight piriformis muscle in the buttock can pinch the nerve and mimic a disc problem." },
-        { "name": "Foot drop", "description": "Damage to the common fibular branch weakens ankle lift, making the foot drag." }
+        {
+          "name": "Sciatica",
+          "description": "Irritation of the nerve or its roots causes burning pain that travels from the buttock down the leg."
+        },
+        {
+          "name": "Piriformis syndrome",
+          "description": "A tight piriformis muscle in the buttock can pinch the nerve and mimic a disc problem."
+        },
+        {
+          "name": "Foot drop",
+          "description": "Damage to the common fibular branch weakens ankle lift, making the foot drag."
+        }
       ],
-      "relatedOrgans": ["peripheral-nerves", "spinal-cord", "hamstrings"],
-      "keywords": ["sciatica", "leg", "buttock", "piriformis", "nerve pain"],
+      "relatedOrgans": [
+        "peripheral-nerves",
+        "spinal-cord",
+        "hamstrings"
+      ],
+      "keywords": [
+        "sciatica",
+        "leg",
+        "buttock",
+        "piriformis",
+        "nerve pain"
+      ],
       "sources": [
-        { "label": "Kenhub — Sciatic Nerve", "url": "https://www.kenhub.com/en/library/anatomy/the-sciatic-nerve" },
-        { "label": "TeachMeAnatomy — Sciatic Nerve", "url": "https://teachmeanatomy.info/lower-limb/nerves/sciatic-nerve/" }
+        {
+          "label": "Kenhub — Sciatic Nerve",
+          "url": "https://www.kenhub.com/en/library/anatomy/the-sciatic-nerve"
+        },
+        {
+          "label": "TeachMeAnatomy — Sciatic Nerve",
+          "url": "https://teachmeanatomy.info/lower-limb/nerves/sciatic-nerve/"
+        }
       ]
     },
     {
@@ -328,16 +685,33 @@
       "systemId": "nervous",
       "name": "Meninges",
       "latin": "Meninges",
-      "alsoKnownAs": ["The brain's wrappings"],
+      "alsoKnownAs": [
+        "The brain's wrappings"
+      ],
       "region": "whole-body",
       "tagline": "Three protective membranes that wrap the brain and spinal cord.",
-      "summary": "The meninges are three layers of membrane that wrap your brain and spinal cord like a set of fitted covers. The outermost, the dura mater, is tough and leathery and clings to the inside of the skull. Beneath it lies the arachnoid mater, a delicate, web-like sheet, and under that the pia mater, a thin film that follows every fold and dip of the brain's surface.\n\nBetween the arachnoid and pia floats cerebrospinal fluid, a clear liquid that cushions the brain, carries nutrients, and removes waste. The meninges hold this fluid in place and form partitions that keep parts of the brain from shifting too far. They also carry blood vessels and help seal the nervous system from infection. When bacteria reach these layers, the result is meningitis, an inflammation that can become serious quickly.",
+      "summary": "The meninges are three layers of membrane that wrap your brain and spinal cord like a set of fitted covers. The outermost, the dura mater, is tough and leathery and clings to the inside of the skull. Beneath it lies the arachnoid mater, a delicate, web-like sheet, and under that the pia mater, a thin film that follows every fold and dip of the brain's surface.\n\nBetween the arachnoid and pia floats cerebrospinal fluid, a clear liquid that cushions the brain, carries nutrients, and removes waste. The meninges hold this fluid in place and form partitions that keep parts of the brain from shifting too far. They also carry blood vessels and help seal the nervous system from infection. When microbes reach these layers, the result is meningitis, an inflammation that can become serious quickly.",
       "functions": [
-        { "title": "Cushioning the brain", "detail": "Fluid between the layers absorbs shocks and lets the brain float rather than rest on bone." },
-        { "title": "Holding cerebrospinal fluid", "detail": "The arachnoid and pia enclose the fluid-filled space that bathes the nervous system." },
-        { "title": "Carrying blood vessels", "detail": "Blood vessels run within the meninges to supply and drain the brain and spinal cord." },
-        { "title": "Forming partitions", "detail": "Folds of dura separate the hemispheres and form a tent above the cerebellum." },
-        { "title": "Sealing against infection", "detail": "The layers form a barrier that limits the spread of microbes into the nervous system." }
+        {
+          "title": "Cushioning the brain",
+          "detail": "Fluid between the layers absorbs shocks and lets the brain float rather than rest on bone."
+        },
+        {
+          "title": "Holding cerebrospinal fluid",
+          "detail": "The arachnoid and pia enclose the fluid-filled space that bathes the nervous system."
+        },
+        {
+          "title": "Carrying blood vessels",
+          "detail": "Blood vessels run within the meninges to supply and drain the brain and spinal cord."
+        },
+        {
+          "title": "Forming partitions",
+          "detail": "Folds of dura separate the hemispheres and form a tent above the cerebellum."
+        },
+        {
+          "title": "Sealing against infection",
+          "detail": "The layers form a barrier that limits the spread of microbes into the nervous system."
+        }
       ],
       "location": "Surrounding the brain inside the skull and the spinal cord inside the vertebral canal.",
       "size": "The dura is thick and leathery, while the arachnoid and pia are thinner than a sheet of paper.",
@@ -347,15 +721,40 @@
         "Your body makes roughly 500 milliliters of cerebrospinal fluid a day, enough to replace the entire supply several times over."
       ],
       "conditions": [
-        { "name": "Meningitis", "description": "Infection or inflammation of the meninges causes headache, fever, and a stiff neck." },
-        { "name": "Subdural hematoma", "description": "Blood can collect between the dura and arachnoid after a blow to the head." },
-        { "name": "Meningioma", "description": "A usually slow-growing tumor can arise from the meninges and press on nearby brain tissue." }
+        {
+          "name": "Meningitis",
+          "description": "Infection or inflammation of the meninges causes headache, fever, and a stiff neck."
+        },
+        {
+          "name": "Subdural hematoma",
+          "description": "Blood can collect between the dura and arachnoid after a blow to the head."
+        },
+        {
+          "name": "Meningioma",
+          "description": "A usually slow-growing tumor can arise from the meninges and press on nearby brain tissue."
+        }
       ],
-      "relatedOrgans": ["brain", "spinal-cord", "skull"],
-      "keywords": ["dura", "arachnoid", "pia", "cerebrospinal fluid", "protection"],
+      "relatedOrgans": [
+        "brain",
+        "spinal-cord",
+        "skull"
+      ],
+      "keywords": [
+        "dura",
+        "arachnoid",
+        "pia",
+        "cerebrospinal fluid",
+        "protection"
+      ],
       "sources": [
-        { "label": "Kenhub — Meninges", "url": "https://www.kenhub.com/en/library/anatomy/meninges-of-the-brain-and-spinal-cord" },
-        { "label": "TeachMeAnatomy — Meninges", "url": "https://teachmeanatomy.info/neuroanatomy/structures/meninges/" }
+        {
+          "label": "Kenhub — Meninges",
+          "url": "https://www.kenhub.com/en/library/anatomy/meninges-of-the-brain-and-spinal-cord"
+        },
+        {
+          "label": "TeachMeAnatomy — Meninges",
+          "url": "https://teachmeanatomy.info/neuroanatomy/structures/meninges/"
+        }
       ]
     }
   ],
@@ -379,38 +778,38 @@
       },
       {
         "title": "The quiet fine-tuner",
-        "body": "Reach out and touch your nose with your eyes closed. That small success is the cerebellum's work. Sitting behind the brainstem, this densely folded structure holds more than half of the brain's neurons, even though it makes up only about a tenth of its volume. It does not order movements; it edits them. It compares the command your cortex sent with feedback from your muscles and inner ear, then corrects the signal mid-flight. That correction is why your hand moves smoothly rather than in jerks. Practice a new skill and the cerebellum quietly rewrites its own wiring overnight.",
+        "body": "Reach out and touch your nose with your eyes closed. That small success is the cerebellum's work. Sitting behind the brainstem, this densely folded structure holds more than half of the brain's neurons, even though it makes up only about a tenth of its volume. It does not order movements; it edits them. It compares the command your cortex sent with feedback from your muscles and inner ear, then corrects the signal mid-flight. That correction is why your hand moves smoothly rather than in jerks. Practice a new skill and the cerebellum quietly rewrites its own wiring overnight. From here, every command still has to pass through a narrow stalk.",
         "organId": "cerebellum",
         "keyPoint": "The cerebellum edits movement rather than starting it."
       },
       {
         "title": "The stalk of life",
-        "body": "Everything that travels between your brain and your body passes through a stalk of tissue about the length of your thumb. The brainstem is only a few centimeters long, but it holds the controls for breathing, heart rate, blood pressure, swallowing, and wakefulness. Ten of your twelve cranial nerves emerge from it, which is why a small stroke here can slur speech, double vision, or weaken both sides of the body. It also contains the crossing point where most motor fibers swap sides, so your left brain moves your right hand. Small, ancient, and utterly essential.",
+        "body": "Almost everything that travels between your brain and your body passes through a stalk of tissue roughly the length of your index finger. The brainstem is about 7 to 10 centimeters long, but it holds the controls for breathing, heart rate, blood pressure, swallowing, and wakefulness. Ten of your twelve cranial nerves emerge from it, which is why a small stroke here can slur speech, cause double vision, or weaken both sides of the body. It also contains the crossing point where most motor fibers swap sides, so your left brain moves your right hand. Small, ancient, and utterly essential.",
         "organId": "brainstem",
-        "keyPoint": "Everything between brain and body passes through the brainstem."
+        "keyPoint": "Almost everything between brain and body passes through the brainstem."
       },
       {
         "title": "The cable in your spine",
-        "body": "Below the brainstem, the spinal cord runs down a tunnel of bone, a pale cable about as thick as your thumb. It is not a passive pipe. Sensory fibers climb toward the brain, motor fibers descend, and local circuits handle reflexes without waiting for permission. Touch a hot pan and your hand pulls back before the pain reaches your awareness. The cord ends near your waist, but nerves continue below it like a horse's tail. Thirty-one pairs of spinal nerves leave along its length, each assigned to a strip of skin and a set of muscles.",
+        "body": "Below the brainstem, the spinal cord runs down a tunnel of bone, a pale cable about as thick as your little finger. It is not a passive pipe. Sensory fibers climb toward the brain, motor fibers descend, and local circuits handle reflexes without waiting for permission. Touch a hot pan and your hand pulls back before the pain reaches your awareness. The cord ends near your waist, but nerves continue below it like a horse's tail. Thirty-one pairs of spinal nerves leave along its length, each assigned to a strip of skin and a set of muscles. Yet the cord is only the trunk line; the brain above also runs the body's background systems, which is where we go next.",
         "organId": "spinal-cord",
         "keyPoint": "The spinal cord carries signals and writes reflexes on its own."
       },
       {
         "title": "The thermostat inside",
-        "body": "Deep below the thalamus sits a cluster of nuclei roughly the size of an almond. The hypothalamus is your body's quiet regulator. It samples the blood for temperature, salt, and hormones, then acts: shivering when you are cold, widening blood vessels when you are hot, driving thirst when you are dry. It also talks to the pituitary gland, telling it when to release hormones that reach the thyroid, the adrenal glands, and the kidneys. And a tiny cluster of about 20,000 neurons inside it keeps your daily clock in step with daylight. Small enough to miss, powerful enough to set your whole day.",
+        "body": "Deep below the thalamus sits a cluster of nuclei roughly the size of an almond. The hypothalamus is your body's quiet regulator. It samples the blood for temperature, salt, and hormones, then acts: shivering when you are cold, widening blood vessels when you are hot, driving thirst when you are dry. It also talks to the pituitary gland, telling it when to release hormones that reach the thyroid, the adrenal glands, and the kidneys. And a tiny cluster of about 20,000 neurons inside it keeps your daily clock in step with daylight. Small enough to miss, powerful enough to set your whole day. A few centimeters away, another deep structure helps decide what you will remember of it.",
         "organId": "hypothalamus",
         "keyPoint": "The hypothalamus holds your body's conditions within narrow limits."
       },
       {
         "title": "Where moments stick",
-        "body": "Deep in each temporal lobe, a curved strip of tissue shaped like a seahorse helps turn experience into memory. The hippocampus binds the sights, sounds, and feelings of a moment into one episode, then replays it during sleep so it can be filed across the cortex. Next door, the amygdala stamps the same moment with emotion, which is why frightening or joyful events stick harder than ordinary ones. Damage to the hippocampus can leave someone unable to form new lasting memories while older ones survive. Memory is not a recording; it is a reconstruction.",
+        "body": "Deep in each temporal lobe, a curved strip of tissue shaped like a seahorse helps turn experience into memory. The hippocampus binds the sights, sounds, and feelings of a moment into one episode, then replays it during sleep so it can be filed across the cortex. Next door, the amygdala stamps the same moment with emotion, which is why frightening or joyful events stick harder than ordinary ones. Damage to the hippocampus can leave someone unable to form new lasting memories while older ones survive. Memory is not a recording; it is a reconstruction. Yet the nerves that carry the brain's commands reach far beyond the skull.",
         "organId": "hippocampus",
         "keyPoint": "Memory is rebuilt, not replayed like a recording."
       },
       {
         "title": "What to explore next",
-        "body": "You have followed a signal from cortex to cerebellum, down the brainstem, through the spinal cord, and into the memory circuits of the temporal lobe. But most of the nervous system lies outside the skull. Forty-three pairs of nerves fan out to your skin, organs, and muscles, and the sciatic nerve alone runs from your lower back to your toes. Three membranes called the meninges wrap the whole central axis in fluid and bone. Pick any of those structures in the model and trace where its signals go. The map is large, but it is yours.",
-        "keyPoint": "Most of your nervous system lies outside the skull."
+        "body": "You have followed a signal from the cortex through the cerebellum and brainstem, down the spinal cord, and back up into the hypothalamus and the memory circuits of the temporal lobe. The amygdala, the peripheral nerves, and the meninges are still waiting in the model. Forty-three pairs of nerves fan out to your skin, organs, and muscles, and the sciatic nerve alone runs from your lower back to your toes. Those three membranes hold the cushioning fluid, and bone surrounds them. Pick any of those structures and trace where its signals go. The map is large, but it is yours.",
+        "keyPoint": "The nervous system reaches far beyond the skull."
       }
     ]
   },
@@ -419,7 +818,12 @@
       "id": "nervous-q1",
       "systemId": "nervous",
       "question": "How many pairs of spinal nerves branch from the spinal cord?",
-      "options": ["12 pairs", "24 pairs", "31 pairs", "43 pairs"],
+      "options": [
+        "12 pairs",
+        "24 pairs",
+        "31 pairs",
+        "43 pairs"
+      ],
       "answerIndex": 2,
       "explanation": "The spinal cord gives off 31 pairs of spinal nerves, while 12 pairs of cranial nerves leave the skull. Together they make 43 pairs of major peripheral nerves.",
       "difficulty": "easy"
@@ -428,7 +832,12 @@
       "id": "nervous-q2",
       "systemId": "nervous",
       "question": "Which part of the brain means little brain and holds more than half of its neurons?",
-      "options": ["Brainstem", "Cerebellum", "Hippocampus", "Hypothalamus"],
+      "options": [
+        "Brainstem",
+        "Cerebellum",
+        "Hippocampus",
+        "Hypothalamus"
+      ],
       "answerIndex": 1,
       "explanation": "The cerebellum means little brain in Latin. It makes up about a tenth of brain volume but contains more than half of the brain's neurons.",
       "difficulty": "easy"
@@ -437,7 +846,12 @@
       "id": "nervous-q3",
       "systemId": "nervous",
       "question": "What are the three layers of the meninges, from outermost to innermost?",
-      "options": ["Dura mater, arachnoid mater, pia mater", "Pia mater, dura mater, arachnoid mater", "Arachnoid mater, pia mater, dura mater", "Cortex, medulla, pons"],
+      "options": [
+        "Dura mater, arachnoid mater, pia mater",
+        "Pia mater, dura mater, arachnoid mater",
+        "Arachnoid mater, pia mater, dura mater",
+        "Dura mater, pia mater, arachnoid mater"
+      ],
       "answerIndex": 0,
       "explanation": "The dura mater is the tough outer layer, the arachnoid mater is the web-like middle layer, and the pia mater is the thin inner film that follows every fold.",
       "difficulty": "easy"
@@ -446,7 +860,12 @@
       "id": "nervous-q4",
       "systemId": "nervous",
       "question": "A small stroke damages the brainstem. Which functions are most directly at risk?",
-      "options": ["Color vision and hearing", "Balance and fine motor timing", "Long-term memory storage", "Breathing, heart rate, and swallowing"],
+      "options": [
+        "Color vision and hearing",
+        "Fine motor timing and skill learning",
+        "Long-term memory storage",
+        "Breathing, heart rate, and swallowing"
+      ],
       "answerIndex": 3,
       "explanation": "The brainstem houses centers that generate breathing rhythms and control heart rate, blood pressure, and swallowing. Ten cranial nerves also emerge from it.",
       "difficulty": "medium"
@@ -455,7 +874,12 @@
       "id": "nervous-q5",
       "systemId": "nervous",
       "question": "Which tiny cluster of hypothalamic neurons keeps your daily clock in step with daylight?",
-      "options": ["Pineal body", "Reticular formation", "Purkinje cells", "Suprachiasmatic nucleus"],
+      "options": [
+        "Pineal body",
+        "Reticular formation",
+        "Purkinje cells",
+        "Suprachiasmatic nucleus"
+      ],
       "answerIndex": 3,
       "explanation": "The suprachiasmatic nucleus contains about 20,000 neurons and uses light signals from the eyes to synchronize the body's 24-hour rhythm.",
       "difficulty": "medium"
@@ -464,7 +888,12 @@
       "id": "nervous-q6",
       "systemId": "nervous",
       "question": "What is the cerebellum's main contribution to movement?",
-      "options": ["It compares intended and actual motion and corrects it", "It starts every voluntary movement", "It carries motor commands down the spinal cord", "It stores the memory of learned movements"],
+      "options": [
+        "It compares intended and actual motion and corrects it",
+        "It starts every voluntary movement",
+        "It carries motor commands down the spinal cord",
+        "It generates the conscious intention to move"
+      ],
       "answerIndex": 0,
       "explanation": "The cerebellum receives feedback from muscles, joints, and the inner ear, then adjusts outgoing signals so movements stay smooth and accurate.",
       "difficulty": "medium"
@@ -473,16 +902,26 @@
       "id": "nervous-q7",
       "systemId": "nervous",
       "question": "Why can the amygdala drive a fear response before you consciously identify a threat?",
-      "options": ["It stores all long-term memories", "It releases hormones directly into the bloodstream", "It has direct connections that bypass the cortex's slower analysis", "It controls the spinal cord's reflex arc"],
+      "options": [
+        "It stores all long-term memories",
+        "It releases hormones directly into the bloodstream",
+        "It receives fast thalamic signals before the cortex finishes analyzing the threat",
+        "It controls the spinal cord's reflex arc"
+      ],
       "answerIndex": 2,
-      "explanation": "The amygdala receives fast, coarse sensory signals through a shortcut route, so it can trigger a physical alarm before the cortex has finished identifying what the threat is.",
+      "explanation": "The amygdala receives fast, coarse sensory signals from the thalamus, so it can trigger a physical alarm before the cortex has finished identifying what the threat is.",
       "difficulty": "hard"
     },
     {
       "id": "nervous-q8",
       "systemId": "nervous",
       "question": "Why does the adult spinal cord end near the first or second lumbar vertebra while spinal nerves continue lower?",
-      "options": ["The cord is pulled upward by the brainstem", "The nerves grow downward after birth", "The lower cord is replaced by cerebrospinal fluid", "The vertebral column grows faster than the cord during development"],
+      "options": [
+        "The cord is pulled upward by the brainstem",
+        "The nerves grow downward after birth",
+        "The lower cord is replaced by cerebrospinal fluid",
+        "The vertebral column grows faster than the cord during development"
+      ],
       "answerIndex": 3,
       "explanation": "During growth the vertebral column lengthens more than the spinal cord, so the cord's lower end sits higher while its nerves still exit at lower levels.",
       "difficulty": "hard"

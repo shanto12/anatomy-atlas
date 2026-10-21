@@ -1,0 +1,91 @@
+{
+  "systemId": "skeletal",
+  "reviewedAt": "2026-10-21T16:26:00-05:00",
+  "checks": [
+    {
+      "name": "JSON validity, schema and required fields",
+      "passed": true,
+      "notes": "Parses as UTF-8 JSON with 2-space indentation and a trailing newline. Every system, organ, lesson and quiz field required by CONTENT_SPEC.md is present with the right type; optional fields (latin, alsoKnownAs, keyPoint, heroStat) are either valid or absent. No trailing commas, no duplicate keys."
+    },
+    {
+      "name": "Organ IDs, order and systemId consistency",
+      "passed": true,
+      "notes": "Exactly the 12 required organs in the required order: skull, mandible, vertebral-column, ribcage, sternum, pelvis, femur, humerus, radius-ulna, scapula, clavicle, patella. All IDs are globally unique kebab-case and every organ.systemId is 'skeletal'."
+    },
+    {
+      "name": "Counts and IDs for lesson and quiz",
+      "passed": true,
+      "notes": "Lesson id is 'lesson-skeletal' with exactly 8 steps; steps 2-7 each carry an organId (6 total, minimum is 5), step 1 and step 8 carry none. Quiz has exactly 8 questions, ids skeletal-q1 through skeletal-q8, 4 options each, answerIndex in 0-3, difficulty mix 3 easy / 3 medium / 2 hard."
+    },
+    {
+      "name": "Field lengths and counts",
+      "passed": true,
+      "notes": "System summary 211 words in 3 paragraphs; organ summaries 138-160 words in exactly 2 paragraphs; 3 facts and 2-3 conditions per organ; 3-5 functions per organ with 12-40 word details; 2-4 related organs; 5 keywords; exactly 2 sources per organ. All taglines, step bodies, keyPoints, explanations and option strings are inside their limits."
+    },
+    {
+      "name": "Medical accuracy spot-check (12 claims)",
+      "passed": true,
+      "notes": "Verified against MedlinePlus, NCBI Bookshelf, Cleveland Clinic, TeachMeAnatomy and peer-reviewed sources: 206 adult bones; seven bones per orbit; pelvic ring formed by the two hip bones plus the sacrum with the coccyx below; adult femoral neck-shaft angle about 125-130 degrees (modern mean 127, not 135); clavicle first to ossify (fifth-sixth fetal week) and last to finish (about 24-26); patella is the largest sesamoid and ossifies at 3-6 years; sternal angle at T4-T5 where the trachea bifurcates; 7 true / 3 false / 2 floating rib pairs with 14 ribs attaching directly; vertebral column about 70 cm in men and 60 cm in women; glenoid about one third the humeral head; femur about 45-46 cm; bi-iliac breadth about 25 cm. Incorrect or vague statements were corrected and unsupported ones removed."
+    },
+    {
+      "name": "Sources on allowlist and live",
+      "passed": true,
+      "notes": "24 unique URLs across the 12 organs, each requested with curl -L. All 24 returned HTTP 200 and all hosts are on the spec allowlist (teachmeanatomy.info, medlineplus.gov, my.clevelandclinic.org). No duplicate URL within an organ."
+    },
+    {
+      "name": "Safety and medical-advice language",
+      "passed": true,
+      "notes": "No dosages, treatments, diagnoses, instructions to seek care, or second-person treatment advice. Conditions stay descriptive (mechanism, typical cause, consequence). CPR is mentioned only as an anatomical landmark ('CPR compressions land here'), not as an instruction."
+    },
+    {
+      "name": "Learning quality: lesson flow and quiz",
+      "passed": true,
+      "notes": "The tour descends from skull to mandible, spine, rib cage (linking to the sternum), pelvis and femur, and the recap introduces the six remaining bones. Steps no longer restate organ summaries; each teaches one mechanism and ends with a hand-off. Each quiz item has exactly one defensible answer, plausible distractors, no 'all/none of the above', explanations of 22-26 words, and correct answers spread across all four positions (1, 2, 0, 2, 1, 3, 0, 1)."
+    },
+    {
+      "name": "Voice, repetition and mechanics",
+      "passed": true,
+      "notes": "Removed clichés ('comes at a price', 'a bridge and a tunnel'), cut repeated 'which is why' constructions from 9 to 3, and rewrote thirteen fracture descriptions that all opened with 'A break in'. Duplicate five-word phrases between summaries and lesson steps were cut to about 30 in the analyzed prose, and the survivors are mostly unavoidable summary/function overlap. No markdown, HTML, emoji, bullet characters, double spaces or trailing spaces; US English throughout."
+    },
+    {
+      "name": "Cross-system relatedOrgans",
+      "passed": true,
+      "notes": "All 41 relatedOrganIds resolve to organ IDs declared in CONTENT_SPEC.md, including cross-system references brain, spinal-cord, lungs, heart, mouth, bladder, uterus, deltoid, biceps-brachii, quadriceps and hamstrings. No organ references itself and no duplicates within an organ."
+    }
+  ],
+  "changes": [
+    "Pelvis summary: stopped describing the coccyx as part of the ring; the sacrum now closes the pelvic ring and the coccyx hangs below it.",
+    "Pelvis lesson step: rebuilt around the actual ring (two hip bones plus sacrum) and the pubic symphysis instead of repeating the summary's inaccurate three-part ring.",
+    "Pelvis fact: replaced the vague 'fuse by your late teens' claim with the three bones meeting at the socket and the last seam closing around age 16.",
+    "Pelvis fracture line: replaced 'A break in the ring...' with a cause-first sentence.",
+    "Femur fact: corrected the neck-shaft angle from about 135 degrees to about 125 degrees, matching the adult mean of roughly 127.",
+    "Femur fact: reworded the stature-estimation fact to remove a duplicated quarter-of-height claim and the 'which is why' construction.",
+    "Vertebral column size: the 70 cm figure is now attributed to men, with about 60 cm for women, instead of presenting one number as universal.",
+    "Vertebral column summary: changed the metaphor 'a bridge and a tunnel' to 'a pillar and a tunnel', since the spine carries load rather than spanning a gap.",
+    "Vertebral column fact: rewrote the disc-fluid sentence to state plainly that you are shorter at night than in the morning; removed 'which is why'.",
+    "Rib cage summary: removed the faulty causal link ('they bend slightly, which is why they can crack') and fixed the pronoun so 'they' refers to ribs rather than lungs.",
+    "Skull summary: replaced the unsupported claim that foramina explain remote head injury with an accurate statement about fractures pinching nerves or tearing vessels at those openings.",
+    "Skull summary: 'your head squeeze through the birth canal' changed to 'a baby's head compress slightly during delivery'.",
+    "Skull facts: replaced the fact that duplicated the summary's suture sentence with the fontanelles and their closure timing; tightened the seven-bone orbit fact.",
+    "Sternum summary: removed the second finger-tracing instruction that repeated the location sentence.",
+    "Scapula summary: rewrote the flat definition opener as a felt action, and corrected the attachment to include the coracoid process as well as the acromion.",
+    "Scapula fracture line: reworded so the rarity and high-energy mechanism read naturally rather than as another 'A break in' description.",
+    "Patella summary: merged the two definition sentences into one image, and its location now reads 'in front of the lower femur' rather than 'just above the joint line'.",
+    "Humerus summary and fact: removed the 'comes at a price' cliché and the 'which is why' muscle-count sentence.",
+    "Clavicle summary: replaced the vague 'That is why a broken collarbone can be more than a simple broken bone' with a direct statement about the structures at risk.",
+    "Conditions: rewrote thirteen fracture descriptions that opened with 'A break in...' into varied cause-first sentences while keeping the same clinical facts.",
+    "Lesson steps 2-7: rewritten so each step teaches a distinct idea (sutures and molding, jaw hinge-plus-slide, spinal curves and discs, rib levers and the diaphragm, the pelvic ring, femoral load paths) instead of paraphrasing the organ summaries; all six still carry their organId and new keyPoints match.",
+    "Sources: replaced the barely relevant MedlinePlus hip-joint image, 'Long Bones' article and elbow image with Cleveland Clinic pages for the pelvis, femur and humerus, and replaced the shoulder-disorders page shared by scapula and clavicle with the Cleveland Clinic scapula page.",
+    "Voice: cut repeated 'which is why' constructions from 9 to 3 and removed duplicated five-word phrases between summaries and lesson steps."
+  ],
+  "sourcesChecked": 24,
+  "sourcesOk": 24,
+  "remainingConcerns": [
+    "Fact-checking was a targeted spot check of twelve claims plus the sources behind each organ; the remaining prose is standard anatomy but was not verified clause by clause.",
+    "Muscle-attachment counts vary with how muscles are grouped, so the file keeps qualitative wording ('more than a dozen muscles') rather than a hard number.",
+    "The coccyx belongs to the bony pelvis even though it does not close the pelvic ring; the wording separates the two ideas, but a reader comparing sources may still meet both conventions.",
+    "The lesson tours six of the twelve organs; humerus, radius-ulna, scapula, clavicle, patella and the sternum appear only in the recap or inside another step, which meets the five-organ minimum but leaves those entries to the organ pages.",
+    "Bone dimensions are population averages: the radius/ulna lengths and pelvic width vary with sex and stature, and the stated figures are central values rather than ranges.",
+    "Other system files are being edited in parallel, so cross-system relatedOrganIds were confirmed against the current tree and could change if those files are revised."
+  ]
+}

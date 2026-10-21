@@ -1,0 +1,81 @@
+{
+  "systemId": "endocrine",
+  "reviewedAt": "2026-10-21T21:26:07Z",
+  "checks": [
+    {
+      "name": "JSON validity and schema",
+      "passed": true,
+      "notes": "Parses as UTF-8 JSON with 2-space indentation and no trailing commas. Top-level, organ, lesson, and quiz objects contain the required keys with the specified types. No markdown, HTML, emoji, or bullet characters occur inside content strings."
+    },
+    {
+      "name": "Organ inventory and IDs",
+      "passed": true,
+      "notes": "Exactly the six required organ IDs appear in spec order: pituitary-gland, thyroid, parathyroid, adrenal-glands, pineal-gland, pancreatic-islets. IDs are unique across the full 12-system dataset, and every organ has systemId endocrine."
+    },
+    {
+      "name": "Field lengths and counts",
+      "passed": true,
+      "notes": "System summary is 202 words in 3 paragraphs. Organ summaries are 156-168 words in exactly 2 paragraphs. Each organ has 4-5 functions, exactly 3 facts, 2-3 conditions, 3-6 lowercase keywords, 2 sources, 3-4 relatedOrgans, and a valid heroStat. All taglines, function strings, locations, sizes, and detail fields are within their limits."
+    },
+    {
+      "name": "Lesson structure",
+      "passed": true,
+      "notes": "Lesson id is lesson-endocrine with 8 steps, subtitle 77 characters, and durationMin 9. Step 1 is a hook, steps 2-7 are dedicated stops for the six organs, and step 8 recaps and points to the kidneys. All keyPoints are 110 characters or fewer and all bodies are 100-112 words."
+    },
+    {
+      "name": "Quiz quality",
+      "passed": true,
+      "notes": "Exactly 8 questions with ids endocrine-q1 through q8, 4 options each, valid answer indexes (1, 2, 0, 0, 3, 1, 2, 3), and a 3 easy / 3 medium / 2 hard mix. Explanations are 22-27 words. Every question has one defensible answer, plausible distractors, no all-or-none options, and content support in the file; the portal vein was added to lesson step 7 so q8 is answerable from the lesson itself."
+    },
+    {
+      "name": "Medical accuracy",
+      "passed": true,
+      "notes": "Spot-checked more than a dozen claims and numbers against Cleveland Clinic, MedlinePlus, NIDDK, MSD Manual, and peer-reviewed physiology sources: pituitary size and weight; thyroid weight, iodine chemistry, and extracellular colloid storage; parathyroid size, weight, number range, and Sandstrom's 1880 description; adrenal dimensions, weight, right-pyramidal/left-crescent shape, and cortical zones; pineal dimensions, weight, and absence of a blood-brain barrier; islet number, diameter, pancreatic share, beta-cell majority, and portal drainage; PTH effects on calcium, phosphate, and calcitriol; calcitonin's minor role in human calcium balance; cortisol's morning peak and midnight nadir; two-phase insulin release; and type 1 versus type 2 diabetes mechanisms. Corrected the overclaims and imprecise anatomy listed under changes."
+    },
+    {
+      "name": "Sources",
+      "passed": true,
+      "notes": "12 unique source URLs, all returning HTTP 200 with curl -L. Hosts are medlineplus.gov, my.clevelandclinic.org, yalemedicine.org, and niddk.nih.gov, all on the allowlist. No Wikipedia, blog, or invented URLs."
+    },
+    {
+      "name": "Safety and medical advice",
+      "passed": true,
+      "notes": "No dosages, medication instructions, treatment directions, or diagnostic directives. Conditions such as pituitary adenoma, diabetes insipidus, hypopituitarism, hyperparathyroidism, Addison's disease, Cushing's syndrome, pheochromocytoma, pineal cyst, and diabetes are described educationally, with symptoms explained rather than managed."
+    },
+    {
+      "name": "Voice and style",
+      "passed": true,
+      "notes": "US English spelling throughout. Removed several overclaims and one repeated absolute, tightened the adrenal, thyroid, pineal, and islet wording, and kept the strongest lines and images. No textbook filler, markdown, emoji, or bullet characters."
+    },
+    {
+      "name": "Cross-system relatedOrganIds",
+      "passed": true,
+      "notes": "All 20 relatedOrgans references across the six organs resolve to existing IDs in the 12-system dataset, including hypothalamus, brain, kidneys, femur, larynx, trachea, retina, pancreas, liver, and stomach."
+    }
+  ],
+  "changes": [
+    "Corrected the adrenal tagline from 'Two triangular caps' to 'Two small caps'; the right adrenal is pyramidal but the left is crescent-shaped, as the entry itself states.",
+    "Narrowed the pituitary tagline's claim that it issues orders to 'the rest of the endocrine system'; it does not govern the parathyroids, pancreatic islets, or pineal gland.",
+    "Fixed the system summary's anatomy: the thyroid wraps the windpipe while the parathyroids tuck behind it, and the islets scatter through the pancreas rather than the abdomen.",
+    "Replaced the vague claim that each gland measures 'usually the very substance it controls' with the accurate description that each senses a key variable.",
+    "Corrected lesson step 8, which said the thyroid reads its own hormone; the pituitary and hypothalamus sense thyroid hormone and adjust TSH.",
+    "Reversed the pineal function detail so melatonin feeds back to the hypothalamus rather than supposedly feeding timing information to the master clock.",
+    "Rewrote the pinealocyte sentence from 'light-sensitive in an indirect way' to 'never see light themselves,' avoiding the implication that human pineal cells are photoreceptors.",
+    "Changed 'six glands' to 'six organs' in the lesson hook and recap because the tour visits six organs, while the body contains multiple parathyroid and adrenal glands.",
+    "Added the portal vein to lesson step 7 so quiz 8's answer is supported by the file's own content.",
+    "Corrected the adrenal lesson ending: the slow cortical response keeps working for hours, rather than 'still adjusting' and implying cortisol causes lingering adrenaline shakes.",
+    "Softened the islet fact from controlling 'the fuel supply of every other organ' to helping set fuel supply for the whole body.",
+    "Fixed the islet summary's 'beta cells are destroyed or ignored' to distinguish beta-cell destruction from the body ignoring insulin.",
+    "Changed the islet function heading 'Senses every meal' to 'Senses glucose constantly'; islets monitor glucose between meals too.",
+    "Added 'large amounts' to the thyroid's extracellular hormone-storage claim, broadened parathyroid weight to 25-40 mg, and changed 'pulls more from food' to 'boosts absorption from food.'",
+    "Changed the thyroid tagline from 'throat' to 'neck' and the pineal cyst wording from 'found only' to 'often discovered,' removing two imprecise absolutes.",
+    "Clarified prolactin's role in starting and sustaining milk production."
+  ],
+  "sourcesChecked": 12,
+  "sourcesOk": 12,
+  "remainingConcerns": [
+    "Pituitary weight is often cited as 0.5-0.9 g. The file consistently uses 0.5 g, which is the low end of the normal range but a common representative figure.",
+    "Parathyroid gland counts vary from roughly 3 to 8. The stats and tagline use the usual count of four for clarity, while the prose notes that three, five, or more can occur.",
+    "The pineal and pancreatic-islet entries each pair one organ-specific source with a broader topic page (MedlinePlus Hormones and MedlinePlus Pancreatic Diseases). Both are authoritative and working, but some pineal details, such as the absent blood-brain barrier and the tuatara parietal eye, are not explicit on those two pages."
+  ]
+}

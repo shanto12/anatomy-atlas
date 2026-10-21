@@ -1,0 +1,661 @@
+{
+  "id": "immune",
+  "name": "Immune & Lymphatic System",
+  "shortName": "Immunity",
+  "tagline": "The body's defense force and its second circulatory network.",
+  "summary": "Your immune system has no single address. It is a patrol and a plumbing network at once, spread through your chest, abdomen, throat, and bones, with outposts in almost every tissue. Its command posts have names: the thymus, spleen, tonsils, and lymph nodes. The rest is a quiet river of vessels that drains the fluid between your cells and carries it home.\n\nThat fluid, called lymph, is the system's courier. Every day about 20 liters of plasma leak out of your capillaries, and roughly 17 liters seep back; the remaining 3 liters take the long way home through lymphatic vessels. Along that route, lymph percolates through lymph nodes, which are packed with white blood cells standing guard like inspectors at a border crossing. Anything suspicious gets flagged, and an immune response begins.\n\nMeanwhile, bone marrow quietly manufactures every blood cell you own, including the lymphocytes that will be trained elsewhere. T cells graduate from the thymus, B cells mature in the marrow, and both take up posts in the spleen, tonsils, and nodes. The system also remembers. After it meets a germ once, it can recognize it years later, and that memory is what vaccines exploit. It is also part of why your lymphatic system feels busier, and more noticeable, when you are sick.",
+  "color": "#6f8a4f",
+  "stats": [
+    {
+      "value": "400–800",
+      "label": "lymph nodes in the body"
+    },
+    {
+      "value": "3 L",
+      "label": "of lymph returned to the blood daily"
+    },
+    {
+      "value": "~2.5 kg",
+      "label": "of bone marrow in an adult"
+    }
+  ],
+  "functions": [
+    "Drains excess fluid from tissues and returns it to the bloodstream",
+    "Checks lymph at hundreds of lymph nodes before it returns to the blood",
+    "Makes and trains the white blood cells that recognize specific germs",
+    "Absorbs fats and fat-soluble vitamins from the small intestine",
+    "Disposes of worn-out red blood cells and recycles their iron",
+    "Keeps a memory of past infections so the next response is faster"
+  ],
+  "organs": [
+    {
+      "id": "thymus",
+      "systemId": "immune",
+      "name": "Thymus",
+      "latin": "Thymus",
+      "alsoKnownAs": [
+        "The T cell school"
+      ],
+      "region": "thorax",
+      "tagline": "A soft gland behind your breastbone where T cells learn their trade.",
+      "summary": "Tucked behind your breastbone, in front of the great vessels and just above the heart, sits a soft, pink-gray gland with two irregular lobes. This is your thymus, and through childhood it is one of the busiest classrooms in your body. It grows with you, reaching about 30 grams, roughly an ounce, around puberty, then slowly gives way to fat as working tissue is replaced.\n\nIts students are T cells, white blood cells born in bone marrow that arrive with no sense of friend or foe. Inside the thymus they are tested against the body's own proteins. Cells that react too strongly are ordered to self-destruct, while the rest graduate, enter the bloodstream, and take up posts in lymph nodes and the spleen. This training, called central tolerance, is why a healthy immune system usually leaves your own tissue alone. By adulthood much of the gland has been replaced by fat, but the T cells it trained keep working for decades.",
+      "functions": [
+        {
+          "title": "Train T cells",
+          "detail": "Immature lymphocytes arriving from the marrow are tested here and released as mature T cells ready to patrol."
+        },
+        {
+          "title": "Teach self-tolerance",
+          "detail": "Developing T cells that react strongly against your own tissues are eliminated, which helps prevent autoimmune attacks later."
+        },
+        {
+          "title": "Release hormones",
+          "detail": "The thymus secretes thymosin and other signals that support T cell development and nudge other immune organs into action."
+        },
+        {
+          "title": "Stock the outposts",
+          "detail": "Graduated T cells leave through the blood and settle in lymph nodes, the spleen, and the tonsils."
+        }
+      ],
+      "location": "In the upper chest behind the sternum, inside the mediastinum, sitting in front of and slightly above the heart and between the lungs.",
+      "size": "About 30 grams, roughly an ounce, at its largest around puberty, then steadily replaced by fat until only small traces remain in older adults.",
+      "facts": [
+        "Your thymus belongs to two systems at once, training immune cells while also releasing hormones such as thymosin into the blood.",
+        "A child's thymus is large enough to cast a visible shadow behind the breastbone on a chest X-ray.",
+        "Long after it has shrunk to fatty traces, small islands of thymic tissue keep producing a trickle of new T cells."
+      ],
+      "conditions": [
+        {
+          "name": "DiGeorge syndrome",
+          "description": "A condition present at birth in which the thymus is missing or underdeveloped, leaving a child with very few T cells and little defense against infection."
+        },
+        {
+          "name": "Thymoma",
+          "description": "A tumor that grows from the thymus's epithelial cells, the tissue that forms the gland's scaffolding. Some people with a thymoma also develop myasthenia gravis, a disorder that causes muscle weakness."
+        }
+      ],
+      "relatedOrgans": [
+        "bone-marrow",
+        "lymph-nodes",
+        "spleen"
+      ],
+      "keywords": [
+        "thymus",
+        "t cells",
+        "immunity",
+        "lymphoid",
+        "tolerance"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Thymus",
+          "url": "https://my.clevelandclinic.org/health/body/23016-thymus"
+        },
+        {
+          "label": "TeachMeAnatomy — The Thymus Gland",
+          "url": "https://teachmeanatomy.info/thorax/organs/thymus/"
+        }
+      ],
+      "heroStat": {
+        "value": "1 oz",
+        "label": "at puberty"
+      }
+    },
+    {
+      "id": "spleen",
+      "systemId": "immune",
+      "name": "Spleen",
+      "latin": "Splen",
+      "alsoKnownAs": [
+        "The blood filter"
+      ],
+      "region": "abdomen",
+      "tagline": "A fist-sized filter tucked under your left ribs, quietly cleaning your blood.",
+      "summary": "Slide your fingers under the ribs on your left side and you are pointing at your spleen. It is a soft, purple, fist-sized organ tucked behind the stomach and below the diaphragm, shaped a little like a broad bean or a small avocado. Unlike your tonsils or lymph nodes, it never meets the outside world; it monitors the blood directly, sampling the stream that carries oxygen, nutrients, and whatever else has slipped in.\n\nInside, the spleen divides its work between two kinds of tissue. Red pulp acts like a sieve, catching worn-out red blood cells and breaking them down so their iron can be reused. White pulp is immune tissue, crowded with lymphocytes that screen passing blood for germs and release antibodies when they find them. The organ also holds a reserve of platelets and red cells it can release after bleeding. You can live without a spleen, but the liver must take over much of its filtering work, and certain infections become more dangerous.",
+      "functions": [
+        {
+          "title": "Filter the blood",
+          "detail": "Red pulp traps worn-out red blood cells and breaks them down, saving the iron for your marrow to use again."
+        },
+        {
+          "title": "Guard against bloodborne germs",
+          "detail": "White pulp is packed with lymphocytes that recognize bacteria and viruses traveling through the bloodstream and start an antibody response."
+        },
+        {
+          "title": "Hold a blood reserve",
+          "detail": "The spleen stockpiles platelets and red blood cells and can release them when bleeding or stress demands a quick top-up."
+        },
+        {
+          "title": "Clear damaged cells",
+          "detail": "Macrophages inside the spleen remove aging cells and cellular debris that would otherwise clutter the blood."
+        }
+      ],
+      "location": "In the left upper abdomen, tucked under the lower ribs behind the stomach and beside the left kidney.",
+      "size": "In a typical adult it is about 12 centimeters (5 inches) long and weighs around 150 grams, roughly the size of an avocado.",
+      "facts": [
+        "The spleen is the body's largest lymphoid organ, even though many people cannot point to where it sits.",
+        "Before birth the spleen helps make red blood cells, and it can resume that job in adults if the bone marrow fails.",
+        "Some people are born with a tiny extra spleen, called an accessory spleen, which usually causes no trouble at all."
+      ],
+      "conditions": [
+        {
+          "name": "Enlarged spleen",
+          "description": "Infections, liver disease, and blood disorders can make the spleen swell. A larger spleen may press on the stomach and create a feeling of fullness before you have eaten much."
+        },
+        {
+          "name": "Ruptured spleen",
+          "description": "A hard blow to the left upper abdomen, such as in a car crash or a contact sport, can tear the spleen and cause serious internal bleeding."
+        },
+        {
+          "name": "Splenic infarction",
+          "description": "A blocked blood vessel can cut off part of the spleen, causing sharp pain in the upper left abdomen."
+        }
+      ],
+      "relatedOrgans": [
+        "lymph-nodes",
+        "lymphatic-vessels",
+        "bone-marrow",
+        "stomach"
+      ],
+      "keywords": [
+        "spleen",
+        "lymphoid",
+        "blood filter",
+        "red pulp",
+        "white pulp"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Spleen",
+          "url": "https://my.clevelandclinic.org/health/body/21567-spleen"
+        },
+        {
+          "label": "MedlinePlus — Spleen Diseases",
+          "url": "https://medlineplus.gov/spleendiseases.html"
+        }
+      ],
+      "heroStat": {
+        "value": "~150 g",
+        "label": "typical adult weight"
+      }
+    },
+    {
+      "id": "lymph-nodes",
+      "systemId": "immune",
+      "name": "Lymph Nodes",
+      "latin": "Nodi lymphoidei",
+      "alsoKnownAs": [
+        "Lymph glands"
+      ],
+      "region": "whole-body",
+      "tagline": "Hundreds of bean-shaped checkpoints strung along your lymph routes.",
+      "summary": "Run a fingertip along the side of your neck, just under the jaw, or into the hollow of your armpit, and you may feel a small, rubbery lump. That is a lymph node: a bean-shaped package of immune tissue, usually a few millimeters to a centimeter long, strung along the vessels that drain fluid from your tissues. You have somewhere between 400 and 800 of them, clustered in the neck, armpits, chest, abdomen, and groin, with none at all inside your brain or spinal cord.\n\nEach node is a miniature inspection station. Lymph seeps in through several incoming vessels, percolates through a maze of channels, and leaves through a single outgoing vessel, so the flow slows and immune cells get a long look at what is traveling. B cells, T cells, and debris-eating macrophages wait inside. When a germ is recognized, the node becomes a workshop: cells multiply, antibodies are assembled, and the node swells. That is why the lump under your jaw aches when you have a sore throat.",
+      "functions": [
+        {
+          "title": "Filter lymph",
+          "detail": "Fluid from your tissues passes slowly through the node so immune cells can inspect it for germs and abnormal cells."
+        },
+        {
+          "title": "Stage immune responses",
+          "detail": "B cells and T cells that meet their matching antigen here multiply and turn into antibody factories or killer cells."
+        },
+        {
+          "title": "Return fluid to the blood",
+          "detail": "By collecting lymph from a region and passing it on, nodes help keep tissue fluid from building up."
+        },
+        {
+          "title": "Slow the spread of invaders",
+          "detail": "Nodes can trap bacteria and cancer cells, though some tumors use them as a route to travel farther."
+        }
+      ],
+      "location": "Clustered along lymphatic vessels throughout the body, with large groups in the neck, armpits, chest, abdomen, and groin.",
+      "size": "Most nodes are tiny, roughly 1 to 10 millimeters long, about the size of a lentil when quiet and noticeably larger when reacting to an infection.",
+      "facts": [
+        "Your brain and spinal cord contain no lymph nodes; the brain drains through vessels in its outer membranes instead.",
+        "A node can swell within days of meeting a germ, sometimes turning tender before other symptoms show up.",
+        "Your armpit nodes drain lymph from the breast as well as the arm, so they can be the first place breast cancer shows up."
+      ],
+      "conditions": [
+        {
+          "name": "Swollen lymph nodes",
+          "description": "Nodes enlarge and turn tender when nearby tissue is infected. The swelling usually settles once the infection clears."
+        },
+        {
+          "name": "Lymphoma",
+          "description": "A cancer that starts in lymphocytes, often appearing as firm, painless nodes that keep growing."
+        },
+        {
+          "name": "Metastasis to a lymph node",
+          "description": "Cancer cells from elsewhere can lodge in a node and grow there, so nodes are often checked when cancer is staged."
+        }
+      ],
+      "relatedOrgans": [
+        "lymphatic-vessels",
+        "tonsils",
+        "spleen",
+        "thymus"
+      ],
+      "keywords": [
+        "lymph nodes",
+        "swollen glands",
+        "b cells",
+        "t cells",
+        "immunity"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Lymph Nodes",
+          "url": "https://my.clevelandclinic.org/health/articles/23131-lymph-nodes"
+        },
+        {
+          "label": "MedlinePlus — Lymphatic Diseases",
+          "url": "https://medlineplus.gov/lymphaticdiseases.html"
+        }
+      ],
+      "heroStat": {
+        "value": "400–800",
+        "label": "nodes in your body"
+      }
+    },
+    {
+      "id": "tonsils",
+      "systemId": "immune",
+      "name": "Tonsils",
+      "latin": "Tonsillae",
+      "alsoKnownAs": [
+        "Palatine tonsils"
+      ],
+      "region": "head-neck",
+      "tagline": "Two mounds of immune tissue guarding the back of your throat.",
+      "summary": "Open your mouth wide in a mirror and say ah. On each side of the back of your throat, between two folds of tissue, sit two oval mounds the color of bubblegum. Those are your palatine tonsils, the best known members of a ring of immune tissue that also includes the adenoids behind your nose and patches on the back of your tongue. Each one is a little larger than a marshmallow, pitted with deep crypts that make it look like a tiny cauliflower.\n\nTheir position is the point. Every breath and every swallow carries a sample of the outside world across them, so tonsils work as early-warning stations where your airway and your food passage cross. White blood cells inside the crypts sample bacteria and viruses and begin building antibodies. The trade-off is exposure: those same crevices can trap food and germs, so tonsils sometimes become infected, swell enough to snore, or collect small white stones.",
+      "functions": [
+        {
+          "title": "Sample what you breathe and swallow",
+          "detail": "The tonsils sit where air and food cross, so they meet germs early and hand samples to immune cells."
+        },
+        {
+          "title": "Start antibody production",
+          "detail": "Lymphocytes in tonsil tissue recognize familiar bacteria and release antibodies against them."
+        },
+        {
+          "title": "Form a protective ring",
+          "detail": "Together with the adenoids and the tissue at the back of the tongue, they form a nearly complete circle of immune tissue around the throat."
+        },
+        {
+          "title": "Build local memory",
+          "detail": "Repeated exposure to common throat germs helps the tissue remember them and respond faster next time."
+        }
+      ],
+      "location": "On each side of the back of the throat, nestled between the palatoglossal and palatopharyngeal arches, just behind the soft palate.",
+      "size": "Each tonsil is a little larger than a marshmallow, though size varies widely from person to person and tends to be larger in children.",
+      "facts": [
+        "Tonsils have deep pits called crypts, which give them more surface area to catch germs and more places for debris to collect.",
+        "The tonsils belong to a ring of immune tissue around the throat that is named after the anatomist Wilhelm Waldeyer.",
+        "Tonsils tend to shrink with age, so older adults often have much smaller tonsils than children do."
+      ],
+      "conditions": [
+        {
+          "name": "Tonsillitis",
+          "description": "A viral or bacterial infection that makes the tonsils red, swollen, and sore, often with white patches and a fever."
+        },
+        {
+          "name": "Tonsil stones",
+          "description": "Small whitish clumps of food, dead cells, and bacteria that form in the crypts and can cause bad breath or a scratchy throat."
+        },
+        {
+          "name": "Enlarged tonsils",
+          "description": "Very large tonsils can narrow the airway during sleep, leading to snoring and brief pauses in breathing."
+        }
+      ],
+      "relatedOrgans": [
+        "lymph-nodes",
+        "thymus",
+        "spleen"
+      ],
+      "keywords": [
+        "tonsils",
+        "tonsillitis",
+        "waldeyer ring",
+        "crypts",
+        "throat"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Tonsils",
+          "url": "https://my.clevelandclinic.org/health/body/23459-tonsils"
+        },
+        {
+          "label": "MedlinePlus — Tonsillitis",
+          "url": "https://medlineplus.gov/tonsillitis.html"
+        }
+      ],
+      "heroStat": {
+        "value": "Marshmallow",
+        "label": "about each one's size"
+      }
+    },
+    {
+      "id": "bone-marrow",
+      "systemId": "immune",
+      "name": "Bone Marrow",
+      "latin": "Medulla ossium",
+      "alsoKnownAs": [
+        "Marrow"
+      ],
+      "region": "whole-body",
+      "tagline": "The soft tissue inside your bones where every blood cell is born.",
+      "summary": "Your bones look solid from the outside, but many are hollow at the center, and the space is filled with something closer to raspberry jam than stone. That is bone marrow, a soft, fatty tissue threaded with blood vessels. An adult carries about 2.5 kilograms (just under 6 pounds) of it, packed mostly into the pelvis, spine, ribs, sternum, and the ends of the long bones.\n\nMarrow is the body's blood factory. Every second it releases millions of fresh cells, all descended from a small pool of stem cells. Some become red blood cells that carry oxygen for about four months. Some become white blood cells that hunt infection, or platelets that seal tears in vessels. Early in life nearly all marrow is red and busy; by adulthood much of it has turned yellow with stored fat, and red marrow retreats to flat bones and the ends of long bones. This is also where B cells finish maturing, while their T cell cousins leave for the thymus.",
+      "functions": [
+        {
+          "title": "Make red blood cells",
+          "detail": "Cells in red marrow divide and fill with hemoglobin, then enter the blood to carry oxygen for about four months."
+        },
+        {
+          "title": "Produce white blood cells",
+          "detail": "Marrow turns out neutrophils, monocytes, and lymphocytes, the cells that patrol for infection and rally the immune response."
+        },
+        {
+          "title": "Build platelets",
+          "detail": "Fragments called platelets bud from large marrow cells and rush to plug injured vessels."
+        },
+        {
+          "title": "Store fuel as fat",
+          "detail": "Yellow marrow is mostly fat, an energy reserve the body can draw on when food is scarce."
+        },
+        {
+          "title": "House blood stem cells",
+          "detail": "A small population of hematopoietic stem cells can rebuild the entire blood system after injury or transplant."
+        }
+      ],
+      "location": "Inside the cavities of bones throughout the body, with the largest active deposits in the pelvis, spine, ribs, sternum, skull, and the ends of the femur and humerus.",
+      "size": "An adult has about 2.5 kilograms (just under 6 pounds) of marrow in total, split between red marrow that makes blood and yellow marrow that stores fat.",
+      "facts": [
+        "Red marrow releases roughly two million red blood cells every second, replacing the ones your body retires.",
+        "A single marrow stem cell can give rise to any of the blood's cell types, so a transplant can rebuild an entire blood system.",
+        "Yellow marrow is stored fat, but in times of severe need it can turn back into red marrow and help make blood again."
+      ],
+      "conditions": [
+        {
+          "name": "Leukemia",
+          "description": "A cancer of blood-forming cells that begins in the marrow, where abnormal white cells crowd out healthy ones."
+        },
+        {
+          "name": "Aplastic anemia",
+          "description": "The marrow slows or stops making blood cells, leaving a person tired, prone to bruising, and vulnerable to infection."
+        },
+        {
+          "name": "Multiple myeloma",
+          "description": "Cancerous plasma cells collect in the marrow and can weaken bone while crowding normal blood production."
+        }
+      ],
+      "relatedOrgans": [
+        "thymus",
+        "spleen",
+        "lymph-nodes",
+        "femur"
+      ],
+      "keywords": [
+        "bone marrow",
+        "stem cells",
+        "hematopoiesis",
+        "blood cells",
+        "leukemia"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Bone Marrow",
+          "url": "https://my.clevelandclinic.org/health/body/22818-bone-marrow"
+        },
+        {
+          "label": "MedlinePlus — Bone Marrow Disease",
+          "url": "https://medlineplus.gov/bonemarrowdiseases.html"
+        }
+      ],
+      "heroStat": {
+        "value": "2.5 kg",
+        "label": "of marrow in an adult"
+      }
+    },
+    {
+      "id": "lymphatic-vessels",
+      "systemId": "immune",
+      "name": "Lymphatic Vessels",
+      "latin": "Vasa lymphatica",
+      "alsoKnownAs": [
+        "Lymphatics"
+      ],
+      "region": "whole-body",
+      "tagline": "A one-way river network that carries fluid back to your blood.",
+      "summary": "Threaded through nearly every tissue is a second, quieter set of plumbing. Lymphatic vessels begin as blind-ended fingers between your cells, so thin-walled that fluid simply seeps in, then join into wider and wider tubes that empty into veins at the base of your neck. No heart drives them. They carry fluid one way only, back toward the chest, using valves, muscle squeezes, and the pull of your breath.\n\nThe cargo is lymph, the watery fluid left behind when plasma leaks from capillaries. About 20 liters of plasma leave your blood each day, roughly 17 liters return directly, and the remaining 3 liters must travel home through these vessels. Along the way, lymph passes through lymph nodes, where immune cells inspect it for germs. Vessels in the small intestine, called lacteals, absorb fats and fat-soluble vitamins, so this network matters for nutrition as well as for fluid balance.",
+      "functions": [
+        {
+          "title": "Return fluid to the blood",
+          "detail": "Lymphatic capillaries pick up fluid left in tissues and carry it back to the bloodstream, keeping tissues from swelling."
+        },
+        {
+          "title": "Absorb fats",
+          "detail": "Lacteals in the small intestine take up digested fat and fat-soluble vitamins and deliver them into the lymph."
+        },
+        {
+          "title": "Deliver immune cells",
+          "detail": "Vessels carry lymphocytes and antigen-presenting cells between tissues and the lymph nodes where responses begin."
+        },
+        {
+          "title": "Clear debris",
+          "detail": "Lymph picks up stray proteins, dead cells, and pathogens from tissue spaces and hauls them away for disposal."
+        }
+      ],
+      "location": "Throughout the body, from fine capillary networks in the skin and organs to the thoracic duct, which empties into the junction of the left subclavian and left internal jugular veins.",
+      "size": "Lymphatic capillaries are wider than blood capillaries, while the thoracic duct is 38 to 45 centimeters (15 to 18 inches) long and 2 to 5 millimeters wide.",
+      "facts": [
+        "Lymphatic vessels carry more valves than veins do, and when those valves fail, fluid pools and a limb can swell.",
+        "The thoracic duct drains both legs, the abdomen, and the left upper body, then empties into the junction of the left subclavian and internal jugular veins.",
+        "The right lymphatic duct handles only the upper right quarter of the body, a small but separate drainage route."
+      ],
+      "conditions": [
+        {
+          "name": "Lymphedema",
+          "description": "Fluid builds up in an arm or leg when vessels are blocked or removed, causing swelling that can become long lasting."
+        },
+        {
+          "name": "Lymphangitis",
+          "description": "An infection spreading along a vessel can produce a red streak and tender skin, a sign that bacteria are moving through lymph."
+        },
+        {
+          "name": "Lymphatic filariasis",
+          "description": "Parasitic worms block lymph vessels in some tropical regions, causing severe swelling of the legs or scrotum."
+        }
+      ],
+      "relatedOrgans": [
+        "lymph-nodes",
+        "spleen",
+        "tonsils",
+        "small-intestine"
+      ],
+      "keywords": [
+        "lymph",
+        "lymphatic vessels",
+        "thoracic duct",
+        "lymphedema",
+        "lacteals"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Lymphatic System",
+          "url": "https://my.clevelandclinic.org/health/body/21199-lymphatic-system"
+        },
+        {
+          "label": "Kenhub — Thoracic Duct",
+          "url": "https://www.kenhub.com/en/library/anatomy/thoracic-duct"
+        }
+      ],
+      "heroStat": {
+        "value": "3 L",
+        "label": "of lymph returned daily"
+      }
+    }
+  ],
+  "lesson": {
+    "id": "lesson-immune",
+    "title": "The quiet network that keeps you alive",
+    "subtitle": "Follow a drop of lymph home, and meet the cells that stand guard along the way.",
+    "durationMin": 9,
+    "level": "beginner",
+    "steps": [
+      {
+        "title": "Start with a leak",
+        "body": "Right now, your tissues are leaking. Plasma slips out of capillaries to feed your cells, and most of it returns, but a few liters a day stay behind in the spaces between cells. If that fluid simply pooled, you would swell like a waterbed. Instead, a network of blind-ended vessels picks it up and carries it back to your bloodstream, and along the way it passes through checkpoints packed with immune cells. This is your lymphatic system, the quiet second circulation. It never gets the attention your heart does, but it never stops. Let's trace the route, starting where your blood cells are born.",
+        "keyPoint": "A few liters of fluid leave your blood every day and must find their way back."
+      },
+      {
+        "title": "Bone marrow: the factory",
+        "body": "Deep inside your pelvis, spine, ribs, and sternum is a soft tissue that looks more like jam than stone. Bone marrow holds a reserve of stem cells that divide constantly, and each division produces cells that will become red blood cells, white blood cells, or platelets. Every second, millions of them enter your bloodstream. Red cells haul oxygen for around 120 days before the spleen retires them. White cells head out to patrol. B cells, a kind of lymphocyte, finish their training right here in the marrow. Others, called T cells, leave before they are ready. Their school comes next.",
+        "organId": "bone-marrow"
+      },
+      {
+        "title": "Thymus: the academy",
+        "body": "Behind your breastbone sits a two-lobed gland that is busiest in childhood and quietly shrinks after puberty. This is the thymus, and it runs a ruthless academy. Immature T cells arrive from the marrow, each carrying a randomly built receptor. Instructors test those receptors against your own proteins. A cell that reacts strongly to you is told to self-destruct, which sounds harsh until you consider the alternative: an immune cell that attacks your own joints or thyroid. The survivors graduate and travel through the blood to staff lymph nodes, the spleen, and the tonsils. Most of your T cells are trained before you reach adulthood. From the thymus, they fan out through the blood and lymph.",
+        "organId": "thymus"
+      },
+      {
+        "title": "Vessels: the return trip",
+        "body": "Now follow the fluid those cells patrol. Lymphatic capillaries begin as closed fingers in the spaces between cells, so lymph can seep in but not out the same way. They merge into wider vessels studded with valves, and those valves only open one direction. There is no pump. Instead, your muscles squeeze the vessels when you walk, your breathing changes pressure inside your chest, and the vessel walls themselves contract in slow waves. Eventually the fluid reaches two ducts near your collarbones and empties into veins. When valves fail or vessels are blocked, fluid backs up and a limb swells. That is lymphedema, and it shows how much this return trip matters. The checkpoints that inspect it sit along the way.",
+        "organId": "lymphatic-vessels"
+      },
+      {
+        "title": "Nodes: the checkpoints",
+        "body": "Along the vessels sit hundreds of bean-shaped outposts, from pea-sized nodes in your neck to deeper clusters in your chest and abdomen. Lymph enters each node through several incoming vessels and leaves through just one, so the flow slows to a crawl. Inside, B cells, T cells, and macrophages inspect the fluid for shapes that do not belong. When one is found, the node becomes a workshop, and the extra cells and fluid make it swell. That tender lump under your jaw during a cold is not the germ itself. It is your immune system building an army in public. The blood has its own checkpoint, and it never stops sampling.",
+        "organId": "lymph-nodes"
+      },
+      {
+        "title": "Spleen: the blood filter",
+        "body": "Your spleen sits under the left ribs, behind the stomach, and it handles blood the way lymph nodes handle lymph. Blood flows through red pulp, a spongy mesh that catches worn-out red cells and strips them for parts, saving the iron for reuse. Around it, white pulp is dense with lymphocytes that sample the passing blood for bacteria and viruses. The spleen also stockpiles platelets and red cells, releasing them when you bleed. You can live without it, and the liver and marrow pick up much of the slack. Still, people without a spleen face a higher risk from certain infections, which tells you the filter was doing real work. The body's front door has a checkpoint too.",
+        "organId": "spleen"
+      },
+      {
+        "title": "Tonsils: the doorway",
+        "body": "Look in the mirror and open wide: those two pink mounds at the back of your throat are tonsils, and their position is their job. Every breath and swallow drags the outside world across them. Their surface is pitted with deep crypts, which increases the odds of catching a germ and the odds of trapping a bit of food. Immune cells inside sample what arrives and start producing antibodies. The same anatomy explains the trouble: crypts that catch germs can also become infected, and the tissue can swell enough to snore. Your throat is a doorway, and the tonsils are the bouncers. So how do all these pieces work as one system?",
+        "organId": "tonsils"
+      },
+      {
+        "title": "Put it together",
+        "body": "You have followed fluid from the spaces between your cells to the veins beneath your collarbones, and met the organs that make, train, and station your immune cells. Bone marrow builds the raw material, the thymus educates T cells, vessels carry lymph homeward, nodes inspect it, the spleen filters blood, and the tonsils watch the doorway. None of it works alone. Next time a sore throat comes with a tender lump under your jaw, you will know exactly what is happening there. If you want to see what happens when the filter itself fails, start with the spleen.",
+        "keyPoint": "Making cells, training them, and moving fluid are one connected job."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": "immune-q1",
+      "systemId": "immune",
+      "question": "Where do T cells complete their training?",
+      "options": [
+        "Bone marrow",
+        "Thymus",
+        "Spleen",
+        "Lymph nodes"
+      ],
+      "answerIndex": 1,
+      "explanation": "T cells are born in bone marrow but travel to the thymus, a gland behind the breastbone, where they are tested against the body's own proteins and released as mature cells.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "immune-q2",
+      "systemId": "immune",
+      "question": "Which organ filters worn-out red blood cells out of the blood?",
+      "options": [
+        "Thymus",
+        "Tonsils",
+        "Bone marrow",
+        "Spleen"
+      ],
+      "answerIndex": 3,
+      "explanation": "Red pulp inside the spleen catches aging red blood cells and saves their iron for reuse, while white pulp handles immune surveillance of the passing blood.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "immune-q3",
+      "systemId": "immune",
+      "question": "About how much fluid do lymphatic vessels return to your bloodstream each day?",
+      "options": [
+        "3 liters",
+        "300 milliliters",
+        "17 liters",
+        "20 liters"
+      ],
+      "answerIndex": 0,
+      "explanation": "Roughly 20 liters of plasma leave your capillaries daily, about 17 liters return directly, and the remaining 3 liters travel home through lymphatic vessels.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "immune-q4",
+      "systemId": "immune",
+      "question": "Why does lymph move slowly through a lymph node?",
+      "options": [
+        "Lymph enters through one vessel and leaves through several",
+        "The node is wrapped in a tight capsule that slows inflow",
+        "Lymph enters through several vessels but leaves through only one",
+        "The node's valves stop the flow until immune cells arrive"
+      ],
+      "answerIndex": 2,
+      "explanation": "Several incoming vessels feed a single outgoing vessel, so the flow slows and immune cells get time to inspect the fluid for germs and abnormal cells.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "immune-q5",
+      "systemId": "immune",
+      "question": "What keeps lymph moving when there is no pump like the heart?",
+      "options": [
+        "Gravity alone",
+        "Pressure from the spleen",
+        "Electrical signals from the brain",
+        "Valves, muscle contractions, and breathing"
+      ],
+      "answerIndex": 3,
+      "explanation": "Lymphatic vessels have one-way valves and are squeezed by working muscles and by pressure changes in the chest during breathing.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "immune-q6",
+      "systemId": "immune",
+      "question": "Where do B cells complete their maturation?",
+      "options": [
+        "Thymus",
+        "Bone marrow",
+        "Germinal centers of lymph nodes",
+        "Spleen white pulp"
+      ],
+      "answerIndex": 1,
+      "explanation": "B cells finish developing in bone marrow before they enter the blood. Germinal centers in lymph nodes are where they are activated later, not where they mature.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "immune-q7",
+      "systemId": "immune",
+      "question": "Which statement about the thoracic duct is correct?",
+      "options": [
+        "It drains only the right arm and the right side of the head",
+        "It carries blood from the heart to the lungs",
+        "It drains most of the body and empties into the junction of the left subclavian and internal jugular veins",
+        "It connects the spleen directly to the bone marrow"
+      ],
+      "answerIndex": 2,
+      "explanation": "The thoracic duct is the largest lymphatic vessel. It collects lymph from both legs, the abdomen, and the left upper body, then empties into the junction of the left subclavian and internal jugular veins.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "immune-q8",
+      "systemId": "immune",
+      "question": "What are the deep pits in tonsil tissue, and what trade-off do they create?",
+      "options": [
+        "Crypts; they add surface area for sampling germs but also trap debris",
+        "Villi; they absorb nutrients from swallowed food",
+        "Alveoli; they exchange gases with the bloodstream",
+        "Sinuses; they warm and moisten incoming air"
+      ],
+      "answerIndex": 0,
+      "explanation": "Crypts are deep clefts that give tonsils more surface area to sample germs. The same crevices can trap food and dead cells, which is where tonsil stones form.",
+      "difficulty": "medium"
+    }
+  ]
+}

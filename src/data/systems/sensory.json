@@ -1,0 +1,753 @@
+{
+  "id": "sensory",
+  "name": "Sensory Organs",
+  "shortName": "Senses",
+  "tagline": "Five doorways into the world, and the brain behind each one.",
+  "summary": "Your eyes, ears, nose, and tongue are not passive windows. They are active translators, converting light, air pressure, and dissolved molecules into the only currency the brain accepts: electrical spikes. Each organ centers on a patch of specialized receptor cells, and each patch is wired to its own territory in the cortex. Close your eyes and the world does not simply dim. It switches channels.\n\nThe range is astonishing. A dark-adapted retina can register a handful of photons, yet the same tissue handles the glare of a noon beach. The cochlea sorts frequencies across ten octaves, from a bass drum to the highest note you can hear, while the vestibular system tracks your head through three dimensions as you run for a bus. The nose detects some odors at parts per trillion, and the tongue pulls five basic taste qualities out of everything you eat. Each organ is a different kind of antenna, tuned to a narrow slice of the physical world.\n\nNone of this reaches you raw. Signals are filtered, sharpened, and cross-checked against memory before they surface. So a familiar scent arrives with a whole afternoon attached, and the room keeps turning after you stop a spinning chair. The senses do not merely report the world. They build your version of it, moment by moment, and they do it without ever asking permission.",
+  "color": "#7a9bc4",
+  "stats": [
+    {
+      "value": "~120 million",
+      "label": "rods in each human retina"
+    },
+    {
+      "value": "~16,000",
+      "label": "hair cells in each cochlea"
+    },
+    {
+      "value": "400",
+      "label": "types of odor receptor in your nose"
+    }
+  ],
+  "functions": [
+    "Turns light into electrical signals you experience as sight",
+    "Converts air pressure into sound and keeps you balanced",
+    "Samples dissolved molecules to produce smell and taste",
+    "Sends sensory streams to the brain for filtering and interpretation",
+    "Pairs with memory and emotion to give raw sensation meaning"
+  ],
+  "organs": [
+    {
+      "id": "eyes",
+      "systemId": "sensory",
+      "name": "Eyes",
+      "latin": "Oculi",
+      "alsoKnownAs": [
+        "The organs of sight"
+      ],
+      "region": "head-neck",
+      "tagline": "Two fluid-filled spheres that capture light and build a scene.",
+      "summary": "Your eyes sit in bony sockets at the front of your skull, cushioned by fat and steered by six small muscles each. Every eyeball is a sphere about 24 mm (1 in) across, roughly the size of a large grape. The white you see is the sclera, a tough outer coat. At the front it becomes the cornea, a clear dome that does most of the focusing. Behind the cornea sit the iris and the pupil, a hole that widens in dim light and narrows in bright sun.\n\nLight crosses the cornea, then a lens that changes shape to fine-tune focus, and lands on the retina at the back. There, about 120 million rods and 6 million cones turn photons into electrical signals. The optic nerve carries those signals to the brain, which fuses two slightly different images into one scene with depth. Each blink resets the surface, spreading a fresh film of tears that keeps it clear.",
+      "functions": [
+        {
+          "title": "Focuses incoming light",
+          "detail": "The cornea and the lens bend light so that a sharp, inverted image lands on the retina at the back of the eye."
+        },
+        {
+          "title": "Adjusts to brightness",
+          "detail": "The iris adjusts the pupil's size, letting more light in at dusk and less at noon to protect the retina."
+        },
+        {
+          "title": "Builds a single scene",
+          "detail": "The brain merges the two slightly offset images from your eyes, producing depth and a wide field of view."
+        },
+        {
+          "title": "Keeps its surface clear",
+          "detail": "Blinking and tear flow wash away dust and keep the cornea moist, smooth, and ready to bend light."
+        }
+      ],
+      "location": "In bony sockets called orbits on either side of the nose, separated from the brain by the skull and padded with fat.",
+      "size": "Each eyeball is about 24 mm (1 in) in diameter and weighs roughly 7.5 g (0.26 oz).",
+      "facts": [
+        "Each eye holds about 120 million rods for dim light and roughly 6 million cones for color and fine detail.",
+        "Tears drain through a tiny channel into your nose, so a good cry leaves your nose running.",
+        "You blink about 15 to 20 times a minute, usually without noticing, and each blink spreads a fresh film of tears."
+      ],
+      "conditions": [
+        {
+          "name": "Myopia",
+          "description": "The eyeball is slightly too long or the cornea too curved, so distant images focus in front of the retina and look blurry."
+        },
+        {
+          "name": "Cataract",
+          "description": "Proteins in the lens clump together and cloud it, scattering light so that colors fade and glare spreads around lamps."
+        },
+        {
+          "name": "Glaucoma",
+          "description": "Raised pressure inside the eye can damage the optic nerve over time, quietly narrowing peripheral vision before central sight is affected."
+        }
+      ],
+      "relatedOrgans": [
+        "retina",
+        "brain",
+        "brainstem"
+      ],
+      "keywords": [
+        "vision",
+        "cornea",
+        "pupil",
+        "lens",
+        "sight"
+      ],
+      "sources": [
+        {
+          "label": "MedlinePlus — Eyes and Vision",
+          "url": "https://medlineplus.gov/eyesandvision.html"
+        },
+        {
+          "label": "National Eye Institute — How the Eyes Work",
+          "url": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work"
+        }
+      ],
+      "heroStat": {
+        "value": "24 mm",
+        "label": "width of each eyeball"
+      }
+    },
+    {
+      "id": "ears",
+      "systemId": "sensory",
+      "name": "Ears",
+      "latin": "Aures",
+      "alsoKnownAs": [
+        "The auditory organs"
+      ],
+      "region": "head-neck",
+      "tagline": "Funnels for pressure waves, and a workshop of tiny bones.",
+      "summary": "Your ears sit on the sides of your head, but most of the work happens deep inside the temporal bone, out of sight. The visible flap, the pinna, is a funnel. It channels sound into a canal about 2.5 cm (1 in) long, ending at the eardrum, a membrane about as thin as a sheet of paper. Behind that membrane waits the middle ear, a tiny air-filled room holding the three smallest bones in your body.\n\nSound arrives as pressure waves. The eardrum shakes, the three bones lever that movement and amplify it, and the last one, the stapes, pushes on a membrane-covered opening called the oval window. That push sends ripples through fluid in the cochlea, where hair cells bend and fire. The auditory nerve carries the result to your brainstem. A small tube linking the middle ear to the back of your throat keeps pressure balanced; swallowing can pop your ears on a plane for the same reason.",
+      "functions": [
+        {
+          "title": "Funnels sound inward",
+          "detail": "The pinna and ear canal gather pressure waves and deliver them to the eardrum, with the canal boosting frequencies near speech."
+        },
+        {
+          "title": "Amplifies vibrations",
+          "detail": "Three tiny bones bridge the eardrum and the inner ear, increasing pressure so the fluid inside can be set in motion."
+        },
+        {
+          "title": "Turns motion into signals",
+          "detail": "Hair cells in the cochlea convert fluid ripples into electrical pulses that the auditory nerve carries to the brain."
+        },
+        {
+          "title": "Helps you balance",
+          "detail": "The inner ear also houses fluid-filled loops and sacs that report head tilt and rotation to the brainstem."
+        }
+      ],
+      "location": "On both sides of the head, within and around the temporal bone, from the visible pinna to the inner ear deep in the skull.",
+      "size": "The visible ear is about 6 cm (2.4 in) tall, while the cochlea inside is smaller than the tip of your little finger.",
+      "facts": [
+        "The stapes, or stirrup, is the smallest bone in the human body, about 3 mm long and lighter than a grain of rice.",
+        "A faint sound moves your eardrum less than the diameter of a hydrogen atom, a displacement your brain still detects.",
+        "The middle ear's three bones boost sound pressure roughly 20 times before it reaches the fluid of the inner ear."
+      ],
+      "conditions": [
+        {
+          "name": "Otitis media",
+          "description": "Fluid and infection build up behind the eardrum, especially in children, muffling sound and sometimes causing pain."
+        },
+        {
+          "name": "Tinnitus",
+          "description": "A ringing or buzzing is heard without any external source, often after loud noise or as hearing fades with age."
+        },
+        {
+          "name": "Presbycusis",
+          "description": "Age-related hearing loss usually begins with high frequencies, so conversations in crowded rooms become hard to follow."
+        }
+      ],
+      "relatedOrgans": [
+        "cochlea",
+        "vestibular-system",
+        "brainstem"
+      ],
+      "keywords": [
+        "hearing",
+        "eardrum",
+        "ossicles",
+        "sound",
+        "pinna"
+      ],
+      "sources": [
+        {
+          "label": "TeachMeAnatomy — The Ear",
+          "url": "https://teachmeanatomy.info/head/organs/ear/"
+        },
+        {
+          "label": "Cleveland Clinic — Ear",
+          "url": "https://my.clevelandclinic.org/health/body/24048-ear"
+        }
+      ],
+      "heroStat": {
+        "value": "3 mm",
+        "label": "length of the stapes"
+      }
+    },
+    {
+      "id": "nose",
+      "systemId": "sensory",
+      "name": "Nose",
+      "latin": "Nasus",
+      "alsoKnownAs": [
+        "The olfactory organ"
+      ],
+      "region": "head-neck",
+      "tagline": "An air conditioner, a filter, and a chemical detector in one.",
+      "summary": "Your nose is a doorway with a filtration system built in. The visible part is mostly cartilage, propped on bone and split by the septum into two nostrils. Behind them lies the nasal cavity, a tall, narrow hallway divided by thin shelves of bone called turbinates. These shelves force air to swirl rather than shoot straight through, giving the lining time to do its work.\n\nThat lining is thick with blood vessels and coated in mucus. As you inhale, it warms air toward body temperature, adds moisture, and traps dust, pollen, and microbes. Tiny cilia sweep the loaded mucus back to your throat, where you swallow it without noticing. High in the roof of the cavity, a patch of olfactory epithelium smaller than a postage stamp holds several hundred types of odor receptors. Molecules that dissolve there trigger receptor cells, which send signals straight to the olfactory bulb. A smell can summon a memory before you can name it.",
+      "functions": [
+        {
+          "title": "Warms and humidifies air",
+          "detail": "Blood vessels and mucus in the nasal lining bring inhaled air close to body temperature and nearly full humidity."
+        },
+        {
+          "title": "Filters particles",
+          "detail": "Sticky mucus traps dust and pollen while microscopic cilia sweep the load toward the throat to be swallowed."
+        },
+        {
+          "title": "Detects odors",
+          "detail": "Odor molecules dissolve in the lining and bind receptors on cells that fire signals along the olfactory nerve."
+        },
+        {
+          "title": "Shapes your voice",
+          "detail": "The nasal cavity acts as a sound chamber, giving speech its nasal quality on sounds like m and n."
+        },
+        {
+          "title": "Adds to flavor",
+          "detail": "Much of what you call taste is smell; food seems bland when your nose is blocked."
+        }
+      ],
+      "location": "In the center of the face above the mouth and between the eyes, with the nasal cavity extending back toward the throat.",
+      "size": "The external nose is about 5 cm (2 in) long, while the nasal cavity behind it is roughly 5 cm tall and 7 cm deep.",
+      "facts": [
+        "Humans carry about 400 working odor receptor genes, while mice carry roughly 1,000, which helps explain their sharper noses.",
+        "By the time air reaches the back of your nasal cavity, it has been warmed close to body temperature and nearly saturated with moisture.",
+        "Smell signals reach the olfactory bulb without first passing through the thalamus, the relay station most other senses use."
+      ],
+      "conditions": [
+        {
+          "name": "Allergic rhinitis",
+          "description": "Pollen, dust, or animal proteins trigger swelling and mucus in the nasal lining, producing sneezing and a blocked nose."
+        },
+        {
+          "name": "Sinusitis",
+          "description": "The air-filled sinuses around the nose become inflamed and blocked, causing pressure, thick drainage, and a dull ache."
+        },
+        {
+          "name": "Anosmia",
+          "description": "The sense of smell is lost or badly reduced, which also flattens flavor and can remove a warning system for smoke or gas."
+        }
+      ],
+      "relatedOrgans": [
+        "tongue",
+        "lungs",
+        "brain"
+      ],
+      "keywords": [
+        "smell",
+        "olfactory",
+        "nasal cavity",
+        "mucus",
+        "odor"
+      ],
+      "sources": [
+        {
+          "label": "TeachMeAnatomy — The Nose",
+          "url": "https://teachmeanatomy.info/head/organs/the-nose/"
+        },
+        {
+          "label": "Cleveland Clinic — Nose",
+          "url": "https://my.clevelandclinic.org/health/body/21778-nose"
+        }
+      ],
+      "heroStat": {
+        "value": "400",
+        "label": "odor receptor types"
+      }
+    },
+    {
+      "id": "tongue",
+      "systemId": "sensory",
+      "name": "Tongue",
+      "latin": "Lingua",
+      "alsoKnownAs": [
+        "The taste organ"
+      ],
+      "region": "head-neck",
+      "tagline": "Eight pairs of muscles, ten thousand taste buds, and no bone at all.",
+      "summary": "Your tongue is a muscular organ resting in the floor of your mouth, anchored at the back and tethered at the front by a thin band called the frenulum. It is about 10 cm (4 in) long and built from eight pairs of muscles that run in several directions, so it can curl, flatten, and stiffen without any bone inside. Its surface is carpeted with tiny bumps called papillae, giving it the grip of a rough towel.\n\nSeveral kinds of papillae carry taste buds, and each bud holds a cluster of receptor cells that respond to sweet, salty, sour, bitter, or savory. Roughly 10,000 taste buds cover your tongue, with more on the soft palate and throat, and their cells are replaced every week or two. Signals travel along several cranial nerves to the brainstem, then upward to the cortex. The tongue also shoves food between your teeth, shapes every word you speak, and senses texture and temperature. A perfect peach is as much about feel as flavor.",
+      "functions": [
+        {
+          "title": "Moves food",
+          "detail": "The tongue lifts, rolls, and pushes food between your teeth, then gathers it into a ball for swallowing."
+        },
+        {
+          "title": "Detects taste",
+          "detail": "Taste buds on its surface respond to dissolved molecules and send signals through several cranial nerves."
+        },
+        {
+          "title": "Shapes speech",
+          "detail": "By changing shape and touching the teeth and palate, the tongue helps form vowels and consonants."
+        },
+        {
+          "title": "Senses texture",
+          "detail": "Touch receptors in the tongue report temperature, roughness, and pressure, adding to the feel of food."
+        },
+        {
+          "title": "Clears the mouth",
+          "detail": "Its constant motion helps sweep food debris away from the teeth and gums between swallows."
+        }
+      ],
+      "location": "In the floor of the mouth, attached at the back to the hyoid bone and at the front by the frenulum.",
+      "size": "About 10 cm (4 in) long in adults, and made of eight paired muscles that weave in several directions.",
+      "facts": [
+        "Taste bud cells last only about 10 to 14 days before they are replaced by fresh ones.",
+        "The tongue contains no bone at all; its eight pairs of muscles attach to surrounding structures and reshape it constantly.",
+        "The old map of sweet at the tip and bitter at the back is wrong, because receptors for all five tastes are spread across the tongue."
+      ],
+      "conditions": [
+        {
+          "name": "Glossitis",
+          "description": "The tongue becomes swollen, smooth, and sore, sometimes from nutritional deficiency or irritation, changing how food feels."
+        },
+        {
+          "name": "Oral candidiasis",
+          "description": "A yeast overgrowth coats the tongue and inner cheeks with white patches that can leave a sore surface underneath."
+        },
+        {
+          "name": "Dysgeusia",
+          "description": "Taste is distorted, so familiar foods may seem metallic, too sweet, or oddly bitter even when nothing has changed."
+        }
+      ],
+      "relatedOrgans": [
+        "nose",
+        "mouth",
+        "salivary-glands"
+      ],
+      "keywords": [
+        "taste",
+        "papillae",
+        "taste buds",
+        "flavor",
+        "speech"
+      ],
+      "sources": [
+        {
+          "label": "Kenhub — Tongue",
+          "url": "https://www.kenhub.com/en/library/anatomy/tongue"
+        },
+        {
+          "label": "TeachMeAnatomy — Muscles of the Tongue",
+          "url": "https://teachmeanatomy.info/head/muscles/tongue/"
+        }
+      ],
+      "heroStat": {
+        "value": "10,000",
+        "label": "taste buds"
+      }
+    },
+    {
+      "id": "retina",
+      "systemId": "sensory",
+      "name": "Retina",
+      "latin": "Retina",
+      "alsoKnownAs": [
+        "The neural screen"
+      ],
+      "region": "head-neck",
+      "tagline": "A sheet of brain tissue that turns photons into pictures.",
+      "summary": "Stretched across the back of each eye is a sheet of nervous tissue no thicker than a credit card. That is your retina, and it is not a passive screen. It is brain tissue that grew forward during development, so the optic nerve linking it to your head is technically a tract of the central nervous system. At its center lies the macula, and inside that a tiny pit called the fovea, where cones are packed so tightly that reading depends on aiming them precisely.\n\nThe retina processes light in layers. Photoreceptors at the back catch photons and trigger a chemical cascade. Bipolar cells pass the signal forward, and ganglion cells compare neighboring patches of light before firing along the optic nerve. Rods handle dim light and shades of gray; cones handle color and fine detail. The retina even adjusts its own sensitivity as light fades, so your eyes slowly make out shapes in a dark room.",
+      "functions": [
+        {
+          "title": "Captures light",
+          "detail": "Rods and cones absorb photons and convert them into electrical signals using light-sensitive pigment molecules."
+        },
+        {
+          "title": "Sharpens detail",
+          "detail": "The fovea packs cones densely and wires them to few ganglion cells, giving the brain a high-resolution center."
+        },
+        {
+          "title": "Adapts to darkness",
+          "detail": "Pigment regeneration and a widening pupil slowly raise sensitivity, letting you see shapes in a dim room."
+        },
+        {
+          "title": "Compares contrast",
+          "detail": "Layered circuits compare light and dark patches, sharpening edges and motion before signals leave the eye."
+        },
+        {
+          "title": "Feeds the optic nerve",
+          "detail": "More than a million ganglion cell fibers gather at the optic disc and carry visual information toward the brain."
+        }
+      ],
+      "location": "At the back of the eyeball, between the vitreous gel in front and the pigmented choroid behind it.",
+      "size": "A membrane between about 0.1 and 0.5 mm thick, covering roughly 1,100 square mm inside each eye.",
+      "facts": [
+        "The retina is the only part of the central nervous system that can be seen directly through the pupil.",
+        "The fovea is only about 1.5 mm wide, yet it supplies most of the fine detail you use for reading.",
+        "Retinal photoreceptors point backward, so light must pass through several layers of cells before it reaches them."
+      ],
+      "conditions": [
+        {
+          "name": "Macular degeneration",
+          "description": "The central macula deteriorates, eroding sharp reading vision while side vision often remains relatively intact."
+        },
+        {
+          "name": "Retinitis pigmentosa",
+          "description": "Inherited changes cause rod cells to fail first, so night vision and peripheral sight narrow gradually over years."
+        },
+        {
+          "name": "Retinal detachment",
+          "description": "The retina lifts away from the tissue beneath it, and the separated area stops receiving blood and oxygen."
+        }
+      ],
+      "relatedOrgans": [
+        "eyes",
+        "brain",
+        "hypothalamus"
+      ],
+      "keywords": [
+        "photoreceptors",
+        "rods",
+        "cones",
+        "fovea",
+        "optic nerve"
+      ],
+      "sources": [
+        {
+          "label": "Kenhub — Retina",
+          "url": "https://www.kenhub.com/en/library/anatomy/retina"
+        },
+        {
+          "label": "MedlinePlus — Retinal Disorders",
+          "url": "https://medlineplus.gov/retinaldisorders.html"
+        }
+      ],
+      "heroStat": {
+        "value": "1,100 mm²",
+        "label": "surface area per eye"
+      }
+    },
+    {
+      "id": "cochlea",
+      "systemId": "sensory",
+      "name": "Cochlea",
+      "latin": "Cochlea",
+      "alsoKnownAs": [
+        "The hearing organ"
+      ],
+      "region": "head-neck",
+      "tagline": "A fluid-filled spiral that sorts the world by pitch.",
+      "summary": "Tucked into the densest bone in your skull is a spiral no bigger than a pea. The cochlea winds about two and a half times, and if you could straighten it out it would stretch roughly 32 mm (1.25 in). Inside, a thin shelf called the basilar membrane divides the spiral into fluid-filled channels. Riding on that shelf is the organ of Corti, a strip of sensory cells that turns fluid motion into nerve impulses.\n\nWhen the stapes pushes on the oval window, it sends a traveling wave racing along the basilar membrane. The wave peaks at different places depending on pitch: high notes near the wide base, low notes near the narrow tip. Hair cells at the peak bend, open ion channels, and fire. About 16,000 hair cells line the spiral in neat rows. Roughly 3,500 inner cells do most of the sensing, while 12,000 outer cells act as tiny amplifiers. The auditory nerve carries the pattern to the brainstem, where a first rough sketch of sound is assembled.",
+      "functions": [
+        {
+          "title": "Sorts pitches",
+          "detail": "Different points along the basilar membrane respond best to different frequencies, creating a map of pitch."
+        },
+        {
+          "title": "Turns motion into signals",
+          "detail": "Hair cells bend with the traveling wave and release chemical signals that trigger the auditory nerve."
+        },
+        {
+          "title": "Amplifies quiet sounds",
+          "detail": "Outer hair cells contract and boost the vibration, sharpening both sensitivity and the ability to separate close frequencies."
+        },
+        {
+          "title": "Powers the hair cells",
+          "detail": "The stria vascularis pumps ions into the endolymph, creating the voltage that lets hair cells respond so quickly."
+        }
+      ],
+      "location": "Deep within the temporal bone of the skull, behind the middle ear and coiled like a snail shell.",
+      "size": "A cone about 9 mm (0.35 in) across at its base and 5 mm (0.2 in) tall.",
+      "facts": [
+        "Each cochlea holds roughly 16,000 hair cells, and humans cannot grow new ones after they are damaged.",
+        "High frequencies peak at the base of the spiral and low frequencies at the tip, a map the brain preserves all the way up.",
+        "The fluid inside is set moving by the stapes, the smallest bone in the body, pressing on the oval window."
+      ],
+      "conditions": [
+        {
+          "name": "Sensorineural hearing loss",
+          "description": "Damage to hair cells or the auditory nerve weakens and distorts sound, and lost hair cells are not replaced."
+        },
+        {
+          "name": "Noise-induced hearing loss",
+          "description": "Loud sound overpowers and injures hair cells, often stealing high frequencies first so speech sounds muffled."
+        },
+        {
+          "name": "Meniere's disease",
+          "description": "Extra fluid builds up in the inner ear, bringing episodes of fullness, roaring tinnitus, hearing fluctuation, and vertigo."
+        }
+      ],
+      "relatedOrgans": [
+        "ears",
+        "vestibular-system",
+        "brainstem"
+      ],
+      "keywords": [
+        "hearing",
+        "hair cells",
+        "basilar membrane",
+        "pitch",
+        "inner ear"
+      ],
+      "sources": [
+        {
+          "label": "Kenhub — Cochlea",
+          "url": "https://www.kenhub.com/en/library/anatomy/cochlea"
+        },
+        {
+          "label": "NIDCD — How Do We Hear?",
+          "url": "https://www.nidcd.nih.gov/health/how-do-we-hear"
+        }
+      ],
+      "heroStat": {
+        "value": "16,000",
+        "label": "hair cells per ear"
+      }
+    },
+    {
+      "id": "vestibular-system",
+      "systemId": "sensory",
+      "name": "Vestibular System",
+      "latin": "Systema vestibulare",
+      "alsoKnownAs": [
+        "The balance organs",
+        "The inner ear compass"
+      ],
+      "region": "head-neck",
+      "tagline": "Three fluid loops and two crystal pads that keep your world level.",
+      "summary": "Your vestibular system is a set of fluid-filled chambers buried in each inner ear, next to the cochlea. Three loop-shaped canals sit at right angles to one another, like the corner of a box. Beside them are two sacs, the utricle and saccule, each holding tiny crystals of calcium carbonate above a bed of hair cells. Together these structures report every tilt, turn, and lurch of your head.\n\nWhen you rotate, fluid in the canals lags behind, bending hair cells and firing nerves. When you accelerate in a straight line or tip your head, the crystals slide and press on the hair cells. Signals race to the brainstem and cerebellum, which combine them with input from your eyes and muscles. That teamwork produces the vestibulo-ocular reflex: your eyes counter-rotate to hold the world steady while you walk. It is why you can read a sign while jogging, and why the room keeps swimming after you stop spinning.",
+      "functions": [
+        {
+          "title": "Senses rotation",
+          "detail": "Fluid lagging in the semicircular canals bends hair cells and reports turning of the head in three dimensions."
+        },
+        {
+          "title": "Senses tilt and acceleration",
+          "detail": "Crystals in the utricle and saccule shift with gravity and straight-line motion, pressing on hair cells below."
+        },
+        {
+          "title": "Stabilizes your gaze",
+          "detail": "The vestibulo-ocular reflex turns the eyes opposite to head motion so the visual world stays steady."
+        },
+        {
+          "title": "Keeps you upright",
+          "detail": "Signals combine with vision and muscle feedback in the brainstem and cerebellum to adjust posture without conscious effort."
+        }
+      ],
+      "location": "In the inner ear on each side, inside the temporal bone, next to the cochlea and behind the middle ear.",
+      "size": "Each bony canal is less than a millimeter wide, and the whole set of loops sits in a space about the size of a pencil eraser.",
+      "facts": [
+        "The three semicircular canals sit at nearly right angles to each other, so together they cover every direction of rotation.",
+        "The otolith crystals are calcium carbonate, the same mineral as chalk and seashells.",
+        "The vestibulo-ocular reflex turns your eyes opposite to your head in a fraction of a second, faster than you can think."
+      ],
+      "conditions": [
+        {
+          "name": "Benign paroxysmal positional vertigo",
+          "description": "Loose crystals drift into a canal, so certain head movements trigger brief, intense spinning sensations."
+        },
+        {
+          "name": "Vestibular neuritis",
+          "description": "Inflammation of the vestibular nerve causes sudden, lasting vertigo with nausea, usually without any change in hearing."
+        },
+        {
+          "name": "Meniere's disease",
+          "description": "Fluid balance in the inner ear is disturbed, producing spells of vertigo alongside fluctuating hearing and ringing."
+        }
+      ],
+      "relatedOrgans": [
+        "ears",
+        "cochlea",
+        "cerebellum",
+        "brainstem"
+      ],
+      "keywords": [
+        "balance",
+        "vertigo",
+        "semicircular canals",
+        "otoliths",
+        "inner ear"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Vestibular System",
+          "url": "https://my.clevelandclinic.org/health/body/vestibular-system"
+        },
+        {
+          "label": "NIDCD — Balance Disorders",
+          "url": "https://www.nidcd.nih.gov/health/balance-disorders"
+        }
+      ],
+      "heroStat": {
+        "value": "3",
+        "label": "rotation canals per ear"
+      }
+    }
+  ],
+  "lesson": {
+    "id": "lesson-sensory",
+    "title": "From light to flavor: how your body reads the world",
+    "subtitle": "Follow one photon, one pressure wave, and one aroma all the way to awareness.",
+    "durationMin": 8,
+    "level": "beginner",
+    "steps": [
+      {
+        "title": "The world is not direct",
+        "body": "Right now, the room around you is not actually reaching you. Light bounces off the wall and lands on a curved sheet of cells at the back of your eye. Air pressure wobbles a membrane about as thin as paper inside your skull. Molecules from your coffee drift up your nose. Every one of those events stops at a receptor and becomes an electrical pulse, and everything you think of as seeing, hearing, or tasting is your brain reading those pulses. In the next few minutes, follow a single signal through each doorway and find out where the world becomes experience. Start with the doorway you are using at this moment.",
+        "keyPoint": "Sensation is a translation, not a transmission."
+      },
+      {
+        "title": "A camera made of water",
+        "body": "Look at the nearest light. It crosses your cornea first, a clear dome that does about two thirds of the focusing before the light even reaches your lens. The lens then flexes, thickening for close work and flattening for distance, a trick called accommodation. Your iris adjusts the pupil like an aperture, and six muscles swing the whole globe so both eyes point at the same target. Now close one eye, then the other. The scene barely shifts, because the two views overlap almost completely. Keep that in mind, because the real image is about to land on a surface no thicker than a credit card.",
+        "organId": "eyes",
+        "keyPoint": "The cornea does most of the focusing; the lens adjusts it for distance."
+      },
+      {
+        "title": "The screen at the back",
+        "body": "The image landing on your retina is upside down and tiny, about the size of your thumbnail. It does not matter. The retina is not a passive film; it is a slab of brain tissue doing arithmetic. Rods report faint light, cones report color and detail, and ganglion cells compare neighboring patches before deciding how hard to fire. At the fovea, cones are packed so tightly that each one has a nearly private line to the brain. That is why reading a word means pointing your gaze straight at it. Now the signal has left the eye and is racing along the optic nerve toward the brain.",
+        "organId": "retina",
+        "keyPoint": "Sharp vision depends on a tiny pit called the fovea."
+      },
+      {
+        "title": "Pressure becomes motion",
+        "body": "Sound is not a thing. It is a pattern of compression and rarefaction, squeezing and spreading through air. Your ear is built to convert that pattern into physical movement. The pinna gathers it, the canal guides it, and the eardrum flexes. Three bones, the smallest in your body, lever that flexing into a stronger push against a membrane-covered hole. Without them, most of the sound would reflect off the fluid inside your inner ear, the way shouts bounce off a pool. The bones solve a plumbing problem: how to get air vibrations into water. What happens next turns that push into a place in space.",
+        "organId": "ears",
+        "keyPoint": "The middle ear exists to move sound from air into fluid."
+      },
+      {
+        "title": "A piano inside the skull",
+        "body": "The cochlea is a spiral, and along its shelf runs a strip of tissue that behaves like the keyboard of a piano. A traveling wave sweeps from the base toward the tip and peaks at a different spot for each frequency. High notes die out near the entrance; low notes travel almost to the far end. Hair cells sitting at that peak bend, open channels, and fire. You have about 16,000 of these cells per ear, and they are the only ones you get. Loud noise can damage them permanently, so a concert can leave your ears ringing. Yet the cochlea only reports sound. Something else has to tell you which way is up.",
+        "organId": "cochlea",
+        "keyPoint": "The cochlea maps pitch along its length, like keys on a piano."
+      },
+      {
+        "title": "The level in your head",
+        "body": "Next door to the cochlea sit three fluid-filled loops set at right angles, plus two small sacs topped with crystals. This is your vestibular system, and it works like a spirit level crossed with a gyroscope. Turn your head and the fluid lags, bending hair cells in the loops. Tilt or accelerate and the crystals slide, pressing on the hair cells. Your brainstem and cerebellum merge those reports with your eyes and muscles, then quietly rotate your eyes to cancel the movement. That reflex is why this page stayed readable while you nodded along. It is also why a spinning office chair keeps the room moving after you stop.",
+        "organId": "vestibular-system",
+        "keyPoint": "Your eyes counter-rotate to keep the world steady while you move."
+      },
+      {
+        "title": "Smell builds the flavor",
+        "body": "Hold your nose and bite into a strawberry. You will get sweet and sour, but the fragrant part vanishes. That is because flavor is mostly smell. Molecules rise from your mouth into your nasal cavity, where they meet a patch of olfactory epithelium high in the roof. Receptor cells there send signals straight into the olfactory bulb, a shortcut that bypasses the usual relay station and brushes against memory centers. Meanwhile, about 10,000 taste buds on your tongue, plus more on your palate and throat, pull five basic qualities out of the food. One system reports chemistry from outside, the other from inside your mouth, and your brain fuses them into a single experience.",
+        "organId": "nose",
+        "keyPoint": "Most of what you call flavor is smell arriving from the back of your mouth."
+      },
+      {
+        "title": "What to explore next",
+        "body": "You have followed light through a lens, pressure through three tiny bones, and molecules into a spiral of fluid. Notice the pattern: every sense begins with a receptor built to convert one kind of energy into electricity, and every one ends in the brain, where the signals are compared, filtered, and matched against memory. That is why the same song can feel different on a rainy day, and why a smell can drop you into a kitchen from twenty years ago. From here, explore the brain and cerebellum to see where these streams converge, or open the eyes entry again and trace the optic nerve all the way back.",
+        "keyPoint": "Every sense converts one form of energy into electrical signals."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": "sensory-q1",
+      "systemId": "sensory",
+      "question": "Which layer at the back of the eye contains about 120 million rods?",
+      "options": [
+        "Sclera",
+        "Retina",
+        "Cornea",
+        "Iris"
+      ],
+      "answerIndex": 1,
+      "explanation": "The retina lines the back of the eyeball and holds both rods and cones, the photoreceptors that convert light into electrical signals bound for the optic nerve.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sensory-q2",
+      "systemId": "sensory",
+      "question": "Which three bones form the middle ear?",
+      "options": [
+        "Stapes, cochlea, and pinna",
+        "Malleus, incus, and stapes",
+        "Hyoid, mandible, and vomer",
+        "Femur, tibia, and fibula"
+      ],
+      "answerIndex": 1,
+      "explanation": "The malleus, incus, and stapes are the three smallest bones in the body. They bridge the eardrum and the oval window, amplifying vibrations before they enter the fluid of the inner ear.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sensory-q3",
+      "systemId": "sensory",
+      "question": "The olfactory epithelium high in the nasal cavity is responsible for which sense?",
+      "options": [
+        "Smell",
+        "Hearing",
+        "Touch",
+        "Balance"
+      ],
+      "answerIndex": 0,
+      "explanation": "The olfactory epithelium holds receptor cells that detect odor molecules. Their signals travel along the olfactory nerve to the olfactory bulb, which is dedicated to processing smell.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sensory-q4",
+      "systemId": "sensory",
+      "question": "Why does food often taste bland when your nose is blocked?",
+      "options": [
+        "Taste buds stop responding to sugar",
+        "The tongue becomes too dry to detect food",
+        "Saliva stops flowing into the mouth",
+        "Smell contributes most of what you experience as flavor"
+      ],
+      "answerIndex": 3,
+      "explanation": "Taste buds detect only five basic taste qualities. Aromas rising from food into the nasal cavity supply the rest, so a blocked nose removes most of the complexity people call flavor.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sensory-q5",
+      "systemId": "sensory",
+      "question": "Along the cochlea, where does the traveling wave peak for a high-pitched sound?",
+      "options": [
+        "At the apex, the narrow tip",
+        "In the middle ear",
+        "Near the base, close to the oval window",
+        "Inside the semicircular canals"
+      ],
+      "answerIndex": 2,
+      "explanation": "The basilar membrane is stiff and narrow at the base, so high frequencies peak there. Low frequencies travel farther and peak near the flexible apex, creating a map of pitch.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sensory-q6",
+      "systemId": "sensory",
+      "question": "What do the semicircular canals primarily detect?",
+      "options": [
+        "Rotation of the head",
+        "Steady linear acceleration only",
+        "The frequency of sound",
+        "The brightness of light"
+      ],
+      "answerIndex": 0,
+      "explanation": "Fluid inside the canals lags when the head turns, bending hair cells. That signal reports rotation in three dimensions, while the utricle and saccule handle tilt and straight-line acceleration.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sensory-q7",
+      "systemId": "sensory",
+      "question": "Why is the optic nerve described as part of the central nervous system?",
+      "options": [
+        "It contains no myelin at all",
+        "It connects directly to the muscles of the eye",
+        "The retina develops from brain tissue",
+        "It carries only color information"
+      ],
+      "answerIndex": 2,
+      "explanation": "The retina grows forward from the developing brain, so the optic nerve is technically a tract of the central nervous system rather than a peripheral nerve connecting to it.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sensory-q8",
+      "systemId": "sensory",
+      "question": "Why is hearing damage from loud noise often permanent?",
+      "options": [
+        "The eardrum cannot heal after it tears",
+        "Human cochlear hair cells do not regenerate",
+        "The three middle ear bones fuse together",
+        "Fluid stops circulating through the cochlea"
+      ],
+      "answerIndex": 1,
+      "explanation": "Each cochlea has roughly 16,000 hair cells, and humans cannot replace them once they are destroyed. Damage from loud sound therefore accumulates across a lifetime.",
+      "difficulty": "hard"
+    }
+  ]
+}

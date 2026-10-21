@@ -1,0 +1,75 @@
+{
+  "key": "facts",
+  "reviewedAt": "2026-10-21T16:15:07-05:00",
+  "checks": [
+    {
+      "name": "Valid JSON, exact schema, types, and counts",
+      "passed": true,
+      "notes": "Parses as UTF-8 JSON. Contains 80 objects with ids fact-001 through fact-080 in order. Every object has exactly the four required keys id, text, systemId, organId, and all four values are strings. systemId is always one of the 12 SystemId values. Text lengths run from 104 to 218 characters, within the validator's 260-character limit."
+    },
+    {
+      "name": "Factual accuracy spot-check (16 claims)",
+      "passed": true,
+      "notes": "Checked against authoritative sources. (1) About 300 bones at birth, 27 bones per hand, 26 per foot, 106 total, and kneecaps not fully developed until about age 10 to 12: Cleveland Clinic, https://health.clevelandclinic.org/facts-about-the-skeletal-system. (2) 1 to 2 million eggs at birth, about 300,000 at puberty, about 400 released: Merck Manual, https://www.merckmanuals.com/en-ca/home/multimedia/table/how-many-eggs. (3) Ascending aorta 3 to 4 cm wide: Cleveland Clinic, https://my.clevelandclinic.org/health/body/21951-ascending-aorta. (4) Bladder capacity 500 to 700 mL and first urge at 200 to 350 mL: Cleveland Clinic, https://my.clevelandclinic.org/health/body/25010-bladder. (5) Gut mucosal surface about 32 square meters, mostly small intestine: Helander and Fandriks, https://pubmed.ncbi.nlm.nih.gov/24694282/. (6) Adult brain about 86 billion neurons: https://pubmed.ncbi.nlm.nih.gov/27906520/. (7) 400 to 800 lymph nodes, so 500 to 600 is within the reported range: Cleveland Clinic, https://my.clevelandclinic.org/health/articles/23131-lymph-nodes. (8) Adult spinal cord ends at L1 to L2: StatPearls, Anatomy, Back, Spinal Cord, NCBI Bookshelf. (9) Hypothalamus is less than 1 percent of brain volume: endocrine physiology chapter, ScienceDirect. (10) Normal stomach acid pH 1 to 2: Cleveland Clinic, https://my.clevelandclinic.org/health/diseases/23392-hypochlorhydria. (11) Patella ossifies from about 3 to 5 years and matures after 10 to 12 years: clinical anatomy/HPO summary. (12) Gastric surface cells renew in 3 to 5 days: Journal of Clinical Gastroenterology review. (13) 50 to 100 hairs shed daily is normal: American Academy of Dermatology, https://www.aad.org/public/diseases/hair-loss/insider/shedding. (14) About 16,000 cochlear hair cells: McGraw Hill Medical, Auditory Processing by the Cochlea. (15) About 300 million alveoli with a 70 to 80 square meter surface: Britannica, pulmonary alveolus/bronchiole entries. (16) Morning height about 1 to 2 cm greater: UNAM Faculty of Medicine, Gaceta. Claims not directly spot-checked were reviewed for plausibility against standard anatomy and physiology."
+    },
+    {
+      "name": "Organ IDs exactly match CONTENT_SPEC for each system",
+      "passed": true,
+      "notes": "All 80 organId values belong to the item's system in docs/CONTENT_SPEC.md and match the organ IDs in src/data/systems/*.json. Added the missing organId to fact-001 (pelvis), fact-002 (radius-ulna), and fact-009 (quadriceps). Changed fact-028 from vena-cava to veins so the organ matches the fact's subject. No cross-system organ references remain."
+    },
+    {
+      "name": "No duplicate or repeated facts",
+      "passed": true,
+      "notes": "80 unique IDs and 80 unique normalized texts. Organs that appear more than once (kidneys, skin, veins, radius-ulna) carry distinct claims rather than repeated facts."
+    },
+    {
+      "name": "No medical advice",
+      "passed": true,
+      "notes": "No dosages, treatments, diagnostic instructions, or symptom-management advice. Removed the reassuring claim that lymph-node tenderness is 'not damage' and replaced it with a neutral explanation of immune-cell multiplication. The bladder fact was corrected to describe normal filling and urge thresholds without telling readers what to do."
+    },
+    {
+      "name": "No markdown, HTML, emoji, or bullet characters",
+      "passed": true,
+      "notes": "Regex scan of all 80 text fields found no asterisks, underscores, backticks, hash marks, angle brackets, square brackets, pipes, bullet characters, emoji, en dashes, em dashes, or non-ASCII characters."
+    },
+    {
+      "name": "Glossary, history, and regions checks",
+      "passed": true,
+      "notes": "Not applicable to facts.json: it contains no glossary, history, or region entries. Those files were not modified, so their duplicate, alphabetical, date, person, region-ID, and landmark checks remain the responsibility of their own reviews. This review was scoped to facts.json as instructed."
+    }
+  ],
+  "changes": [
+    "fact-001: added organId pelvis; changed 'began life' to 'were born' and tied the fusion claim to the three parts of each hip bone.",
+    "fact-002: added organId radius-ulna; reframed the count as 27 bones per hand and wrist, 26 per foot, and 106 total, described as just over half of 206.",
+    "fact-003: changed 'You are' to 'Your body is' and 'refill' to 'rehydrate' for the spinal disc explanation.",
+    "fact-005: replaced the absolute 'Every other skull bone' with 'The rest of your skull', since the ossicles are not sutured skull bones.",
+    "fact-006: changed 'first bone to form' to 'first bone to begin hardening', matching ossification rather than cartilage formation.",
+    "fact-007: clarified that pronation is the palm-down twist in which the radius crosses the ulna.",
+    "fact-008: corrected the patella timeline; it begins ossifying around age 3 to 5 but is not fully bony until about age 10 to 12.",
+    "fact-009: added organId quadriceps and a quadriceps-hamstrings example of an opposing muscle pair.",
+    "fact-010: softened 'does most of the work' to 'does much of the work' when standing or climbing stairs.",
+    "fact-011: changed 'open a stubborn jar' to 'twist open a stubborn jar' to match the biceps' supination role.",
+    "fact-019: replaced the unsupported almond-size comparison with the sourced claim that the hypothalamus is less than 1 percent of brain volume.",
+    "fact-024: added 'In adults' because fetal umbilical arteries also carry oxygen-poor blood.",
+    "fact-026: removed the inaccurate garden-hose comparison and described the aorta as about 3 cm across and the pulse as a pressure wave felt at the wrist.",
+    "fact-027: changed 'just above it' to 'just above the aortic valve' for anatomical precision.",
+    "fact-028: changed organId from vena-cava to veins and replaced '65 percent' with 'about two-thirds'.",
+    "fact-038: replaced the unverifiable 'over 500 jobs' with 'hundreds of jobs'.",
+    "fact-039: named amylase and changed 'sugar' to 'sugars' for the starch-digestion claim.",
+    "fact-044: changed the thyroid's location from 'in your throat' to 'in the front of your neck'.",
+    "fact-045: changed the parathyroids' position from 'behind your thyroid' to 'on the back of your thyroid'.",
+    "fact-051: changed 'around 600' to 'roughly 500 to 600' lymph nodes and replaced the medical reassurance 'not damage' with a neutral immune-cell mechanism.",
+    "fact-054: rephrased the tonsil sentence to 'germs you swallow or breathe in first arrive'.",
+    "fact-058: corrected bladder volumes to 500 to 700 mL capacity and 200 to 350 mL for the first urge, rather than implying the urge starts at 400 to 600 mL.",
+    "fact-065: named prolactin for milk production and oxytocin for let-down instead of referring vaguely to two hormones.",
+    "fact-071: changed 'Your body has' to 'Your skin contains' for the sweat-gland count.",
+    "fact-073: changed 'Babies carry extra brown fat' to 'Babies have more brown fat' for accuracy relative to adults.",
+    "fact-074: changed 'Your eyes hold' to 'Each retina holds' because the rod and cone counts are per eye.",
+    "fact-080: changed 'amplify sound onto your inner ear' to 'amplify sound before passing it to your inner ear'."
+  ],
+  "remainingConcerns": [
+    "Daily skin-cell shedding estimates vary widely across sources, from about 40,000 per day on one Cleveland Clinic page to about 500 million per day in other reviews. The file retains the widely cited 'roughly 500 million' figure, hedged with 'roughly'; this number should be rechecked if a single canonical source is required.",
+    "Estimates for total skeletal-muscle count (about 600) and for skeletal muscle's share of body weight (about 40 percent) vary with sex, age, and method. The text uses 'about' and 'roughly' but should not be treated as a precise universal value.",
+    "Several deliberately vivid figures are order-of-magnitude estimates rather than exact measurements, including 100,000 km of blood vessels, 70 square meters of alveolar surface, 300 million alveoli, and 1 trillion distinguishable odors. All are hedged, but source ranges differ."
+  ]
+}

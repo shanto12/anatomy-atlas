@@ -1,0 +1,812 @@
+{
+  "id": "reproductive",
+  "name": "Reproductive System",
+  "shortName": "Reproductive",
+  "tagline": "The organs that make new life, and the hormones that time it.",
+  "summary": "Half of your genetic instructions are packed into a single cell small enough to sit on a pin. The reproductive system is the set of organs that makes those cells, delivers them, and, when everything lines up, builds a place for a new person to grow. It is the only body system whose work is shared between two bodies. It is also the only one that runs on a long delay: quiet through childhood, switched on by hormones at puberty, and able to produce a whole new generation decades later.\n\nThe organs come in two overlapping sets. The female set centers on the ovaries, which hold eggs and release hormones, the fallopian tubes where sperm and egg meet, the uterus where an embryo implants, and the vagina, the muscular canal that serves as the birth passage. The male set centers on the testes, which make sperm and testosterone, plus the prostate, which adds fluid, and the penis, which delivers semen. Mammary glands sit apart from both sets in one sense: everyone has breast tissue, and in those who breastfeed, the glands finish their work only after a baby is born.\n\nHormones tie the system together. The pituitary gland sends monthly signals to the ovaries, testosterone shapes the male body, and prolactin and oxytocin switch milk production on and let it flow. Nothing here works alone.",
+  "color": "#a66a7a",
+  "stats": [
+    {
+      "value": "~400",
+      "label": "eggs released in a lifetime"
+    },
+    {
+      "value": "23",
+      "label": "chromosomes in each gamete"
+    },
+    {
+      "value": "2–3 °C",
+      "label": "cooler inside the scrotum"
+    }
+  ],
+  "functions": [
+    "Produces the cells that can combine to create a new person",
+    "Makes the hormones that shape bodies at puberty and beyond",
+    "Carries and nourishes a fetus through nine months of pregnancy",
+    "Brings sperm and egg together inside the fallopian tube",
+    "Supplies milk to a newborn during the first months of life"
+  ],
+  "organs": [
+    {
+      "id": "ovaries",
+      "systemId": "reproductive",
+      "name": "Ovaries",
+      "latin": "Ovaria",
+      "alsoKnownAs": [
+        "Female gonads"
+      ],
+      "region": "pelvis",
+      "tagline": "Two almond-sized glands that hold a lifetime of potential eggs.",
+      "summary": "Your ovaries are two small, almond-shaped glands low in your pelvis, one on each side of the uterus. Each is held by ligaments rather than bolted in place, so it shifts slightly as your bladder and rectum fill. Inside is a crowded library: hundreds of thousands of follicles, each holding an immature egg and a ring of supporting cells. At birth you had about one to two million; by puberty, roughly 300,000 remain.\n\nEach month, hormones from the pituitary gland nudge a batch of follicles to grow. Usually one pulls ahead, ripens, and releases its egg in a small burst that can feel like a sharp twinge on one side. The empty follicle becomes the corpus luteum, a temporary gland that releases progesterone and prepares the uterine lining for a possible pregnancy. The ovaries also make estrogen, the hormone behind breast growth, hip widening, and the monthly cycle. When an ovary releases an egg, it does not aim it into the tube. The tube has to catch it.",
+      "functions": [
+        {
+          "title": "Store and release eggs",
+          "detail": "Each ovary keeps a reserve of immature eggs and releases one mature egg roughly once per menstrual cycle."
+        },
+        {
+          "title": "Produce estrogen and progesterone",
+          "detail": "These hormones drive puberty, regulate the menstrual cycle, and prepare the uterus to support an early pregnancy."
+        },
+        {
+          "title": "Build the corpus luteum",
+          "detail": "After ovulation, the emptied follicle becomes a short-lived gland that releases progesterone for about two weeks unless pregnancy begins."
+        },
+        {
+          "title": "Answer the pituitary's signals",
+          "detail": "Follicle-stimulating hormone and luteinizing hormone from the brain tell the ovaries when to grow a follicle and when to ovulate."
+        }
+      ],
+      "location": "Low in the pelvis on each side of the uterus, held near the lateral pelvic wall by the ovarian and suspensory ligaments.",
+      "size": "About the size and shape of a large almond, roughly 3 to 5 cm long and 5 to 8 g in adults.",
+      "facts": [
+        "You are born with about one to two million eggs, but only around 400 are released in a lifetime; the rest gradually degenerate.",
+        "An ovary releases its egg into the open space of the pelvis, not into the tube, so the fallopian tube has to sweep it in.",
+        "The ovaries make small amounts of testosterone too, which contribute to libido and bone health."
+      ],
+      "conditions": [
+        {
+          "name": "Ovarian cysts",
+          "description": "Fluid-filled sacs often form when a follicle fails to burst or reseals; most are harmless and disappear on their own."
+        },
+        {
+          "name": "Endometriosis",
+          "description": "Tissue similar to the uterine lining grows outside the uterus and can form cysts on the ovaries, often with pelvic pain."
+        },
+        {
+          "name": "Ovarian cancer",
+          "description": "Abnormal cells grow in the ovary and are often quiet in the early stages because the organ sits deep in the pelvis."
+        }
+      ],
+      "relatedOrgans": [
+        "fallopian-tubes",
+        "uterus",
+        "pituitary-gland"
+      ],
+      "keywords": [
+        "ovaries",
+        "ovulation",
+        "estrogen",
+        "follicles",
+        "oocytes"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Ovaries",
+          "url": "https://my.clevelandclinic.org/health/body/22999-ovaries"
+        },
+        {
+          "label": "MedlinePlus — Female Reproductive System",
+          "url": "https://medlineplus.gov/femalereproductivesystem.html"
+        }
+      ],
+      "heroStat": {
+        "value": "~400",
+        "label": "eggs ever released"
+      }
+    },
+    {
+      "id": "fallopian-tubes",
+      "systemId": "reproductive",
+      "name": "Fallopian Tubes",
+      "latin": "Tubae uterinae",
+      "alsoKnownAs": [
+        "Oviducts"
+      ],
+      "region": "pelvis",
+      "tagline": "The narrow meeting place where sperm and egg usually find each other.",
+      "summary": "Your fallopian tubes are two slender, muscular channels, each about 10 to 12 centimeters long, reaching from the upper corners of the uterus toward the ovaries. They are not straight pipes. Each tube begins with a fringe of finger-like projections called fimbriae that hover near the ovary like a hand cupped over a candle, then runs through a funnel-shaped infundibulum, the wider ampulla, and a tight isthmus before entering the uterus.\n\nThe tube does two jobs at once: it must catch an egg that has been released into the open pelvis, and it must move that egg toward the uterus while sperm swim the other way. Tiny hair-like cilia line the inside and beat in waves, and the muscular wall contracts behind them. Fertilization usually happens in the ampulla, the widest stretch. The early embryo then rides toward the uterus for several days, arriving as a ball of cells ready to implant.",
+      "functions": [
+        {
+          "title": "Catch the egg",
+          "detail": "The fimbriae sweep across the surface of the ovary and draw the newly released egg into the tube."
+        },
+        {
+          "title": "Meet the sperm",
+          "detail": "Sperm swim up from the uterus, and the ampulla gives both cells a sheltered place to meet and fuse."
+        },
+        {
+          "title": "Move the embryo",
+          "detail": "Cilia beat and smooth muscle contracts in waves, carrying the early embryo toward the uterus over several days."
+        },
+        {
+          "title": "Nourish the early embryo",
+          "detail": "Secretions from the tube's lining feed the tiny embryo while cilia and muscle move it along."
+        }
+      ],
+      "location": "Extending from the upper corners of the uterus outward toward each ovary, folded inside the broad ligament.",
+      "size": "About 10 to 12 cm (4 to 5 in) long and only a few millimeters wide for most of its length.",
+      "facts": [
+        "Fertilization usually happens in the ampulla, the widest part of the tube, within a day after ovulation, while the egg is still viable.",
+        "The tube is not fused to the ovary; its fimbriae sweep the egg across a small gap in the pelvis.",
+        "If a tube is blocked or scarred, an embryo can implant inside it, which is why ectopic pregnancy is most often tubal."
+      ],
+      "conditions": [
+        {
+          "name": "Ectopic pregnancy",
+          "description": "An embryo implants in the tube instead of the uterus; the tube cannot stretch to hold a growing pregnancy."
+        },
+        {
+          "name": "Pelvic inflammatory disease",
+          "description": "Infection, often from sexually transmitted bacteria, inflames the tubes and can leave scar tissue that blocks the passage."
+        },
+        {
+          "name": "Hydrosalpinx",
+          "description": "A blocked tube fills with fluid and swells, and damaged cilia can no longer move an egg toward the uterus."
+        }
+      ],
+      "relatedOrgans": [
+        "ovaries",
+        "uterus",
+        "vagina"
+      ],
+      "keywords": [
+        "fallopian tube",
+        "oviduct",
+        "fertilization",
+        "fimbriae",
+        "ectopic pregnancy"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Fallopian Tubes",
+          "url": "https://my.clevelandclinic.org/health/body/23184-fallopian-tubes"
+        },
+        {
+          "label": "Kenhub — Fallopian Tubes",
+          "url": "https://www.kenhub.com/en/library/anatomy/fallopian-tubes"
+        }
+      ],
+      "heroStat": {
+        "value": "10–12 cm",
+        "label": "length of each tube"
+      }
+    },
+    {
+      "id": "uterus",
+      "systemId": "reproductive",
+      "name": "Uterus",
+      "latin": "Uterus",
+      "alsoKnownAs": [
+        "Womb"
+      ],
+      "region": "pelvis",
+      "tagline": "A pear-shaped muscular room built to stretch for a growing life.",
+      "summary": "Your uterus sits low in the pelvis between your bladder and your rectum, a firm, pear-shaped organ about the size of a small lemon when you are not pregnant. It tilts forward over the bladder in most people. Three layers make up its wall: a thin outer coat, a thick middle of interlacing smooth muscle called the myometrium, and an inner lining, the endometrium, that rebuilds itself every month. Below, the cervix forms a narrow neck that opens into the vagina.\n\nEach cycle, estrogen thickens the endometrium into a soft, blood-rich bed. If no embryo arrives, falling progesterone makes the lining shed as a period, and the cycle begins again. If an embryo does implant, the same muscle that cramps during menstruation becomes the engine of pregnancy. The myometrium grows and stretches for nine months, then contracts in powerful, coordinated waves during labor, and keeps squeezing afterward to clamp the blood vessels where the placenta detached.",
+      "functions": [
+        {
+          "title": "Host a pregnancy",
+          "detail": "The uterus holds and nourishes a developing fetus, expanding from the size of a small lemon to a cavity that can hold a full-term baby."
+        },
+        {
+          "title": "Rebuild its lining",
+          "detail": "Each cycle the endometrium thickens with blood vessels and glands, ready for an embryo, then sheds if none arrives."
+        },
+        {
+          "title": "Contract during labor",
+          "detail": "Interlacing muscle fibers squeeze in waves to push the baby out and then clamp down to limit bleeding."
+        },
+        {
+          "title": "Make the cervical barrier",
+          "detail": "The cervix makes mucus that changes with the cycle, helping sperm through at ovulation and blocking bacteria the rest of the time."
+        }
+      ],
+      "location": "In the center of the pelvis between the bladder and rectum, usually tipped forward over the bladder.",
+      "size": "About 7.5 cm (3 in) long, 5 cm (2 in) wide, and 2.5 cm (1 in) thick in a nonpregnant adult, weighing roughly 30 g (1 oz).",
+      "facts": [
+        "During pregnancy the uterus grows from about 30 grams to roughly 1 kilogram, mostly by enlarging its muscle cells.",
+        "The cervix stays firm and closed for months, then softens and opens during labor; its position also shifts across the cycle.",
+        "Most uteruses tilt forward over the bladder, but roughly one in five tilts backward, a normal variation called a retroverted uterus."
+      ],
+      "conditions": [
+        {
+          "name": "Uterine fibroids",
+          "description": "Noncancerous knots of muscle grow in the uterine wall; they can be tiny or large enough to distort the cavity and cause heavy bleeding."
+        },
+        {
+          "name": "Endometriosis",
+          "description": "Uterine-like tissue grows outside the uterus, often on the ovaries and pelvic lining, and bleeds with each cycle."
+        },
+        {
+          "name": "Uterine prolapse",
+          "description": "The ligaments and pelvic floor that hold the uterus weaken, and the organ can slip down toward or into the vagina."
+        }
+      ],
+      "relatedOrgans": [
+        "ovaries",
+        "fallopian-tubes",
+        "vagina"
+      ],
+      "keywords": [
+        "uterus",
+        "womb",
+        "endometrium",
+        "menstruation",
+        "myometrium"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Uterus",
+          "url": "https://my.clevelandclinic.org/health/body/22467-uterus"
+        },
+        {
+          "label": "Kenhub — Uterus",
+          "url": "https://www.kenhub.com/en/library/anatomy/the-uterus"
+        }
+      ],
+      "heroStat": {
+        "value": "~1 kg",
+        "label": "at full-term pregnancy"
+      }
+    },
+    {
+      "id": "vagina",
+      "systemId": "reproductive",
+      "name": "Vagina",
+      "latin": "Vagina",
+      "alsoKnownAs": [
+        "Birth canal"
+      ],
+      "region": "pelvis",
+      "tagline": "A muscular, acidic canal and the body's birth passage.",
+      "summary": "The vagina is a muscular, elastic canal about 7.5 to 10 centimeters long that runs from the cervix down to the vaginal opening in the vulva. It sits between the bladder and urethra in front and the rectum behind. Its walls are folded into ridges called rugae, so the canal can collapse flat when empty and stretch enormously during birth. The lining has no glands of its own; moisture comes from the cervix and from glands near the opening.\n\nThe canal is not sterile, and it is not meant to be. It hosts a community of bacteria, mostly Lactobacillus, that turn sugars into lactic acid and keep the environment mildly acidic, around pH 3.8 to 4.5. That acid discourages many harmful microbes. The vagina also carries menstrual blood out, receives the penis during intercourse, and serves as the birth canal. Its muscular wall and the pelvic floor around it work together to hold the bladder and rectum in place.",
+      "functions": [
+        {
+          "title": "Form the birth canal",
+          "detail": "During labor the vagina stretches into a wide, muscular passage that lets the baby leave the uterus and enter the world."
+        },
+        {
+          "title": "Carry menstrual flow",
+          "detail": "Each month the canal provides the exit route for the blood and tissue shed from the uterine lining."
+        },
+        {
+          "title": "Host a protective microbiome",
+          "detail": "Lactobacillus bacteria produce lactic acid that keeps the canal acidic and crowds out many infection-causing microbes."
+        },
+        {
+          "title": "Provide lubrication and sensation",
+          "detail": "Secretions from the cervix and glands near the opening moisten the canal, and its rich nerve supply contributes to sexual sensation."
+        }
+      ],
+      "location": "In the pelvis between the bladder and urethra in front and the rectum behind, running from the cervix to the vaginal opening.",
+      "size": "About 7.5 to 10 cm (3 to 4 in) long, with the back wall slightly longer than the front wall.",
+      "facts": [
+        "The vagina has no glands of its own; the fluid it produces comes from the cervix and from glands beside the opening.",
+        "Its walls usually rest against each other, so the canal is a potential space rather than an open tube.",
+        "The vaginal microbiome is dominated by Lactobacillus in many people, and the acid it makes is one reason the canal resists infection."
+      ],
+      "conditions": [
+        {
+          "name": "Bacterial vaginosis",
+          "description": "The usual Lactobacillus community shifts toward other bacteria, producing a thin discharge and a fishy odor without much irritation."
+        },
+        {
+          "name": "Vulvovaginal candidiasis",
+          "description": "A yeast overgrowth causes intense itching, redness, and a thick white discharge; it is common and not usually sexually transmitted."
+        },
+        {
+          "name": "Vaginal prolapse",
+          "description": "The muscles and connective tissue that support the vaginal walls weaken, and part of the bladder, rectum, or uterus can bulge into the canal."
+        }
+      ],
+      "relatedOrgans": [
+        "uterus",
+        "bladder",
+        "rectum",
+        "penis"
+      ],
+      "keywords": [
+        "vagina",
+        "birth canal",
+        "microbiome",
+        "rugae",
+        "vaginal lining"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Vagina",
+          "url": "https://my.clevelandclinic.org/health/body/22469-vagina"
+        },
+        {
+          "label": "Kenhub — Vagina",
+          "url": "https://www.kenhub.com/en/library/anatomy/vagina"
+        }
+      ],
+      "heroStat": {
+        "value": "pH 3.8–4.5",
+        "label": "typical acidity"
+      }
+    },
+    {
+      "id": "testes",
+      "systemId": "reproductive",
+      "name": "Testes",
+      "latin": "Testes",
+      "alsoKnownAs": [
+        "Testicles",
+        "Male gonads"
+      ],
+      "region": "pelvis",
+      "tagline": "Two egg-shaped factories that make sperm and testosterone.",
+      "summary": "Your testes are two smooth, egg-shaped glands that hang in the scrotum, a pouch of skin and muscle below the base of the penis. Each is about 4 to 5 centimeters long, roughly the size of a large walnut, and is wrapped in a tough white coat called the tunica albuginea. Inside, about 250 wedge-shaped lobules hold tightly coiled seminiferous tubules, where sperm are made, along with clusters of cells that release testosterone.\n\nThe scrotum keeps the testes a few degrees cooler than the rest of your body, because sperm production slows at core temperature. The scrotum's dartos muscle and the cremaster muscle pull the testes closer when you are cold and let them hang lower when you are warm. Sperm need about two and a half months to mature, then travel into the epididymis, a coiled tube on the back of each testis, where they finish maturing and wait. Testosterone from the same organ drives voice change, muscle growth, body hair, and bone density.",
+      "functions": [
+        {
+          "title": "Make sperm",
+          "detail": "Tightly coiled seminiferous tubules produce sperm continuously from puberty onward, releasing hundreds of millions each day."
+        },
+        {
+          "title": "Release testosterone",
+          "detail": "Interstitial cells between the tubules make testosterone, which shapes male development and supports muscle, bone, and libido."
+        },
+        {
+          "title": "Finish sperm maturation",
+          "detail": "Sperm move into the epididymis, where they gain the ability to swim and are stored until ejaculation."
+        },
+        {
+          "title": "Keep sperm cool",
+          "detail": "The scrotum and its muscles hold the testes a few degrees below core body temperature, the range sperm production needs."
+        }
+      ],
+      "location": "Outside the body cavity in the scrotum, below the base of the penis and between the upper thighs.",
+      "size": "About 4 to 5 cm (1.6 to 2 in) long and 2 to 3 cm (0.8 to 1.2 in) wide, weighing roughly 10 to 14 g each.",
+      "facts": [
+        "The testes begin development inside the abdomen and normally descend into the scrotum before birth.",
+        "Sperm production needs a temperature a few degrees below core body temperature, which is why the testes sit outside the body cavity.",
+        "Each testis is divided into about 250 lobules, and each lobule holds one to four tightly coiled tubules where sperm are made."
+      ],
+      "conditions": [
+        {
+          "name": "Testicular torsion",
+          "description": "The testis twists on its spermatic cord and loses its blood supply, causing sudden severe pain and swelling."
+        },
+        {
+          "name": "Varicocele",
+          "description": "Veins draining the testis widen and coil, often on the left side, and can raise the temperature around the testis."
+        },
+        {
+          "name": "Testicular cancer",
+          "description": "Abnormal cells grow in the sperm-producing tissue, usually appearing as a painless lump or firmness in one testis."
+        }
+      ],
+      "relatedOrgans": [
+        "prostate",
+        "penis",
+        "urethra"
+      ],
+      "keywords": [
+        "testes",
+        "sperm",
+        "testosterone",
+        "scrotum",
+        "epididymis"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Testicles",
+          "url": "https://my.clevelandclinic.org/health/body/23964-testicles"
+        },
+        {
+          "label": "MedlinePlus — Male Reproductive System",
+          "url": "https://medlineplus.gov/malereproductivesystem.html"
+        }
+      ],
+      "heroStat": {
+        "value": "2–3 °C",
+        "label": "cooler than core"
+      }
+    },
+    {
+      "id": "prostate",
+      "systemId": "reproductive",
+      "name": "Prostate",
+      "latin": "Prostata",
+      "region": "pelvis",
+      "tagline": "A walnut-sized gland that wraps the urethra and adds fluid to semen.",
+      "summary": "Your prostate is a firm, walnut-sized gland that sits just below the bladder and wraps around the first part of the urethra, the tube that carries urine out. It lies in front of the rectum, which is why a clinician can feel its back surface through the rectal wall. A young adult prostate weighs about 20 to 30 grams. Glandular tissue and smooth muscle are packed inside a tough capsule, arranged in zones that matter for different conditions.\n\nThe prostate makes a thin, milky, slightly alkaline fluid that forms roughly 20 to 30 percent of semen. That fluid helps sperm survive the acidic environment of the vagina and keeps them moving. During ejaculation, smooth muscle in the prostate contracts and squirts this fluid into the urethra, mixing it with sperm from the testes and fluid from the seminal vesicles. Because the gland encircles the urethra, any swelling presses on the pipe and changes how urine flows.",
+      "functions": [
+        {
+          "title": "Add fluid to semen",
+          "detail": "The prostate produces a milky, alkaline fluid that makes up roughly 20 to 30 percent of the volume of semen."
+        },
+        {
+          "title": "Protect sperm",
+          "detail": "Its alkaline fluid helps neutralize vaginal acid so sperm can survive long enough to swim toward the cervix."
+        },
+        {
+          "title": "Push fluid at ejaculation",
+          "detail": "Smooth muscle in the gland contracts in rhythm, forcing prostatic fluid into the urethra as semen is expelled."
+        },
+        {
+          "title": "Help control urine flow",
+          "detail": "The gland's muscle and the sphincter around it contribute to keeping urine from leaking between trips to the bathroom."
+        }
+      ],
+      "location": "In the pelvis just below the bladder, wrapped around the first section of the urethra and in front of the rectum.",
+      "size": "About the size of a walnut, roughly 3 to 4 cm across and 20 to 30 g in a young adult.",
+      "facts": [
+        "The prostate grows quickly during puberty, then again from about age 40, when benign enlargement becomes common.",
+        "Because the urethra runs through it, an enlarged prostate often shows up first as a weaker stream or more frequent trips to the bathroom.",
+        "The prostate's peripheral zone is where most cancers begin, while the transition zone around the urethra is where benign enlargement usually starts."
+      ],
+      "conditions": [
+        {
+          "name": "Benign prostatic hyperplasia",
+          "description": "Noncancerous glandular tissue grows near the urethra and squeezes it, slowing the stream and making the bladder empty less completely."
+        },
+        {
+          "name": "Prostatitis",
+          "description": "Inflammation of the prostate, sometimes from infection, causes pelvic pain, painful urination, and sometimes fever."
+        },
+        {
+          "name": "Prostate cancer",
+          "description": "Cancer cells grow in the gland, often slowly and without symptoms at first, and may be found through screening or a rectal examination."
+        }
+      ],
+      "relatedOrgans": [
+        "bladder",
+        "urethra",
+        "testes",
+        "rectum"
+      ],
+      "keywords": [
+        "prostate",
+        "semen",
+        "urethra",
+        "benign prostatic hyperplasia"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Prostate",
+          "url": "https://my.clevelandclinic.org/health/body/23965-prostate"
+        },
+        {
+          "label": "Kenhub — Prostate Gland",
+          "url": "https://www.kenhub.com/en/library/anatomy/the-prostate-gland"
+        }
+      ],
+      "heroStat": {
+        "value": "20–30 g",
+        "label": "weight in a young adult"
+      }
+    },
+    {
+      "id": "penis",
+      "systemId": "reproductive",
+      "name": "Penis",
+      "latin": "Penis",
+      "region": "pelvis",
+      "tagline": "A hydraulic organ built from spongy tissue and blood.",
+      "summary": "The penis is the male external organ for urine and sex. Its root anchors in the perineum, its body hangs forward, and its tip, the glans, is covered by a fold of skin called the foreskin in people who are not circumcised. Inside are three columns of spongy erectile tissue: two corpora cavernosa along the top and a corpus spongiosum beneath them, which wraps the urethra. The urethra runs the length of the organ and opens at the tip.\n\nThere is no bone in the penis, and no skeletal muscle in its erectile chambers. An erection is a plumbing event: arteries relax and open, blood floods the spongy chambers, and the swollen tissue presses the draining veins shut so the blood stays. The corpora cavernosa stiffen while the corpus spongiosum stays softer, keeping the urethra open. At ejaculation, muscle around the base contracts in pulses and semen leaves through the same opening that carries urine, though a valve at the bladder neck usually keeps them apart.",
+      "functions": [
+        {
+          "title": "Carry urine out",
+          "detail": "The urethra inside the penis is the final stretch of the urinary tract, delivering urine from the bladder to the outside."
+        },
+        {
+          "title": "Deliver semen",
+          "detail": "During ejaculation, rhythmic contractions push semen through the urethra and out of the body."
+        },
+        {
+          "title": "Become erect",
+          "detail": "Blood filling the spongy chambers stiffens the organ, making intercourse and ejaculation possible."
+        },
+        {
+          "title": "Provide sensation",
+          "detail": "The glans and the skin of the shaft are densely supplied with nerve endings that contribute to sexual pleasure."
+        }
+      ],
+      "location": "Hanging from the front of the pelvis below the pubic bone, with its root anchored in the perineum.",
+      "size": "About 9 cm (3.6 in) long when flaccid and 13 cm (5.1 in) when erect in most adults.",
+      "facts": [
+        "The human penis has no bone, and its erectile chambers contain smooth muscle but no skeletal muscle; an erection is driven by blood pressure and valves.",
+        "The average erect length is about 13 cm (5.1 in), and flaccid size predicts erect size poorly.",
+        "The same opening carries both urine and semen, but a sphincter at the bladder neck closes during ejaculation so they do not normally mix."
+      ],
+      "conditions": [
+        {
+          "name": "Erectile dysfunction",
+          "description": "The arteries that supply the erectile tissue narrow or the veins leak, so an erection is difficult to get or keep."
+        },
+        {
+          "name": "Phimosis",
+          "description": "The foreskin is too tight to retract over the glans, which can make cleaning difficult and cause pain during erection."
+        },
+        {
+          "name": "Peyronie's disease",
+          "description": "Scar tissue forms in the erectile tissue and bends the penis during erection, sometimes with pain."
+        }
+      ],
+      "relatedOrgans": [
+        "urethra",
+        "testes",
+        "prostate"
+      ],
+      "keywords": [
+        "penis",
+        "erection",
+        "glans",
+        "foreskin",
+        "urethra"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Penis",
+          "url": "https://my.clevelandclinic.org/health/body/penis"
+        },
+        {
+          "label": "Kenhub — Penis",
+          "url": "https://www.kenhub.com/en/library/anatomy/the-penis"
+        }
+      ],
+      "heroStat": {
+        "value": "~13 cm",
+        "label": "average erect length"
+      }
+    },
+    {
+      "id": "mammary-glands",
+      "systemId": "reproductive",
+      "name": "Mammary Glands",
+      "latin": "Glandulae mammariae",
+      "alsoKnownAs": [
+        "Breasts"
+      ],
+      "region": "thorax",
+      "tagline": "Glands that remodel themselves to feed a newborn.",
+      "summary": "Your mammary glands sit on the front of your chest, one on each side, resting on the pectoralis major muscle and cushioned by fat. In females, each is a modified sweat gland built from 15 to 20 lobes, and each lobe branches into smaller lobules that end in tiny milk-making sacs called alveoli. Ducts gather the milk and carry it to the nipple. A darker circle of skin, the areola, surrounds the nipple and contains small glands that keep it supple.\n\nEveryone is born with breast tissue, but in males the mammary glands stay rudimentary. In females, puberty brings estrogen and progesterone that prompt the ducts to branch. Pregnancy brings a second wave of growth. Prolactin from the pituitary gland primes the alveoli, and after delivery it drives milk production, while oxytocin makes tiny muscle-like cells around them squeeze milk into the ducts. The first milk, colostrum, is thick and rich in antibodies. Breasts are mostly fat, and their size says nothing about how much milk they can make.",
+      "functions": [
+        {
+          "title": "Produce milk",
+          "detail": "Alveoli inside the lobules draw nutrients from the blood and assemble them into milk during pregnancy and breastfeeding."
+        },
+        {
+          "title": "Deliver milk to the nipple",
+          "detail": "A branching network of ducts carries milk from the lobules to openings in the nipple."
+        },
+        {
+          "title": "Pass on immune protection",
+          "detail": "Colostrum and mature milk carry antibodies and immune cells that help protect a newborn from infection."
+        },
+        {
+          "title": "Respond to hormones",
+          "detail": "Estrogen, progesterone, prolactin, and oxytocin coordinate growth, milk production, and milk release."
+        }
+      ],
+      "location": "On the front of the chest between the second and sixth ribs, resting on the pectoralis major and extending toward the armpit.",
+      "size": "Highly variable; the glandular tree is spread through the breast, but fat and connective tissue account for most of its size and shape.",
+      "facts": [
+        "Mammary glands are modified sweat glands, and their milk ducts open onto the skin at the nipple.",
+        "Breast size is mostly fat and does not predict milk supply; production depends on glandular tissue and hormones.",
+        "Everyone has breast tissue; in people who never become pregnant, the mammary glands remain a small duct system within the fat."
+      ],
+      "conditions": [
+        {
+          "name": "Fibrocystic breast changes",
+          "description": "Glands and fibrous tissue thicken and form tender lumps and cysts, often shifting with the menstrual cycle."
+        },
+        {
+          "name": "Mastitis",
+          "description": "Inflammation, often with infection during breastfeeding, makes part of the breast red, hot, and painful."
+        },
+        {
+          "name": "Breast cancer",
+          "description": "Cells in the ducts or lobules grow abnormally, sometimes forming a lump or changing the skin and nipple."
+        }
+      ],
+      "relatedOrgans": [
+        "ovaries",
+        "pituitary-gland",
+        "lymph-nodes"
+      ],
+      "keywords": [
+        "mammary glands",
+        "lactation",
+        "milk",
+        "breast",
+        "prolactin"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Breast Anatomy",
+          "url": "https://my.clevelandclinic.org/health/articles/8330-breast-anatomy"
+        },
+        {
+          "label": "MedlinePlus — Breast Diseases",
+          "url": "https://medlineplus.gov/breastdiseases.html"
+        }
+      ],
+      "heroStat": {
+        "value": "15–20",
+        "label": "lobes in each gland"
+      }
+    }
+  ],
+  "lesson": {
+    "id": "lesson-reproductive",
+    "title": "Two paths to a new person",
+    "subtitle": "Follow an egg from ovary to womb, then see how sperm and milk complete the story.",
+    "durationMin": 9,
+    "level": "beginner",
+    "steps": [
+      {
+        "title": "One cell starts everything",
+        "body": "Every person you have ever met started as one cell smaller than the period at the end of this sentence. That cell formed when two much older cells met, each carrying half of a new set of instructions. The organs that made that meeting possible sit low in the pelvis and, in some cases, outside the body cavity. They are quiet for the first decade of life, then wake up under a surge of hormones. For the next few minutes, follow the route: an egg leaving an ovary, a sperm swimming toward it, and the room where the result can grow. Somewhere along the way, you will see why this system is the only one that needs two bodies to finish its job.",
+        "keyPoint": "Two cells, each with half the instructions, are all it takes to begin a person."
+      },
+      {
+        "title": "The egg library",
+        "body": "The ovaries are two almond-shaped glands on either side of the uterus, and they hold a reserve of immature eggs set before birth. You start life with one to two million of them; by puberty, only a few hundred thousand are left. Each cycle, hormones from the pituitary gland wake a small batch, and usually one follicle pushes ahead of the rest. When it ripens, the ovary releases its egg into the open space of the pelvis, not into a tube. That detail matters, because the egg now needs to be caught. Picture a hand cupped near a falling marble: the fringed end of the fallopian tube is waiting, and its cilia are already beating.",
+        "organId": "ovaries",
+        "keyPoint": "An ovary does not send its egg into a tube; it releases the egg into open space."
+      },
+      {
+        "title": "The meeting place",
+        "body": "Each fallopian tube is a muscular tunnel about 10 to 12 centimeters long, running from the corner of the uterus toward the ovary. Its funnel-shaped end is fringed with finger-like fimbriae that sweep the newly released egg inside. Sperm swim the other way, up through the cervix and uterus, and meet the egg in the ampulla, the tube's widest stretch. That is where fertilization almost always happens. The tube is not a passive pipe: cilia beat in waves and smooth muscle squeezes behind the egg, pushing the tiny embryo toward the uterus over three to five days. If scar tissue blocks the way, the journey can stop too soon, and an embryo may implant in the tube itself.",
+        "organId": "fallopian-tubes",
+        "keyPoint": "Fertilization usually happens in the ampulla, and cilia do the driving afterward."
+      },
+      {
+        "title": "A room that rebuilds",
+        "body": "The uterus is a pear-shaped muscle between the bladder and the rectum, and it spends every month preparing a room. Estrogen thickens the endometrium, the lining, into a soft bed of blood vessels and glands. If an embryo arrives, it burrows into that bed and the uterus keeps it there, growing from about the size of a small lemon to a cavity that holds a full-term baby. If no embryo arrives, progesterone falls, the lining sheds as a period, and the work starts again. The middle layer, the myometrium, is the engine: it contracts in waves during labor, then clamps down afterward to close off the vessels where the placenta pulled away.",
+        "organId": "uterus",
+        "keyPoint": "The uterine lining is built and shed on a monthly schedule, then stretched for nine months."
+      },
+      {
+        "title": "The doorway",
+        "body": "The vagina is the muscular canal that connects the cervix to the outside. Its walls are folded into ridges, so it can collapse flat when empty and stretch wide enough for a baby to pass. It is also a living ecosystem. Lactobacillus bacteria dominate the canal in many people, turning sugars into lactic acid and holding the pH around 3.8 to 4.5. That acidity is a quiet defense, making the environment unwelcoming to many microbes. The canal has no glands of its own; its moisture comes from the cervix and from glands beside the opening. It is the exit for menstrual blood, the birth passage, and the first stretch of the route sperm must survive.",
+        "organId": "vagina",
+        "keyPoint": "The vagina is an acidic, bacteria-filled canal, not a sterile pipe."
+      },
+      {
+        "title": "The sperm factory",
+        "body": "Now switch to the other set of organs. The testes hang in the scrotum, a pouch that keeps them a few degrees cooler than the rest of the body, because sperm production slows at core temperature. Inside each testis, about 250 lobules hold tightly coiled seminiferous tubules where sperm are made continuously. A single sperm takes roughly two and a half months to mature, then waits in the epididymis. Between the tubules, other cells release testosterone, the hormone that deepens the voice and builds muscle and bone. At ejaculation, sperm are joined by fluid from the seminal vesicles and from the walnut-sized prostate, which wraps the urethra and adds an alkaline fluid. The penis is the final exit, its spongy chambers filling with blood to become rigid.",
+        "organId": "testes",
+        "keyPoint": "Sperm need cooler-than-core temperature, which is why the testes hang outside the body cavity."
+      },
+      {
+        "title": "The first meal",
+        "body": "Everyone has breast tissue, but in those who breastfeed, the mammary glands only finish their job after a baby is born. In females, each breast is a modified sweat gland: 15 to 20 lobes branch into lobules, and the lobules end in tiny alveoli that pull nutrients from the blood and assemble milk. During pregnancy, prolactin from the pituitary gland primes the alveoli; after delivery it switches production on, while oxytocin makes small muscle-like cells around the alveoli squeeze milk into the ducts. The first milk, colostrum, is thick and carries antibodies. Breast size is mostly fat and says little about supply. What matters is the glandular tree and the hormonal signals that keep it working, in a loop that runs from the baby's hunger back to the mother's brain.",
+        "organId": "mammary-glands",
+        "keyPoint": "Milk is built from nutrients in the blood, then squeezed out by hormone-driven cells."
+      },
+      {
+        "title": "Where to look next",
+        "body": "You have followed the whole route: an egg released into the pelvis, caught by a fringed tube, fertilized in the ampulla, and carried to a lining built to receive it. You have seen the other path too, where testes make sperm at a temperature a few degrees below core, the prostate adds fluid that helps them survive, and the penis carries the mixture out. And you have seen how milk is built from nutrients in the blood and released on demand. Notice how much of this system is timing: hormones from the pituitary gland set the rhythm, and the organs respond. Pick any organ in the model and rotate it. Then ask what it touches, because in this system, every structure is a doorway to the next.",
+        "keyPoint": "This system runs on hormones and timing, and every organ hands off to the next."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": "reproductive-q1",
+      "systemId": "reproductive",
+      "question": "Where does fertilization usually take place?",
+      "options": [
+        "In the uterus",
+        "In the ampulla of the fallopian tube",
+        "On the surface of the ovary",
+        "In the vagina"
+      ],
+      "answerIndex": 1,
+      "explanation": "The ampulla is the widest section of the fallopian tube. Sperm swim up from the uterus to meet the egg there, and the early embryo then travels onward to the uterus.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "reproductive-q2",
+      "systemId": "reproductive",
+      "question": "Which organ produces both sperm and testosterone?",
+      "options": [
+        "Prostate",
+        "Ovary",
+        "Uterus",
+        "Testes"
+      ],
+      "answerIndex": 3,
+      "explanation": "The testes contain coiled tubules that make sperm and interstitial cells that release testosterone. The prostate adds fluid to semen, but it does not make sperm.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "reproductive-q3",
+      "systemId": "reproductive",
+      "question": "What is the main job of the uterus during pregnancy?",
+      "options": [
+        "It produces eggs",
+        "It stores sperm",
+        "It houses and nourishes the developing fetus",
+        "It makes milk"
+      ],
+      "answerIndex": 2,
+      "explanation": "The uterus builds a blood-rich lining and holds the growing fetus. Its muscular wall stretches for months, then contracts during labor to push the baby out.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "reproductive-q4",
+      "systemId": "reproductive",
+      "question": "Why do the testes sit in the scrotum, outside the body cavity?",
+      "options": [
+        "To keep sperm production a few degrees below core body temperature",
+        "To make testosterone more quickly",
+        "To protect them from the bladder",
+        "Because they only form after birth"
+      ],
+      "answerIndex": 0,
+      "explanation": "Sperm production works best a few degrees below core body temperature, and the scrotum provides that cooler environment. Its muscles pull the testes closer when it is cold.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reproductive-q5",
+      "systemId": "reproductive",
+      "question": "What does the prostate add to semen?",
+      "options": [
+        "A sugary fluid that feeds sperm",
+        "A milky alkaline fluid that helps sperm survive",
+        "A watery fluid that flushes the urethra",
+        "A clear fluid that carries eggs"
+      ],
+      "answerIndex": 1,
+      "explanation": "The prostate makes a thin, alkaline fluid that forms part of semen and helps offset the acidity of the vagina, giving sperm a better chance of reaching the cervix. The seminal vesicles, not the prostate, supply most of the fructose that sperm use for energy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reproductive-q6",
+      "systemId": "reproductive",
+      "question": "Which structure inside the breast actually produces milk?",
+      "options": [
+        "The nipple",
+        "The fatty tissue",
+        "The areola",
+        "The alveoli inside the lobules"
+      ],
+      "answerIndex": 3,
+      "explanation": "Milk is made in the alveoli, tiny sacs at the end of the duct tree. Ducts then carry it to the nipple, while fat around the gland affects size rather than supply.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "reproductive-q7",
+      "systemId": "reproductive",
+      "question": "A fallopian tube is scarred and blocked near the ovary. Which outcome is most directly explained by this blockage?",
+      "options": [
+        "The egg cannot be swept into the tube, so fertilization is less likely",
+        "The uterus can no longer shed its lining",
+        "The ovary stops making estrogen",
+        "The cervix stops producing mucus"
+      ],
+      "answerIndex": 0,
+      "explanation": "The fimbriae must catch the egg and the tube must move it inward. Scar tissue can block that passage, and if an embryo does form, it may implant in the tube instead.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "reproductive-q8",
+      "systemId": "reproductive",
+      "question": "Which statement best explains why the vagina stays acidic?",
+      "options": [
+        "Glands in the vaginal wall secrete acid directly",
+        "Urine from the bladder lowers the pH",
+        "Lactobacillus bacteria produce lactic acid from sugars",
+        "The cervix pumps acid into the canal"
+      ],
+      "answerIndex": 2,
+      "explanation": "The canal has no acid-secreting glands of its own. Lactobacillus bacteria ferment sugars into lactic acid, holding the pH near 3.8 to 4.5 and discouraging many harmful microbes.",
+      "difficulty": "hard"
+    }
+  ]
+}

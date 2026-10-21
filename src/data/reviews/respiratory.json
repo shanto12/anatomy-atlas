@@ -1,0 +1,79 @@
+{
+  "systemId": "respiratory",
+  "reviewedAt": "2026-10-21T21:16:32Z",
+  "checks": [
+    {
+      "name": "JSON validity and schema",
+      "passed": true,
+      "notes": "Parses as UTF-8 JSON with 2-space indentation. All required top-level, organ, lesson, and quiz keys are present with the specified types; no markdown, emoji, HTML, bullets, or trailing commas."
+    },
+    {
+      "name": "Organ inventory and IDs",
+      "passed": true,
+      "notes": "Exactly the seven required IDs in spec order: lungs, trachea, bronchi, bronchioles, alveoli, larynx, pleura. IDs are unique and every organ systemId is respiratory."
+    },
+    {
+      "name": "Field lengths and counts",
+      "passed": true,
+      "notes": "System summary 186 words across 3 paragraphs. Organ summaries 137-165 words, each 2 paragraphs. Every organ has 3-5 functions, exactly 3 facts, 2-3 conditions, 3-6 lowercase keywords, 2 sources, and a valid heroStat. Taglines, locations, and size fields are within limits."
+    },
+    {
+      "name": "Lesson structure",
+      "passed": true,
+      "notes": "Lesson id is lesson-respiratory. Exactly 8 steps: hook, six organ-linked stops (larynx, trachea, bronchi, bronchioles, alveoli, lungs), and a recap. Every body is 93-113 words, every keyPoint is 110 chars or fewer, duration is 9 minutes, and the route follows airflow from upper airway to gas exchange."
+    },
+    {
+      "name": "Quiz quality",
+      "passed": true,
+      "notes": "Exactly 8 questions with ids respiratory-q1 through q8. Each has 4 unique options, one defensible answer, and a 26-35 word explanation. Answer indexes are 1,0,3,1,0,2,3,2; difficulty mix is 3 easy, 3 medium, 2 hard. No all/none-of-the-above options."
+    },
+    {
+      "name": "Medical accuracy",
+      "passed": true,
+      "notes": "Spot-checked more than ten claims against NIH/NCBI, Cleveland Clinic, Kenhub, TeachMeAnatomy, and published physiology sources, including alveolar count and surface area, tracheal length and ring count, main bronchus anatomy, air-blood barrier thickness, laryngeal level and dimensions, lung volumes, breath rate, and pleural pressure. Corrected the surface-area analogy, mucociliary rate, aspiration wording, bronchiolar cross-section claim, laryngeal level and dimensions, and two soap-bubble comparisons."
+    },
+    {
+      "name": "Sources",
+      "passed": true,
+      "notes": "14 unique source URLs, all returning HTTP 200 with curl -L. Every host is on the allowlist: nhlbi.nih.gov, medlineplus.gov, kenhub.com, teachmeanatomy.info. Bronchioles now uses distinct pages instead of duplicating the bronchi sources."
+    },
+    {
+      "name": "Safety and medical advice",
+      "passed": true,
+      "notes": "No dosages, treatment instructions, or diagnostic directives. Conditions remain educational descriptions. Removed the 'how hard you must work' phrasing and the humming-while-swallowing prompt; no clinician-referral or self-treatment language."
+    },
+    {
+      "name": "Voice and style",
+      "passed": true,
+      "notes": "US English spelling and vocabulary, including plastic wrap instead of cling film. Removed stock phrasing and a repetitive 'not X but Y' pattern where it weakened the prose. No markdown, emoji, or bullet characters."
+    },
+    {
+      "name": "Cross-system relatedOrgIds",
+      "passed": true,
+      "notes": "Every relatedOrgans entry resolves to an organ present in the current dataset, including heart, diaphragm, ribcage, capillaries, pulmonary-arteries, nose, mouth, and esophagus."
+    }
+  ],
+  "changes": [
+    "Corrected the gas-exchange surface comparison: 70 square meters is about a quarter of a tennis court, not half, in both the lungs and alveoli facts.",
+    "Corrected mucociliary transport from about a centimeter a minute to a few millimeters a minute, consistent with measured clearance rates.",
+    "Changed 'swallowed peanut' to 'inhaled peanut' in the bronchi summary and lesson step 4, since aspiration rather than swallowing explains right main bronchus lodgment.",
+    "Rewrote the bronchioles cross-section fact so it claims only that the combined bronchiolar cross-section dwarfs the trachea's, not that most airway cross-section sits in bronchioles.",
+    "Replaced two soap-bubble thickness comparisons with defensible measures: thinner than a red blood cell is wide, and thin enough for diffusion in a fraction of a second.",
+    "Corrected the laryngeal vertebral level from C4-C6 to C3-C6.",
+    "Corrected laryngeal dimensions to about 4 cm in women and 4.5 cm in men, with vocal folds 1.1-2.1 cm long, and updated the heroStat to 4-5 cm.",
+    "Removed the unsupported claim that the lungs are the only organs that float in water.",
+    "Fixed pleural anatomy: the parietal pleura lines the mediastinum, not the space between the lungs, and the vague infection-containment function became the independent pleural sacs point.",
+    "Softened pulmonary edema causation from 'usually the heart' to 'often the left side of the heart'.",
+    "Replaced 'the only stretch of airway that can close' with the more precise 'only part of the lower airway that can seal itself shut'.",
+    "Improved quiz 1 distractors with intercostal and abdominal muscles instead of trachea and liver, and clarified quiz 4's vertical-course wording.",
+    "Replaced the bronchioles duplicate sources with TeachMeAnatomy's tracheobronchial tree page and MedlinePlus Bronchiolitis; all 14 URLs are now distinct and return HTTP 200.",
+    "Removed filler and UK phrasing, including 'clever piece of engineering' and 'cling film', and tightened the cardiac notch and double-layered membrane wording."
+  ],
+  "sourcesChecked": 14,
+  "sourcesOk": 14,
+  "remainingConcerns": [
+    "Alveolar counts in the literature range from roughly 300 million to 500 million, and surface-area estimates from roughly 70 to 140 square meters. The file consistently uses the conventional 300 million and 70 square meter figures, which are well supported but not the only defensible values.",
+    "The pleura is introduced in the recap rather than receiving a dedicated lesson step. The eight-step format provides six organ stops for seven organs; the recap still defines the pleura, gives it a key point, and points readers to its entry.",
+    "The trachea and bronchioles each use one condition-oriented MedlinePlus page (Tracheal Disorders, Bronchiolitis) alongside an anatomy reference. The pages are authoritative and directly relevant, but they frame the organ through disease rather than pure anatomy."
+  ]
+}

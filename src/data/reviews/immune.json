@@ -1,0 +1,104 @@
+{
+  "systemId": "immune",
+  "reviewedAt": "2026-10-21T16:53:30-05:00",
+  "checks": [
+    {
+      "name": "JSON validity and schema",
+      "passed": true,
+      "notes": "Parses as UTF-8 JSON with two-space indentation, a trailing newline, no trailing commas and no duplicate keys. Top-level keys, types and allowed values match CONTENT_SPEC v1; color is #6f8a4f, shortName is one word, and every organ and quiz item carries systemId 'immune'."
+    },
+    {
+      "name": "Organ IDs, order and global uniqueness",
+      "passed": true,
+      "notes": "Exactly the six required organs in the required order: thymus, spleen, lymph-nodes, tonsils, bone-marrow, lymphatic-vessels. All IDs are kebab-case and unique across the 12 system files (95 organs in the tree); no duplicated organ ID anywhere."
+    },
+    {
+      "name": "Counts, lengths and field shapes",
+      "passed": true,
+      "notes": "System summary is 214 words in 3 paragraphs (180-240). Organ summaries run 148-170 words in exactly 2 paragraphs (110-170); each organ has 3 facts, 2-3 conditions, 4-5 functions, 2-4 related organs, 5 lowercase keywords and exactly 2 sources. Lesson id is lesson-immune with 8 steps, 6 of them organ-linked, bodies 98-121 words. Quiz has 8 questions, 4 options each, explanations 20-34 words, difficulty mix 3 easy / 3 medium / 2 hard."
+    },
+    {
+      "name": "Medical accuracy spot-check (10 claims)",
+      "passed": true,
+      "notes": "Verified against Cleveland Clinic, TeachMeAnatomy, Kenhub, NCBI Bookshelf and a red-cell kinetics review: 400-800 lymph nodes; about 20 L of plasma filtered, 17 L reabsorbed and 3 L returned as lymph each day; thymus about one ounce at puberty with fatty involution; spleen about 12 cm and 150 g; adult marrow about 2.5 kg; about 2 million red cells released per second; thoracic duct 38-45 cm long and 2-5 mm wide, ending at the left venous angle; palatine tonsils slightly larger than a marshmallow; no lymph nodes in the brain or spinal cord; lymphatic capillaries wider than blood capillaries and lymphatics more valved than veins. Corrected the thymoma cell of origin, the thoracic duct terminus, the lymph-node size range, the thymus size trend and the stem-cell-to-red-cell wording."
+    },
+    {
+      "name": "Sources live and on the allowlist",
+      "passed": true,
+      "notes": "12 unique URLs, each requested with curl -L. All 12 returned HTTP 200, and every host is on the spec allowlist (my.clevelandclinic.org, teachmeanatomy.info, medlineplus.gov, www.kenhub.com). Cleveland Clinic answers 403 to curl's default user agent because of bot filtering, so the check used a standard browser user agent; the pages load normally in a browser. The MedlinePlus lymphatic-diseases page was replaced for lymphatic-vessels by Kenhub's thoracic-duct page, which documents the corrected length and terminus and removes a URL that had been duplicated from lymph-nodes."
+    },
+    {
+      "name": "Safety and medical-advice language",
+      "passed": true,
+      "notes": "No dosages, treatments, diagnostic instructions or advice to seek care. Conditions stay educational descriptions of mechanism and consequence; phrases such as 'nodes are often checked when cancer is staged' describe clinical practice, not reader instructions. The project validator's advice patterns return no matches."
+    },
+    {
+      "name": "Lesson structure and flow",
+      "passed": true,
+      "notes": "Step 1 hooks with capillary leak, steps 2-7 each take a different organ (marrow, thymus, vessels, nodes, spleen, tonsils), and step 8 recaps and points to the spleen entry. Every step now ends with a forward pull, and the thymus-to-vessel seam is bridged by the new closing line of step 3 and the opening of step 4."
+    },
+    {
+      "name": "Quiz quality and coverage",
+      "passed": true,
+      "notes": "Each item has one defensible answer, four plausible distractors, no 'all of the above' or 'none of the above', and an explanation that teaches the mechanism. Correct positions are 1, 3, 0, 2, 3, 1, 2, 0, so each index appears twice. Replaced a stem that offered platelets as a white blood cell and a thymus item that duplicated q1, so all six organs are now assessed."
+    },
+    {
+      "name": "Voice, repetition and mechanics",
+      "passed": true,
+      "notes": "Removed all five 'which is why' constructions, the teleological 'That pause is deliberate', and repeated summary/lesson phrases about stem-cell pools, four-month red cells, node swelling and tonsil exposure. US English throughout; no markdown, HTML, emoji, bullet characters, double spaces or trailing spaces."
+    },
+    {
+      "name": "Cross-system relatedOrganIds",
+      "passed": true,
+      "notes": "All 22 related-organ references resolve to organ IDs present in the current 12-file tree, including stomach and small-intestine (digestive) and femur (skeletal). No self-references and no duplicates within an organ."
+    }
+  ],
+  "changes": [
+    "System summary: replaced 'The organs you can name...' with 'Its command posts have names...' so the sentence stops implying that readers can name the thymus.",
+    "Thymus: changed 'for a few years of childhood' to 'through childhood', since the gland is active from before birth until puberty.",
+    "Thymus: softened the peak weight from 28 grams to about 30 grams (roughly an ounce) in the summary and size field, matching Cleveland Clinic's one-ounce figure and the 30-40 gram literature range.",
+    "Thymus: changed 'By adulthood the gland is mostly fat' to 'much of the gland has been replaced by fat', which is accurate for young adults.",
+    "Thymus: corrected the thymoma origin from 'the cells covering the thymus' to the thymus's epithelial cells, the tissue that forms the gland's scaffolding.",
+    "Lymph nodes: narrowed the size range from 1-20 millimeters to 1-10 millimeters, matching normal node size and the summary's 'few millimeters to a centimeter'.",
+    "Lymph nodes: rewrote the brain fact to say the brain drains through vessels in its outer membranes, and removed the duplicated 'inside your brain or spinal cord' phrase.",
+    "Lymph nodes: softened 'tender before you feel properly sick' to 'sometimes turning tender before other symptoms show up'.",
+    "Lymph nodes: changed 'sampled' to 'checked' in the metastasis description and removed a 'which is why' construction.",
+    "Spleen: removed the claim that bone marrow absorbs the spleen's filtering work; after splenectomy the liver takes over most filtration, while the marrow only compensates by producing more blood cells.",
+    "Tonsils: changed 'roughly the size of a marshmallow' to 'a little larger than a marshmallow' in the summary and size field, following Cleveland Clinic's comparison.",
+    "Tonsils: replaced 'which is why tonsils sometimes become infected' with 'so tonsils sometimes become infected'.",
+    "Bone marrow: put metric first in the 2.5 kilogram / 6 pound figures in the summary and size field.",
+    "Bone marrow: corrected the red-cell detail so marrow cells, not stem cells, fill with hemoglobin and enter the blood.",
+    "Bone marrow: replaced 'which is why a transplant...' with 'so a transplant...'.",
+    "Lymphatic vessels: changed 'Unlike arteries, they have no heart driving them' to 'No heart drives them', which avoids implying that arteries lack a pump.",
+    "Lymphatic vessels: fixed subject-verb agreement for liter quantities in the summary and the q3 explanation.",
+    "Lymphatic vessels: corrected the thoracic duct terminus to the junction of the left subclavian and left internal jugular veins in the location, fact, q7 option and q7 explanation.",
+    "Lymphatic vessels: replaced 'roughly 40 centimeters' with the 38-45 centimeter (15-18 inch) range and added the 2-5 millimeter width.",
+    "Lymphatic vessels: replaced 'valves every few millimeters' with 'more valves than veins do', which is supported and avoids false precision.",
+    "Lymphatic vessels: swapped the duplicated MedlinePlus lymphatic-diseases source for Kenhub's thoracic-duct page, which supports the corrected length and venous angle.",
+    "Lesson: added a forward pull to the end of steps 3-7, so the tour hands off from thymus to vessels, vessels to nodes, nodes to spleen, spleen to tonsils, and tonsils to the recap.",
+    "Lesson step 2: varied the stem-cell and red-cell wording ('a reserve', 'around 120 days') to stop repeating the marrow summary.",
+    "Lesson step 3: changed 'biggest in childhood' to 'busiest in childhood', because the thymus reaches its largest size at puberty.",
+    "Lesson step 4: removed 'valves every few millimeters' and widened lymphedema's cause to valve failure or vessel blockage.",
+    "Lesson step 5: removed 'That pause is deliberate' and stopped repeating the node summary's 'cells multiply, antibodies are assembled' verbatim.",
+    "Lesson step 7: cut the repeated 'a sample of the outside world' phrase.",
+    "Lesson step 8: tightened the closing pointer to the spleen.",
+    "Quiz q4: replaced two implausible distractors ('pumped backward', 'thickens as it cools') with a capsule claim and a valve claim that test the same mechanism.",
+    "Quiz q6: replaced a stem that listed platelets as white blood cells with 'Where do B cells complete their maturation?', added a germinal-center distractor, and raised the item to hard.",
+    "Quiz q7: updated the correct option and explanation for the thoracic duct terminus.",
+    "Quiz q8: replaced the thymus-involution item, since the thymus was already q1, with a tonsil-crypts item, set it to medium, and kept the 3 easy / 3 medium / 2 hard mix."
+  ],
+  "sourcesChecked": 12,
+  "sourcesOk": 12,
+  "remainingConcerns": [
+    "Lymph-node counts differ by source: Cleveland Clinic's node page gives 400-800, its lymphatic-system page gives about 600, and Kenhub gives about 450. The file keeps 400-800 because that is the figure stated on the cited node page.",
+    "Daily lymph flow is an estimate; texts give roughly 2-4 liters, and the file uses Cleveland Clinic's 20/17/3 liter Starling figures.",
+    "Thymus peak weight varies widely (about 20-40 grams); 'about 30 grams (roughly an ounce)' is a central value, not a fixed constant.",
+    "Spleen length and weight vary with age, sex and body size; 12 centimeters and 150 grams are typical adult values.",
+    "Tonsil size is highly variable, and Cleveland Clinic's marshmallow comparison is qualitative rather than a measurement.",
+    "The thoracic duct usually ends at the left subclavian/internal jugular junction, but it can terminate in either vein or in the left brachiocephalic vein, so the wording describes the common arrangement.",
+    "The brain's meningeal lymphatic vessels are an active research area; the file's wording reflects current consensus but the details are still being refined.",
+    "The quiz now covers all six organs, but lymphatic vessels still carry three of the eight questions, so the other organs get one each.",
+    "Medical checking was a targeted spot check of ten claims plus the condition descriptions; the remaining prose is standard anatomy but was not verified clause by clause.",
+    "Cross-system relatedOrganIds were verified against the current tree and could break if other system files are revised."
+  ]
+}

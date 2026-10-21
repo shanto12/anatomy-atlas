@@ -1,0 +1,78 @@
+{
+  "systemId": "reproductive",
+  "reviewedAt": "2026-10-21T16:52:12-05:00",
+  "checks": [
+    {
+      "name": "JSON validity and schema",
+      "passed": true,
+      "notes": "Parses as UTF-8 JSON with two-space indentation and a trailing newline. Required top-level, organ, lesson, and quiz fields are present with the specified types and allowed values. Color is #a66a7a, stats count is 3, and functions count is 5."
+    },
+    {
+      "name": "Organ IDs, order, and cross-system references",
+      "passed": true,
+      "notes": "Exactly 8 organs in the required order: ovaries, fallopian-tubes, uterus, vagina, testes, prostate, penis, mammary-glands. Every organ has systemId 'reproductive'; no duplicate organ ID exists in this file or across the 12 system files. All relatedOrgans targets resolve, including pituitary-gland, bladder, urethra, rectum, and lymph-nodes."
+    },
+    {
+      "name": "Lengths and field counts",
+      "passed": true,
+      "notes": "System summary is 225 words in 3 paragraphs (180-240). Organ summaries run 152-169 words in 2 paragraphs (110-170). Every organ has exactly 3 facts, 3 conditions, 4 functions, 2 sources, 2-4 relatedOrganIds, and 3-6 lowercase keywords. Lesson bodies run 112-130 words. Quiz explanations run 26-45 words."
+    },
+    {
+      "name": "Medical accuracy spot-check",
+      "passed": true,
+      "notes": "Checked specific claims against Cleveland Clinic organ pages, Merck Manual ovarian-reserve data, MedlinePlus vaginal-pH guidance, and the BMJ systematic review of penile length. Verified ovarian reserve (1-2 million at birth, about 300,000 at puberty, about 400 released), vaginal length and pH, uterine size and weight, retroverted-uterus prevalence, fallopian-tube length and ampulla anatomy, testicular lobules and scrotal temperature, prostate weight and 20-30 percent seminal-fluid share, mammary lobe count, male rudimentary breast tissue, and average penile length. Corrected the ampulla being called narrow, the nonpregnant uterine size and weight, the penile length range, the claim that the tube never touches the ovary, the absolute claim that urine and semen never mix, and the timing of prolactin-driven milk production."
+    },
+    {
+      "name": "Sources and allowlist",
+      "passed": true,
+      "notes": "All 16 source entries use unique URLs and returned HTTP 200 with curl -L using a normal browser user agent. The 16 entries are 16 unique pages on Cleveland Clinic, MedlinePlus, or Kenhub, all on the CONTENT_SPEC allowlist. No Wikipedia, blog, or AI-generated URL is present, and no replacement was needed."
+    },
+    {
+      "name": "Safety and medical advice",
+      "passed": true,
+      "notes": "Conditions remain educational descriptions only. No dosages, treatments, diagnostic instructions, or directions to seek care. Screening is mentioned only as a way prostate cancer may be found, not as advice. Sensitive anatomy is described plainly and without euphemism or alarm."
+    },
+    {
+      "name": "Quiz quality",
+      "passed": true,
+      "notes": "8 questions with ids reproductive-q1 through reproductive-q8, 4 options each, one defensible answer each, and a 3 easy / 3 medium / 2 hard mix. Answer indexes are 1,3,2,0,1,3,0,2, so each index is correct exactly twice. Replaced q5's weak Egg/Urine/Milk distractors with seminal-vesicle, bulbourethral, and ovarian alternatives, and added the fructose detail so the explanation teaches why each distractor is wrong."
+    },
+    {
+      "name": "Lesson structure and flow",
+      "passed": true,
+      "notes": "8 steps: step 1 hooks, steps 2-7 focus on six distinct organs (ovaries, fallopian-tubes, uterus, vagina, testes, mammary-glands), and step 8 recaps with next exploration. Prostate and penis now appear inside the testes step and again in the recap, so all eight organs are touched. The female-to-male transition is explicit and the closing step returns to the opening route."
+    },
+    {
+      "name": "Voice, spelling, and formatting",
+      "passed": true,
+      "notes": "US English throughout, including fetus and centimeters. No markdown, HTML, emoji, bullet characters, double spaces, or UK spellings. Replaced the misleading 'self-cleaning' vaginal tagline with 'acidic', removed absolute wording, and changed 'milk assembled from blood' to milk built from nutrients in the blood."
+    }
+  ],
+  "changes": [
+    "Corrected penile length to about 9 cm flaccid and 13 cm erect, and updated the heroStat from 13-14 cm to ~13 cm, matching pooled measurements rather than the upper end of a range.",
+    "Corrected nonpregnant uterine size from 'size of a pear' to 'size of a small lemon' and weight from 30-40 g to about 30 g (1 oz); aligned the function detail and lesson comparison.",
+    "Changed the uterine pregnancy-growth fact to describe enlargement of muscle cells and removed the unsupported 'rather than adding fat' contrast.",
+    "Fixed the fallopian-tube function detail that called the ampulla a 'narrow place'; the ampulla is the widest stretch.",
+    "Corrected the fallopian-tube segment sequence so the infundibulum, ampulla, and isthmus are not described as one continuous narrowing.",
+    "Changed 'the tube never touches the ovary' to 'the tube is not fused to the ovary', which is anatomically accurate.",
+    "Replaced 'self-cleaning' in the vaginal tagline with 'acidic' and softened 'not sexually transmitted' to 'not usually sexually transmitted' for candidiasis.",
+    "Changed the absolute claim that urine and semen 'never mix' to 'do not normally mix', and 'keeps the two from mixing' to 'usually keeps them apart'.",
+    "Softened 'sperm production stalls at core temperature' to 'slows', since core temperature impairs rather than completely stops spermatogenesis.",
+    "Corrected ovarian atresia wording from eggs being 'gradually reabsorbed' to 'gradually degenerate'.",
+    "Corrected mammary development in males: everyone has breast tissue, but male mammary glands stay rudimentary; removed the implication that male breasts develop 15-20 lobes.",
+    "Corrected prolactin timing: it primes the alveoli during pregnancy and drives production after delivery, with oxytocin responsible for milk ejection.",
+    "Replaced 'milk is assembled from blood' with milk built from nutrients in the blood in the lesson keyPoint and recap.",
+    "Expressed prostatic fluid as roughly 20-30 percent of semen instead of 'a fifth to a third', and aligned the function detail.",
+    "Reworked the summary sentence on the male organs so the prostate adds fluid and the penis delivers semen, rather than both adding fluid.",
+    "Improved quiz q5 distractors and explanation, and changed the prostate fact from 'runs straight through' to 'runs through' the gland.",
+    "Added prostate and penis coverage to lesson step 6 and the recap without adding a ninth step, and changed 'outside the body' to 'outside the body cavity' where the scrotum is meant."
+  ],
+  "sourcesChecked": 16,
+  "sourcesOk": 16,
+  "remainingConcerns": [
+    "Mammary 'size' is qualitative because breast size varies widely and the cited sources do not give one defensible dimension; no number was invented.",
+    "Penile length is a population average with wide individual variation; the entry qualifies it with 'in most adults'.",
+    "Prostate and penis have no dedicated lesson step because the lesson is fixed at eight steps; they are introduced inside the testes step and revisited in the recap.",
+    "Cleveland Clinic and Kenhub pages were checked with a browser user agent; stricter bot filtering may return 403 to a bare curl client even though the pages are live."
+  ]
+}

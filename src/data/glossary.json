@@ -1,1 +1,1135 @@
-[]
+[
+  {
+    "term": "Abduction",
+    "definition": "Movement of a limb away from the body's midline, as when raising an arm out to the side.",
+    "category": "Movement",
+    "systemId": "muscular",
+    "related": [
+      "Adduction",
+      "Circumduction"
+    ]
+  },
+  {
+    "term": "Absorption",
+    "definition": "The process by which digested nutrients pass from the gut into the blood or lymph for use by cells.",
+    "category": "Physiology",
+    "systemId": "digestive",
+    "related": [
+      "Villus",
+      "Digestion"
+    ]
+  },
+  {
+    "term": "Adduction",
+    "definition": "Movement of a limb toward the body's midline, as when lowering a raised arm back to your side.",
+    "category": "Movement",
+    "systemId": "muscular",
+    "related": [
+      "Abduction",
+      "Flexion"
+    ]
+  },
+  {
+    "term": "Adipose tissue",
+    "definition": "A type of connective tissue packed with fat-storing cells, cushioning organs, insulating the body, and holding a reserve of energy.",
+    "category": "Tissues",
+    "systemId": "integumentary",
+    "related": [
+      "Connective tissue",
+      "Metabolism"
+    ]
+  },
+  {
+    "term": "Agonist",
+    "definition": "The muscle that produces a particular movement, often called the prime mover, such as the biceps in a curl.",
+    "category": "Movement",
+    "systemId": "muscular",
+    "related": [
+      "Antagonist",
+      "Flexion"
+    ]
+  },
+  {
+    "term": "Alveolus",
+    "definition": "One of millions of tiny air sacs in the lungs where oxygen enters the blood and carbon dioxide leaves the blood.",
+    "category": "Systems",
+    "systemId": "respiratory",
+    "related": [
+      "Capillary",
+      "Respiration"
+    ]
+  },
+  {
+    "term": "Anatomical position",
+    "definition": "The standard reference posture: standing upright, face forward, arms at the sides, palms facing forward, and feet pointing forward.",
+    "category": "Directional terms",
+    "related": [
+      "Supine",
+      "Prone"
+    ]
+  },
+  {
+    "term": "Antagonist",
+    "definition": "A muscle that opposes the action of another muscle, helping control and reverse a movement, as the triceps opposes the biceps.",
+    "category": "Movement",
+    "systemId": "muscular",
+    "related": [
+      "Agonist",
+      "Extension"
+    ]
+  },
+  {
+    "term": "Anterior",
+    "definition": "Toward the front of the body, or nearer the belly side, as the sternum lies anterior to the heart.",
+    "category": "Directional terms",
+    "related": [
+      "Posterior",
+      "Ventral"
+    ]
+  },
+  {
+    "term": "Antibody",
+    "definition": "A Y-shaped protein made by immune cells that locks onto a specific invader and helps mark it for destruction.",
+    "category": "Cells & molecules",
+    "systemId": "immune",
+    "related": [
+      "Lymph",
+      "Inflammation"
+    ]
+  },
+  {
+    "term": "Artery",
+    "definition": "A thick-walled blood vessel that carries blood away from the heart and toward the body's tissues.",
+    "category": "Systems",
+    "systemId": "cardiovascular",
+    "related": [
+      "Vein",
+      "Capillary"
+    ]
+  },
+  {
+    "term": "ATP",
+    "definition": "Adenosine triphosphate, the small molecule that stores and releases energy for nearly every activity inside a cell.",
+    "category": "Cells & molecules",
+    "related": [
+      "Metabolism",
+      "Mitochondrion"
+    ]
+  },
+  {
+    "term": "Auscultation",
+    "definition": "Listening to sounds inside the body, usually with a stethoscope, to assess the heart, lungs, or intestines.",
+    "category": "Clinical & imaging",
+    "related": [
+      "Palpation"
+    ]
+  },
+  {
+    "term": "Autonomic nervous system",
+    "definition": "The part of the nervous system that regulates involuntary body functions such as heart rate, digestion, and sweating without conscious effort.",
+    "category": "Systems",
+    "systemId": "nervous",
+    "related": [
+      "Central nervous system",
+      "Neuron"
+    ]
+  },
+  {
+    "term": "Bilateral",
+    "definition": "Relating to both sides of the body, as when a rash appears on both arms in a similar pattern.",
+    "category": "Directional terms",
+    "related": [
+      "Ipsilateral",
+      "Contralateral"
+    ]
+  },
+  {
+    "term": "Biopsy",
+    "definition": "Removal of a small sample of tissue so a specialist can examine its cells under a microscope.",
+    "category": "Clinical & imaging",
+    "related": [
+      "Incision"
+    ]
+  },
+  {
+    "term": "Blood",
+    "definition": "The fluid connective tissue that carries oxygen, nutrients, hormones, and immune cells through vessels to organs throughout the body.",
+    "category": "Tissues",
+    "systemId": "cardiovascular",
+    "related": [
+      "Plasma",
+      "Erythrocyte"
+    ]
+  },
+  {
+    "term": "Blood pressure",
+    "definition": "The force blood exerts against vessel walls, recorded as two numbers that reflect the heart's contracting and relaxing phases.",
+    "category": "Physiology",
+    "systemId": "cardiovascular",
+    "related": [
+      "Systole",
+      "Artery"
+    ]
+  },
+  {
+    "term": "Bone",
+    "definition": "A hard living tissue reinforced with calcium phosphate minerals that supports the body, protects organs, and houses red marrow that makes blood cells.",
+    "category": "Tissues",
+    "systemId": "skeletal",
+    "related": [
+      "Cartilage",
+      "Ligament"
+    ]
+  },
+  {
+    "term": "Capillary",
+    "definition": "The smallest blood vessel, a thin-walled tube where oxygen and nutrients pass into tissues and waste passes from tissues into the blood.",
+    "category": "Systems",
+    "systemId": "cardiovascular",
+    "related": [
+      "Artery",
+      "Vein"
+    ]
+  },
+  {
+    "term": "Cartilage",
+    "definition": "A firm, flexible tissue that pads joints, shapes the nose and ears, and forms a temporary skeleton in early development.",
+    "category": "Tissues",
+    "systemId": "skeletal",
+    "related": [
+      "Bone",
+      "Ligament"
+    ]
+  },
+  {
+    "term": "Caudal",
+    "definition": "Toward the tail or lower end of the body, a term used mainly in embryology and comparative anatomy.",
+    "category": "Directional terms",
+    "related": [
+      "Cranial",
+      "Inferior"
+    ]
+  },
+  {
+    "term": "Cell membrane",
+    "definition": "The selective outer boundary of a cell, a thin film of fat and protein that controls what enters and leaves.",
+    "category": "Cells & molecules",
+    "related": [
+      "Cytoplasm",
+      "Diffusion"
+    ]
+  },
+  {
+    "term": "Central nervous system",
+    "definition": "The brain and spinal cord, the control center that processes information and coordinates the rest of the nervous system.",
+    "category": "Systems",
+    "systemId": "nervous",
+    "related": [
+      "Neuron",
+      "Synapse"
+    ]
+  },
+  {
+    "term": "Circumduction",
+    "definition": "A circular movement in which a limb sweeps through a cone-shaped path, combining flexion, abduction, extension, and adduction.",
+    "category": "Movement",
+    "systemId": "muscular",
+    "related": [
+      "Abduction",
+      "Rotation"
+    ]
+  },
+  {
+    "term": "Connective tissue",
+    "definition": "Body material that supports, binds, or separates other structures, ranging from soft padding to strong tendons and solid bone.",
+    "category": "Tissues",
+    "related": [
+      "Epithelium",
+      "Adipose tissue"
+    ]
+  },
+  {
+    "term": "Contralateral",
+    "definition": "On the opposite side of the body, as when a stroke weakens the arm on the side opposite the damaged half of the brain.",
+    "category": "Directional terms",
+    "related": [
+      "Ipsilateral",
+      "Bilateral"
+    ]
+  },
+  {
+    "term": "Coronal plane",
+    "definition": "A vertical plane that divides the body into front and back portions, also called the frontal plane.",
+    "category": "Planes & sections",
+    "related": [
+      "Sagittal plane",
+      "Transverse plane"
+    ]
+  },
+  {
+    "term": "Cranial",
+    "definition": "Toward the head or skull end of the body, as the cranial end of the spinal cord sits nearest the brain.",
+    "category": "Directional terms",
+    "related": [
+      "Caudal",
+      "Superior"
+    ]
+  },
+  {
+    "term": "Cross-section",
+    "definition": "A slice cut through a structure, usually at right angles to its long axis, revealing its internal arrangement.",
+    "category": "Planes & sections",
+    "related": [
+      "Transverse plane",
+      "Sagittal plane"
+    ]
+  },
+  {
+    "term": "CT scan",
+    "definition": "Computed tomography, a scan that combines X-ray images from many angles into detailed cross-sectional pictures of the body.",
+    "category": "Clinical & imaging",
+    "related": [
+      "MRI",
+      "Radiography"
+    ]
+  },
+  {
+    "term": "Cytoplasm",
+    "definition": "The jelly-like fluid and structures inside a cell, where many chemical reactions and much of the cell's work happen.",
+    "category": "Cells & molecules",
+    "related": [
+      "Cell membrane",
+      "Nucleus"
+    ]
+  },
+  {
+    "term": "Deep",
+    "definition": "Farther beneath the body's surface, as a deep muscle sits under layers of skin and fat.",
+    "category": "Directional terms",
+    "related": [
+      "Superficial",
+      "Fascia"
+    ]
+  },
+  {
+    "term": "Depression",
+    "definition": "A downward movement of a body part, such as lowering the shoulders or opening the jaw.",
+    "category": "Movement",
+    "systemId": "muscular",
+    "related": [
+      "Elevation",
+      "Retraction"
+    ]
+  },
+  {
+    "term": "Diastole",
+    "definition": "The relaxation phase of the heart cycle, when the chambers fill with blood before the next contraction.",
+    "category": "Physiology",
+    "systemId": "cardiovascular",
+    "related": [
+      "Systole",
+      "Blood pressure"
+    ]
+  },
+  {
+    "term": "Diffusion",
+    "definition": "The natural spreading of particles from crowded areas to less crowded ones, such as oxygen moving into a cell.",
+    "category": "Physiology",
+    "related": [
+      "Osmosis",
+      "Cell membrane"
+    ]
+  },
+  {
+    "term": "Digestion",
+    "definition": "The breakdown of food into small molecules that can be absorbed, beginning in the mouth and continuing through the gut.",
+    "category": "Physiology",
+    "systemId": "digestive",
+    "related": [
+      "Absorption",
+      "Peristalsis"
+    ]
+  },
+  {
+    "term": "Distal",
+    "definition": "Farther from the point where a limb attaches to the body, as the fingers are distal to the elbow.",
+    "category": "Directional terms",
+    "related": [
+      "Proximal",
+      "Lateral"
+    ]
+  },
+  {
+    "term": "DNA",
+    "definition": "The long, twisted-ladder molecule in nearly every cell that stores the instructions for building proteins and running the body.",
+    "category": "Cells & molecules",
+    "related": [
+      "Nucleus"
+    ]
+  },
+  {
+    "term": "Dorsal",
+    "definition": "Toward the back of the body, as the dorsal surface of the hand is the side with the fingernails.",
+    "category": "Directional terms",
+    "related": [
+      "Ventral",
+      "Posterior"
+    ]
+  },
+  {
+    "term": "Dorsiflexion",
+    "definition": "Bending the foot upward toward the shin, as when you stand on your heels or lift your toes.",
+    "category": "Movement",
+    "systemId": "muscular",
+    "related": [
+      "Plantarflexion",
+      "Flexion"
+    ]
+  },
+  {
+    "term": "Elevation",
+    "definition": "An upward movement of a body part, such as shrugging the shoulders or closing the jaw.",
+    "category": "Movement",
+    "systemId": "muscular",
+    "related": [
+      "Depression",
+      "Protraction"
+    ]
+  },
+  {
+    "term": "Endoscopy",
+    "definition": "A procedure in which a tube with a camera and light, often flexible, is passed into the body to view internal organs directly.",
+    "category": "Clinical & imaging",
+    "related": [
+      "Laparoscopy",
+      "Biopsy"
+    ]
+  },
+  {
+    "term": "Enzyme",
+    "definition": "A molecule, usually a protein, that speeds up a specific chemical reaction, such as breaking down food or copying DNA, without being used up.",
+    "category": "Cells & molecules",
+    "related": [
+      "Metabolism",
+      "Digestion"
+    ]
+  },
+  {
+    "term": "Epithelium",
+    "definition": "A sheet of cells that covers surfaces, lines cavities, and forms glands, serving as a barrier and handling absorption or secretion.",
+    "category": "Tissues",
+    "related": [
+      "Connective tissue",
+      "Mucous membrane"
+    ]
+  },
+  {
+    "term": "Erythrocyte",
+    "definition": "A red blood cell, a flexible disc packed with hemoglobin that carries oxygen from the lungs to tissues.",
+    "category": "Cells & molecules",
+    "systemId": "cardiovascular",
+    "related": [
+      "Hemoglobin",
+      "Blood"
+    ]
+  },
+  {
+    "term": "Eversion",
+    "definition": "Turning the sole of the foot outward, away from the body's midline, as when rolling onto the inner edge of the foot.",
+    "category": "Movement",
+    "systemId": "muscular",
+    "related": [
+      "Inversion"
+    ]
+  },
+  {
+    "term": "Excretion",
+    "definition": "The removal of waste products from the body, such as urea filtered by the kidneys or carbon dioxide exhaled by the lungs.",
+    "category": "Physiology",
+    "systemId": "urinary",
+    "related": [
+      "Filtration",
+      "Homeostasis"
+    ]
+  },
+  {
+    "term": "Extension",
+    "definition": "Straightening a joint so the angle between two body parts increases, as when you open a bent elbow.",
+    "category": "Movement",
+    "systemId": "muscular",
+    "related": [
+      "Flexion",
+      "Abduction"
+    ]
+  },
+  {
+    "term": "Fascia",
+    "definition": "A sheet or band of tough connective tissue that wraps muscles, organs, and nerves, holding them in place.",
+    "category": "Tissues",
+    "related": [
+      "Connective tissue",
+      "Superficial"
+    ]
+  },
+  {
+    "term": "Fertilization",
+    "definition": "The moment a sperm and egg join to form a single cell, the first step in the development of a new organism.",
+    "category": "Physiology",
+    "systemId": "reproductive",
+    "related": [
+      "Zygote"
+    ]
+  },
+  {
+    "term": "Filtration",
+    "definition": "The process of forcing fluid through a barrier that catches larger particles, as the kidneys filter blood.",
+    "category": "Physiology",
+    "systemId": "urinary",
+    "related": [
+      "Nephron",
+      "Osmosis"
+    ]
+  },
+  {
+    "term": "Flexion",
+    "definition": "Bending a joint so the angle between two body parts decreases, as when you bring your hand toward your shoulder.",
+    "category": "Movement",
+    "systemId": "muscular",
+    "related": [
+      "Extension",
+      "Abduction"
+    ]
+  },
+  {
+    "term": "Gestation",
+    "definition": "The period during which an embryo or fetus develops in the uterus, about nine months in humans.",
+    "category": "Physiology",
+    "systemId": "reproductive",
+    "related": [
+      "Fertilization",
+      "Zygote"
+    ]
+  },
+  {
+    "term": "Hemoglobin",
+    "definition": "The iron-containing protein inside red blood cells that binds oxygen in the lungs and releases it in tissues.",
+    "category": "Cells & molecules",
+    "systemId": "cardiovascular",
+    "related": [
+      "Erythrocyte",
+      "Blood"
+    ]
+  },
+  {
+    "term": "Hepatocyte",
+    "definition": "A liver cell, specialized for processing nutrients, detoxifying harmful substances, and making bile and blood proteins.",
+    "category": "Cells & molecules",
+    "systemId": "digestive",
+    "related": [
+      "Enzyme",
+      "Metabolism"
+    ]
+  },
+  {
+    "term": "Homeostasis",
+    "definition": "The body's ability to keep internal conditions such as temperature, pH, and blood sugar within a narrow, stable range.",
+    "category": "Physiology",
+    "related": [
+      "Metabolism",
+      "Blood pressure"
+    ]
+  },
+  {
+    "term": "Hormone",
+    "definition": "A chemical messenger released by a gland or cell that travels in the blood and alters the activity of target cells.",
+    "category": "Physiology",
+    "systemId": "endocrine",
+    "related": [
+      "Secretion",
+      "Metabolism"
+    ]
+  },
+  {
+    "term": "Incision",
+    "definition": "A clean cut made through skin or tissue, often by a surgeon, to reach a structure beneath the surface.",
+    "category": "Clinical & imaging",
+    "related": [
+      "Suture",
+      "Biopsy"
+    ]
+  },
+  {
+    "term": "Inferior",
+    "definition": "Below or lower than another structure in the body, as the stomach is inferior to the heart.",
+    "category": "Directional terms",
+    "related": [
+      "Superior",
+      "Caudal"
+    ]
+  },
+  {
+    "term": "Inflammation",
+    "definition": "The body's local response to injury or infection, marked by redness, heat, swelling, and pain.",
+    "category": "Physiology",
+    "systemId": "immune",
+    "related": [
+      "Lymph",
+      "Antibody"
+    ]
+  },
+  {
+    "term": "Insertion",
+    "definition": "The end of a muscle that attaches to the bone that moves when the muscle contracts.",
+    "category": "Movement",
+    "systemId": "muscular",
+    "related": [
+      "Origin",
+      "Tendon"
+    ]
+  },
+  {
+    "term": "Inversion",
+    "definition": "Turning the sole of the foot inward, toward the body's midline, as when rolling onto the outer edge of the foot.",
+    "category": "Movement",
+    "systemId": "muscular",
+    "related": [
+      "Eversion"
+    ]
+  },
+  {
+    "term": "Ipsilateral",
+    "definition": "On the same side of the body, as when a muscle and the nerve controlling it sit on the same side.",
+    "category": "Directional terms",
+    "related": [
+      "Contralateral",
+      "Bilateral"
+    ]
+  },
+  {
+    "term": "Joint",
+    "definition": "The place where two or more bones meet; movable joints are shaped for motion and cushioned by cartilage.",
+    "category": "Systems",
+    "systemId": "skeletal",
+    "related": [
+      "Ligament",
+      "Cartilage"
+    ]
+  },
+  {
+    "term": "Laparoscopy",
+    "definition": "A surgical technique that uses a slender camera and small instruments through tiny incisions in the abdomen.",
+    "category": "Clinical & imaging",
+    "related": [
+      "Endoscopy",
+      "Incision"
+    ]
+  },
+  {
+    "term": "Lateral",
+    "definition": "Away from the body's midline or toward the side, as the ears are lateral to the nose.",
+    "category": "Directional terms",
+    "related": [
+      "Medial",
+      "Distal"
+    ]
+  },
+  {
+    "term": "Ligament",
+    "definition": "A tough band of connective tissue that links bone to bone and holds joints steady.",
+    "category": "Tissues",
+    "systemId": "skeletal",
+    "related": [
+      "Tendon",
+      "Joint"
+    ]
+  },
+  {
+    "term": "Lymph",
+    "definition": "A clear fluid that drains from tissues, carries immune cells, and returns slowly to the bloodstream.",
+    "category": "Physiology",
+    "systemId": "immune",
+    "related": [
+      "Lymph node",
+      "Lymphatic system"
+    ]
+  },
+  {
+    "term": "Lymph node",
+    "definition": "A small, bean-shaped checkpoint where lymph is filtered and immune cells gather to meet invading microbes.",
+    "category": "Systems",
+    "systemId": "immune",
+    "related": [
+      "Lymph",
+      "Lymphatic system"
+    ]
+  },
+  {
+    "term": "Lymphatic system",
+    "definition": "A network of vessels, nodes, and organs that drains lymph and helps defend the body against infection.",
+    "category": "Systems",
+    "systemId": "immune",
+    "related": [
+      "Lymph",
+      "Lymph node"
+    ]
+  },
+  {
+    "term": "Medial",
+    "definition": "Toward the body's midline, as the big toe is on the medial side of the foot.",
+    "category": "Directional terms",
+    "related": [
+      "Lateral",
+      "Proximal"
+    ]
+  },
+  {
+    "term": "Metabolism",
+    "definition": "The sum of all chemical reactions in the body that build molecules and release energy from food.",
+    "category": "Physiology",
+    "related": [
+      "Enzyme",
+      "ATP"
+    ]
+  },
+  {
+    "term": "Midsagittal plane",
+    "definition": "A vertical plane that divides the body into equal left and right halves along the body's midline.",
+    "category": "Planes & sections",
+    "related": [
+      "Sagittal plane",
+      "Coronal plane"
+    ]
+  },
+  {
+    "term": "Mitochondrion",
+    "definition": "A bean-shaped structure inside cells that uses oxygen and food to generate usable energy for the cell.",
+    "category": "Cells & molecules",
+    "related": [
+      "ATP",
+      "Metabolism"
+    ]
+  },
+  {
+    "term": "MRI",
+    "definition": "Magnetic resonance imaging, a scan that uses strong magnets and radio waves to build detailed images of soft tissue.",
+    "category": "Clinical & imaging",
+    "related": [
+      "CT scan",
+      "Ultrasound"
+    ]
+  },
+  {
+    "term": "Mucous membrane",
+    "definition": "A moist lining that covers internal surfaces such as the mouth, nose, and gut, and secretes mucus.",
+    "category": "Tissues",
+    "related": [
+      "Epithelium",
+      "Secretion"
+    ]
+  },
+  {
+    "term": "Muscle tissue",
+    "definition": "A type of body tissue made of cells that contract, often in response to nerve signals, producing movement and maintaining posture.",
+    "category": "Tissues",
+    "systemId": "muscular",
+    "related": [
+      "Skeletal muscle",
+      "Smooth muscle"
+    ]
+  },
+  {
+    "term": "Nephron",
+    "definition": "The microscopic filtering unit of the kidney, which removes waste from blood and balances water and salts.",
+    "category": "Systems",
+    "systemId": "urinary",
+    "related": [
+      "Filtration",
+      "Capillary"
+    ]
+  },
+  {
+    "term": "Neuron",
+    "definition": "A nerve cell that receives, processes, and transmits electrical signals to other cells throughout the nervous system.",
+    "category": "Cells & molecules",
+    "systemId": "nervous",
+    "related": [
+      "Synapse",
+      "Neurotransmitter"
+    ]
+  },
+  {
+    "term": "Neurotransmitter",
+    "definition": "A chemical released at a synapse that carries a signal from one neuron to another neuron, a muscle cell, or a gland cell.",
+    "category": "Cells & molecules",
+    "systemId": "nervous",
+    "related": [
+      "Synapse",
+      "Neuron"
+    ]
+  },
+  {
+    "term": "Nucleus",
+    "definition": "The control center of a cell, a membrane-bound compartment that holds DNA and directs the cell's activities.",
+    "category": "Cells & molecules",
+    "related": [
+      "DNA",
+      "Cytoplasm"
+    ]
+  },
+  {
+    "term": "Oblique plane",
+    "definition": "A slanted plane that cuts through the body at an angle, neither purely vertical nor horizontal.",
+    "category": "Planes & sections",
+    "related": [
+      "Sagittal plane",
+      "Transverse plane"
+    ]
+  },
+  {
+    "term": "Organ",
+    "definition": "A structure made of several tissues that works together to perform a particular job, such as the heart or liver.",
+    "category": "Systems",
+    "related": [
+      "Tissue"
+    ]
+  },
+  {
+    "term": "Origin",
+    "definition": "The end of a muscle that stays relatively fixed on bone when the muscle contracts.",
+    "category": "Movement",
+    "systemId": "muscular",
+    "related": [
+      "Insertion",
+      "Tendon"
+    ]
+  },
+  {
+    "term": "Osmosis",
+    "definition": "The movement of water across a membrane that lets water pass but blocks some dissolved particles, flowing toward a more concentrated solution and balancing fluids inside and outside cells.",
+    "category": "Physiology",
+    "related": [
+      "Diffusion",
+      "Filtration"
+    ]
+  },
+  {
+    "term": "Palpation",
+    "definition": "Examining the body by feeling its surface with the hands to check size, texture, tenderness, or position.",
+    "category": "Clinical & imaging",
+    "related": [
+      "Auscultation"
+    ]
+  },
+  {
+    "term": "Peristalsis",
+    "definition": "Wave-like muscle contractions that push food through the digestive tract, from the esophagus to the colon.",
+    "category": "Physiology",
+    "systemId": "digestive",
+    "related": [
+      "Digestion",
+      "Smooth muscle"
+    ]
+  },
+  {
+    "term": "Plantarflexion",
+    "definition": "Pointing the foot downward, as when standing on tiptoe or pushing off the ground to walk.",
+    "category": "Movement",
+    "systemId": "muscular",
+    "related": [
+      "Dorsiflexion",
+      "Extension"
+    ]
+  },
+  {
+    "term": "Plasma",
+    "definition": "The pale yellow liquid part of blood, carrying dissolved nutrients, hormones, and waste while blood cells float in it.",
+    "category": "Cells & molecules",
+    "systemId": "cardiovascular",
+    "related": [
+      "Blood",
+      "Erythrocyte"
+    ]
+  },
+  {
+    "term": "Posterior",
+    "definition": "Toward the back of the body, or nearer the back surface, as the spine lies posterior to the stomach.",
+    "category": "Directional terms",
+    "related": [
+      "Anterior",
+      "Dorsal"
+    ]
+  },
+  {
+    "term": "Pronation",
+    "definition": "Rotating the forearm so the palm turns downward or backward, as when placing a hand flat on a table.",
+    "category": "Movement",
+    "systemId": "muscular",
+    "related": [
+      "Supination",
+      "Rotation"
+    ]
+  },
+  {
+    "term": "Prone",
+    "definition": "Lying face down, with the chest and belly against the surface and the back facing upward.",
+    "category": "Directional terms",
+    "related": [
+      "Supine",
+      "Anatomical position"
+    ]
+  },
+  {
+    "term": "Protraction",
+    "definition": "Moving a body part forward, usually in a flat path, as when pushing the jaw or shoulders ahead.",
+    "category": "Movement",
+    "systemId": "muscular",
+    "related": [
+      "Retraction",
+      "Elevation"
+    ]
+  },
+  {
+    "term": "Proximal",
+    "definition": "Closer to the point where a limb attaches to the body, as the shoulder is proximal to the elbow.",
+    "category": "Directional terms",
+    "related": [
+      "Distal",
+      "Medial"
+    ]
+  },
+  {
+    "term": "Radiography",
+    "definition": "The technique of producing images with X-rays, showing dense structures such as bone as bright shapes.",
+    "category": "Clinical & imaging",
+    "related": [
+      "X-ray",
+      "CT scan"
+    ]
+  },
+  {
+    "term": "Respiration",
+    "definition": "The exchange of oxygen and carbon dioxide between the air, blood, and cells, plus the processes that use oxygen.",
+    "category": "Physiology",
+    "systemId": "respiratory",
+    "related": [
+      "Alveolus",
+      "Diffusion"
+    ]
+  },
+  {
+    "term": "Retraction",
+    "definition": "Moving a body part backward, usually in a flat path, as when pulling the jaw or shoulders back.",
+    "category": "Movement",
+    "systemId": "muscular",
+    "related": [
+      "Protraction",
+      "Depression"
+    ]
+  },
+  {
+    "term": "Rotation",
+    "definition": "Turning a body part around its own long axis, as when shaking your head no from side to side.",
+    "category": "Movement",
+    "systemId": "muscular",
+    "related": [
+      "Circumduction",
+      "Pronation"
+    ]
+  },
+  {
+    "term": "Sagittal plane",
+    "definition": "A vertical plane that divides the body into left and right portions; the name comes from the Latin word for arrow.",
+    "category": "Planes & sections",
+    "related": [
+      "Midsagittal plane",
+      "Coronal plane"
+    ]
+  },
+  {
+    "term": "Secretion",
+    "definition": "The release of useful substances from a cell, such as hormones into blood or mucus onto a surface.",
+    "category": "Physiology",
+    "related": [
+      "Hormone",
+      "Mucous membrane"
+    ]
+  },
+  {
+    "term": "Serous membrane",
+    "definition": "A thin, smooth sheet that lines body cavities and covers organs, releasing fluid that reduces friction.",
+    "category": "Tissues",
+    "related": [
+      "Epithelium",
+      "Connective tissue"
+    ]
+  },
+  {
+    "term": "Skeletal muscle",
+    "definition": "Muscle attached to bone by tendons that produces voluntary movement and is marked by light and dark stripes.",
+    "category": "Tissues",
+    "systemId": "muscular",
+    "related": [
+      "Muscle tissue",
+      "Tendon"
+    ]
+  },
+  {
+    "term": "Smooth muscle",
+    "definition": "Involuntary muscle found in the walls of the gut, blood vessels, and bladder, contracting slowly and steadily.",
+    "category": "Tissues",
+    "systemId": "muscular",
+    "related": [
+      "Muscle tissue",
+      "Peristalsis"
+    ]
+  },
+  {
+    "term": "Superficial",
+    "definition": "Closer to the body's surface, as a superficial cut involves skin but not deeper tissue.",
+    "category": "Directional terms",
+    "related": [
+      "Deep",
+      "Fascia"
+    ]
+  },
+  {
+    "term": "Superior",
+    "definition": "Above or higher than another structure in the body, as the heart is superior to the stomach.",
+    "category": "Directional terms",
+    "related": [
+      "Inferior",
+      "Cranial"
+    ]
+  },
+  {
+    "term": "Supination",
+    "definition": "Rotating the forearm so the palm turns upward or forward, as when holding out a hand to catch something.",
+    "category": "Movement",
+    "systemId": "muscular",
+    "related": [
+      "Pronation",
+      "Rotation"
+    ]
+  },
+  {
+    "term": "Supine",
+    "definition": "Lying face up, with the back against the surface and the face toward the ceiling.",
+    "category": "Directional terms",
+    "related": [
+      "Prone",
+      "Anatomical position"
+    ]
+  },
+  {
+    "term": "Suture",
+    "definition": "A stitch that joins the edges of a wound or surgical cut; in the skull, the same word also names the fibrous seams between bones.",
+    "category": "Clinical & imaging",
+    "related": [
+      "Incision"
+    ]
+  },
+  {
+    "term": "Synapse",
+    "definition": "The tiny junction where a neuron passes a signal to another cell, usually by releasing a chemical messenger.",
+    "category": "Cells & molecules",
+    "systemId": "nervous",
+    "related": [
+      "Neuron",
+      "Neurotransmitter"
+    ]
+  },
+  {
+    "term": "Systole",
+    "definition": "The contracting phase of the heart cycle, when chambers pump blood out into the arteries.",
+    "category": "Physiology",
+    "systemId": "cardiovascular",
+    "related": [
+      "Diastole",
+      "Blood pressure"
+    ]
+  },
+  {
+    "term": "Tendon",
+    "definition": "A strong cord of connective tissue that attaches a muscle to bone and carries its pull.",
+    "category": "Tissues",
+    "systemId": "muscular",
+    "related": [
+      "Ligament",
+      "Muscle tissue"
+    ]
+  },
+  {
+    "term": "Tissue",
+    "definition": "A group of similar cells that work together on a shared task, such as lining a surface or transmitting signals.",
+    "category": "Tissues",
+    "related": [
+      "Epithelium",
+      "Connective tissue"
+    ]
+  },
+  {
+    "term": "Transverse plane",
+    "definition": "A horizontal plane that divides the body into upper and lower portions, like a belt line.",
+    "category": "Planes & sections",
+    "related": [
+      "Sagittal plane",
+      "Coronal plane"
+    ]
+  },
+  {
+    "term": "Ultrasound",
+    "definition": "An imaging technique that sends high-frequency sound waves into the body and builds pictures from the echoes.",
+    "category": "Clinical & imaging",
+    "related": [
+      "MRI",
+      "CT scan"
+    ]
+  },
+  {
+    "term": "Vein",
+    "definition": "A blood vessel that carries blood back toward the heart, usually containing oxygen-poor blood from the tissues.",
+    "category": "Systems",
+    "systemId": "cardiovascular",
+    "related": [
+      "Artery",
+      "Capillary"
+    ]
+  },
+  {
+    "term": "Ventral",
+    "definition": "Toward the front or belly side of the body, as the abdominal organs sit in the ventral cavity.",
+    "category": "Directional terms",
+    "related": [
+      "Dorsal",
+      "Anterior"
+    ]
+  },
+  {
+    "term": "Villus",
+    "definition": "One of many tiny finger-like projections in the small intestine that greatly increase the surface for absorbing nutrients.",
+    "category": "Systems",
+    "systemId": "digestive",
+    "related": [
+      "Absorption",
+      "Digestion"
+    ]
+  },
+  {
+    "term": "X-ray",
+    "definition": "A form of high-energy radiation that passes easily through soft tissue but is blocked by bone, producing an image of dense internal structures.",
+    "category": "Clinical & imaging",
+    "related": [
+      "Radiography",
+      "CT scan"
+    ]
+  },
+  {
+    "term": "Zygote",
+    "definition": "The single cell formed when a sperm and egg fuse, which divides repeatedly to begin a new organism.",
+    "category": "Cells & molecules",
+    "systemId": "reproductive",
+    "related": [
+      "Fertilization"
+    ]
+  }
+]

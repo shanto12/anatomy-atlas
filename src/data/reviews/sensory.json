@@ -1,0 +1,73 @@
+{
+  "systemId": "sensory",
+  "reviewedAt": "2026-10-21T21:53:32Z",
+  "checks": [
+    {
+      "name": "JSON validity, schema, and required fields",
+      "passed": true,
+      "notes": "Parses as UTF-8 JSON with 2-space indentation, double quotes, no trailing commas, and a final newline. Top-level keys, organ fields, lesson fields, and quiz fields match CONTENT_SPEC v1. Optional latin, alsoKnownAs, keyPoint, and heroStat fields are correctly typed. No markdown, HTML, emoji, bullet characters, double spaces, or trailing whitespace occur inside strings."
+    },
+    {
+      "name": "Organ inventory, order, and uniqueness",
+      "passed": true,
+      "notes": "Exactly the seven required IDs appear in spec order: eyes, ears, nose, tongue, retina, cochlea, vestibular-system. Every organ systemId is sensory. No ID duplicates an organ in another system: the 12 files contain 95 unique organ IDs."
+    },
+    {
+      "name": "Lengths and field counts",
+      "passed": true,
+      "notes": "System summary is 225 words in 3 paragraphs. Organ summaries are 157-170 words in exactly 2 paragraphs; taglines are 52-68 characters. Every organ has 3-5 functions with 15-23 word details, exactly 3 facts, 3 conditions, 2 sources, 3-4 relatedOrgans, 3-6 lowercase keywords, and a heroStat within the 12/24 character limits. The system has 3 stats and 5 functions, the longest function 67 characters."
+    },
+    {
+      "name": "Medical accuracy spot-check",
+      "passed": true,
+      "notes": "Spot-checked 12 claims against authoritative sources. Cochlea: 2.5 turns, ~9 mm base, ~5 mm height, and high-to-low pitch mapping (Britannica, https://www.britannica.com/science/ear/Cochlea; NIDCD, https://www.nidcd.nih.gov/health/how-do-we-hear). Hair cells: ~16,000 total, ~3,500 inner plus ~12,000 outer (Harvard BioNumbers; NIDCD hair-cell glossary). Cornea supplies about two thirds of focusing power (University of Utah Health; NEI). Humans carry ~400 functional odor receptor genes versus ~1,000 in mice (PubMed 16607462, https://pubmed.ncbi.nlm.nih.gov/16607462/). Retina is ~1,094 square mm and 0.1-0.5 mm thick (Webvision, https://webvision.med.utah.edu/book/part-xiii-facts-and-figures-concerning-the-human-retina/). The tongue has ~10,000 taste buds (MedlinePlus Tasting, https://medlineplus.gov/ency/anatomyvideos/000148.htm) and eight paired muscles (TeachMeAnatomy, https://teachmeanatomy.info/head/muscles/tongue/). Ossicles boost pressure about 20 times (NIDCD; Stanford CCRMA), and threshold eardrum motion is below a hydrogen atom diameter (physiology teaching source). Bony semicircular canals are under 1 mm wide, otoconia are calcium carbonate, and cochlear hair cells do not regenerate in humans (Britannica; Cleveland Clinic, https://my.clevelandclinic.org/health/body/vestibular-system)."
+    },
+    {
+      "name": "Source URLs and allowlist",
+      "passed": true,
+      "notes": "All 14 unique source URLs were checked with curl -L on 2026-10-21 and returned HTTP 200. All hosts are on the allowlist: MedlinePlus, NEI and NIDCD (NIH), Cleveland Clinic, Kenhub, and TeachMeAnatomy. No Wikipedia, blog, or AI-generated URLs are present."
+    },
+    {
+      "name": "Lesson structure and organ focus",
+      "passed": true,
+      "notes": "Lesson id is lesson-sensory with exactly 8 steps, 8 minutes, and beginner level. Step 1 is the hook, step 8 is the recap and next steps. Steps 2-7 each carry a different organId: eyes, retina, ears, cochlea, vestibular-system, nose. Bodies are 105-114 words. Step 7 was corrected from tongue to nose so its organId matches its smell-and-flavor content; the tongue is still taught in that step and tested in the quiz."
+    },
+    {
+      "name": "Quiz quality and answer distribution",
+      "passed": true,
+      "notes": "Exactly 8 questions with ids sensory-q1 through sensory-q8, four unique options each, and a valid answerIndex. Correct indexes are 1, 1, 0, 3, 2, 0, 2, 1, so all four positions are used. Difficulty is 3 easy, 3 medium, and 2 hard. Explanations are 25-32 words and teach the reasoning. No all-of-the-above or none-of-the-above options, and every answer is supported by the file's own content."
+    },
+    {
+      "name": "Safety and voice",
+      "passed": true,
+      "notes": "No dosage, treatment, diagnosis, or symptom-management instructions. All conditions are descriptive and educational. Removed the clichéd windows-to-the-world label, reduced repeated which-is-why constructions from 10 to 0, and removed repeated pea and sheet-of-paper comparisons. No markdown, emoji, or bullet characters remain."
+    },
+    {
+      "name": "Cross-system relatedOrganIds",
+      "passed": true,
+      "notes": "All 22 relatedOrgans references resolve to existing organ IDs across the 12 system files, including mouth and salivary-glands (digestive), lungs (respiratory), and brain, cerebellum, brainstem, and hypothalamus (nervous). Counts per organ are 3-4, within the 2-4 limit."
+    }
+  ],
+  "changes": [
+    "Corrected cochlear hair-cell division of labor: about 3,500 inner cells do most of the sensing and about 12,000 outer cells amplify, instead of saying all 16,000 do the hearing.",
+    "Corrected cochlear dimensions to a 9 mm base and 5 mm height, and changed the uncoiled length from 35 mm to the ~32 mm average.",
+    "Fixed lesson step 7 organId from tongue to nose so the stop matches its smell-and-flavor content.",
+    "Removed the claim that rods handle motion; rods are now described as dim-light and gray-scale sensors.",
+    "Corrected the retinal image comparison by removing held at arm's length, and changed the retinal thickness comparison from paper to a credit card.",
+    "Corrected the vestibular canal width from 0.3 mm to less than a millimeter and replaced the repeated pea comparison with a pencil eraser.",
+    "Corrected the tongue muscle count to eight pairs and changed most papillae carry taste buds to several kinds of papillae carry taste buds.",
+    "Changed the mouse olfactory receptor gene count from ~1,100 to ~1,000 and made the olfactory epithelium smaller than a postage stamp.",
+    "Changed glaucoma wording to say raised pressure can damage the optic nerve, and changed the two Meniere's descriptions to fluid buildup and fluid balance rather than vague pressure.",
+    "Fixed the post-spin vertigo description from the room tilting to the room keeps turning, and corrected vestibular crystal wording to press on hair cells.",
+    "Removed 10 instances of which is why, the windows-to-the-world cliché, and repeated paper and pea comparisons; varied the piano analogy and clarified compression and rarefaction.",
+    "Corrected about a million ganglion fibers to more than a million, the eardrum comparison to about as thin as paper, and the taste-bud distribution to ~10,000 on the tongue plus more on the palate and throat.",
+    "Corrected the Latin labels for Eyes and Ears to the plural Oculi and Aures.",
+    "Clarified that the cochlea reports sound rather than pitch alone, and that the auditory nerve carries its pattern to the brainstem."
+  ],
+  "sourcesChecked": 14,
+  "sourcesOk": 14,
+  "remainingConcerns": [
+    "Population averages such as 16,000 cochlear hair cells, 10,000 taste buds, and 120 million rods vary between individuals and are stated as approximations.",
+    "The lesson has six tour slots for seven organs, so the tongue has no dedicated step; it is taught inside the smell-and-flavor step and has its own organ entry and quiz coverage."
+  ]
+}

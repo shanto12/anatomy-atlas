@@ -1,0 +1,81 @@
+{
+  "systemId": "muscular",
+  "reviewedAt": "2026-10-21T16:21:02-05:00",
+  "checks": [
+    {
+      "name": "JSON validity and schema",
+      "passed": true,
+      "notes": "Parses as UTF-8 JSON with 2-space indent, no trailing commas, no trailing whitespace, and a final newline. Top-level keys, organ fields, lesson fields, and quiz fields match CONTENT_SPEC v1 exactly; optional latin, alsoKnownAs, and heroStat fields are well typed."
+    },
+    {
+      "name": "Organ IDs, order, and uniqueness",
+      "passed": true,
+      "notes": "All 10 required organs appear in the specified order from deltoid through diaphragm; every organ systemId is muscular; no organ ID in this file is duplicated in another system file."
+    },
+    {
+      "name": "Field lengths and counts",
+      "passed": true,
+      "notes": "Organ summaries run 127-157 words in exactly 2 paragraphs; each organ has 4 functions, 3 facts, 3 conditions, and 2 sources; organ taglines 55-72 chars; heroStat values at most 12 and labels at most 24 chars. System summary is 225 words in 3 paragraphs, with 3 stats and 6 functions (longest 59 chars)."
+    },
+    {
+      "name": "Lesson structure and flow",
+      "passed": true,
+      "notes": "8 steps under lesson-muscular, 8 minutes, beginner. Steps 2-7 each carry a different organId (deltoid, pectoralis-major, biceps-brachii, rectus-abdominis, gluteus-maximus, diaphragm); bodies 100-112 words; keyPoints 64-83 chars. Step 1 sets the route, step 8 recaps without pretending the four untoured muscles were taught."
+    },
+    {
+      "name": "Quiz structure and answerability",
+      "passed": true,
+      "notes": "8 questions with ids muscular-q1 to muscular-q8, 4 options each, one defensible answer, no all/none-of-the-above; difficulty split 3 easy, 3 medium, 2 hard; correct indexes 1,0,2,3,0,2,1,0. Every answer is supported by text in this file."
+    },
+    {
+      "name": "Medical accuracy",
+      "passed": true,
+      "notes": "Spot-checked 10 claims against NCBI Bookshelf, TeachMeAnatomy, Kenhub, Cleveland Clinic, PubMed, and Guinness World Records: hamstring origins, pectoralis major tendon twist, diaphragm attachments and phrenic supply, deltoid parts and supraspinatus initiation, trapezius scapular force couple, gluteus maximus size and walking activity, rectus abdominis attachments, quadriceps and patellar tendon continuity, Achilles tendon load, and the stapedius size. Corrections are listed under changes."
+    },
+    {
+      "name": "Sources",
+      "passed": true,
+      "notes": "All 20 URLs in the final file return HTTP 200 and resolve to the matching organ page on an allowed host (teachmeanatomy.info, my.clevelandclinic.org, kenhub.com). The generic MedlinePlus strains page was replaced with the Kenhub pectoralis major entry; 5 candidate URLs were probed and 3 dead ones rejected."
+    },
+    {
+      "name": "Safety and medical advice",
+      "passed": true,
+      "notes": "No dosages, treatment instructions, diagnostic directives, or 'you should' phrasing. Conditions are educational descriptions only. The deltoid injection fact states clinical practice rather than advice."
+    },
+    {
+      "name": "Voice and formatting",
+      "passed": true,
+      "notes": "No markdown, HTML, emoji, or bullet characters in any string; US English throughout. Removed cliches (living machinery, quiet superpower, sculpted rather than skeletal), a repeated 'It is the muscle that...' closer, gym-speak such as 'trained at different angles', and a keyPoint that claimed a muscle can push."
+    },
+    {
+      "name": "Cross-system relatedOrganIds",
+      "passed": true,
+      "notes": "All 31 related-organ references resolve to IDs defined in CONTENT_SPEC: scapula, clavicle, humerus, sternum, ribcage, pelvis, vertebral-column, femur, patella, radius-ulna, lungs, esophagus, quadriceps, hamstrings, and diaphragm."
+    }
+  ],
+  "changes": [
+    "Corrected hamstring origins: only the long head of the biceps femoris arises from the ischial tuberosity, so 'all three begin at the ischial tuberosity' and 'they cross two joints' were both fixed.",
+    "Replaced the unsupported butcher etymology with the popliteal-fossa tendon fact and the short-head two-joint exception.",
+    "Replaced the vague pectoralis 'lower edge folds upward' sentence with the verified 180-degree tendon twist, and moved a head-specific fact into the facts list.",
+    "Fixed rectus abdominis function detail so it curls the trunk rather than the hips, and removed the 'builds your abs' tagline.",
+    "Corrected the trapezius neck action and tagline: it extends and laterally tilts the neck; unsupported head rotation was removed.",
+    "Rewrote the trapezius 'works against itself' claim as the correct upper and lower fiber force couple.",
+    "Removed the unsupported 12 cm (5 in) biceps belly measurement that contradicted the hand-length comparison.",
+    "Replaced the deltoid palm-width size claim and reworded the injection-site fact to remove prescriptive tone.",
+    "Fixed a lesson keyPoint that said the deltoid can push, which contradicted the lesson's pull-only premise.",
+    "Fixed the step 6 transition that sent readers 'down one more joint' to the diaphragm, which sits above the hip.",
+    "Reframed step 8 so the four organs without a tour step are introduced as not yet visited rather than as taught.",
+    "Corrected the diaphragm referred-pain fact to specify shoulder-tip pain from phrenic nerve irritation.",
+    "Replaced the generic MedlinePlus sprains and strains source with the Kenhub pectoralis major page, which returns HTTP 200.",
+    "Tightened the system summary and varied repeated second-person summary closers; removed cliches and gym phrasing."
+  ],
+  "sourcesChecked": 20,
+  "sourcesOk": 20,
+  "remainingConcerns": [
+    "Steps 2-7 can cover only 6 of the 10 organs; trapezius, quadriceps, hamstrings, and gastrocnemius appear only in the recap because the spec fixes the lesson at 8 steps.",
+    "The roughly 20,000 daily diaphragm contractions figure is an approximation derived from 12-20 breaths per minute; it is worded as about or roughly rather than an exact count.",
+    "The smallest-muscle stat (~1 mm stapedius) is a general anatomy claim not backed by any organ entry in this file; the value is marked approximate.",
+    "Poland syndrome is rare rather than common, but it is the standard well-known pectoralis major condition and is described without treatment advice.",
+    "Gluteus maximus activity during slow walking is qualitative; no numeric EMG claim is made."
+  ]
+}

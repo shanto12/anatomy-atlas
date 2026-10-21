@@ -6,9 +6,18 @@
   "summary": "Your skeleton is not a dead scaffold. It is a living organ system, rebuilt constantly by cells that dissolve old bone and lay down new bone in its place. An adult skeleton holds 206 bones, yet at birth you had many more, because small pieces fuse as you grow. Bone is strong enough to carry your weight and light enough to let you run, and inside its hard shell it keeps the marrow that makes your blood.\n\nThe skeleton does four jobs at once. It holds you up against gravity, gives your muscles something to pull against, shields delicate organs such as your brain, heart, and spinal cord, and stores minerals, especially calcium and phosphorus, releasing them when the rest of your body needs them. About 99 percent of your body's calcium sits in bone, waiting to be called on.\n\nJoints are where the system becomes a machine. Hinges, ball-and-socket joints, and gliding joints decide how far you can bend, twist, and reach. Bone itself is a clever composite: a flexible protein mesh hardened with mineral crystals, which is why a bone can bend slightly before it breaks. Every step you take sends a small shock through this framework, and cartilage, discs, and the springy arches of your feet absorb it.",
   "color": "#8a6f45",
   "stats": [
-    { "value": "206", "label": "bones in the adult body" },
-    { "value": "99%", "label": "of your calcium lives in bone" },
-    { "value": "33", "label": "vertebrae before some fuse" }
+    {
+      "value": "206",
+      "label": "bones in the adult body"
+    },
+    {
+      "value": "99%",
+      "label": "of your calcium lives in bone"
+    },
+    {
+      "value": "33",
+      "label": "vertebrae before some fuse"
+    }
   ],
   "functions": [
     "Holds your body upright against gravity and gives it shape",
@@ -24,32 +33,68 @@
       "systemId": "skeletal",
       "name": "Skull",
       "latin": "Cranium",
-      "alsoKnownAs": ["The braincase"],
+      "alsoKnownAs": [
+        "The braincase"
+      ],
       "region": "head-neck",
       "tagline": "A 22-piece helmet that guards your brain and frames your face.",
-      "summary": "Your skull is a helmet built from 22 interlocking bones, not one solid shell. Eight of them form the cranium, the curved vault that surrounds your brain; the other fourteen shape your face, from the cheekbones to the small nasal bones at the bridge of your nose. The seams between them, called sutures, look like jagged puzzle edges. At birth those seams are still open, which lets your head squeeze through the birth canal and gives your brain room to grow.\n\nThe skull does more than guard the brain. It frames your eyes, nose, and mouth, holds the delicate bones of hearing, and gives your jaw muscles a place to anchor. Many of its bones are hollow, containing air-filled sinuses that make the head lighter and help your voice resonate. Small openings called foramina let nerves and blood vessels pass through, which is why a blow to the head can damage structures far from the point of impact.",
+      "summary": "Your skull is a helmet built from 22 interlocking bones, not one solid shell. Eight of them form the cranium, the curved vault that surrounds your brain; the other fourteen shape your face, from the cheekbones to the small nasal bones at the bridge of your nose. The seams between them, called sutures, look like jagged puzzle edges. At birth those seams are still open, which lets a baby's head compress slightly during delivery and gives the brain room to grow.\n\nThe skull does more than guard the brain. It frames your eyes, nose, and mouth, holds the delicate bones of hearing, and gives your jaw muscles a place to anchor. Many of its bones are hollow, containing air-filled sinuses that make the head lighter and help your voice resonate. Small openings called foramina let nerves and blood vessels pass through the bone, and each one is a place where a fracture can pinch a nerve or tear a vessel.",
       "functions": [
-        { "title": "Protects the brain", "detail": "The cranium forms a curved bony vault around the brain, spreading the force of a blow across a wide area." },
-        { "title": "Frames the face", "detail": "Facial bones shape the eye sockets, nose, and upper jaw, giving your face its structure and its expressions." },
-        { "title": "Houses the senses", "detail": "The skull cradles the eyes and the tiny bones of the middle ear, keeping delicate sensory machinery in place." },
-        { "title": "Anchors chewing muscles", "detail": "Ridges and arches on its surface give the muscles of chewing and facial expression firm attachment points." }
+        {
+          "title": "Protects the brain",
+          "detail": "The cranium forms a curved bony vault around the brain, spreading the force of a blow across a wide area."
+        },
+        {
+          "title": "Frames the face",
+          "detail": "Facial bones shape the eye sockets, nose, and upper jaw, giving your face its structure and its expressions."
+        },
+        {
+          "title": "Houses the senses",
+          "detail": "The skull cradles the eyes and the tiny bones of the middle ear, keeping delicate sensory machinery in place."
+        },
+        {
+          "title": "Anchors chewing muscles",
+          "detail": "Ridges and arches on its surface give the muscles of chewing and facial expression firm attachment points."
+        }
       ],
       "location": "The skull sits at the top of the vertebral column, balanced on the first cervical vertebra, with the face pointing forward.",
       "size": "An adult skull measures about 20 centimeters (8 inches) from front to back and about 15 centimeters (6 inches) wide, close to the size of a small melon.",
       "facts": [
-        "The skull is 22 bones, not counting the six tiny ossicles tucked inside your ears.",
-        "The sutures between skull bones stay slightly flexible for years, which is why a baby's head can reshape during birth.",
+        "Seven different bones join to form each eye socket, so a blow to the eye can crack bone in several places.",
+        "The soft spots on a newborn's head, called fontanelles, are gaps where the skull bones have not yet met; the largest closes by about 18 months.",
         "The foramen magnum, the largest opening in the skull, is where the spinal cord leaves the brain."
       ],
       "conditions": [
-        { "name": "Skull fracture", "description": "A crack or break in a cranial bone, usually from a hard impact, that can injure the brain or the vessels beneath it." },
-        { "name": "Craniosynostosis", "description": "One or more skull sutures fuse too early, so the head grows into an unusual shape and pressure inside the skull can rise." }
+        {
+          "name": "Skull fracture",
+          "description": "A crack or break in a cranial bone, usually from a hard impact, that can injure the brain or the vessels beneath it."
+        },
+        {
+          "name": "Craniosynostosis",
+          "description": "One or more skull sutures fuse too early, so the head grows into an unusual shape and pressure inside the skull can rise."
+        }
       ],
-      "relatedOrgans": ["mandible", "vertebral-column", "brain"],
-      "keywords": ["cranium", "sutures", "facial bones", "foramina", "brain case"],
+      "relatedOrgans": [
+        "mandible",
+        "vertebral-column",
+        "brain"
+      ],
+      "keywords": [
+        "cranium",
+        "sutures",
+        "facial bones",
+        "foramina",
+        "brain case"
+      ],
       "sources": [
-        { "label": "TeachMeAnatomy — Overview of the Bones of the Skull", "url": "https://teachmeanatomy.info/head/osteology/skull/" },
-        { "label": "MedlinePlus — Skull (Anatomy Image)", "url": "https://medlineplus.gov/ency/imagepages/9057.htm" }
+        {
+          "label": "TeachMeAnatomy — Overview of the Bones of the Skull",
+          "url": "https://teachmeanatomy.info/head/osteology/skull/"
+        },
+        {
+          "label": "MedlinePlus — Skull (Anatomy Image)",
+          "url": "https://medlineplus.gov/ency/imagepages/9057.htm"
+        }
       ]
     },
     {
@@ -57,32 +102,68 @@
       "systemId": "skeletal",
       "name": "Mandible",
       "latin": "Mandibula",
-      "alsoKnownAs": ["Lower jaw", "Jawbone"],
+      "alsoKnownAs": [
+        "Lower jaw",
+        "Jawbone"
+      ],
       "region": "head-neck",
       "tagline": "The only bone in your skull that moves, and the one that does the chewing.",
       "summary": "Your mandible is the bone you feel when you run a finger along your jawline. It is a single U-shaped bone that holds your lower teeth, and it is the only bone in your skull that moves. On each side it rises into a vertical branch called the ramus, which ends in a rounded condyle. That condyle sits in a shallow socket just in front of your ear, forming the temporomandibular joint.\n\nEverything you bite, chew, swallow, and say depends on this bone. Strong muscles, including the masseter and temporalis, pull it up, forward, and sideways against your upper jaw, grinding food between your teeth. The mandible also carries the inferior alveolar nerve and its blood vessels through a tunnel inside the bone, which is why a jaw injury can leave your lower lip or chin numb. Your chin, the mental protuberance, is a feature that sets modern humans apart from other hominins.",
       "functions": [
-        { "title": "Chews your food", "detail": "Muscles pull the mandible against the upper teeth, tearing and grinding food into pieces small enough to swallow." },
-        { "title": "Shapes your lower face", "detail": "The mandible forms the jawline and chin, supporting the lower lip and the soft tissues around the mouth." },
-        { "title": "Helps you speak", "detail": "Its movements change the shape of the mouth cavity, contributing to clear speech sounds and to singing." },
-        { "title": "Holds the lower teeth", "detail": "Sockets called alveoli grip the roots of the lower teeth and keep them aligned with the upper jaw." }
+        {
+          "title": "Chews your food",
+          "detail": "Muscles pull the mandible against the upper teeth, tearing and grinding food into pieces small enough to swallow."
+        },
+        {
+          "title": "Shapes your lower face",
+          "detail": "The mandible forms the jawline and chin, supporting the lower lip and the soft tissues around the mouth."
+        },
+        {
+          "title": "Helps you speak",
+          "detail": "Its movements change the shape of the mouth cavity, contributing to clear speech sounds and to singing."
+        },
+        {
+          "title": "Holds the lower teeth",
+          "detail": "Sockets called alveoli grip the roots of the lower teeth and keep them aligned with the upper jaw."
+        }
       ],
       "location": "The mandible hangs below the upper jaw, hinged to the temporal bone on each side just in front of the ears.",
       "size": "An adult mandible is roughly the size of your palm, about 10 centimeters (4 inches) wide across the back of the jaw.",
       "facts": [
-        "It is the only bone in your skull that moves, which is why your upper jaw stays still while you chew.",
+        "Your lower jaw is the largest and strongest bone in your face, built to take the force of biting and chewing.",
         "You are born with two separate halves; they fuse at the chin during your first year or two.",
         "The jaw joint can hinge open like a door and also slide forward, so you can both bite and grind."
       ],
       "conditions": [
-        { "name": "Temporomandibular joint disorders", "description": "Problems with the jaw joint or the muscles around it can cause clicking, aching, or a limited range of opening." },
-        { "name": "Mandibular fracture", "description": "A break in the lower jaw, often from a fall, a punch, or a crash, that can disturb your bite and the feeling in your lip." }
+        {
+          "name": "Temporomandibular joint disorders",
+          "description": "Problems with the jaw joint or the muscles around it can cause clicking, aching, or a limited range of opening."
+        },
+        {
+          "name": "Mandibular fracture",
+          "description": "A fall, a punch, or a crash can break the lower jaw and disturb your bite and the feeling in your lip."
+        }
       ],
-      "relatedOrgans": ["skull", "mouth"],
-      "keywords": ["jaw", "mandible", "mastication", "tmj", "chin"],
+      "relatedOrgans": [
+        "skull",
+        "mouth"
+      ],
+      "keywords": [
+        "jaw",
+        "mandible",
+        "mastication",
+        "tmj",
+        "chin"
+      ],
       "sources": [
-        { "label": "TeachMeAnatomy — The Mandible", "url": "https://teachmeanatomy.info/head/osteology/mandible/" },
-        { "label": "MedlinePlus — Jaw Injuries and Disorders", "url": "https://medlineplus.gov/jawinjuriesanddisorders.html" }
+        {
+          "label": "TeachMeAnatomy — The Mandible",
+          "url": "https://teachmeanatomy.info/head/osteology/mandible/"
+        },
+        {
+          "label": "MedlinePlus — Jaw Injuries and Disorders",
+          "url": "https://medlineplus.gov/jawinjuriesanddisorders.html"
+        }
       ]
     },
     {
@@ -90,34 +171,78 @@
       "systemId": "skeletal",
       "name": "Vertebral Column",
       "latin": "Columna vertebralis",
-      "alsoKnownAs": ["Spine", "Backbone"],
+      "alsoKnownAs": [
+        "Spine",
+        "Backbone"
+      ],
       "region": "whole-body",
       "tagline": "Thirty-three bones stacked into a flexible tower around your spinal cord.",
-      "summary": "Stand up and run a hand down the middle of your back. Under the skin lies a stack of 33 bones called vertebrae, linked by discs and ligaments into an S-shaped column. From top to bottom they are seven cervical, twelve thoracic, five lumbar, five sacral, and four coccygeal. The lower nine fuse during growth, so an adult spine is usually counted as 26 bones.\n\nThe column is a bridge and a tunnel at the same time. It carries the weight of your head, arms, and trunk down to your pelvis, and its central canal holds the spinal cord, the bundle of nerve tissue that connects your brain to the rest of your body. Between each pair of vertebrae sits a disc, a tough cushion with a jelly-like center. Curves in the column work like a spring, spreading the shock of each step.",
+      "summary": "Stand up and run a hand down the middle of your back. Under the skin lies a stack of 33 bones called vertebrae, linked by discs and ligaments into an S-shaped column. From top to bottom they are seven cervical, twelve thoracic, five lumbar, five sacral, and four coccygeal. The lower nine fuse during growth, so an adult spine is usually counted as 26 bones.\n\nThe column is both a pillar and a tunnel. It carries the weight of your head, arms, and trunk down to your pelvis, and its central canal holds the spinal cord, the bundle of nerve tissue that connects your brain to the rest of your body. Between each pair of vertebrae sits a disc, a tough cushion with a jelly-like center. Curves in the column work like a spring, spreading the shock of each step.",
       "functions": [
-        { "title": "Carries your weight", "detail": "The column transfers the load of your head, arms, and trunk down through the pelvis and into your legs." },
-        { "title": "Protects the spinal cord", "detail": "A bony canal runs through every vertebra, forming a protective tunnel around the delicate spinal cord." },
-        { "title": "Lets you bend and twist", "detail": "Many small joints between vertebrae add up to a wide range of motion in the neck, back, and waist." },
-        { "title": "Absorbs shock", "detail": "Discs and the column's curves act like springs, softening the impact of walking, running, and jumping." },
-        { "title": "Anchors back muscles", "detail": "Bony projections on each vertebra give deep back muscles the leverage they need to hold you upright." }
+        {
+          "title": "Carries your weight",
+          "detail": "The column transfers the load of your head, arms, and trunk down through the pelvis and into your legs."
+        },
+        {
+          "title": "Protects the spinal cord",
+          "detail": "A bony canal runs through every vertebra, forming a protective tunnel around the delicate spinal cord."
+        },
+        {
+          "title": "Lets you bend and twist",
+          "detail": "Many small joints between vertebrae add up to a wide range of motion in the neck, back, and waist."
+        },
+        {
+          "title": "Absorbs shock",
+          "detail": "Discs and the column's curves act like springs, softening the impact of walking, running, and jumping."
+        },
+        {
+          "title": "Anchors back muscles",
+          "detail": "Bony projections on each vertebra give deep back muscles the leverage they need to hold you upright."
+        }
       ],
       "location": "The column runs down the midline of your back, from the base of the skull to the tailbone, where it meets the pelvis.",
-      "size": "An adult spine is about 70 centimeters (28 inches) long and ranges from the width of your thumb in the neck to the width of a golf ball in the lower back.",
+      "size": "An adult spine is about 70 centimeters (28 inches) long in men and about 60 centimeters (24 inches) in women, ranging from the width of your thumb in the neck to the width of a golf ball in the lower back.",
       "facts": [
         "You start with 33 vertebrae, but the sacrum and coccyx fuse, leaving 26 separate bones in an adult spine.",
         "The neck and lower-back curves appear after birth, as you learn to hold up your head, sit, and walk.",
-        "Discs are mostly water, and they lose fluid through the day, which is why you can measure slightly shorter at night."
+        "Discs are mostly water and lose fluid through the day, so you are slightly shorter at night than in the morning."
       ],
       "conditions": [
-        { "name": "Herniated disc", "description": "The soft center of a disc bulges through its outer ring and can press on a nerve, causing pain that travels into an arm or leg." },
-        { "name": "Scoliosis", "description": "The spine curves sideways in an S or C shape, most often appearing during a child's growth spurt." },
-        { "name": "Compression fracture", "description": "Thin, weakened bone collapses at the front of a vertebra, producing a wedge shape and a stooped posture." }
+        {
+          "name": "Herniated disc",
+          "description": "The soft center of a disc bulges through its outer ring and can press on a nerve, causing pain that travels into an arm or leg."
+        },
+        {
+          "name": "Scoliosis",
+          "description": "The spine curves sideways in an S or C shape, most often appearing during a child's growth spurt."
+        },
+        {
+          "name": "Compression fracture",
+          "description": "Thin, weakened bone collapses at the front of a vertebra, producing a wedge shape and a stooped posture."
+        }
       ],
-      "relatedOrgans": ["skull", "ribcage", "pelvis", "spinal-cord"],
-      "keywords": ["spine", "vertebrae", "discs", "spinal cord", "scoliosis"],
+      "relatedOrgans": [
+        "skull",
+        "ribcage",
+        "pelvis",
+        "spinal-cord"
+      ],
+      "keywords": [
+        "spine",
+        "vertebrae",
+        "discs",
+        "spinal cord",
+        "scoliosis"
+      ],
       "sources": [
-        { "label": "TeachMeAnatomy — The Vertebral Column", "url": "https://teachmeanatomy.info/back/bones/vertebral-column/" },
-        { "label": "MedlinePlus — Spine Injuries and Disorders", "url": "https://medlineplus.gov/spineinjuriesanddisorders.html" }
+        {
+          "label": "TeachMeAnatomy — The Vertebral Column",
+          "url": "https://teachmeanatomy.info/back/bones/vertebral-column/"
+        },
+        {
+          "label": "MedlinePlus — Spine Injuries and Disorders",
+          "url": "https://medlineplus.gov/spineinjuriesanddisorders.html"
+        }
       ]
     },
     {
@@ -125,15 +250,30 @@
       "systemId": "skeletal",
       "name": "Rib Cage",
       "latin": "Cavea thoracis",
-      "alsoKnownAs": ["Thoracic cage", "Ribs"],
+      "alsoKnownAs": [
+        "Thoracic cage",
+        "Ribs"
+      ],
       "region": "thorax",
       "tagline": "A living basket of bone that expands with every breath.",
-      "summary": "Your rib cage is a living birdcage, built to be strong and flexible at once. Twelve pairs of ribs curve from your spine around your sides and meet the sternum at the front, most of them through strips of cartilage. The top seven pairs attach directly, the next three join the cartilage above them, and the last two, the floating ribs, end in muscle. Together with the thoracic vertebrae and sternum, they form a barrel that widens toward the bottom.\n\nThe cage guards your heart and lungs, but it also moves with every breath. When you inhale, muscles lift the ribs and swing them outward, increasing the space inside your chest so your lungs can expand. The ribs are also a working part of your skeleton: they bend slightly under pressure, which is why they can crack after a hard fall, and their marrow helps produce blood cells.",
+      "summary": "Your rib cage is a living birdcage, built to be both strong and flexible. Twelve pairs of ribs curve from your spine around your sides and meet the sternum at the front, most of them through strips of cartilage. The top seven pairs attach directly, the next three join the cartilage above them, and the last two, the floating ribs, end in muscle. Together with the thoracic vertebrae and sternum, they form a barrel that widens toward the bottom.\n\nThe cage guards your heart and lungs, but it also moves with every breath. When you inhale, muscles lift the ribs and swing them outward, increasing the space inside your chest so your lungs can expand. The ribs themselves are living bone, not a rigid cage: they flex under pressure, they can crack after a hard fall, and their marrow helps produce blood cells.",
       "functions": [
-        { "title": "Shields the heart and lungs", "detail": "The curved ribs and sternum form a bony basket that absorbs impacts before they reach the organs inside." },
-        { "title": "Expands your chest", "detail": "Ribs lift and rotate outward when you inhale, enlarging the chest cavity so air can rush into the lungs." },
-        { "title": "Anchors breathing muscles", "detail": "The diaphragm and the muscles between the ribs attach here, using the cage as a stable base for breathing." },
-        { "title": "Makes blood cells", "detail": "The ribs are among the adult bones that keep red marrow, the tissue where new blood cells are produced." }
+        {
+          "title": "Shields the heart and lungs",
+          "detail": "The curved ribs and sternum form a bony basket that absorbs impacts before they reach the organs inside."
+        },
+        {
+          "title": "Expands your chest",
+          "detail": "Ribs lift and rotate outward when you inhale, enlarging the chest cavity so air can rush into the lungs."
+        },
+        {
+          "title": "Anchors breathing muscles",
+          "detail": "The diaphragm and the muscles between the ribs attach here, using the cage as a stable base for breathing."
+        },
+        {
+          "title": "Makes blood cells",
+          "detail": "The ribs are among the adult bones that keep red marrow, the tissue where new blood cells are produced."
+        }
       ],
       "location": "The rib cage wraps around your upper torso, between the base of your neck and the top of your abdomen.",
       "size": "An adult rib cage is roughly 30 centimeters (12 inches) tall and 25 centimeters (10 inches) wide, shaped like a barrel that narrows at the top.",
@@ -143,15 +283,41 @@
         "The lowest two pairs, the floating ribs, have no attachment at the front at all."
       ],
       "conditions": [
-        { "name": "Rib fracture", "description": "A cracked or broken rib, often from a fall or impact; the sharp ends can injure the lung or blood vessels beneath." },
-        { "name": "Costochondritis", "description": "Inflammation where a rib's cartilage meets the sternum causes chest pain that can mimic heart trouble." },
-        { "name": "Flail chest", "description": "When several ribs break in two places, that section of chest wall moves opposite to the rest during breathing." }
+        {
+          "name": "Rib fracture",
+          "description": "A cracked or broken rib, often from a fall or impact; the sharp ends can injure the lung or blood vessels beneath."
+        },
+        {
+          "name": "Costochondritis",
+          "description": "Inflammation where a rib's cartilage meets the sternum causes chest pain that can mimic heart trouble."
+        },
+        {
+          "name": "Flail chest",
+          "description": "When several ribs break in two places, that section of chest wall moves opposite to the rest during breathing."
+        }
       ],
-      "relatedOrgans": ["sternum", "vertebral-column", "lungs", "heart"],
-      "keywords": ["ribs", "thorax", "thoracic cage", "costal cartilage", "breathing"],
+      "relatedOrgans": [
+        "sternum",
+        "vertebral-column",
+        "lungs",
+        "heart"
+      ],
+      "keywords": [
+        "ribs",
+        "thorax",
+        "thoracic cage",
+        "costal cartilage",
+        "breathing"
+      ],
       "sources": [
-        { "label": "TeachMeAnatomy — Thoracic Skeleton", "url": "https://teachmeanatomy.info/thorax/bones/" },
-        { "label": "MedlinePlus — Ribcage (Anatomy Image)", "url": "https://medlineplus.gov/ency/imagepages/8787.htm" }
+        {
+          "label": "TeachMeAnatomy — Thoracic Skeleton",
+          "url": "https://teachmeanatomy.info/thorax/bones/"
+        },
+        {
+          "label": "MedlinePlus — Ribcage (Anatomy Image)",
+          "url": "https://medlineplus.gov/ency/imagepages/8787.htm"
+        }
       ]
     },
     {
@@ -159,15 +325,29 @@
       "systemId": "skeletal",
       "name": "Sternum",
       "latin": "Sternum",
-      "alsoKnownAs": ["Breastbone"],
+      "alsoKnownAs": [
+        "Breastbone"
+      ],
       "region": "thorax",
       "tagline": "The flat keystone at the center of your chest.",
-      "summary": "The sternum, or breastbone, is the flat dagger-shaped bone in the center of your chest. It has three parts: the manubrium at the top, the long body in the middle, and the small xiphoid process at the bottom. If you slide a finger down the middle of your chest, you can feel the ridge where the manubrium meets the body. That ridge, the sternal angle, is a landmark doctors use to count ribs.\n\nThe sternum is the keystone of the front chest wall. The clavicles brace against its top, and the costal cartilages of the ribs join its sides, completing the cage that protects your heart and great vessels. It also gives your pectoral muscles and diaphragm something to pull against. Because it sits just under the skin with the heart directly behind it, the sternum is the bone that receives chest compressions during CPR.",
+      "summary": "The sternum, or breastbone, is the flat dagger-shaped bone in the center of your chest. It has three parts: the manubrium at the top, the long body in the middle, and the small xiphoid process at the bottom. Slide a finger down the midline and you can feel the ridge where the manubrium meets the body. That ridge, the sternal angle, is a landmark doctors use to count ribs.\n\nThe sternum is the keystone of the front chest wall. The clavicles brace against its top, and the costal cartilages of the ribs join its sides, completing the cage that protects your heart and great vessels. It also gives your pectoral muscles and diaphragm something to pull against. Because it sits just under the skin with the heart directly behind it, the sternum is the bone that receives chest compressions during CPR.",
       "functions": [
-        { "title": "Closes the front of the chest", "detail": "The sternum bridges the two sides of the rib cage, turning a set of curved bones into a closed protective basket." },
-        { "title": "Anchors ribs and collarbones", "detail": "Its edges receive the costal cartilages and its top notches hold the inner ends of the clavicles." },
-        { "title": "Protects the heart", "detail": "The sternum stands between the outside world and the heart, absorbing the first force of a blow to the chest." },
-        { "title": "Stores marrow", "detail": "Red marrow inside the sternum produces blood cells and is one reason the bone is used for marrow sampling." }
+        {
+          "title": "Closes the front of the chest",
+          "detail": "The sternum bridges the two sides of the rib cage, turning a set of curved bones into a closed protective basket."
+        },
+        {
+          "title": "Anchors ribs and collarbones",
+          "detail": "Its edges receive the costal cartilages and its top notches hold the inner ends of the clavicles."
+        },
+        {
+          "title": "Protects the heart",
+          "detail": "The sternum stands between the outside world and the heart, absorbing the first force of a blow to the chest."
+        },
+        {
+          "title": "Stores marrow",
+          "detail": "Red marrow inside the sternum produces blood cells and is one reason the bone is used for marrow sampling."
+        }
       ],
       "location": "The sternum lies in the midline of your chest, from the base of your neck to just above your stomach.",
       "size": "An adult sternum is about 17 centimeters (7 inches) long, roughly the length of a smartphone.",
@@ -177,14 +357,36 @@
         "The sternum holds red marrow and is one of the sites used for a bone marrow biopsy."
       ],
       "conditions": [
-        { "name": "Sternal fracture", "description": "A break in the breastbone, usually from a steering wheel, a fall, or a direct blow, sometimes with heart or lung injury." },
-        { "name": "Pectus excavatum", "description": "The sternum and lower ribs grow inward, creating a sunken chest; many people with it have no symptoms at all." }
+        {
+          "name": "Sternal fracture",
+          "description": "A steering wheel, a fall, or a direct blow can break the breastbone, sometimes with heart or lung injury."
+        },
+        {
+          "name": "Pectus excavatum",
+          "description": "The sternum and lower ribs grow inward, creating a sunken chest; many people with it have no symptoms at all."
+        }
       ],
-      "relatedOrgans": ["ribcage", "clavicle", "heart"],
-      "keywords": ["breastbone", "manubrium", "xiphoid", "sternal angle", "marrow"],
+      "relatedOrgans": [
+        "ribcage",
+        "clavicle",
+        "heart"
+      ],
+      "keywords": [
+        "breastbone",
+        "manubrium",
+        "xiphoid",
+        "sternal angle",
+        "marrow"
+      ],
       "sources": [
-        { "label": "TeachMeAnatomy — The Sternum", "url": "https://teachmeanatomy.info/thorax/bones/sternum/" },
-        { "label": "MedlinePlus — Sternum (Anatomy Image)", "url": "https://medlineplus.gov/ency/imagepages/1740.htm" }
+        {
+          "label": "TeachMeAnatomy — The Sternum",
+          "url": "https://teachmeanatomy.info/thorax/bones/sternum/"
+        },
+        {
+          "label": "MedlinePlus — Sternum (Anatomy Image)",
+          "url": "https://medlineplus.gov/ency/imagepages/1740.htm"
+        }
       ]
     },
     {
@@ -192,33 +394,73 @@
       "systemId": "skeletal",
       "name": "Pelvis",
       "latin": "Pelvis",
-      "alsoKnownAs": ["Pelvic girdle"],
+      "alsoKnownAs": [
+        "Pelvic girdle"
+      ],
       "region": "pelvis",
       "tagline": "A bony basin that carries your weight and cradles your organs.",
-      "summary": "Your pelvis is a bony basin, not a single bone. Two large hip bones curve around the sides and front, and the sacrum and coccyx fill the gap at the back, forming a ring. Each hip bone is itself three bones, the ilium, ischium, and pubis, that fuse during the teen years at the hip socket, or acetabulum. The result is a strong, bowl-shaped girdle that joins your spine to your legs.\n\nThe pelvis does two heavy jobs. It passes the weight of your upper body through the hip joints into your femurs when you stand, walk, or run, and it forms a protective bowl around your bladder, rectum, and reproductive organs. In women, the pelvis is generally wider and shallower, with a larger opening, because it also forms the birth canal. Hormones late in pregnancy soften its joints slightly, giving the baby a little more room.",
+      "summary": "Your pelvis is a bony basin, not a single bone. Two large hip bones curve around the sides and front; the sacrum closes the ring at the back, and the coccyx hangs below it. Each hip bone is itself three bones, the ilium, ischium, and pubis, that fuse during the teen years at the hip socket, or acetabulum. The result is a strong, bowl-shaped girdle that joins your spine to your legs.\n\nThe pelvis does two heavy jobs. It passes the weight of your upper body through the hip joints into your femurs when you stand, walk, or run, and it forms a protective bowl around your bladder, rectum, and reproductive organs. In women, the pelvis is generally wider and shallower, with a larger opening, because it also forms the birth canal. Hormones late in pregnancy soften its joints slightly, giving the baby a little more room.",
       "functions": [
-        { "title": "Transfers weight to your legs", "detail": "The pelvic ring carries the load of your upper body and hands it to the femurs at the hip joints." },
-        { "title": "Protects pelvic organs", "detail": "Its broad bones form a bowl around the bladder, rectum, and reproductive organs." },
-        { "title": "Anchors powerful muscles", "detail": "Hip, thigh, and trunk muscles attach to its ridges, which is why the pelvis is so important for walking and balance." },
-        { "title": "Forms the birth canal", "detail": "The opening at the bottom of the pelvis is shaped to let a baby pass through during birth." }
+        {
+          "title": "Transfers weight to your legs",
+          "detail": "The pelvic ring carries the load of your upper body and hands it to the femurs at the hip joints."
+        },
+        {
+          "title": "Protects pelvic organs",
+          "detail": "Its broad bones form a bowl around the bladder, rectum, and reproductive organs."
+        },
+        {
+          "title": "Anchors powerful muscles",
+          "detail": "Hip, thigh, and trunk muscles attach to its ridges, which is why the pelvis is so important for walking and balance."
+        },
+        {
+          "title": "Forms the birth canal",
+          "detail": "The opening at the bottom of the pelvis is shaped to let a baby pass through during birth."
+        }
       ],
       "location": "The pelvis sits between your abdomen and your thighs, with the sacrum at its back and the hip sockets at its sides.",
       "size": "An adult pelvis is about 25 centimeters (10 inches) wide across the hips, roughly the width of a dinner plate.",
       "facts": [
-        "Your hip socket is a meeting point of three bones: the ilium, ischium, and pubis fuse there by your late teens.",
+        "The three bones of a hip bone meet at the socket, and the last seam there closes around age 16.",
         "The sacrum is five vertebrae welded into one wedge-shaped bone.",
         "The female pelvis is usually wider and has a more circular opening, though the range of variation is large."
       ],
       "conditions": [
-        { "name": "Pelvic fracture", "description": "A break in the ring of the pelvis, often from a high-energy crash or fall, that can cause serious internal bleeding." },
-        { "name": "Hip osteoarthritis", "description": "Cartilage in the hip socket wears down, so the joint stiffens and hurts with movement." },
-        { "name": "Pelvic organ prolapse", "description": "Muscles and ligaments that support the bladder, uterus, or rectum weaken, allowing an organ to bulge downward." }
+        {
+          "name": "Pelvic fracture",
+          "description": "A high-energy crash or fall can split the pelvic ring and cause serious internal bleeding."
+        },
+        {
+          "name": "Hip osteoarthritis",
+          "description": "Cartilage in the hip socket wears down, so the joint stiffens and hurts with movement."
+        },
+        {
+          "name": "Pelvic organ prolapse",
+          "description": "Muscles and ligaments that support the bladder, uterus, or rectum weaken, allowing an organ to bulge downward."
+        }
       ],
-      "relatedOrgans": ["vertebral-column", "femur", "bladder", "uterus"],
-      "keywords": ["pelvis", "acetabulum", "sacrum", "hip bone", "birth canal"],
+      "relatedOrgans": [
+        "vertebral-column",
+        "femur",
+        "bladder",
+        "uterus"
+      ],
+      "keywords": [
+        "pelvis",
+        "acetabulum",
+        "sacrum",
+        "hip bone",
+        "birth canal"
+      ],
       "sources": [
-        { "label": "TeachMeAnatomy — The Pelvic Bones", "url": "https://teachmeanatomy.info/pelvis/bones/" },
-        { "label": "MedlinePlus — Normal Hip Joint Anatomy (Image)", "url": "https://medlineplus.gov/ency/imagepages/19903.htm" }
+        {
+          "label": "TeachMeAnatomy — The Pelvic Bones",
+          "url": "https://teachmeanatomy.info/pelvis/bones/"
+        },
+        {
+          "label": "Cleveland Clinic — Pelvis",
+          "url": "https://my.clevelandclinic.org/health/body/pelvis"
+        }
       ]
     },
     {
@@ -226,33 +468,73 @@
       "systemId": "skeletal",
       "name": "Femur",
       "latin": "Os femoris",
-      "alsoKnownAs": ["Thighbone"],
+      "alsoKnownAs": [
+        "Thighbone"
+      ],
       "region": "lower-limb",
       "tagline": "The longest, strongest strut in your body, hidden in your thigh.",
       "summary": "The femur is your thighbone, and it is the longest, heaviest, and strongest bone in your body. It runs from the hip socket to the knee, where its two rounded condyles sit on top of the tibia. At the top, a smooth head on an angled neck fits into the pelvis, and two bony knobs, the greater and lesser trochanters, give your hip muscles a place to pull. The shaft in between is a hollow cylinder of dense bone.\n\nWalking turns the femur into a lever. Your gluteal muscles pull the greater trochanter back, your quadriceps straighten the knee, and your hamstrings bend it. The femur carries several times your body weight with each step, so its outer shell is thick and its internal struts follow the lines of stress. A broken femur is a serious injury because the bone can lose a lot of blood and because the femoral head depends on a fragile blood supply.",
       "functions": [
-        { "title": "Carries your body weight", "detail": "The femur is the main pillar between hip and knee, passing the load of your body down to the floor." },
-        { "title": "Powers walking and running", "detail": "Its length and strength give thigh muscles a long lever for pushing off and swinging the leg forward." },
-        { "title": "Anchors hip and thigh muscles", "detail": "The trochanters and condyles are attachment points for the gluteals, quadriceps, hamstrings, and adductors." },
-        { "title": "Stores marrow and minerals", "detail": "The marrow cavity inside the shaft holds fat and blood-forming tissue, and the bone itself is a calcium reserve." }
+        {
+          "title": "Carries your body weight",
+          "detail": "The femur is the main pillar between hip and knee, passing the load of your body down to the floor."
+        },
+        {
+          "title": "Powers walking and running",
+          "detail": "Its length and strength give thigh muscles a long lever for pushing off and swinging the leg forward."
+        },
+        {
+          "title": "Anchors hip and thigh muscles",
+          "detail": "The trochanters and condyles are attachment points for the gluteals, quadriceps, hamstrings, and adductors."
+        },
+        {
+          "title": "Stores marrow and minerals",
+          "detail": "The marrow cavity inside the shaft holds fat and blood-forming tissue, and the bone itself is a calcium reserve."
+        }
       ],
       "location": "The femur runs through the thigh from the hip joint to the knee joint.",
       "size": "In an average adult the femur is about 45 centimeters (18 inches) long, roughly one quarter of total height.",
       "facts": [
-        "The femur is about a quarter of your height, which is why forensic scientists can estimate stature from a single thighbone.",
-        "Its neck meets the shaft at about 135 degrees, an angle that lets your leg swing clear of your pelvis.",
+        "The femur's length tracks your height so closely that forensic scientists can estimate stature from a single thighbone.",
+        "Its neck meets the shaft at about 125 degrees, an angle that lets your leg swing clear of your pelvis.",
         "The femoral head gets blood from small arteries that run along the neck, so a displaced fracture can starve the bone."
       ],
       "conditions": [
-        { "name": "Hip fracture", "description": "A break at the top of the femur, common in older adults after a fall, that usually makes standing impossible." },
-        { "name": "Femoral shaft fracture", "description": "A break in the long middle section, usually from a high-energy impact; the thigh can swell dramatically from blood loss." },
-        { "name": "Avascular necrosis", "description": "Loss of blood supply makes the ball of the hip joint die and collapse, causing pain and stiffness." }
+        {
+          "name": "Hip fracture",
+          "description": "The top of the femur breaks most often in older adults after a fall, and standing usually becomes impossible."
+        },
+        {
+          "name": "Femoral shaft fracture",
+          "description": "A high-energy impact can snap the long middle section, and the thigh can swell dramatically from blood loss."
+        },
+        {
+          "name": "Avascular necrosis",
+          "description": "Loss of blood supply makes the ball of the hip joint die and collapse, causing pain and stiffness."
+        }
       ],
-      "relatedOrgans": ["pelvis", "patella", "quadriceps", "hamstrings"],
-      "keywords": ["femur", "thighbone", "hip", "knee", "femoral neck"],
+      "relatedOrgans": [
+        "pelvis",
+        "patella",
+        "quadriceps",
+        "hamstrings"
+      ],
+      "keywords": [
+        "femur",
+        "thighbone",
+        "hip",
+        "knee",
+        "femoral neck"
+      ],
       "sources": [
-        { "label": "TeachMeAnatomy — The Femur", "url": "https://teachmeanatomy.info/lower-limb/bones/femur/" },
-        { "label": "MedlinePlus — Long Bones", "url": "https://medlineplus.gov/ency/article/002249.htm" }
+        {
+          "label": "TeachMeAnatomy — The Femur",
+          "url": "https://teachmeanatomy.info/lower-limb/bones/femur/"
+        },
+        {
+          "label": "Cleveland Clinic — Femur",
+          "url": "https://my.clevelandclinic.org/health/body/22503-femur"
+        }
       ]
     },
     {
@@ -260,33 +542,73 @@
       "systemId": "skeletal",
       "name": "Humerus",
       "latin": "Humerus",
-      "alsoKnownAs": ["Upper arm bone"],
+      "alsoKnownAs": [
+        "Upper arm bone"
+      ],
       "region": "upper-limb",
       "tagline": "The single bone that swings your arm and aims your hand.",
-      "summary": "The humerus is the single bone of your upper arm. Its rounded head fits into the shallow socket of your scapula at the shoulder, and its lower end widens into a pulley-shaped trochlea and a rounded capitulum that meet the ulna and radius at the elbow. Two bumps, the medial and lateral epicondyles, are easy to feel on either side of your elbow. The shaft between shoulder and elbow is a long cylinder with a spiral groove for the radial nerve.\n\nAlmost every arm movement passes through this bone. Your deltoid lifts it, your biceps and triceps swing it, and your rotator cuff steadies its head in the socket. Because the shoulder socket is shallow, the humerus can move through a huge range, but that freedom comes at a price: the joint dislocates more easily than most. The radial nerve wraps around the back of the shaft, so a mid-shaft fracture can weaken the muscles that lift your wrist.",
+      "summary": "The humerus is the single bone of your upper arm. Its rounded head fits into the shallow socket of your scapula at the shoulder, and its lower end widens into a pulley-shaped trochlea and a rounded capitulum that meet the ulna and radius at the elbow. Two bumps, the medial and lateral epicondyles, are easy to feel on either side of your elbow. The shaft between shoulder and elbow is a long cylinder with a spiral groove for the radial nerve.\n\nAlmost every arm movement passes through this bone. Your deltoid lifts it, your biceps and triceps swing it, and your rotator cuff steadies its head in the socket. Because the shoulder socket is shallow, the humerus can move through a huge range, but the trade-off is a joint that dislocates more easily than most. The radial nerve wraps around the back of the shaft, so a mid-shaft fracture can weaken the muscles that lift your wrist.",
       "functions": [
-        { "title": "Moves your arm", "detail": "The humerus is the lever that the shoulder muscles rotate, lift, and swing in almost every direction." },
-        { "title": "Bends and straightens the elbow", "detail": "Its lower end forms the hinge with the ulna that lets your forearm fold toward your shoulder." },
-        { "title": "Anchors arm muscles", "detail": "Its shaft and epicondyles give attachment to the deltoid, biceps, triceps, and the muscles that move your wrist and fingers." },
-        { "title": "Guides nerves and vessels", "detail": "Grooves on its surface carry the radial nerve and the blood vessels that supply the arm." }
+        {
+          "title": "Moves your arm",
+          "detail": "The humerus is the lever that the shoulder muscles rotate, lift, and swing in almost every direction."
+        },
+        {
+          "title": "Bends and straightens the elbow",
+          "detail": "Its lower end forms the hinge with the ulna that lets your forearm fold toward your shoulder."
+        },
+        {
+          "title": "Anchors arm muscles",
+          "detail": "Its shaft and epicondyles give attachment to the deltoid, biceps, triceps, and the muscles that move your wrist and fingers."
+        },
+        {
+          "title": "Guides nerves and vessels",
+          "detail": "Grooves on its surface carry the radial nerve and the blood vessels that supply the arm."
+        }
       ],
       "location": "The humerus runs from the shoulder joint to the elbow, forming the core of your upper arm.",
       "size": "An adult humerus is about 30 centimeters (12 inches) long, close to the distance from your armpit to your elbow.",
       "facts": [
         "The funny bone is not a bone: it is the ulnar nerve passing behind the medial epicondyle of the humerus.",
-        "The humerus is connected to more than a dozen muscles, which is why it can move your arm in so many directions.",
+        "More than a dozen muscles attach to the humerus, and their pull is what lets your arm sweep through a wide arc.",
         "The radial nerve runs in a groove on the back of the humerus, so a fracture there can cause wrist drop."
       ],
       "conditions": [
-        { "name": "Proximal humerus fracture", "description": "A break near the shoulder, common in older adults who fall onto an outstretched hand." },
-        { "name": "Humeral shaft fracture", "description": "A break in the middle of the bone that can injure the radial nerve and weaken the wrist." },
-        { "name": "Tennis elbow", "description": "Tendons that attach to the lateral epicondyle become irritated, making the outside of the elbow sore." }
+        {
+          "name": "Proximal humerus fracture",
+          "description": "The bone breaks near the shoulder most often in older adults, usually after a fall."
+        },
+        {
+          "name": "Humeral shaft fracture",
+          "description": "A mid-shaft break can injure the radial nerve and weaken the wrist."
+        },
+        {
+          "name": "Tennis elbow",
+          "description": "Tendons that attach to the lateral epicondyle become irritated, making the outside of the elbow sore."
+        }
       ],
-      "relatedOrgans": ["scapula", "radius-ulna", "clavicle", "deltoid"],
-      "keywords": ["humerus", "upper arm", "shoulder", "elbow", "radial nerve"],
+      "relatedOrgans": [
+        "scapula",
+        "radius-ulna",
+        "clavicle",
+        "deltoid"
+      ],
+      "keywords": [
+        "humerus",
+        "upper arm",
+        "shoulder",
+        "elbow",
+        "radial nerve"
+      ],
       "sources": [
-        { "label": "TeachMeAnatomy — The Humerus", "url": "https://teachmeanatomy.info/upper-limb/bones/humerus/" },
-        { "label": "MedlinePlus — Elbow, Side View (Image)", "url": "https://medlineplus.gov/ency/imagepages/1689.htm" }
+        {
+          "label": "TeachMeAnatomy — The Humerus",
+          "url": "https://teachmeanatomy.info/upper-limb/bones/humerus/"
+        },
+        {
+          "label": "Cleveland Clinic — Humerus",
+          "url": "https://my.clevelandclinic.org/health/body/24612-humerus"
+        }
       ]
     },
     {
@@ -294,15 +616,29 @@
       "systemId": "skeletal",
       "name": "Radius and Ulna",
       "latin": "Radius et ulna",
-      "alsoKnownAs": ["Forearm bones"],
+      "alsoKnownAs": [
+        "Forearm bones"
+      ],
       "region": "upper-limb",
       "tagline": "Two forearm bones that turn your palm from up to down.",
       "summary": "Your forearm has two bones, and together they do something no single bone could. The radius sits on the thumb side, with a flat disc-shaped head that spins against the humerus. The ulna sits on the little-finger side, its hooked olecranon forming the point of your elbow. A flexible sheet, the interosseous membrane, links them along their length and gives forearm muscles a broad surface to grip.\n\nWatch your palm turn over and you are seeing the radius travel around the ulna. Turning your palm up is supination; turning it down is pronation, and that is when the radius crosses over the ulna like an X. This rotation is what lets you turn a doorknob, twist a screwdriver, or hold a bowl of soup. The radius carries most of the load from your hand to your elbow, while the ulna works as the stable hinge.",
       "functions": [
-        { "title": "Turns your palm", "detail": "The radius rotates around the ulna, letting you flip your palm up for supination or down for pronation." },
-        { "title": "Carries force from the hand", "detail": "The radius takes most of the load that travels from your wrist toward your elbow." },
-        { "title": "Stabilizes the elbow", "detail": "The ulna's olecranon locks into the humerus, forming the hinge that keeps the elbow from sliding apart." },
-        { "title": "Anchors forearm muscles", "detail": "The interosseous membrane and both shafts give the muscles that move your wrist and fingers a place to attach." }
+        {
+          "title": "Turns your palm",
+          "detail": "The radius rotates around the ulna, letting you flip your palm up for supination or down for pronation."
+        },
+        {
+          "title": "Carries force from the hand",
+          "detail": "The radius takes most of the load that travels from your wrist toward your elbow."
+        },
+        {
+          "title": "Stabilizes the elbow",
+          "detail": "The ulna's olecranon locks into the humerus, forming the hinge that keeps the elbow from sliding apart."
+        },
+        {
+          "title": "Anchors forearm muscles",
+          "detail": "The interosseous membrane and both shafts give the muscles that move your wrist and fingers a place to attach."
+        }
       ],
       "location": "The radius and ulna run side by side through the forearm, from the elbow to the wrist.",
       "size": "In an adult, the ulna is about 26 centimeters (10 inches) long and the radius about 24 centimeters (9.5 inches), roughly the distance from elbow to wrist.",
@@ -312,15 +648,39 @@
         "The two bones are joined by a membrane that keeps them from drifting apart while still allowing rotation."
       ],
       "conditions": [
-        { "name": "Distal radius fracture", "description": "A break near the wrist, often from falling onto an outstretched hand, that can leave the wrist looking bent backward." },
-        { "name": "Olecranon fracture", "description": "A break at the point of the elbow, sometimes from a direct blow or a hard landing on the elbow." },
-        { "name": "Forearm fracture", "description": "A break in one or both forearm bones, common in children and in falls from a height." }
+        {
+          "name": "Distal radius fracture",
+          "description": "Falling onto an outstretched hand often breaks the radius near the wrist, and the wrist can end up looking bent backward."
+        },
+        {
+          "name": "Olecranon fracture",
+          "description": "A direct blow or a hard landing can break the olecranon, the bony point of the elbow."
+        },
+        {
+          "name": "Forearm fracture",
+          "description": "One or both forearm bones can break, most often in children and in falls from a height."
+        }
       ],
-      "relatedOrgans": ["humerus", "biceps-brachii"],
-      "keywords": ["radius", "ulna", "forearm", "pronation", "wrist"],
+      "relatedOrgans": [
+        "humerus",
+        "biceps-brachii"
+      ],
+      "keywords": [
+        "radius",
+        "ulna",
+        "forearm",
+        "pronation",
+        "wrist"
+      ],
       "sources": [
-        { "label": "TeachMeAnatomy — The Radius", "url": "https://teachmeanatomy.info/upper-limb/bones/radius/" },
-        { "label": "TeachMeAnatomy — The Ulna", "url": "https://teachmeanatomy.info/upper-limb/bones/ulna/" }
+        {
+          "label": "TeachMeAnatomy — The Radius",
+          "url": "https://teachmeanatomy.info/upper-limb/bones/radius/"
+        },
+        {
+          "label": "TeachMeAnatomy — The Ulna",
+          "url": "https://teachmeanatomy.info/upper-limb/bones/ulna/"
+        }
       ]
     },
     {
@@ -328,15 +688,29 @@
       "systemId": "skeletal",
       "name": "Scapula",
       "latin": "Scapula",
-      "alsoKnownAs": ["Shoulder blade"],
+      "alsoKnownAs": [
+        "Shoulder blade"
+      ],
       "region": "upper-limb",
       "tagline": "A floating triangular blade that gives your shoulder its socket.",
-      "summary": "Your scapula, or shoulder blade, is a flat triangular bone that rides on the back of your rib cage. It is not locked into place by joints; it floats in a sleeve of muscle and connects to the rest of the skeleton only through its acromion, which meets the clavicle. A shallow cup called the glenoid cavity faces sideways to receive the head of the humerus, and a bony ridge on the back, the spine of the scapula, is easy to feel through the skin.\n\nThe scapula is the moving base of your shoulder. When you raise your arm, it rotates upward so the socket stays under the humeral head, a partnership called scapulohumeral rhythm. More than a dozen muscles attach to its surface, including the rotator cuff, trapezius, and serratus anterior. Because those muscles hold it in place, weakness in just one nerve can make the whole blade stick out like a wing.",
+      "summary": "Reach a hand over your shoulder and you can feel the scapula, a flat triangular blade that rides on the back of your rib cage. It is not locked into place by joints; it floats in a sleeve of muscle and links to the skeleton only at the clavicle, through its acromion and coracoid process. A shallow cup called the glenoid cavity faces sideways to receive the head of the humerus, and a bony ridge on the back, the spine of the scapula, is easy to feel through the skin.\n\nThe scapula is the moving base of your shoulder. When you raise your arm, it rotates upward so the socket stays under the humeral head, a partnership called scapulohumeral rhythm. More than a dozen muscles attach to its surface, including the rotator cuff, trapezius, and serratus anterior. Because those muscles hold it in place, weakness in just one nerve can make the whole blade stick out like a wing.",
       "functions": [
-        { "title": "Forms the shoulder socket", "detail": "The shallow glenoid cavity receives the head of the humerus and gives the arm a place to rotate." },
-        { "title": "Slides and rotates with your arm", "detail": "The scapula turns upward as you lift your arm, keeping the socket aligned with the moving humeral head." },
-        { "title": "Anchors rotator cuff muscles", "detail": "Its front and back surfaces are the starting points for the four rotator cuff muscles and for the trapezius." },
-        { "title": "Protects nerves and vessels", "detail": "The scapula forms a bony shield over the nerves and blood vessels that travel from the neck to the arm." }
+        {
+          "title": "Forms the shoulder socket",
+          "detail": "The shallow glenoid cavity receives the head of the humerus and gives the arm a place to rotate."
+        },
+        {
+          "title": "Slides and rotates with your arm",
+          "detail": "The scapula turns upward as you lift your arm, keeping the socket aligned with the moving humeral head."
+        },
+        {
+          "title": "Anchors rotator cuff muscles",
+          "detail": "Its front and back surfaces are the starting points for the four rotator cuff muscles and for the trapezius."
+        },
+        {
+          "title": "Protects nerves and vessels",
+          "detail": "The scapula forms a bony shield over the nerves and blood vessels that travel from the neck to the arm."
+        }
       ],
       "location": "Each scapula lies on the upper back, over the ribs, roughly between the second and seventh ribs.",
       "size": "An adult scapula is about 15 centimeters (6 inches) long, close to the size of your outstretched hand.",
@@ -346,15 +720,41 @@
         "A long thoracic nerve injury can cause the scapula to wing out from the back."
       ],
       "conditions": [
-        { "name": "Scapular winging", "description": "Weakness of the serratus anterior lets the inner edge of the shoulder blade lift away from the rib cage." },
-        { "name": "Scapular fracture", "description": "A break in the shoulder blade, usually from a high-energy impact such as a car crash." },
-        { "name": "Shoulder impingement", "description": "The space under the acromion narrows and pinches the rotator cuff tendons when the arm is raised." }
+        {
+          "name": "Scapular winging",
+          "description": "Weakness of the serratus anterior lets the inner edge of the shoulder blade lift away from the rib cage."
+        },
+        {
+          "name": "Scapular fracture",
+          "description": "The shoulder blade usually breaks only under a high-energy impact such as a car crash."
+        },
+        {
+          "name": "Shoulder impingement",
+          "description": "The space under the acromion narrows and pinches the rotator cuff tendons when the arm is raised."
+        }
       ],
-      "relatedOrgans": ["humerus", "clavicle", "ribcage", "deltoid"],
-      "keywords": ["scapula", "shoulder blade", "glenoid", "acromion", "rotator cuff"],
+      "relatedOrgans": [
+        "humerus",
+        "clavicle",
+        "ribcage",
+        "deltoid"
+      ],
+      "keywords": [
+        "scapula",
+        "shoulder blade",
+        "glenoid",
+        "acromion",
+        "rotator cuff"
+      ],
       "sources": [
-        { "label": "TeachMeAnatomy — The Scapula", "url": "https://teachmeanatomy.info/upper-limb/bones/scapula/" },
-        { "label": "MedlinePlus — Shoulder Injuries and Disorders", "url": "https://medlineplus.gov/shoulderinjuriesanddisorders.html" }
+        {
+          "label": "TeachMeAnatomy — The Scapula",
+          "url": "https://teachmeanatomy.info/upper-limb/bones/scapula/"
+        },
+        {
+          "label": "Cleveland Clinic — Scapula",
+          "url": "https://my.clevelandclinic.org/health/body/scapula-shoulder-blade"
+        }
       ]
     },
     {
@@ -362,15 +762,29 @@
       "systemId": "skeletal",
       "name": "Clavicle",
       "latin": "Clavicula",
-      "alsoKnownAs": ["Collarbone"],
+      "alsoKnownAs": [
+        "Collarbone"
+      ],
       "region": "upper-limb",
       "tagline": "The slender strut that holds your shoulder out from your chest.",
-      "summary": "The clavicle, or collarbone, is a slender S-shaped strut that you can trace with a fingertip from the notch at the top of your sternum to the point of your shoulder. It is the only bony connection between your arm and your axial skeleton. Under the skin it feels hard and close, and in thin people its whole length stands out. At its inner end it meets the sternum; at its outer end it meets the acromion of the scapula.\n\nThink of the clavicle as a tent pole. It holds your shoulder out to the side, so your arm can swing freely without colliding with your ribs, and it passes the force of a fall or a push from your arm to your trunk. Beneath it run the subclavian artery, the subclavian vein, and the brachial plexus, the bundle of nerves that controls your arm. That is why a broken collarbone can be more than a simple broken bone.",
+      "summary": "The clavicle, or collarbone, is a slender S-shaped strut that you can trace with a fingertip from the notch at the top of your sternum to the point of your shoulder. It is the only bony connection between your arm and your axial skeleton. Under the skin it feels hard and close, and in thin people its whole length stands out. At its inner end it meets the sternum; at its outer end it meets the acromion of the scapula.\n\nThink of the clavicle as a tent pole. It holds your shoulder out to the side, so your arm can swing freely without colliding with your ribs, and it passes the force of a fall or a push from your arm to your trunk. Beneath it run the subclavian artery, the subclavian vein, and the brachial plexus, the bundle of nerves that controls your arm. A broken collarbone, then, can injure more than bone.",
       "functions": [
-        { "title": "Holds the shoulder out", "detail": "The clavicle keeps the shoulder away from the chest, giving the arm room to swing without hitting the ribs." },
-        { "title": "Connects arm to trunk", "detail": "It is the only bony bridge between the upper limb and the axial skeleton." },
-        { "title": "Transmits force", "detail": "A push or a fall on the arm sends its force through the clavicle into the sternum and spine." },
-        { "title": "Protects nerves and vessels", "detail": "It forms a bony roof over the subclavian vessels and the brachial plexus as they pass to the arm." }
+        {
+          "title": "Holds the shoulder out",
+          "detail": "The clavicle keeps the shoulder away from the chest, giving the arm room to swing without hitting the ribs."
+        },
+        {
+          "title": "Connects arm to trunk",
+          "detail": "It is the only bony bridge between the upper limb and the axial skeleton."
+        },
+        {
+          "title": "Transmits force",
+          "detail": "A push or a fall on the arm sends its force through the clavicle into the sternum and spine."
+        },
+        {
+          "title": "Protects nerves and vessels",
+          "detail": "It forms a bony roof over the subclavian vessels and the brachial plexus as they pass to the arm."
+        }
       ],
       "location": "The clavicle lies just under the skin at the base of the neck, running from the sternum to the shoulder.",
       "size": "An adult clavicle is about 15 centimeters (6 inches) long, roughly the length of a ballpoint pen.",
@@ -380,14 +794,37 @@
         "It is the most commonly broken bone in the shoulder area, especially in children and cyclists."
       ],
       "conditions": [
-        { "name": "Clavicle fracture", "description": "A break in the collarbone, often from a fall onto the shoulder or an outstretched arm." },
-        { "name": "Acromioclavicular separation", "description": "The ligaments between the clavicle and scapula tear, letting the outer end of the collarbone ride high." }
+        {
+          "name": "Clavicle fracture",
+          "description": "A fall onto the shoulder or an outstretched arm often breaks the collarbone."
+        },
+        {
+          "name": "Acromioclavicular separation",
+          "description": "The ligaments between the clavicle and scapula tear, letting the outer end of the collarbone ride high."
+        }
       ],
-      "relatedOrgans": ["scapula", "sternum", "humerus", "ribcage"],
-      "keywords": ["clavicle", "collarbone", "shoulder girdle", "sternoclavicular", "fracture"],
+      "relatedOrgans": [
+        "scapula",
+        "sternum",
+        "humerus",
+        "ribcage"
+      ],
+      "keywords": [
+        "clavicle",
+        "collarbone",
+        "shoulder girdle",
+        "sternoclavicular",
+        "fracture"
+      ],
       "sources": [
-        { "label": "TeachMeAnatomy — The Clavicle", "url": "https://teachmeanatomy.info/upper-limb/bones/clavicle/" },
-        { "label": "MedlinePlus — Shoulder Injuries and Disorders", "url": "https://medlineplus.gov/shoulderinjuriesanddisorders.html" }
+        {
+          "label": "TeachMeAnatomy — The Clavicle",
+          "url": "https://teachmeanatomy.info/upper-limb/bones/clavicle/"
+        },
+        {
+          "label": "MedlinePlus — Shoulder Injuries and Disorders",
+          "url": "https://medlineplus.gov/shoulderinjuriesanddisorders.html"
+        }
       ]
     },
     {
@@ -395,17 +832,31 @@
       "systemId": "skeletal",
       "name": "Patella",
       "latin": "Patella",
-      "alsoKnownAs": ["Kneecap"],
+      "alsoKnownAs": [
+        "Kneecap"
+      ],
       "region": "lower-limb",
       "tagline": "A sesamoid pulley that gives your thigh muscles extra leverage.",
-      "summary": "The patella, or kneecap, is the largest sesamoid bone in your body: a small, triangular bone that grows inside the quadriceps tendon rather than joining another bone at both ends. It sits in a groove on the front of the femur called the trochlea, cushioned by some of the thickest cartilage in the knee. Its base points up toward your thigh and its pointed apex points down toward your shin.\n\nThe kneecap is a pulley, not just a shield. By holding the quadriceps tendon away from the center of the knee, it increases the lever arm of your thigh muscles, so they can straighten the knee with less effort. It also guides the tendon's line of pull and protects the front of the joint. When you climb stairs or stand from a chair, the force passing through the patella can reach several times your body weight.",
+      "summary": "The patella, or kneecap, is the largest sesamoid bone in your body: a small triangular plate that forms inside the quadriceps tendon and rides in a groove on the front of the femur called the trochlea. Some of the thickest cartilage in the knee cushions it. Its base points up toward your thigh and its pointed apex points down toward your shin.\n\nThe kneecap is a pulley, not just a shield. By holding the quadriceps tendon away from the center of the knee, it increases the lever arm of your thigh muscles, so they can straighten the knee with less effort. It also guides the tendon's line of pull and protects the front of the joint. When you climb stairs or stand from a chair, the force passing through the patella can reach several times your body weight.",
       "functions": [
-        { "title": "Boosts quadriceps leverage", "detail": "The patella holds the thigh tendon forward, lengthening the lever so the quadriceps can straighten the knee with less force." },
-        { "title": "Guides the tendon", "detail": "It keeps the quadriceps tendon tracking in the groove on the femur as the knee bends and straightens." },
-        { "title": "Protects the knee front", "detail": "The bone and its cartilage shield the front of the joint from impact and from rubbing against the femur." },
-        { "title": "Spreads pressure", "detail": "Its cartilage distributes load across a wide area, lowering the stress on any one spot of the joint surface." }
+        {
+          "title": "Boosts quadriceps leverage",
+          "detail": "The patella holds the thigh tendon forward, lengthening the lever so the quadriceps can straighten the knee with less force."
+        },
+        {
+          "title": "Guides the tendon",
+          "detail": "It keeps the quadriceps tendon tracking in the groove on the femur as the knee bends and straightens."
+        },
+        {
+          "title": "Protects the knee front",
+          "detail": "The bone and its cartilage shield the front of the joint from impact and from rubbing against the femur."
+        },
+        {
+          "title": "Spreads pressure",
+          "detail": "Its cartilage distributes load across a wide area, lowering the stress on any one spot of the joint surface."
+        }
       ],
-      "location": "The patella sits at the front of the knee, just above the joint line, embedded in the quadriceps tendon.",
+      "location": "The patella sits at the front of the knee, in front of the lower femur, embedded in the quadriceps tendon.",
       "size": "An adult patella is about 5 centimeters (2 inches) across, roughly the size of a large plum.",
       "facts": [
         "The patella begins as a nodule of cartilage and only turns to bone between about ages three and six.",
@@ -413,15 +864,40 @@
         "A dislocated kneecap almost always slips to the outside, because the pull of the quadriceps angles that way."
       ],
       "conditions": [
-        { "name": "Patellar fracture", "description": "A break in the kneecap, often from a direct fall onto the knee; the pieces can separate and stop the leg from straightening." },
-        { "name": "Patellofemoral pain syndrome", "description": "Pain around or behind the kneecap, common in runners and in people who sit for long periods." },
-        { "name": "Patellar dislocation", "description": "The kneecap slips out of its groove, usually to the outside, and the knee gives way." }
+        {
+          "name": "Patellar fracture",
+          "description": "A direct fall onto the knee can break the kneecap; the pieces can separate and stop the leg from straightening."
+        },
+        {
+          "name": "Patellofemoral pain syndrome",
+          "description": "Pain around or behind the kneecap, common in runners and in people who sit for long periods."
+        },
+        {
+          "name": "Patellar dislocation",
+          "description": "The kneecap slips out of its groove, usually to the outside, and the knee gives way."
+        }
       ],
-      "relatedOrgans": ["femur", "quadriceps", "hamstrings"],
-      "keywords": ["patella", "kneecap", "sesamoid", "quadriceps", "knee"],
+      "relatedOrgans": [
+        "femur",
+        "quadriceps",
+        "hamstrings"
+      ],
+      "keywords": [
+        "patella",
+        "kneecap",
+        "sesamoid",
+        "quadriceps",
+        "knee"
+      ],
       "sources": [
-        { "label": "TeachMeAnatomy — The Patella", "url": "https://teachmeanatomy.info/lower-limb/bones/patella/" },
-        { "label": "MedlinePlus — Knee Injuries and Disorders", "url": "https://medlineplus.gov/kneeinjuriesanddisorders.html" }
+        {
+          "label": "TeachMeAnatomy — The Patella",
+          "url": "https://teachmeanatomy.info/lower-limb/bones/patella/"
+        },
+        {
+          "label": "MedlinePlus — Knee Injuries and Disorders",
+          "url": "https://medlineplus.gov/kneeinjuriesanddisorders.html"
+        }
       ]
     }
   ],
@@ -439,39 +915,39 @@
       },
       {
         "title": "The helmet on top",
-        "body": "Start at the top. Your skull looks like one smooth dome, but it is 22 separate bones locked together at seams called sutures. Eight of those bones form the cranium around your brain; fourteen shape your face. At birth the sutures are still open, which is how a baby's head can pass through the birth canal without cracking. The skull is not solid, either. Air-filled sinuses hollow out some of its bones, making the head lighter, and small openings called foramina let nerves and vessels slip through. Run a finger along the ridge above your eye. That is the frontal bone, a single seamless plate that protects the front of your brain.",
+        "body": "Start at the top. Run a finger along the ridge above your eyebrow, then back over the curve of your head. That smooth plate is the frontal bone, and seven more bones lock together behind it to form the braincase. Trace the seams: the coronal suture crosses the crown, and the squamosal suture curves above each ear. In a newborn the plates have not yet locked together, which is how a baby's head can mold during birth and how the brain gets room to grow. By adulthood the joints have knitted into a shell that spreads an impact over a wide area instead of letting it land on one point. Now open your mouth. The bone that moves belongs to the next stop.",
         "organId": "skull",
-        "keyPoint": "Your skull is a flexible puzzle in childhood and a strong helmet in adulthood."
+        "keyPoint": "Sutures flex in a baby, then knit into a shell that spreads impact."
       },
       {
         "title": "The one moving bone",
-        "body": "Now find the hinge of your jaw, just in front of each ear. Open and close your mouth slowly. That movement comes from the mandible, the only bone in your skull that moves. It holds your lower teeth, forms your chin, and gives the muscles of chewing a handle to pull on. Two rounded condyles sit in shallow sockets, and the joint can both hinge and slide, which is why you can bite straight down and also grind sideways. The mandible also carries a nerve through a tunnel inside the bone, so a hard hit to the jaw can leave your lower lip numb. Chew once and notice how much force passes through this single U-shaped bone.",
+        "body": "Find the hinge just in front of each ear and open your mouth slowly. The joint you are feeling is the temporomandibular joint, where the mandible's rounded condyle sits in a shallow socket. Keep a fingertip there and open wide: the condyle first hinges, then slides forward down the slope of the socket. That double motion is why you can bite straight down and also shift your jaw sideways to grind. The bone is a single U-shaped piece, and it grips your lower teeth in individual sockets. A nerve runs through a canal inside it, so a hard hit to the jaw can leave your chin or lower lip numb. Clench once, then relax. Every word you shape passes through this bone.",
         "organId": "mandible",
-        "keyPoint": "The mandible is the skull's only moving part, built for bite force and fine speech."
+        "keyPoint": "One joint, two motions: the jaw hinges and slides, and both matter for chewing."
       },
       {
         "title": "The stack that bends",
-        "body": "Follow the back of your head down your neck and you meet the vertebral column. It is a stack of 33 bones in a child, though nine of them fuse later, leaving 26 in an adult. Between each pair sits a disc with a jelly-like center, and the whole column curves like a spring rather than standing straight like a pole. Those curves matter: they spread the shock of each step instead of passing it straight to your skull. Down the center runs a bony tunnel, and inside it lies the spinal cord. Bend sideways and feel the stack move. Each vertebra contributes only a little motion, but together they let you twist, nod, and reach.",
+        "body": "Trace the bumps down the back of your neck. Each one is the tip of a vertebra, and between every pair sits a disc: a tough outer ring around a jelly-like core. Stacked together, bones and discs make a flexible tower with a bony tunnel down the middle for the spinal cord. The tower is not straight. From the side it forms a soft S, and those curves work like a spring, so the jarring of a jump reaches your head as a gentle bounce rather than a jolt. A child starts with 33 vertebrae; nine fuse during growth, leaving 26 in an adult. Press two fingers beside your spine and bend sideways. Each joint gives only a few degrees of motion, but the whole stack adds up to a deep bow.",
         "organId": "vertebral-column",
-        "keyPoint": "Small movements between many vertebrae add up to a flexible, shock-absorbing spine."
+        "keyPoint": "The spine's S-curves turn the jarring of a step into a gentle bounce."
       },
       {
         "title": "The breathing basket",
-        "body": "Wrap both arms around your lower ribs and take a slow breath in. Feel the basket widen. Twelve pairs of ribs curve from your spine to the front of your chest, where most of them join the sternum through strips of cartilage. The top seven pairs attach directly, three pairs join the cartilage above them, and the last two float free at the front. That design is not rigid, and it should not be. When you inhale, the ribs lift and swing outward like bucket handles, making room for your lungs to fill. The cage also shields your heart and lungs, and its marrow helps make blood cells. Press gently on your sternum: that flat keystone closes the front of the basket.",
+        "body": "Wrap your arms around your lower ribs and breathe in slowly. The basket widens, because ribs are levers, not a fixed cage. Each rib pivots at the spine: the lower ones swing outward like bucket handles, the upper ones lift like pump handles, and the chest grows in both width and depth. Muscles between the ribs do part of the work; the diaphragm does most of it, flattening to pull air in. At the front, the ribs hand their cartilage to a flat plate of bone, the sternum, which closes the basket and gives the clavicles something to brace against. Rest a hand on that plate and feel it rise. Your heart sits directly behind it, which is why CPR compressions land here.",
         "organId": "ribcage",
-        "keyPoint": "Ribs protect the heart and lungs while moving outward with every breath."
+        "keyPoint": "Ribs swing outward and upward on inhale, turning your chest into a bellows."
       },
       {
         "title": "The keystone ring",
-        "body": "Put your hands on your hips and you are touching the pelvis. It feels like one solid bone, but it is a ring made of two hip bones, the sacrum, and the coccyx. Each hip bone is itself three bones, the ilium, ischium, and pubis, which fuse at the hip socket during your teens. The ring does two heavy jobs: it passes the weight of your upper body into your femurs, and it forms a protective bowl around your bladder, rectum, and reproductive organs. In women the ring is usually wider and shallower, because it also forms the birth canal. Notice how the ring is built like an arch, strong where it needs to carry load and open where something must pass through.",
+        "body": "Put your hands on your hips and press. Under your palms are the broad wings of the ilium, one of the three bones that fuse at the hip socket to make each hip bone. Follow the rim around to the front, where the two sides meet at a joint called the pubic symphysis, and to the back, where the sacrum wedges between them. That closed loop is a ring, and rings are strong: weight from your spine spreads around it and down into both hip sockets. The opening inside is also a passage. It is wider and rounder in female skeletons, because a baby has to travel through it. The pelvis is not a solid block but a frame with a hole, shaped by two demands at once: carrying you and letting new life pass.",
         "organId": "pelvis",
-        "keyPoint": "The pelvis is a weight-bearing ring, not a solid block, and its shape differs between people."
+        "keyPoint": "A ring with a hole: the pelvis carries your weight and lets a baby pass."
       },
       {
         "title": "The strongest strut",
-        "body": "Now walk across the room and pay attention to your thighs. Inside each one is the femur, the longest and strongest bone in your body, roughly a quarter of your height. Its smooth head fits into the hip socket, its angled neck offsets the shaft, and its lower end widens into two rounded condyles that rest on the tibia. Every step sends several times your body weight through this bone, so its outer shell is thick and its internal struts follow the lines of stress. The femur is also vulnerable at the neck, where small arteries feed the head. That is why a hip fracture in an older adult can be so serious: the bone's blood supply is fragile.",
+        "body": "Stand and take a step. Inside each thigh the femur swings as a long lever, its head spinning in the hip socket while its lower end rolls over the tibia at the knee. The head sits on an angled neck that holds the shaft out from the pelvis, so your leg clears your hip as it swings. That geometry has a cost: the head depends on a thin leash of arteries running up the neck, and a break there can cut the supply. Picture the shaft in cross-section and you find a hollow tube of dense bone around a cavity, light where it can be and thick where force concentrates. Bone also rebuilds along the lines where you load it. Jump once and feel the whole chain work.",
         "organId": "femur",
-        "keyPoint": "The femur is built like an engineering strut, strong along the lines where force travels."
+        "keyPoint": "A hollow strut built along lines of load: light, strong, and always rebuilding."
       },
       {
         "title": "Where to go next",
@@ -485,7 +961,12 @@
       "id": "skeletal-q1",
       "systemId": "skeletal",
       "question": "How many bones does an adult human skeleton typically contain?",
-      "options": ["106", "206", "306", "406"],
+      "options": [
+        "106",
+        "206",
+        "306",
+        "406"
+      ],
       "answerIndex": 1,
       "explanation": "An adult skeleton has 206 bones. Babies start with many more separate pieces, and many of those pieces fuse together during growth.",
       "difficulty": "easy"
@@ -494,7 +975,12 @@
       "id": "skeletal-q2",
       "systemId": "skeletal",
       "question": "Which bone is the only one in the skull that moves?",
-      "options": ["Frontal bone", "Maxilla", "Mandible", "Nasal bone"],
+      "options": [
+        "Frontal bone",
+        "Maxilla",
+        "Mandible",
+        "Nasal bone"
+      ],
       "answerIndex": 2,
       "explanation": "The mandible, or lower jaw, is the only movable skull bone. It hinges and slides at the temporomandibular joint so you can chew and speak.",
       "difficulty": "easy"
@@ -503,7 +989,12 @@
       "id": "skeletal-q3",
       "systemId": "skeletal",
       "question": "Which bone is the longest and strongest in the human body?",
-      "options": ["Femur", "Humerus", "Radius", "Clavicle"],
+      "options": [
+        "Femur",
+        "Humerus",
+        "Radius",
+        "Clavicle"
+      ],
       "answerIndex": 0,
       "explanation": "The femur, or thighbone, is the longest and strongest bone. It is roughly a quarter of your height and carries several times your body weight.",
       "difficulty": "easy"
@@ -512,7 +1003,12 @@
       "id": "skeletal-q4",
       "systemId": "skeletal",
       "question": "Which ribs are known as the floating ribs?",
-      "options": ["Ribs 1 and 2", "Ribs 8, 9, and 10", "Ribs 11 and 12", "Ribs 5 through 7"],
+      "options": [
+        "Ribs 1 and 2",
+        "Ribs 8, 9, and 10",
+        "Ribs 11 and 12",
+        "Ribs 5 through 7"
+      ],
       "answerIndex": 2,
       "explanation": "The eleventh and twelfth pairs are called floating ribs because they do not attach to the sternum at the front; they end in muscle.",
       "difficulty": "medium"
@@ -521,7 +1017,12 @@
       "id": "skeletal-q5",
       "systemId": "skeletal",
       "question": "What happens to the radius when you turn your palm face down?",
-      "options": ["It stays parallel to the ulna", "It crosses over the ulna", "It slides behind the humerus", "It rotates the scapula"],
+      "options": [
+        "It stays parallel to the ulna",
+        "It crosses over the ulna",
+        "It slides behind the humerus",
+        "It rotates the scapula"
+      ],
       "answerIndex": 1,
       "explanation": "Turning the palm down is pronation. The radius rotates around the ulna and crosses over it, which is how you twist a doorknob.",
       "difficulty": "medium"
@@ -530,7 +1031,12 @@
       "id": "skeletal-q6",
       "systemId": "skeletal",
       "question": "What passes through the foramen magnum, the largest opening in the skull?",
-      "options": ["The trachea", "The carotid artery", "The optic nerve", "The spinal cord"],
+      "options": [
+        "The trachea",
+        "The carotid artery",
+        "The optic nerve",
+        "The spinal cord"
+      ],
       "answerIndex": 3,
       "explanation": "The spinal cord leaves the brain through the foramen magnum at the base of the skull and continues down the vertebral canal.",
       "difficulty": "medium"
@@ -539,7 +1045,12 @@
       "id": "skeletal-q7",
       "systemId": "skeletal",
       "question": "Why is the patella classified as a sesamoid bone?",
-      "options": ["It develops inside a tendon", "It is the smallest bone in the body", "It has no cartilage covering", "It never turns into bone"],
+      "options": [
+        "It develops inside a tendon",
+        "It is the smallest bone in the body",
+        "It has no cartilage covering",
+        "It never turns into bone"
+      ],
       "answerIndex": 0,
       "explanation": "A sesamoid bone forms within a tendon. The patella grows inside the quadriceps tendon and acts as a pulley for the thigh muscles.",
       "difficulty": "hard"
@@ -548,7 +1059,12 @@
       "id": "skeletal-q8",
       "systemId": "skeletal",
       "question": "Which statement about the clavicle is true?",
-      "options": ["It is the last bone to form in a fetus", "It is the only bony link between the arm and the trunk", "It never finishes ossifying", "It joins directly to the ribs"],
+      "options": [
+        "It is the last bone to form in a fetus",
+        "It is the only bony link between the arm and the trunk",
+        "It never finishes ossifying",
+        "It joins directly to the ribs"
+      ],
       "answerIndex": 1,
       "explanation": "The clavicle is the only bony connection between the upper limb and the axial skeleton. It is also one of the first bones to begin ossifying.",
       "difficulty": "hard"

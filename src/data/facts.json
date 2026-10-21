@@ -1,1 +1,482 @@
-[]
+[
+  {
+    "id": "fact-001",
+    "text": "You were born with about 300 separate bones and pieces of cartilage. Many later fused, including the three parts of each hip bone, leaving the 206 bones of a typical adult skeleton.",
+    "systemId": "skeletal",
+    "organId": "pelvis"
+  },
+  {
+    "id": "fact-002",
+    "text": "Each hand and wrist contains 27 bones, starting where your radius and ulna meet the wrist. Add the 26 bones in each foot, and your hands and feet hold 106 of your 206 bones, just over half.",
+    "systemId": "skeletal",
+    "organId": "radius-ulna"
+  },
+  {
+    "id": "fact-003",
+    "text": "Your body is up to 1.5 cm (0.6 in) taller in the morning. The discs between your vertebrae squash under gravity all day and rehydrate overnight while you lie down.",
+    "systemId": "skeletal",
+    "organId": "vertebral-column"
+  },
+  {
+    "id": "fact-004",
+    "text": "You have 12 pairs of ribs, but only the top seven pairs join your sternum directly. Three pairs hook on through cartilage, and the lowest two float free at the front.",
+    "systemId": "skeletal",
+    "organId": "ribcage"
+  },
+  {
+    "id": "fact-005",
+    "text": "Your mandible is the only bone in your skull that moves. The rest of your skull is locked together by wavy seams called sutures, which look like cracks in porcelain.",
+    "systemId": "skeletal",
+    "organId": "mandible"
+  },
+  {
+    "id": "fact-006",
+    "text": "Your collarbone starts turning to bone at about five weeks in the womb, making it the first bone to begin hardening. It is also one of the last to finish, often in your mid-twenties.",
+    "systemId": "skeletal",
+    "organId": "clavicle"
+  },
+  {
+    "id": "fact-007",
+    "text": "Turn your palm down and the two bones in your forearm cross each other. That twist, called pronation, is what lets you turn a doorknob.",
+    "systemId": "skeletal",
+    "organId": "radius-ulna"
+  },
+  {
+    "id": "fact-008",
+    "text": "Babies are born without bony kneecaps; the patella starts as soft cartilage, begins turning to bone around age 3 to 5, and is not fully bony until about age 10 to 12.",
+    "systemId": "skeletal",
+    "organId": "patella"
+  },
+  {
+    "id": "fact-009",
+    "text": "Skeletal muscle is roughly 40 percent of a typical adult's body weight. You have about 600 of these muscles, and they work in opposing pairs, like your quadriceps and hamstrings, because each can only pull, never push.",
+    "systemId": "muscular",
+    "organId": "quadriceps"
+  },
+  {
+    "id": "fact-010",
+    "text": "Your gluteus maximus is the largest muscle in your body. It is built for power, not speed, and does much of the work when you stand up or climb stairs.",
+    "systemId": "muscular",
+    "organId": "gluteus-maximus"
+  },
+  {
+    "id": "fact-011",
+    "text": "Your biceps does more than bend your elbow. It also twists your forearm so your palm faces up, which is why it bulges when you twist open a stubborn jar.",
+    "systemId": "muscular",
+    "organId": "biceps-brachii"
+  },
+  {
+    "id": "fact-012",
+    "text": "The six-pack is not six muscles. It is one paired sheet, the rectus abdominis, crossed by fibrous bands that create the visible blocks.",
+    "systemId": "muscular",
+    "organId": "rectus-abdominis"
+  },
+  {
+    "id": "fact-013",
+    "text": "Your diaphragm is a dome of muscle under your lungs. It tightens and flattens about 20,000 times a day, and you rarely notice a single one.",
+    "systemId": "muscular",
+    "organId": "diaphragm"
+  },
+  {
+    "id": "fact-014",
+    "text": "When you run, your calf muscles and Achilles tendon can load with several times your body weight with every stride, then spring you forward.",
+    "systemId": "muscular",
+    "organId": "gastrocnemius"
+  },
+  {
+    "id": "fact-015",
+    "text": "Your brain holds roughly 86 billion neurons and uses about 20 percent of the oxygen and calories your body burns, though it is only 2 percent of your weight.",
+    "systemId": "nervous",
+    "organId": "brain"
+  },
+  {
+    "id": "fact-016",
+    "text": "Brain tissue itself has no pain receptors. The throbbing of a headache comes from the blood vessels, muscles, and membranes around the brain, not the brain.",
+    "systemId": "nervous",
+    "organId": "meninges"
+  },
+  {
+    "id": "fact-017",
+    "text": "The cerebellum takes up barely a tenth of your brain's volume, yet it packs in more than half of its neurons. It fine-tunes balance, posture, and smooth movement.",
+    "systemId": "nervous",
+    "organId": "cerebellum"
+  },
+  {
+    "id": "fact-018",
+    "text": "Your spinal cord stops growing before your spine does. In adults it ends near the first or second lumbar vertebra, well above the bottom of the spinal canal.",
+    "systemId": "nervous",
+    "organId": "spinal-cord"
+  },
+  {
+    "id": "fact-019",
+    "text": "Your hypothalamus is a small region, less than 1 percent of your brain's volume, yet it runs your body's thermostat, hunger, thirst, and sleep cycles, all without your input.",
+    "systemId": "nervous",
+    "organId": "hypothalamus"
+  },
+  {
+    "id": "fact-020",
+    "text": "Your amygdala can start a fear response before you consciously register the threat. That is why you can flinch at a shape in the dark before you know what it is.",
+    "systemId": "nervous",
+    "organId": "amygdala"
+  },
+  {
+    "id": "fact-021",
+    "text": "The hippocampus is named for its seahorse shape. It helps convert today's experiences into memories that can last for decades.",
+    "systemId": "nervous",
+    "organId": "hippocampus"
+  },
+  {
+    "id": "fact-022",
+    "text": "Your heart beats about 100,000 times a day. Over an 80-year life, that adds up to roughly 3 billion beats, without a single conscious command from you.",
+    "systemId": "cardiovascular",
+    "organId": "heart"
+  },
+  {
+    "id": "fact-023",
+    "text": "If you laid every blood vessel in your body end to end, the line would stretch about 100,000 km (62,000 mi), more than twice around Earth.",
+    "systemId": "cardiovascular",
+    "organId": "capillaries"
+  },
+  {
+    "id": "fact-024",
+    "text": "In adults, the pulmonary arteries are the only arteries that carry oxygen-poor blood. They haul it from the heart to the lungs, where it picks up oxygen.",
+    "systemId": "cardiovascular",
+    "organId": "pulmonary-arteries"
+  },
+  {
+    "id": "fact-025",
+    "text": "Your veins look blue through your skin, but the blood inside them is never blue. It is always red; the blue tint comes from how light scatters in your skin.",
+    "systemId": "cardiovascular",
+    "organId": "veins"
+  },
+  {
+    "id": "fact-026",
+    "text": "Your aorta is about 3 cm (1.2 in) across. Each heartbeat sends a pressure wave through it, and you can feel that wave at your wrist.",
+    "systemId": "cardiovascular",
+    "organId": "aorta"
+  },
+  {
+    "id": "fact-027",
+    "text": "Your heart does not feed its muscle from the blood inside its chambers. It relies on the coronary arteries, which branch off the aorta just above the aortic valve.",
+    "systemId": "cardiovascular",
+    "organId": "coronary-arteries"
+  },
+  {
+    "id": "fact-028",
+    "text": "Most of your blood is not in your arteries. About two-thirds of it sits in your veins at any moment, which stretch to hold it like a reservoir.",
+    "systemId": "cardiovascular",
+    "organId": "veins"
+  },
+  {
+    "id": "fact-029",
+    "text": "Your lungs pack roughly 300 million alveoli, tiny air sacs whose combined surface is about 70 square meters (750 sq ft), roughly the floor of a squash court.",
+    "systemId": "respiratory",
+    "organId": "alveoli"
+  },
+  {
+    "id": "fact-030",
+    "text": "Your right lung has three lobes and your left has two. The left lung is smaller because your heart bulges into that side of your chest.",
+    "systemId": "respiratory",
+    "organId": "lungs"
+  },
+  {
+    "id": "fact-031",
+    "text": "Your trachea is held open by about 16 to 20 C-shaped rings of cartilage. The gaps face your esophagus, so a swallowed bite can pass right behind them.",
+    "systemId": "respiratory",
+    "organId": "trachea"
+  },
+  {
+    "id": "fact-032",
+    "text": "Your vocal cords are two folds of tissue in your larynx. Air from your lungs makes them vibrate hundreds of times a second, and that buzz becomes your voice.",
+    "systemId": "respiratory",
+    "organId": "larynx"
+  },
+  {
+    "id": "fact-033",
+    "text": "Your airways branch about 23 times between your trachea and your alveoli, splitting into narrower tubes at every step until they end in tiny sacs.",
+    "systemId": "respiratory",
+    "organId": "bronchi"
+  },
+  {
+    "id": "fact-034",
+    "text": "The smallest bronchioles are less than a millimeter wide and have no cartilage to hold them open. Rings of smooth muscle widen or narrow them with each breath.",
+    "systemId": "respiratory",
+    "organId": "bronchioles"
+  },
+  {
+    "id": "fact-035",
+    "text": "Your lungs are wrapped in two thin membranes, the pleura, with a film of fluid between them. Surface tension keeps the lungs pressed to your chest wall, so they follow it as it expands.",
+    "systemId": "respiratory",
+    "organId": "pleura"
+  },
+  {
+    "id": "fact-036",
+    "text": "Your stomach acid sits near pH 1.5, roughly 300,000 times more acidic than pure water. The stomach's lining replaces itself every few days so it is not digested with your food.",
+    "systemId": "digestive",
+    "organId": "stomach"
+  },
+  {
+    "id": "fact-037",
+    "text": "Your small intestine is about 6 to 7 m (20 to 23 ft) long, and its villi and microvilli raise its absorbing surface to around 30 square meters.",
+    "systemId": "digestive",
+    "organId": "small-intestine"
+  },
+  {
+    "id": "fact-038",
+    "text": "Your liver performs hundreds of jobs and can regrow lost tissue. Even after a large portion is removed, the remaining tissue can rebuild much of the organ's mass.",
+    "systemId": "digestive",
+    "organId": "liver"
+  },
+  {
+    "id": "fact-039",
+    "text": "Your salivary glands make about 1 to 1.5 L (4 to 6 cups) of saliva a day. It contains amylase, an enzyme that starts breaking starch into sugars before you swallow.",
+    "systemId": "digestive",
+    "organId": "salivary-glands"
+  },
+  {
+    "id": "fact-040",
+    "text": "Your esophagus is a muscular tube about 25 cm (10 in) long. Waves of muscle squeeze food downward, strong enough to work even if you are upside down.",
+    "systemId": "digestive",
+    "organId": "esophagus"
+  },
+  {
+    "id": "fact-041",
+    "text": "Your large intestine is home to trillions of bacteria, far more cells than there are people on Earth. They ferment fiber and make some vitamins your body absorbs.",
+    "systemId": "digestive",
+    "organId": "large-intestine"
+  },
+  {
+    "id": "fact-042",
+    "text": "Tooth enamel is the hardest substance in your body, harder than bone. It is about 96 percent mineral, and unlike bone, it cannot grow back once worn away.",
+    "systemId": "digestive",
+    "organId": "mouth"
+  },
+  {
+    "id": "fact-043",
+    "text": "Your pituitary gland is about the size of a pea and weighs under a gram, yet it releases hormones that control growth, reproduction, and other glands.",
+    "systemId": "endocrine",
+    "organId": "pituitary-gland"
+  },
+  {
+    "id": "fact-044",
+    "text": "Your thyroid is a butterfly-shaped gland in the front of your neck that needs iodine to work. Its hormones set the pace of nearly every cell in your body.",
+    "systemId": "endocrine",
+    "organId": "thyroid"
+  },
+  {
+    "id": "fact-045",
+    "text": "Four glands the size of rice grains sit on the back of your thyroid. The parathyroids control the calcium in your blood, which your nerves and muscles depend on.",
+    "systemId": "endocrine",
+    "organId": "parathyroid"
+  },
+  {
+    "id": "fact-046",
+    "text": "Your adrenal glands sit like caps on top of your kidneys. Their inner core releases adrenaline within seconds, speeding your heart and sharpening your focus.",
+    "systemId": "endocrine",
+    "organId": "adrenal-glands"
+  },
+  {
+    "id": "fact-047",
+    "text": "Your pineal gland is a tiny cone-shaped organ that makes melatonin, the hormone that helps time sleep. In adults it often collects mineral specks called brain sand.",
+    "systemId": "endocrine",
+    "organId": "pineal-gland"
+  },
+  {
+    "id": "fact-048",
+    "text": "Only 1 to 2 percent of your pancreas makes hormones. Those clusters, the islets, number about a million and release insulin and glucagon into your blood.",
+    "systemId": "endocrine",
+    "organId": "pancreatic-islets"
+  },
+  {
+    "id": "fact-049",
+    "text": "Your bone marrow releases about 2 million red blood cells every second, roughly 170 billion a day, replacing the ones your body retires.",
+    "systemId": "immune",
+    "organId": "bone-marrow"
+  },
+  {
+    "id": "fact-050",
+    "text": "Your thymus is largest in childhood and shrinks after puberty. It is the school where immune cells called T cells learn to attack invaders and spare your own tissue.",
+    "systemId": "immune",
+    "organId": "thymus"
+  },
+  {
+    "id": "fact-051",
+    "text": "You have roughly 500 to 600 lymph nodes, and they swell when they are busy fighting an infection. The swelling comes from immune cells multiplying inside the node.",
+    "systemId": "immune",
+    "organId": "lymph-nodes"
+  },
+  {
+    "id": "fact-052",
+    "text": "Your spleen is about the size of your fist and filters your blood. It recycles iron from worn-out red blood cells and stores platelets for later use.",
+    "systemId": "immune",
+    "organId": "spleen"
+  },
+  {
+    "id": "fact-053",
+    "text": "Your lymphatic vessels return about 2 to 4 L (about half a gallon to a gallon) of fluid to your bloodstream every day. Without them, your tissues would swell.",
+    "systemId": "immune",
+    "organId": "lymphatic-vessels"
+  },
+  {
+    "id": "fact-054",
+    "text": "Your tonsils form a ring of immune tissue at the back of your throat, placed where germs you swallow or breathe in first arrive.",
+    "systemId": "immune",
+    "organId": "tonsils"
+  },
+  {
+    "id": "fact-055",
+    "text": "Your kidneys filter about 180 L (48 gal) of fluid a day but release only 1 to 2 L as urine. The rest, including most of the water, is reclaimed.",
+    "systemId": "urinary",
+    "organId": "kidneys"
+  },
+  {
+    "id": "fact-056",
+    "text": "Each kidney holds about a million nephrons, and each nephron is a microscopic filter plus a winding tubule that reclaims what your body needs.",
+    "systemId": "urinary",
+    "organId": "nephrons"
+  },
+  {
+    "id": "fact-057",
+    "text": "Your kidneys receive about 20 to 25 percent of your heart's output, more per gram than almost any other organ. They are built to inspect blood constantly.",
+    "systemId": "urinary",
+    "organId": "kidneys"
+  },
+  {
+    "id": "fact-058",
+    "text": "Your bladder is a stretchy muscular bag that can hold 500 to 700 mL (about 2 to 3 cups) of urine. Nerves signal the urge to go once it fills with 200 to 350 mL, well before it is full.",
+    "systemId": "urinary",
+    "organId": "bladder"
+  },
+  {
+    "id": "fact-059",
+    "text": "The female urethra is about 4 cm (1.5 in) long; the male urethra is roughly 20 cm (8 in) and runs through the prostate and penis.",
+    "systemId": "urinary",
+    "organId": "urethra"
+  },
+  {
+    "id": "fact-060",
+    "text": "Your ureters are two muscular tubes about 25 to 30 cm (10 to 12 in) long. They do not rely on gravity; waves of muscle push urine down to the bladder.",
+    "systemId": "urinary",
+    "organId": "ureters"
+  },
+  {
+    "id": "fact-061",
+    "text": "A newborn girl's ovaries hold about 1 to 2 million eggs. By puberty roughly 300,000 remain, and only about 400 will ever be released.",
+    "systemId": "reproductive",
+    "organId": "ovaries"
+  },
+  {
+    "id": "fact-062",
+    "text": "Your testes produce well over 100 million sperm a day, roughly a thousand every second, though each one takes about two months to mature.",
+    "systemId": "reproductive",
+    "organId": "testes"
+  },
+  {
+    "id": "fact-063",
+    "text": "Your uterus is about the size of a pear, yet during pregnancy it can stretch to hold a fetus, expanding its volume hundreds of times over.",
+    "systemId": "reproductive",
+    "organId": "uterus"
+  },
+  {
+    "id": "fact-064",
+    "text": "Fertilization usually happens in a fallopian tube, not the uterus. Tiny cilia and gentle muscle waves then carry the early embryo toward the uterus.",
+    "systemId": "reproductive",
+    "organId": "fallopian-tubes"
+  },
+  {
+    "id": "fact-065",
+    "text": "Your mammary glands are modified sweat glands. Prolactin switches on milk production, and oxytocin triggers the let-down that releases it.",
+    "systemId": "reproductive",
+    "organId": "mammary-glands"
+  },
+  {
+    "id": "fact-066",
+    "text": "Your prostate is a walnut-sized gland that wraps around the urethra just below the bladder. It adds fluid that helps sperm travel and survive.",
+    "systemId": "reproductive",
+    "organId": "prostate"
+  },
+  {
+    "id": "fact-067",
+    "text": "Your skin is your largest organ, covering about 2 square meters (22 sq ft) and weighing roughly 4 kg (9 lb). It is a waterproof barrier, sensor, and thermostat.",
+    "systemId": "integumentary",
+    "organId": "skin"
+  },
+  {
+    "id": "fact-068",
+    "text": "You shed roughly 500 million skin cells a day. Your epidermis completely renews itself about every four weeks, so the surface you see today is gone by next month.",
+    "systemId": "integumentary",
+    "organId": "skin"
+  },
+  {
+    "id": "fact-069",
+    "text": "You have about 100,000 hairs on your scalp, and each grows around 1 cm (0.4 in) a month. Losing 50 to 100 a day is normal turnover.",
+    "systemId": "integumentary",
+    "organId": "hair"
+  },
+  {
+    "id": "fact-070",
+    "text": "Your fingernails grow about 3.5 mm (0.14 in) a month, while your toenails manage roughly half that pace.",
+    "systemId": "integumentary",
+    "organId": "nails"
+  },
+  {
+    "id": "fact-071",
+    "text": "Your skin contains 2 to 4 million sweat glands. In extreme heat, an adult can lose 1 to 2 L (about a quart to half a gallon) of sweat in an hour.",
+    "systemId": "integumentary",
+    "organId": "sweat-glands"
+  },
+  {
+    "id": "fact-072",
+    "text": "Sebaceous glands open into hair follicles and coat your skin in oil. They are everywhere except the palms of your hands and the soles of your feet.",
+    "systemId": "integumentary",
+    "organId": "sebaceous-glands"
+  },
+  {
+    "id": "fact-073",
+    "text": "The fat under your skin insulates you like a blanket. Babies have more brown fat, a special tissue that burns energy to make heat.",
+    "systemId": "integumentary",
+    "organId": "subcutaneous-fat"
+  },
+  {
+    "id": "fact-074",
+    "text": "Each retina holds about 120 million rods for dim light and 6 million cones for color. In near darkness, you see mostly in shades of gray.",
+    "systemId": "sensory",
+    "organId": "eyes"
+  },
+  {
+    "id": "fact-075",
+    "text": "Your retina is actually brain tissue that grew forward during development. The spot where its nerve fibers exit has no receptors, creating a blind spot.",
+    "systemId": "sensory",
+    "organId": "retina"
+  },
+  {
+    "id": "fact-076",
+    "text": "Your nose can tell apart roughly a trillion different odors, far more than the old estimate of 10,000. Smell also plugs directly into memory and emotion.",
+    "systemId": "sensory",
+    "organId": "nose"
+  },
+  {
+    "id": "fact-077",
+    "text": "Your tongue carries about 10,000 taste buds, replaced every one to two weeks. They detect five tastes: sweet, salty, sour, bitter, and savory.",
+    "systemId": "sensory",
+    "organId": "tongue"
+  },
+  {
+    "id": "fact-078",
+    "text": "Your cochlea is a snail-shell-shaped spiral of bone filled with fluid. About 16,000 hair cells inside it bend to sound and turn pressure waves into nerve signals.",
+    "systemId": "sensory",
+    "organId": "cochlea"
+  },
+  {
+    "id": "fact-079",
+    "text": "Your inner ear contains tiny crystals that sit on a jelly-like pad. When you tilt your head, they shift and tell your brain which way is down.",
+    "systemId": "sensory",
+    "organId": "vestibular-system"
+  },
+  {
+    "id": "fact-080",
+    "text": "The three smallest bones in your body are in your middle ear. The stapes is only about 3 mm long, and together they amplify sound before passing it to your inner ear.",
+    "systemId": "sensory",
+    "organId": "ears"
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "key": "glossary",
+  "reviewedAt": "2026-10-21T16:23:33-05:00",
+  "checks": [
+    {
+      "name": "JSON validity, schema and counts",
+      "passed": true,
+      "notes": "Valid UTF-8 JSON array of exactly 120 terms, matching the README's 120-term count. Every item is an object with term, definition, category and related (all strings or arrays of strings) and no extra keys. systemId is optional in src/lib/types.ts and is read conditionally by the glossary UI, so the 57 system-neutral entries omit it; all 63 values that are present are valid SystemId values. Two-space indent, inline related arrays, double quotes, no trailing commas and a final newline."
+    },
+    {
+      "name": "Alphabetical order, uniqueness and related-term resolution",
+      "passed": true,
+      "notes": "All 120 terms are unique case-insensitively and sorted A-Z, including acronym and hyphen entries (ATP, CT scan, DNA, MRI, X-ray). No duplicate term or definition was found. Every related value resolves to an existing glossary term; arrays contain one or two entries."
+    },
+    {
+      "name": "Definition quality and readability",
+      "passed": true,
+      "notes": "Definitions run 15-29 words, well inside the validator's 8-80 word range. None is circular: no definition uses its own term as the predicate. Examples clarify rather than loop. Jargon is explained in context (hepatocyte is defined as a liver cell) or replaced with plain wording (osmosis now describes the membrane rather than saying semipermeable). US English and the grade 8-10 reading level are retained."
+    },
+    {
+      "name": "Factual accuracy (spot-check of 15 entries)",
+      "passed": true,
+      "notes": "Checked against MedlinePlus/NIH, Britannica, Cleveland Clinic, NCBI Bookshelf and JovE. Confirmed: the autonomic nervous system controls involuntary actions such as heartbeat and blood-vessel width; alveoli exchange oxygen and carbon dioxide between air and blood; endoscopes use a camera and light and may be flexible or rigid; systolic and diastolic are the pumping and between-beat pressures; bone matrix is collagen plus calcium phosphate and red marrow makes blood cells; epithelium can be one or many layers thick and can be protective, absorptive or secretory; enzymes are catalysts not consumed in the reaction and most are proteins, with RNA ribozymes as exceptions; adipose tissue is connective tissue specialized for fat storage; cardiac muscle is autorhythmic and does not require nerve input; supination turns the palm up and pronation down; dorsiflexion lifts the foot toward the body and plantarflexion points it away; plasma is the liquid portion that transports nutrients and waste and contains blood cells; DNA carries protein-building instructions; lymph nodes filter lymph and return it to the blood; cartilage is firm, flexible and cushions joints. The 23 corrections are listed below."
+    },
+    {
+      "name": "Medical advice and editorial policy",
+      "passed": true,
+      "notes": "No diagnosis, treatment, dosage or instruction to seek care. No markdown, HTML, emoji, bullet characters, control characters, double spaces or trailing spaces. No second-person commands or advice. US English spelling throughout. Clinical entries describe what a procedure is, not what a reader should do."
+    },
+    {
+      "name": "Formatting and encoding",
+      "passed": true,
+      "notes": "UTF-8 without a byte-order mark, LF line endings, two-space indentation, double quotes, no trailing commas and a final newline. Inline related arrays and existing key order were preserved; only definition strings changed."
+    },
+    {
+      "name": "Scope discipline",
+      "passed": true,
+      "notes": "Only src/data/glossary.json was edited; this report is new. Facts, history, regions, systems, source code and docs were not changed. A final project-wide validator run passed all 12 systems with 0 errors and 0 warnings."
+    }
+  ],
+  "changes": [
+    "Adipose tissue: replaced 'Body fat stored in loose connective tissue' with 'A type of connective tissue packed with fat-storing cells' so the definition describes adipose tissue itself, not fat inside another tissue.",
+    "Alveolus: changed 'carbon dioxide leaves it' to 'carbon dioxide leaves the blood' to remove the ambiguous pronoun.",
+    "Autonomic nervous system: changed 'runs automatic body functions' to 'regulates involuntary body functions', the standard definition and a more precise verb.",
+    "Blood: changed 'to every organ' to 'to organs throughout the body' because cartilage, cornea and lens are avascular.",
+    "Blood pressure: changed 'pumping and resting phases' to 'contracting and relaxing phases', matching systole and diastole.",
+    "Bone: specified 'calcium phosphate minerals' and 'red marrow', replacing 'calcium minerals' and 'marrow'.",
+    "Capillary: changed 'waste passes back out' to 'waste passes from tissues into the blood' to make the direction explicit.",
+    "Cross-section: removed the vague 'as it would appear in an imaging scan' and defined the slice relative to the structure's long axis.",
+    "Diastole: changed 'resting phase' to 'relaxation phase' and removed the redundant 'relax'.",
+    "DNA: changed 'ladder-shaped' to 'twisted-ladder' and 'in each cell' to 'in nearly every cell', reflecting the double helix and enucleated cells such as mature red blood cells.",
+    "Endoscopy: changed 'a flexible tube' to 'a tube with a camera and light, often flexible', since rigid endoscopes such as arthroscopes and laparoscopes are also used.",
+    "Enzyme: changed 'A protein' to 'A molecule, usually a protein', since some RNA molecules (ribozymes) are catalysts.",
+    "Epithelium: removed 'thin' and added absorption and secretion, since epithelium can be stratified and has protective, absorptive and secretory roles.",
+    "Fertilization: changed 'creating a new human being' to 'development of a new organism', a more precise description of the zygote's first step.",
+    "Midsagittal plane: replaced 'passing through the navel' with 'along the body's midline', because the navel is not a reliable midline landmark in every body.",
+    "Muscle tissue: changed 'shorten under nerve signals' to 'contract, often in response to nerve signals', since cardiac and some smooth muscle contract without direct nerve input.",
+    "Neurotransmitter: expanded 'from one neuron to the next' to include muscle and gland cells, the other main postsynaptic targets.",
+    "Osmosis: replaced the vague 'across a barrier' with 'across a membrane that lets water pass but blocks some dissolved particles', defining the membrane in plain language.",
+    "Plasma: changed 'carrying ... blood cells' to 'while blood cells float in it', since plasma suspends cells rather than dissolving them.",
+    "Pronation: added 'or backward' so the definition holds in anatomical position as well as with the elbow bent.",
+    "Rotation: changed 'a bone' to 'a body part', since rotation such as turning the head occurs around the body part's axis rather than a single bone's long axis.",
+    "Sagittal plane: replaced the disputed 'arrow-shaped suture' explanation with the secure Latin etymology (sagitta, arrow).",
+    "Supination: added 'or forward' so the definition holds in anatomical position as well as with the elbow bent."
+  ],
+  "remainingConcerns": [
+    "systemId is optional in src/lib/types.ts and is read conditionally by the glossary UI. Fifty-seven system-neutral entries omit it; assigning a system to terms such as ATP, DNA or Anterior would be arbitrary and could mislead filtering. If the brief's 'exact schema' is read as requiring systemId on every item, that conflicts with the project's type and content model.",
+    "Fact-checking was a targeted review of the 15 claims listed above and the 23 edited definitions; the remaining definitions are standard anatomy but were not individually source-verified clause by clause.",
+    "Ten entries have a single related term where only one clear glossary cross-reference exists (for example Auscultation and Palpation). The schema does not require two, and adding weak links would reduce quality.",
+    "Some teaching simplifications remain by design: bone is described as a tissue rather than an organ, insertion is described as the attachment that moves, and enzymes are described as molecules usually made of protein. These are accurate at the intended reading level but not exhaustive.",
+    "The brief's facts, history and region checks apply to other data files and were outside this glossary-only review."
+  ]
+}

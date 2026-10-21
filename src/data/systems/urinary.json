@@ -1,0 +1,573 @@
+{
+  "id": "urinary",
+  "name": "Urinary System",
+  "shortName": "Urinary",
+  "tagline": "The body's quiet filtration and water-balance network.",
+  "summary": "Your body is mostly water, and the urinary system decides how much stays. Two kidneys sit against the back wall of your abdomen, filtering your entire blood volume many times a day. They pull out urea, excess salt, and drug byproducts, then hand the leftover fluid to two muscular tubes, the ureters, which push it down to the bladder. The bladder stores it until a convenient moment, and the urethra carries it out. Buried inside each kidney are about a million nephrons, the microscopic filters that do the real work.\n\nWhat sets this system apart is its precision. Your kidneys reclaim almost everything they filter, returning water, glucose, and minerals to your blood while letting waste pass. They also release hormones that steer blood pressure and red blood cell production, and they adjust acid levels to keep your blood chemistry steady. When blood pressure falls, they hold onto sodium and water. When you drink more than you need, they let the excess go.\n\nThe work is a series of small adjustments, not dramatic ones. You notice the system mainly through thirst and the simple relief of an empty bladder. The next time you raise a glass of water, remember that two organs in your back are already deciding what to do with it.",
+  "color": "#5c7a9e",
+  "stats": [
+    {
+      "value": "~1 million",
+      "label": "nephrons per kidney"
+    },
+    {
+      "value": "180 L",
+      "label": "of fluid filtered daily"
+    },
+    {
+      "value": "1.5 L",
+      "label": "of urine made each day"
+    }
+  ],
+  "functions": [
+    "Filters waste, drug byproducts, and excess water from your blood",
+    "Balances sodium, potassium, and water in every tissue",
+    "Holds blood pH steady by adjusting acid and bicarbonate",
+    "Signals red blood cell production with erythropoietin",
+    "Stores urine and releases it when you choose"
+  ],
+  "organs": [
+    {
+      "id": "kidneys",
+      "systemId": "urinary",
+      "name": "Kidneys",
+      "latin": "Renes",
+      "alsoKnownAs": [
+        "The filters"
+      ],
+      "region": "abdomen",
+      "tagline": "Two bean-shaped filters that clean your blood all day.",
+      "summary": "Your kidneys are two bean-shaped organs tucked against the back wall of your abdomen, one on each side of the spine, just above your waist. Each is about the size of a bar of soap and weighs roughly 150 grams (5 ounces). The right one sits slightly lower because the liver takes up space above it. A tough capsule wraps each kidney, and inside, an outer cortex and inner medulla surround a funnel called the renal pelvis that narrows into the ureter.\n\nEvery minute, roughly a fifth of the blood your heart pumps passes through these organs, and inside them about a million microscopic filters called nephrons clean it. They pull out urea, excess salt, and water, then return the rest to your bloodstream. Your kidneys also fine-tune blood pressure, balance acid, and release a hormone that tells your bone marrow to make red blood cells. You can live with one, which is lucky, because they work quietly and give few warnings when they fail.",
+      "functions": [
+        {
+          "title": "Filter the blood",
+          "detail": "Nephrons remove urea, excess salts, and foreign molecules, then send the waste out as urine."
+        },
+        {
+          "title": "Balance water and electrolytes",
+          "detail": "The kidneys decide how much sodium, potassium, and water to keep, adjusting urine concentration to match your needs."
+        },
+        {
+          "title": "Steady blood pressure",
+          "detail": "They sense pressure and release renin, a hormone that helps tighten blood vessels and hold onto salt."
+        },
+        {
+          "title": "Support red blood cells",
+          "detail": "When oxygen runs low, they release erythropoietin, which prompts bone marrow to produce more red blood cells."
+        },
+        {
+          "title": "Protect blood pH",
+          "detail": "They shed excess acid and reclaim bicarbonate, keeping the chemistry of your blood within a narrow safe range."
+        }
+      ],
+      "location": "Against the back wall of the abdomen on either side of the spine, behind the peritoneum, roughly at the level of the lowest ribs.",
+      "size": "About 10 to 12 cm (4 to 5 in) long and 150 g (5 oz), roughly the size of a bar of soap.",
+      "facts": [
+        "Your kidneys filter about 180 liters (48 gallons) of fluid a day, then return almost all of it to your blood.",
+        "Each kidney is fed by a renal artery that splits into five segmental branches before the blood reaches the nephrons.",
+        "The right kidney usually sits a little lower than the left because the liver occupies the space above it."
+      ],
+      "conditions": [
+        {
+          "name": "Chronic kidney disease",
+          "description": "Filtering capacity declines slowly over years, so waste builds up and fluid balance becomes harder to maintain."
+        },
+        {
+          "name": "Kidney stones",
+          "description": "Minerals crystallize into hard stones inside the kidney, which can cause waves of severe pain as they move."
+        },
+        {
+          "name": "Kidney infection",
+          "description": "Bacteria traveling up from the bladder reach the kidney, causing fever, back pain, and inflammation of the tissue."
+        }
+      ],
+      "relatedOrgans": [
+        "aorta",
+        "adrenal-glands",
+        "nephrons",
+        "ureters"
+      ],
+      "keywords": [
+        "kidney",
+        "renal",
+        "filtration",
+        "urine",
+        "blood pressure"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Kidneys",
+          "url": "https://my.clevelandclinic.org/health/body/21824-kidney"
+        },
+        {
+          "label": "NIDDK — Your Kidneys and How They Work",
+          "url": "https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work"
+        }
+      ],
+      "heroStat": {
+        "value": "1 million",
+        "label": "nephrons per kidney"
+      }
+    },
+    {
+      "id": "ureters",
+      "systemId": "urinary",
+      "name": "Ureters",
+      "latin": "Ureteres",
+      "region": "abdomen",
+      "tagline": "Narrow muscle-walled tubes that push urine downhill.",
+      "summary": "A ureter is a narrow muscular tube, about 25 to 30 cm (10 to 12 in) long and only 3 to 4 mm wide, that carries urine from a kidney to the bladder. One runs down each side of your abdomen, draped over the psoas muscle and tucked behind the peritoneum. These are not simple drains: their walls hold smooth muscle that squeezes in waves, pushing urine along in small spurts rather than letting it fall through by gravity.\n\nWhere each ureter meets the bladder, it tunnels through the wall at an angle, creating a flap-like valve. When your bladder fills and pressure rises, that tunnel pinches shut, protecting the kidneys from backward flow. Each tube is narrowest at three points: where it leaves the kidney, where it crosses the pelvic brim, and where it passes into the bladder wall. A kidney stone can lodge at any of them, which is why stone pain often arrives in waves as muscle squeezes against the blockage. Most days, you never notice them.",
+      "functions": [
+        {
+          "title": "Carry urine to the bladder",
+          "detail": "Smooth muscle in the wall contracts in waves, pushing urine downward in small pulses called peristalsis."
+        },
+        {
+          "title": "Block backward flow",
+          "detail": "The angled entry into the bladder closes as the bladder fills, keeping urine and bacteria out of the kidneys."
+        },
+        {
+          "title": "Bend without kinking",
+          "detail": "A folded inner lining and flexible wall let each tube stretch, collapse, and move with your body without blocking the flow."
+        }
+      ],
+      "location": "Each ureter begins at the renal pelvis, runs down the back of the abdomen over the psoas muscle, and enters the bladder from below.",
+      "size": "About 25 to 30 cm (10 to 12 in) long and 3 to 4 mm wide, narrow enough for a small stone to block the flow completely.",
+      "facts": [
+        "Your bladder never receives a steady trickle: each ureter delivers urine in small squirts, a few times a minute.",
+        "Ureters do not rely on gravity: waves of muscle push urine upward even when you are lying down.",
+        "They enter the bladder at a slant, so a full bladder squeezes the opening shut instead of forcing urine back up."
+      ],
+      "conditions": [
+        {
+          "name": "Ureteral stone",
+          "description": "A kidney stone slips into a ureter and lodges in one of its narrow points, blocking the flow of urine."
+        },
+        {
+          "name": "Hydronephrosis",
+          "description": "A blockage slows urine leaving the kidney, so the renal pelvis and the calyces around it swell with backed-up fluid."
+        },
+        {
+          "name": "Vesicoureteral reflux",
+          "description": "The valve-like entry does not close properly, letting urine flow backward from the bladder toward the kidney."
+        }
+      ],
+      "relatedOrgans": [
+        "kidneys",
+        "bladder",
+        "nephrons"
+      ],
+      "keywords": [
+        "ureter",
+        "peristalsis",
+        "urine flow",
+        "kidney stone",
+        "reflux"
+      ],
+      "sources": [
+        {
+          "label": "Kenhub — Ureters",
+          "url": "https://www.kenhub.com/en/library/anatomy/the-ureters"
+        },
+        {
+          "label": "TeachMeAnatomy — The Ureters",
+          "url": "https://teachmeanatomy.info/pelvis/viscera/ureters/"
+        }
+      ],
+      "heroStat": {
+        "value": "25 cm",
+        "label": "long, each one"
+      }
+    },
+    {
+      "id": "bladder",
+      "systemId": "urinary",
+      "name": "Urinary Bladder",
+      "latin": "Vesica urinaria",
+      "alsoKnownAs": [
+        "The storage tank"
+      ],
+      "region": "pelvis",
+      "tagline": "A stretchy muscular sac that holds urine until you choose.",
+      "summary": "Your bladder is a hollow, stretchy bag that sits low in your pelvis behind the pubic bone. In women it rests in front of the vagina; in men it sits above the prostate. Its wall is built from a muscle called the detrusor, arranged in crisscrossing bundles, and lined with a waterproof tissue called urothelium. Empty, it collapses into folds called rugae and is no bigger than a plum. Full, it rises into the abdomen and its wall thins.\n\nThe bladder is a storage tank, not a pump. It holds roughly 400 to 600 mL (about 1.5 to 2.5 cups) comfortably, and the first gentle urge to urinate usually arrives around 150 to 250 mL. Stretch receptors in the wall report the volume to your spinal cord and brain. When you decide the time is right, the detrusor contracts while two sphincters relax. A smooth triangle called the trigone, where the ureters and urethra meet, helps keep the exit sealed until then.",
+      "functions": [
+        {
+          "title": "Store urine at low pressure",
+          "detail": "The detrusor muscle relaxes and the wall unfolds, letting the bladder hold several hundred milliliters without a rise in pressure."
+        },
+        {
+          "title": "Report how full it is",
+          "detail": "Stretch receptors in the wall send steady updates to the spinal cord and brain, producing the urge to urinate."
+        },
+        {
+          "title": "Release urine on command",
+          "detail": "When you decide to go, the detrusor contracts and the internal and external sphincters open in sequence."
+        },
+        {
+          "title": "Guard the kidneys",
+          "detail": "The slanting tunnels of the ureters close as the bladder fills, so pressure does not push urine back toward the kidneys."
+        }
+      ],
+      "location": "In the pelvis behind the pubic symphysis; in women it lies in front of the vagina, in men above the prostate.",
+      "size": "About the size of a plum when empty, expanding to hold roughly 400 to 600 mL (1.5 to 2.5 cups).",
+      "facts": [
+        "A full bladder can rise out of the pelvis and reach above the pubic bone into the lower abdomen.",
+        "Its inner lining, the urothelium, is waterproof and stretches without leaking.",
+        "The first urge to urinate usually arrives when the bladder holds only about 150 to 250 mL, well before it is full."
+      ],
+      "conditions": [
+        {
+          "name": "Cystitis",
+          "description": "The bladder lining becomes inflamed, usually from a bacterial infection, causing burning, urgency, and frequent urination."
+        },
+        {
+          "name": "Overactive bladder",
+          "description": "The detrusor contracts before the bladder is full, creating sudden urgency and sometimes involuntary leakage."
+        },
+        {
+          "name": "Urinary retention",
+          "description": "The bladder cannot empty fully, so urine stays behind and the organ remains uncomfortably full."
+        }
+      ],
+      "relatedOrgans": [
+        "ureters",
+        "urethra",
+        "prostate",
+        "pelvis"
+      ],
+      "keywords": [
+        "bladder",
+        "detrusor",
+        "urination",
+        "urothelium",
+        "storage"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Urinary Bladder",
+          "url": "https://my.clevelandclinic.org/health/body/25010-bladder"
+        },
+        {
+          "label": "Kenhub — Urinary Bladder",
+          "url": "https://www.kenhub.com/en/library/anatomy/urinary-bladder"
+        }
+      ],
+      "heroStat": {
+        "value": "500 mL",
+        "label": "typical capacity"
+      }
+    },
+    {
+      "id": "urethra",
+      "systemId": "urinary",
+      "name": "Urethra",
+      "latin": "Urethra",
+      "region": "pelvis",
+      "tagline": "The final gate, sealed by two rings of muscle.",
+      "summary": "The urethra is the final stretch of the urinary tract, a short tube that carries urine from the bladder out of the body. In women it is only about 3 to 4 cm (1.2 to 1.6 in) long and opens just in front of the vagina. In men it is much longer, roughly 18 to 20 cm (7 to 8 in), and runs through the prostate and along the penis. A ring of smooth muscle, the internal sphincter, seals it automatically; a second ring of skeletal muscle lets you hold on deliberately.\n\nThat double seal is why you can delay urination, laugh, or sneeze without leaking. The tube is lined with a moist mucous membrane and small glands. Because the female urethra is short and sits close to the vagina and anus, bacteria have less distance to travel, so infections are more common in women. In men, the prostate wraps around the first part of the urethra, so an enlarged prostate can squeeze the tube and slow the flow.",
+      "functions": [
+        {
+          "title": "Carry urine out of the body",
+          "detail": "It channels urine from the bladder through the pelvic floor and out through an opening called the external urethral orifice."
+        },
+        {
+          "title": "Hold urine back",
+          "detail": "An involuntary internal sphincter and a voluntary external sphincter form a double seal you can relax on command."
+        },
+        {
+          "title": "Carry semen in men",
+          "detail": "In the male body the same tube transports semen during ejaculation, so it belongs to two systems at once."
+        }
+      ],
+      "location": "It begins at the bladder neck and opens to the outside; in women the opening lies in front of the vagina, in men at the tip of the penis.",
+      "size": "About 3 to 4 cm (1.2 to 1.6 in) long in women and roughly 18 to 20 cm (7 to 8 in) in men.",
+      "facts": [
+        "The male urethra has three named segments, prostatic, membranous, and spongy, each named for the tissue it passes through.",
+        "Two sphincters guard the exit: one works automatically, the other follows your conscious decision.",
+        "In men, the same tube carries both urine and semen, though not at the same time."
+      ],
+      "conditions": [
+        {
+          "name": "Urethritis",
+          "description": "The lining of the urethra becomes inflamed, often from infection, causing burning or discomfort during urination."
+        },
+        {
+          "name": "Urethral stricture",
+          "description": "Scar tissue narrows the tube, so urine must push through a tighter opening, which can weaken the stream."
+        },
+        {
+          "name": "Stress incontinence",
+          "description": "Pressure from a cough or laugh overwhelms the sphincters, letting a small amount of urine escape."
+        }
+      ],
+      "relatedOrgans": [
+        "bladder",
+        "prostate",
+        "penis"
+      ],
+      "keywords": [
+        "urethra",
+        "sphincter",
+        "urination",
+        "urethritis",
+        "outflow"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Urethra",
+          "url": "https://my.clevelandclinic.org/health/body/23002-urethra"
+        },
+        {
+          "label": "TeachMeAnatomy — The Urethra",
+          "url": "https://teachmeanatomy.info/pelvis/viscera/urethra/"
+        }
+      ],
+      "heroStat": {
+        "value": "3-4 cm",
+        "label": "female length"
+      }
+    },
+    {
+      "id": "nephrons",
+      "systemId": "urinary",
+      "name": "Nephrons",
+      "region": "abdomen",
+      "tagline": "A million microscopic filters in each kidney.",
+      "summary": "A nephron is the kidney's microscopic filtering unit, and you have about a million in each kidney. Each one begins with a tiny ball of capillaries called the glomerulus, cradled inside a cup-shaped capsule called Bowman's capsule. From there a long, twisting tubule runs through the cortex, dips into the medulla as the loop of Henle, and returns. Wrapped around the tubule is a second capillary web that reclaims water, glucose, sodium, and other useful molecules before they can leave the body.\n\nThe scale is easy to underestimate. Uncoiled end to end, the tubules from both kidneys would stretch for tens of kilometers. Every day, your glomeruli filter about 180 liters (48 gallons) of fluid, and the tubules return roughly 99 percent of it to your blood. What remains, about 1.5 liters, leaves as urine. That relentless reclaiming is why a kidney can fine-tune your water, salt, and acid balance minute by minute, and why nephron damage matters so much: you are born with a fixed supply.",
+      "functions": [
+        {
+          "title": "Filter the blood",
+          "detail": "The glomerulus pushes water and small dissolved molecules through a fine barrier while holding back cells and most proteins."
+        },
+        {
+          "title": "Reclaim what is useful",
+          "detail": "The tubule returns most filtered water, glucose, sodium, and amino acids to the blood instead of losing them in urine."
+        },
+        {
+          "title": "Concentrate urine",
+          "detail": "The loop of Henle builds a salt gradient in the medulla, letting the collecting duct pull back water and make urine more concentrated."
+        },
+        {
+          "title": "Fine-tune the blood",
+          "detail": "Hormones acting on the tubule adjust acid, potassium, and calcium, keeping blood chemistry within a narrow range."
+        }
+      ],
+      "location": "Packed throughout the cortex and medulla of each kidney, from the outer rim to the tips of the renal pyramids.",
+      "size": "The glomerulus is only about 0.2 mm across, while each nephron's straightened tubule would run 3 to 5 cm.",
+      "facts": [
+        "A single nephron's tubule, straightened out, would run about 3 to 5 cm, though it coils into a fraction of that space.",
+        "Your nephrons filter about 180 liters (48 gallons) of fluid daily but return roughly 99 percent of it to your blood.",
+        "Almost all your nephrons form before birth, and the body does not make new ones to replace those lost."
+      ],
+      "conditions": [
+        {
+          "name": "Glomerulonephritis",
+          "description": "Inflammation damages the glomerular filter, allowing blood cells and protein to leak into the urine."
+        },
+        {
+          "name": "Diabetic nephropathy",
+          "description": "Long-standing high blood sugar injures the tiny vessels of the glomerulus, slowly reducing filtering capacity."
+        },
+        {
+          "name": "Acute tubular necrosis",
+          "description": "A sudden drop in blood flow or exposure to a toxin injures tubule cells, so the kidney cannot filter effectively."
+        }
+      ],
+      "relatedOrgans": [
+        "kidneys",
+        "capillaries",
+        "ureters"
+      ],
+      "keywords": [
+        "nephron",
+        "glomerulus",
+        "loop of henle",
+        "filtration",
+        "reabsorption"
+      ],
+      "sources": [
+        {
+          "label": "Kenhub — Histology of the Urinary System",
+          "url": "https://www.kenhub.com/en/library/anatomy/histology-of-the-urinary-system"
+        },
+        {
+          "label": "NIDDK — Your Kidneys and How They Work",
+          "url": "https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work"
+        }
+      ],
+      "heroStat": {
+        "value": "~99%",
+        "label": "of filtrate reclaimed"
+      }
+    }
+  ],
+  "lesson": {
+    "id": "lesson-urinary",
+    "title": "From blood to urine: a tour of the urinary system",
+    "subtitle": "Follow a liter of water from your bloodstream to the moment you let it go.",
+    "durationMin": 8,
+    "level": "beginner",
+    "steps": [
+      {
+        "title": "A glass of water",
+        "body": "You drink a glass of water. Within minutes it is in your blood, and within an hour your kidneys have inspected it. Most of it will come back. A little will leave, carrying dissolved waste. That is the bargain your urinary system makes every minute: keep what the body needs, release what it does not. The whole system is smaller than you might expect, tucked into your lower back and pelvis, yet its adjustments reach nearly every other organ. Follow that glass of water from your bloodstream to the moment you let it go.",
+        "keyPoint": "Your urinary system is a filtering and recycling service, not just a drain."
+      },
+      {
+        "title": "Two filters in your back",
+        "body": "Place your hands on your lower back, thumbs near the spine. Your kidneys sit roughly there, one on each side, cushioned in fat and guarded by the lowest ribs. Each is about the size of a bar of soap, bean-shaped, with a notch on the inner edge where blood vessels and the ureter come and go. Despite that modest size, the pair handles about a fifth of everything your heart pumps, roughly a liter of blood every minute. That traffic explains the next stop, because the real work happens at a scale too small to see.",
+        "organId": "kidneys",
+        "keyPoint": "Your kidneys handle about a fifth of your heart's output, minute after minute."
+      },
+      {
+        "title": "The million tiny filters",
+        "body": "Inside each kidney sit about a million nephrons, and each one is a miniature processing line. It starts with the glomerulus, a knot of capillaries squeezed into a cup. Blood pressure pushes water and small molecules through the capillary wall while cells and most proteins stay behind. The filtrate then enters a long tubule that twists through the cortex, dives into the medulla, and climbs back out. Along the way, the tubule reclaims water, glucose, and salts. Only about one percent of the original filtrate is allowed to become urine. The rest returns to the blood it came from.",
+        "organId": "nephrons",
+        "keyPoint": "A nephron filters first, then reclaims almost everything it just removed."
+      },
+      {
+        "title": "The long way down",
+        "body": "The finished urine leaves the nephrons and collects in the renal pelvis, a funnel that narrows into the ureter. Each ureter is a muscular tube about 25 to 30 cm long but only 3 to 4 mm wide, narrower than a drinking straw. It does not rely on gravity. Waves of smooth muscle squeeze the tube, pushing urine downward in small pulses, even when you are lying flat on your back. Each tube is narrowest at three points, which is why a passing kidney stone tends to announce itself in waves rather than a steady ache.",
+        "organId": "ureters",
+        "keyPoint": "Ureters are active pumps, not passive drains."
+      },
+      {
+        "title": "The stretchy waiting room",
+        "body": "Urine arrives in the bladder, a hollow bag of crisscrossing muscle lined with waterproof tissue. Empty, it is about the size of a plum. As it fills, the wall unfolds and thins, and stretch receptors begin reporting the volume to your spinal cord and brain. The first gentle urge usually arrives around 150 to 250 mL, long before the bladder is full at roughly 400 to 600 mL. Notice how the ureters enter at a slant: as the bladder fills, that angled tunnel closes, so pressure cannot push urine back toward the kidneys. Storage, in other words, is an active job.",
+        "organId": "bladder",
+        "keyPoint": "Your bladder signals early and often, which is why you can usually wait."
+      },
+      {
+        "title": "The final gate",
+        "body": "At the base of the bladder, the urethra takes over. Two rings of muscle guard it. The internal sphincter is smooth muscle and works without your input, staying closed by default. The external sphincter is skeletal muscle, the kind you control, which is why you can hold on through a meeting or a laugh. When you decide to go, the detrusor muscle of the bladder contracts and both sphincters relax in sequence. In women the tube is only about 3 to 4 cm long; in men it is much longer and passes through the prostate.",
+        "organId": "urethra",
+        "keyPoint": "One sphincter is automatic and one is under your command."
+      },
+      {
+        "title": "The kidney's other job",
+        "body": "You have followed the whole route, so step back and look at what else the kidneys do. They are not only cleaning blood; they are also a signaling organ. When the body is short on water, antidiuretic hormone rises, the collecting ducts reclaim more, and the urine left behind is darker and more concentrated. The same organs release renin to steady blood pressure and erythropoietin to prompt red blood cell production. Thirst, pressure, and urine concentration are three readouts from one negotiation, and the kidneys sit at the center of it.",
+        "organId": "kidneys",
+        "keyPoint": "Water balance is a running negotiation, and your kidneys keep the books."
+      },
+      {
+        "title": "Back to the glass",
+        "body": "Your glass of water has finished its trip: into your blood, through a nephron, down a ureter, into the bladder, and out. The theme the whole way was reclaiming. The system holds onto almost everything it filters and releases only the concentrated remainder, while the kidneys quietly adjust blood pressure, acid balance, and red cell production. None of that work asks for your attention, which is exactly why the whole system is easy to overlook. Explore the kidneys next, then the nephrons, and see how much work hides inside two small organs.",
+        "keyPoint": "Filter, reclaim, store, release: four verbs that keep your internal sea stable."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": "urinary-q1",
+      "systemId": "urinary",
+      "question": "What is the microscopic filtering unit of the kidney called?",
+      "options": [
+        "Ureter",
+        "Glomerulus",
+        "Nephron",
+        "Trigone"
+      ],
+      "answerIndex": 2,
+      "explanation": "Each kidney contains about a million nephrons. A nephron begins with a glomerulus, but the nephron as a whole, including its tubule, is the kidney's filtering unit.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "urinary-q2",
+      "systemId": "urinary",
+      "question": "Which structures carry urine from the kidneys to the bladder?",
+      "options": [
+        "Ureters",
+        "Urethra",
+        "Renal pelvis",
+        "Collecting ducts"
+      ],
+      "answerIndex": 0,
+      "explanation": "Two ureters, each about 25 to 30 cm long, carry urine from the renal pelvis of each kidney down to the bladder using waves of smooth muscle.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "urinary-q3",
+      "systemId": "urinary",
+      "question": "Which organ stores urine before it leaves the body?",
+      "options": [
+        "Kidney",
+        "Urinary bladder",
+        "Ureter",
+        "Urethra"
+      ],
+      "answerIndex": 1,
+      "explanation": "The bladder is a hollow muscular sac that stores urine until you choose to release it, then contracts to push the urine out.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "urinary-q4",
+      "systemId": "urinary",
+      "question": "Why does the angled entry of the ureter into the bladder matter?",
+      "options": [
+        "It speeds up the flow of urine",
+        "It lets urine flow in both directions",
+        "It filters bacteria out of the urine",
+        "It closes as the bladder fills to prevent backward flow"
+      ],
+      "answerIndex": 3,
+      "explanation": "The ureter tunnels through the bladder wall at a slant. When the bladder fills, that tunnel pinches shut, protecting the kidneys from a backward push of urine and bacteria.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "urinary-q5",
+      "systemId": "urinary",
+      "question": "What happens when the detrusor muscle contracts and both sphincters relax?",
+      "options": [
+        "Urine is filtered inside the kidney",
+        "Blood pressure rises sharply",
+        "Urine is released from the bladder",
+        "The ureters stop moving urine"
+      ],
+      "answerIndex": 2,
+      "explanation": "The detrusor is the bladder's main muscle. When it contracts while the internal and external sphincters relax, urine flows out through the urethra.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "urinary-q6",
+      "systemId": "urinary",
+      "question": "Why are urinary tract infections more common in women than in men?",
+      "options": [
+        "Women produce more urine each day",
+        "The female urethra is much shorter",
+        "Women have larger kidneys",
+        "Women have no external sphincter"
+      ],
+      "answerIndex": 1,
+      "explanation": "The female urethra is only about 3 to 4 cm long and sits close to the vagina and anus, so bacteria have a shorter distance to travel toward the bladder.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "urinary-q7",
+      "systemId": "urinary",
+      "question": "Roughly how much of the fluid filtered by your nephrons returns to your blood?",
+      "options": [
+        "About 10 percent",
+        "About 50 percent",
+        "About 75 percent",
+        "About 99 percent"
+      ],
+      "answerIndex": 3,
+      "explanation": "Your glomeruli filter about 180 liters a day, but the tubules reclaim roughly 99 percent of the water and useful molecules. Only about 1.5 liters leaves as urine.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "urinary-q8",
+      "systemId": "urinary",
+      "question": "Why can an enlarged prostate make urination slow or difficult?",
+      "options": [
+        "It wraps around the first part of the urethra and squeezes it",
+        "It blocks the ureters near the kidneys",
+        "It stops the bladder from filling",
+        "It shuts down the nephrons"
+      ],
+      "answerIndex": 0,
+      "explanation": "In men the prostate surrounds the first section of the urethra. When the prostate enlarges, it narrows that tube, so urine must push through a tighter opening.",
+      "difficulty": "hard"
+    }
+  ]
+}

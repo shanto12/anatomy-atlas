@@ -1,0 +1,81 @@
+{
+  "systemId": "cardiovascular",
+  "reviewedAt": "2026-10-21T16:38:19-05:00",
+  "checks": [
+    {
+      "name": "JSON validity and schema",
+      "passed": true,
+      "notes": "Parses as UTF-8 JSON with two-space indentation and a trailing newline. Top-level keys, types, and allowed values match CONTENT_SPEC v1; color is #b23a4a and every organ and quiz item carries systemId 'cardiovascular'."
+    },
+    {
+      "name": "Organ IDs, order, and cross-system references",
+      "passed": true,
+      "notes": "Exactly 8 organs in the required order: heart, aorta, coronary-arteries, arteries, veins, capillaries, vena-cava, pulmonary-arteries. No duplicate organ ID in this file or across the 12 system files present; every relatedOrgans target resolves, including the cross-system lungs and alveoli."
+    },
+    {
+      "name": "Lengths and field counts",
+      "passed": true,
+      "notes": "System summary is 232 words in 3 paragraphs (180-240); organ summaries run 142-163 words in 2 paragraphs (110-170); every organ has exactly 3 facts, 2-3 conditions, 2 sources, 3-5 functions, 3-6 lowercase keywords and a valid heroStat. All 8 lesson bodies are 90-111 words; quiz explanations are 25-32 words."
+    },
+    {
+      "name": "Medical accuracy spot-check",
+      "passed": true,
+      "notes": "Checked more than a dozen specific claims against Cleveland Clinic, NHLBI, Kenhub, MedlinePlus/StatPearls and a cadaveric LV/RV thickness study: 100,000 beats/day; about 10 oz heart; LV wall roughly 3x RV; aorta over 30 cm long and 2.5-3 cm wide; main coronary arteries 3-4 mm and about 5% of cardiac output; pulmonary trunk 5 x 3 cm; pulmonary pressure about one-fifth of aortic; capillaries 5-10 micrometers and one cell thick; veins holding about 70% of blood volume; IVC 2-3 cm and the widest vein; roughly 100,000 km of vessels. Corrected circuit direction, valve and septum roles, the 'only artery' absolute, and several size or flow details."
+    },
+    {
+      "name": "Sources and allowlist",
+      "passed": true,
+      "notes": "All 15 unique URLs (16 source entries; the Kenhub histology page serves both arteries and veins) returned HTTP 200 with curl -L using a normal browser user agent and resolve to the expected pages on MedlinePlus, NHLBI, Cleveland Clinic, or Kenhub. Six Cleveland Clinic pages return 403 to curl's default user agent because of bot protection but load normally in a browser. Every domain is on the CONTENT_SPEC allowlist; there are no Wikipedia, blog, or AI-generated URLs."
+    },
+    {
+      "name": "Safety and medical advice",
+      "passed": true,
+      "notes": "Conditions remain educational descriptions only. No dosages, treatments, diagnostic instructions, or calls to seek care. The wrist-pulse passage is a learning exercise, not medical advice."
+    },
+    {
+      "name": "Quiz quality",
+      "passed": true,
+      "notes": "8 questions with ids q1-q8, 4 options each, answer indexes 1,2,0,3,1,0,3,2, explanation for every item, and a 3 easy / 3 medium / 2 hard mix. Replaced a true but non-causal distractor in q4, rewrote q7's stem and options so the answer explains the anatomical placement, and rewrote q8's explanation. No 'all of the above' or 'none of the above'."
+    },
+    {
+      "name": "Lesson structure and flow",
+      "passed": true,
+      "notes": "8 steps: step 1 hooks, steps 2-7 focus on heart, pulmonary arteries, aorta, coronary arteries, capillaries and veins (6 organ-linked steps), and step 8 recaps with next exploration. Fixed the step 2 handoff into the pulmonary step and added a transition back to the traveling drop after the coronary detour."
+    },
+    {
+      "name": "Voice, spelling, and formatting",
+      "passed": true,
+      "notes": "US English throughout. No markdown, HTML, emoji, bullet characters, double spaces, trailing spaces, or UK spellings. Technical jargon was reduced where it was undefined (myocardium, aortic root, endothelial cells), and repeated filler was trimmed."
+    }
+  ],
+  "changes": [
+    "Corrected the pulmonary-circuit sentence: oxygen-rich blood returns to the left side of the heart, not the right.",
+    "Replaced 'roughly a gallon' with 'a little more than a gallon' for 5 L and added the 60,000-mile equivalent for 100,000 km.",
+    "Fixed heart-sound attribution: valves close in two stages (AV then semilunar), not the AV valves alone.",
+    "Corrected the claim that four valves separate the two circuits; the septum separates the chambers and the valves enforce one-way flow.",
+    "Qualified the pulmonary-artery superlative to adults and after birth, since fetal umbilical arteries also carry oxygen-poor blood.",
+    "Corrected the vena cava drainage wording: the gut drains through the portal and hepatic route, so the IVC is described as receiving blood from the legs, pelvis, kidneys and liver.",
+    "Changed 'largest vein' to 'widest vein' for the IVC and widened its cited diameter to 2-3 cm to match source ranges.",
+    "Changed the venous reservoir figure from 60-70% to about 70%, since the cited range sat below Cleveland Clinic's nearly 75%.",
+    "Replaced 'red cells folding' with 'squeezing', 'cannot use any of it' with 'cannot get enough oxygen from it', and 'the aorta's elastic recoil' with 'a pressure wave that began in the aorta'.",
+    "Clarified heart failure as weak pumping or poor filling, and described capillaries as often no wider than a red blood cell.",
+    "Removed teleological wording from the capillary step ('on purpose') and rephrased the 'never rests' keyPoint as 'works every second'.",
+    "Made q1 and q4 explanations state that the right ventricle pumps the same volume, not less, which avoids reinforcing a common misconception.",
+    "Replaced a duplicated aorta fact about width and a quarter with the aorta's length and status as the largest blood vessel.",
+    "Changed 'every other artery' to 'every systemic artery' and 'retina to toenail' to 'retina to fingertip'.",
+    "Reduced jargon: 'myocardium' to 'heart muscle', 'aortic root' to 'base of the aorta', and 'endothelial cells' to 'flat cells'.",
+    "Fixed the lesson handoff at the end of step 2 so it leads into the pulmonary step, and added a transition back to the traveling drop after the coronary detour.",
+    "Replaced q4's 'It receives blood from the lungs' distractor, which was true but non-causal, with 'It contracts more often than the right ventricle'.",
+    "Rewrote q7 so the stem asks about the coronary origin and the answer explains first access to oxygen-rich blood at aortic pressure, replacing a loose 'so close to the valve' rationale.",
+    "Rewrote the pulmonary-pressure wording in the organ summary, lesson step 3 and the q8 explanation to attribute it to the short, low-resistance circuit rather than to thin walls or delicate air sacs."
+  ],
+  "sourcesChecked": 15,
+  "sourcesOk": 15,
+  "remainingConcerns": [
+    "The 100,000 km (60,000 mi) vessel-length figure is a widely cited order-of-magnitude estimate, not a measured constant.",
+    "Venous capacitance varies with posture and activity; 'about 70 percent' is an approximation, and Cleveland Clinic gives nearly 75%.",
+    "The 2-3 cm inferior vena cava diameter is a normal adult range; individual diameters vary with breathing and volume status.",
+    "Six Cleveland Clinic URLs return 403 to a bare curl client but 200 with a normal browser user agent; they were verified as live pages and kept rather than replaced.",
+    "The adults/after-birth qualifier on the pulmonary-artery superlative deliberately sets aside the fetal umbilical arteries, which also carry oxygen-poor blood before they close."
+  ]
+}
