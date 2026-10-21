@@ -1,0 +1,720 @@
+{
+  "id": "respiratory",
+  "name": "Respiratory System",
+  "shortName": "Breathing",
+  "tagline": "The body's interface with the air around it.",
+  "summary": "Every few seconds, without a thought, you pull a little of the outside world into your body. Your respiratory system is both doorway and delivery route: air slips past your vocal folds, down a windpipe, and into two branching lungs. The entire apparatus exists for one intimate trade, oxygen in and carbon dioxide out, across a membrane thinner than a soap bubble.\n\nThe design is a tree turned inward. Airways split from bronchi into bronchioles and finally into millions of grape-like alveoli, where gas exchange happens. A double membrane called the pleura lets your lungs slide against your ribs, and your diaphragm does most of the pumping: it flattens, your chest expands, pressure drops, and air rushes in. Exhaling is mostly elastic recoil, the lungs springing back like a stretched balloon.\n\nIt is also your voice, your sense of smell, your acid-base balance, and part of how you cool down. Breath is the body's most visible rhythm, roughly 20,000 cycles a day. Because the lungs meet the outside world directly, they are exposed in a way your heart and liver are not.",
+  "color": "#6a8f8b",
+  "stats": [
+    {
+      "value": "~300 million",
+      "label": "alveoli in a pair of lungs"
+    },
+    {
+      "value": "70 m²",
+      "label": "of gas-exchange surface"
+    },
+    {
+      "value": "~20,000",
+      "label": "breaths a day"
+    }
+  ],
+  "functions": [
+    "Pulls oxygen from the air into your bloodstream",
+    "Removes carbon dioxide, the waste gas your cells produce",
+    "Helps hold blood pH steady by adjusting how fast you breathe",
+    "Produces sound as air moves across your vocal folds",
+    "Filters, warms, and moistens the air before it reaches the depths",
+    "Gives you the breath behind laughing, sighing, and coughing"
+  ],
+  "organs": [
+    {
+      "id": "lungs",
+      "systemId": "respiratory",
+      "name": "Lungs",
+      "latin": "Pulmones",
+      "region": "thorax",
+      "tagline": "Two spongy, elastic organs that fill most of your chest.",
+      "summary": "Your lungs are not hollow balloons. They are dense, spongy organs, pink-gray in life and roughly the size of two large sea sponges, filling most of your chest on either side of your heart. The right lung has three lobes, the left has two, and the left carries a hollow called the cardiac notch, carved out to make room for the heart. Each lung is wrapped in a thin, slippery membrane that lets it slide against your ribs with every breath.\n\nInside, the tissue is a maze of branching airways that end in clusters of tiny air sacs. That is where the real work happens: oxygen crosses into your blood while carbon dioxide crosses out, with less than a thousandth of a millimeter between air and bloodstream. Your diaphragm does most of the work of filling them, flattening like a plunger with each inhale. Together your lungs hold about 6 liters at full stretch, though a quiet breath moves only about half a liter.",
+      "functions": [
+        {
+          "title": "Trade gases with the blood",
+          "detail": "Oxygen moves from the air sacs into your blood while carbon dioxide moves out, a swap that keeps every cell running."
+        },
+        {
+          "title": "Steady your blood chemistry",
+          "detail": "By breathing faster or slower, your lungs help hold the acidity of your blood within a narrow, life-friendly range."
+        },
+        {
+          "title": "Filter the bloodstream",
+          "detail": "The vast capillary bed of the lungs traps small clots and clumps of cells that would otherwise travel on to the brain or heart."
+        },
+        {
+          "title": "Power your voice",
+          "detail": "Air leaving your lungs drives the vocal folds, giving speech, singing, and laughter their fuel and their phrasing."
+        }
+      ],
+      "location": "In the thoracic cavity, one on each side of the heart, resting on the diaphragm and reaching from just above the collarbones to the bottom of the rib cage.",
+      "size": "Each lung is roughly 25 centimeters tall, and the pair weighs about a kilogram; together they hold about 6 liters of air at full inflation.",
+      "facts": [
+        "Your right lung is shorter and wider than your left, because the liver pushes up from below while the heart claims space on the left.",
+        "Unfolded, the gas-exchange surface inside your lungs would cover about 70 square meters, roughly half a tennis court.",
+        "The lungs are the only organs in your body that float in water, because they are built around millions of pockets of air."
+      ],
+      "conditions": [
+        {
+          "name": "Asthma",
+          "description": "The small airways tighten and their lining swells, so breathing out feels like pushing air through a narrow straw."
+        },
+        {
+          "name": "Chronic obstructive pulmonary disease",
+          "description": "Long-term damage, often from smoke, leaves airways narrowed and air sacs overinflated, making each breath cost more effort."
+        },
+        {
+          "name": "Pneumonia",
+          "description": "An infection inflames the air sacs and fills them with fluid, so oxygen has a harder time reaching the blood."
+        }
+      ],
+      "relatedOrgans": [
+        "bronchi",
+        "trachea",
+        "heart",
+        "diaphragm"
+      ],
+      "keywords": [
+        "breathing",
+        "gas exchange",
+        "respiration",
+        "lobes",
+        "oxygen"
+      ],
+      "sources": [
+        {
+          "label": "NHLBI — How the Lungs Work: The Lungs",
+          "url": "https://www.nhlbi.nih.gov/health/lungs"
+        },
+        {
+          "label": "TeachMeAnatomy — Lung Anatomy",
+          "url": "https://teachmeanatomy.info/thorax/organs/lungs/"
+        }
+      ],
+      "heroStat": {
+        "value": "70 m²",
+        "label": "of exchange surface"
+      }
+    },
+    {
+      "id": "trachea",
+      "systemId": "respiratory",
+      "name": "Trachea",
+      "alsoKnownAs": [
+        "Windpipe"
+      ],
+      "region": "thorax",
+      "tagline": "The cartilage-reinforced pipe that carries air to your lungs.",
+      "summary": "Your trachea, or windpipe, is the straight road between your voice box and your lungs. It begins just below the larynx in your lower neck and runs about 10 to 12 centimeters down the midline of your chest, where it divides into two main bronchi. You can feel its upper end through the skin of your throat, a firm ridge just below the Adam's apple.\n\nThe wall is a clever piece of engineering. Sixteen to twenty C-shaped rings of cartilage hold the tube open so it never collapses when you inhale, while the soft back of each ring lets your esophagus bulge forward as you swallow a bite. A lining of sticky mucus traps dust and microbes, and microscopic hairs called cilia sweep that mucus upward, toward your throat, where you swallow it or cough it out.",
+      "functions": [
+        {
+          "title": "Carry air to both lungs",
+          "detail": "It is the single shared hallway between your upper airway and the two main bronchi that feed each lung."
+        },
+        {
+          "title": "Hold the airway open",
+          "detail": "Cartilage rings resist the suction of every breath, so the tube stays a tube instead of flattening shut."
+        },
+        {
+          "title": "Clean the incoming air",
+          "detail": "Mucus catches dust and microbes, and cilia move that sticky sheet upward to be swallowed or coughed away."
+        },
+        {
+          "title": "Warm and humidify",
+          "detail": "Blood vessels in the lining bring cold, dry air closer to body temperature and closer to full humidity before it travels deeper."
+        }
+      ],
+      "location": "In the midline of the neck and upper chest, starting just below the larynx and ending where it divides behind the upper part of the breastbone.",
+      "size": "About 10 to 12 centimeters (4 to 5 inches) long and roughly 2 centimeters wide, close to the diameter of your thumb.",
+      "facts": [
+        "The cartilage rings are C-shaped rather than complete circles, so food can press into the back of the windpipe without cutting off your air.",
+        "The cilia lining the trachea beat in a coordinated wave, lifting mucus toward the throat at roughly a centimeter a minute.",
+        "Your windpipe is not perfectly round: it is slightly flattened at the back, where it sits against the esophagus."
+      ],
+      "conditions": [
+        {
+          "name": "Tracheal stenosis",
+          "description": "Scar tissue narrows the windpipe, sometimes after a breathing tube has been in place, and airflow becomes labored."
+        },
+        {
+          "name": "Tracheomalacia",
+          "description": "The cartilage rings soften and lose their stiffness, so the airway tends to sag and narrow when you breathe out."
+        },
+        {
+          "name": "Tracheitis",
+          "description": "A bacterial infection inflames the windpipe, causing pain and a deep, harsh cough."
+        }
+      ],
+      "relatedOrgans": [
+        "larynx",
+        "bronchi",
+        "lungs",
+        "esophagus"
+      ],
+      "keywords": [
+        "windpipe",
+        "airway",
+        "cartilage",
+        "cilia",
+        "mucus"
+      ],
+      "sources": [
+        {
+          "label": "Kenhub — Trachea",
+          "url": "https://www.kenhub.com/en/library/anatomy/the-trachea"
+        },
+        {
+          "label": "MedlinePlus — Tracheal Disorders",
+          "url": "https://medlineplus.gov/trachealdisorders.html"
+        }
+      ],
+      "heroStat": {
+        "value": "16–20",
+        "label": "cartilage rings"
+      }
+    },
+    {
+      "id": "bronchi",
+      "systemId": "respiratory",
+      "name": "Bronchi",
+      "alsoKnownAs": [
+        "Bronchial tree"
+      ],
+      "region": "thorax",
+      "tagline": "The first fork in the twenty-three-generation tree of airways.",
+      "summary": "At the level of your breastbone, your windpipe divides into two main bronchi, one for each lung. They are the first fork in a tree that branches about 23 times before it reaches the air sacs. The right main bronchus is wider, shorter, and more vertical than the left, which is why a swallowed peanut or a small toy is more likely to end up in the right lung.\n\nEach main bronchus enters its lung and splits into lobar bronchi, then segmental bronchi, then narrower passageways. As the tubes shrink, rings of cartilage give way to irregular plates, and then disappear altogether. The lining changes too: mucus glands and cilia thin out, and smooth muscle takes over more of the wall. That muscle is what lets your smaller airways widen during exercise or tighten in cold air.",
+      "functions": [
+        {
+          "title": "Split the airflow",
+          "detail": "Each main bronchus feeds one lung, and its branches spread air across every lobe and segment."
+        },
+        {
+          "title": "Keep passages propped open",
+          "detail": "Cartilage in the larger branches stops them from collapsing, while the smaller ones rely on the elastic pull of surrounding tissue."
+        },
+        {
+          "title": "Trap and remove debris",
+          "detail": "Cilia and mucus glands in the lining catch particles before they can reach the delicate air sacs."
+        },
+        {
+          "title": "Tune resistance",
+          "detail": "Smooth muscle in the walls can narrow or widen the airways, shifting how much air each region of lung receives."
+        }
+      ],
+      "location": "From the lower end of the trachea behind the upper breastbone, each main bronchus runs outward and downward to enter its lung at the hilum.",
+      "size": "The right main bronchus is about 2.5 centimeters long and wider; the left is longer, roughly 5 centimeters, and narrower.",
+      "facts": [
+        "The right main bronchus leaves the trachea at a steeper angle, which is why inhaled objects land in the right lung far more often.",
+        "The left main bronchus passes beneath the arch of the aorta, a tight squeeze that helps explain its longer, narrower shape.",
+        "The branching is not random: each segmental bronchus supplies its own wedge of lung, which surgeons use as a map."
+      ],
+      "conditions": [
+        {
+          "name": "Bronchitis",
+          "description": "The bronchial lining becomes inflamed and produces extra mucus, bringing a persistent cough that often worsens in the morning."
+        },
+        {
+          "name": "Bronchiectasis",
+          "description": "Repeated infection stretches and scars the bronchial walls so they stay widened, and mucus pools where it is hard to clear."
+        }
+      ],
+      "relatedOrgans": [
+        "trachea",
+        "bronchioles",
+        "lungs"
+      ],
+      "keywords": [
+        "airway",
+        "branching",
+        "bronchial tree",
+        "cartilage",
+        "lobes"
+      ],
+      "sources": [
+        {
+          "label": "Kenhub — Bronchi",
+          "url": "https://www.kenhub.com/en/library/anatomy/bronchi"
+        },
+        {
+          "label": "MedlinePlus — Bronchial Disorders",
+          "url": "https://medlineplus.gov/bronchialdisorders.html"
+        }
+      ],
+      "heroStat": {
+        "value": "23",
+        "label": "generations of branches"
+      }
+    },
+    {
+      "id": "bronchioles",
+      "systemId": "respiratory",
+      "name": "Bronchioles",
+      "alsoKnownAs": [
+        "Small airways"
+      ],
+      "region": "thorax",
+      "tagline": "Muscular little twigs that steer air deep into the lungs.",
+      "summary": "Bronchioles are the smallest airways, the twigs at the far end of the branching tree. Less than a millimeter across, they contain no cartilage at all. Instead, a cuff of smooth muscle wraps each one and can squeeze it narrower or let it relax wider. The finest of them, called terminal bronchioles, are about half a millimeter wide, close to the tip of a ballpoint pen.\n\nTheir job is distribution rather than exchange. They deliver air to the last respiratory bronchioles and then to the alveoli, and they are the body's main lever for steering air toward the parts of the lung that need it most. When you exercise, adrenaline relaxes that muscle and the tubes open. In asthma, the same muscle cramps while the lining swells, and pushing air through the narrowed tubes produces the sound you know as a wheeze.",
+      "functions": [
+        {
+          "title": "Deliver air to the air sacs",
+          "detail": "They are the final conducting passages, handing each breath over to the alveoli where gases actually cross."
+        },
+        {
+          "title": "Steer air where it is needed",
+          "detail": "By tightening or relaxing, smooth muscle shifts airflow toward better-ventilated regions of the lung."
+        },
+        {
+          "title": "Regulate resistance",
+          "detail": "These are the narrowest tubes in the airway, so small changes in their width make large changes in how hard you must work to breathe."
+        }
+      ],
+      "location": "Deep inside the lungs, at the ends of the bronchial tree, where the airways are embedded in spongy lung tissue rather than supported by cartilage.",
+      "size": "Terminal bronchioles are about 0.5 millimeters across; even the largest bronchioles stay under 1 millimeter, roughly the width of a pen tip.",
+      "facts": [
+        "Because they have no cartilage, bronchioles can change width in seconds, which is why cold air or pollen can tighten them so quickly.",
+        "The last bronchioles are not pure pipes: small air sacs begin to bud from their walls, blurring the line between airway and alveolus.",
+        "Most of the airway tree's total cross-sectional area sits in the bronchioles, so air slows down dramatically as it reaches them."
+      ],
+      "conditions": [
+        {
+          "name": "Bronchiolitis",
+          "description": "A viral infection, most often in infants, inflames the smallest airways and fills them with mucus, making feeding and breathing hard work."
+        },
+        {
+          "name": "Asthma",
+          "description": "The muscle around the bronchioles contracts while the lining swells, narrowing the smallest airways and producing wheeze and tightness."
+        }
+      ],
+      "relatedOrgans": [
+        "bronchi",
+        "alveoli",
+        "lungs"
+      ],
+      "keywords": [
+        "small airways",
+        "smooth muscle",
+        "wheeze",
+        "airflow",
+        "bronchiolitis"
+      ],
+      "sources": [
+        {
+          "label": "Kenhub — Bronchi and Bronchioles",
+          "url": "https://www.kenhub.com/en/library/anatomy/bronchi"
+        },
+        {
+          "label": "MedlinePlus — Bronchial Disorders",
+          "url": "https://medlineplus.gov/bronchialdisorders.html"
+        }
+      ],
+      "heroStat": {
+        "value": "0.5 mm",
+        "label": "across the smallest"
+      }
+    },
+    {
+      "id": "alveoli",
+      "systemId": "respiratory",
+      "name": "Alveoli",
+      "alsoKnownAs": [
+        "Air sacs"
+      ],
+      "latin": "Alveoli pulmonis",
+      "region": "thorax",
+      "tagline": "Millions of microscopic sacs where air meets blood.",
+      "summary": "At the very end of the airway tree, the tubes open into clusters of tiny sacs called alveoli. A pair of adult lungs holds about 300 million of them, each smaller than a grain of sand. Under a microscope they look like bunches of grapes or a foam of soap bubbles packed together, sharing walls only a cell thick.\n\nThis is where breathing actually happens. Each alveolus is wrapped in a mesh of capillaries so fine that red blood cells pass through in single file. Oxygen drifts across the alveolar wall into the blood, and carbon dioxide drifts the other way, driven by the simple rule that gases move from where there is more of them to where there is less. The barrier between air and blood is less than a micrometer thick, roughly one hundredth the width of a human hair.",
+      "functions": [
+        {
+          "title": "Exchange oxygen and carbon dioxide",
+          "detail": "This is the lung's real purpose, and it happens across the wall of every one of those millions of sacs."
+        },
+        {
+          "title": "Keep themselves inflated",
+          "detail": "A soapy film called surfactant lowers surface tension, so the sacs do not stick shut each time you exhale."
+        },
+        {
+          "title": "Defend the deep lung",
+          "detail": "Immune cells called macrophages patrol the air sacs, engulfing dust and microbes that made it past the airways."
+        },
+        {
+          "title": "Hold a huge surface in a small space",
+          "detail": "Packing 70 square meters of membrane into your chest is what lets a quiet breath do so much chemical work."
+        }
+      ],
+      "location": "Throughout the spongy tissue of both lungs, clustered at the ends of the finest bronchioles and wrapped in capillary networks.",
+      "size": "Each alveolus is about 0.2 to 0.3 millimeters across, and together their walls would spread over roughly 70 square meters.",
+      "facts": [
+        "The barrier between the air in an alveolus and the blood in its capillary can be thinner than a soap bubble's film.",
+        "Alveoli have no muscle of their own; they open and close because your diaphragm and chest wall change the pressure around them.",
+        "Your two lungs pack roughly 70 square meters of exchange surface into a space the size of your chest, about half a tennis court."
+      ],
+      "conditions": [
+        {
+          "name": "Pneumonia",
+          "description": "Infection fills the air sacs with fluid and immune cells, so less of the lung surface is available for oxygen to cross."
+        },
+        {
+          "name": "Emphysema",
+          "description": "The walls between neighboring alveoli break down, merging many small sacs into fewer large ones and shrinking the exchange surface."
+        },
+        {
+          "name": "Pulmonary edema",
+          "description": "Fluid leaks into the air sacs, usually because the heart is not pumping efficiently, and breathing becomes labored."
+        }
+      ],
+      "relatedOrgans": [
+        "bronchioles",
+        "capillaries",
+        "pulmonary-arteries",
+        "lungs"
+      ],
+      "keywords": [
+        "air sacs",
+        "gas exchange",
+        "oxygen",
+        "surfactant",
+        "diffusion"
+      ],
+      "sources": [
+        {
+          "label": "Kenhub — Alveoli",
+          "url": "https://www.kenhub.com/en/library/anatomy/alveoli"
+        },
+        {
+          "label": "NHLBI — The Respiratory System",
+          "url": "https://www.nhlbi.nih.gov/health/lungs/respiratory-system"
+        }
+      ],
+      "heroStat": {
+        "value": "~300 million",
+        "label": "sacs in both lungs"
+      }
+    },
+    {
+      "id": "larynx",
+      "systemId": "respiratory",
+      "name": "Larynx",
+      "alsoKnownAs": [
+        "Voice box"
+      ],
+      "region": "head-neck",
+      "tagline": "The cartilage gatehouse that gives you a voice and guards your airway.",
+      "summary": "Your larynx, or voice box, sits at the top of your windpipe, just below the point where your throat divides into the esophagus and the airway. It is a small frame of cartilage, about 4 centimeters tall, that you can feel as the bump at the front of your neck. In men it often grows into a visible Adam's apple during puberty, when testosterone thickens the cartilage.\n\nTwo bands of tissue stretch across the inside of that frame: the vocal folds. When you speak, air from your lungs sets them vibrating, and the shape of your throat, mouth, and tongue turns that buzz into vowels and consonants. The larynx also guards the entrance to your lungs. During a swallow it lifts and folds a flap called the epiglottis over the airway, so food slides past into the esophagus instead of dropping into the trachea.",
+      "functions": [
+        {
+          "title": "Make sound",
+          "detail": "Air from the lungs sets the vocal folds vibrating, and the rest of your airway shapes that buzz into speech and song."
+        },
+        {
+          "title": "Protect the airway",
+          "detail": "It closes off the trachea during swallowing, so food and drink are steered into the esophagus instead of the lungs."
+        },
+        {
+          "title": "Control airflow",
+          "detail": "By opening or closing, it lets you hold your breath, strain, or release a long, controlled exhale."
+        },
+        {
+          "title": "Trigger a cough",
+          "detail": "Sensors in the larynx detect irritation and fire the reflex that clears the airway with a burst of air."
+        }
+      ],
+      "location": "At the front of the neck, between the base of the tongue and the top of the trachea, roughly level with the fourth to sixth cervical vertebrae.",
+      "size": "About 4 to 5 centimeters tall in adults, with vocal folds roughly 1.5 to 2.5 centimeters long; the whole frame is about the size of a walnut.",
+      "facts": [
+        "The Adam's apple is the thyroid cartilage, and everyone has one; it simply becomes more prominent in some people after puberty.",
+        "Your vocal folds can vibrate more than a hundred times a second, which is why a steady note sounds steady rather than chattery.",
+        "The larynx is the only stretch of your airway that can close completely, which is what makes holding your breath possible."
+      ],
+      "conditions": [
+        {
+          "name": "Laryngitis",
+          "description": "Inflammation of the larynx, usually from a viral infection or overuse, swells the vocal folds and turns the voice hoarse."
+        },
+        {
+          "name": "Vocal fold nodules",
+          "description": "Small callus-like growths form where the folds press together, common in singers and teachers, and they roughen the voice."
+        },
+        {
+          "name": "Laryngeal cancer",
+          "description": "A growth on the vocal folds or nearby tissue often shows up first as a voice that stays hoarse for weeks."
+        }
+      ],
+      "relatedOrgans": [
+        "trachea",
+        "nose",
+        "mouth"
+      ],
+      "keywords": [
+        "voice box",
+        "vocal folds",
+        "epiglottis",
+        "swallowing",
+        "speech"
+      ],
+      "sources": [
+        {
+          "label": "Kenhub — Larynx",
+          "url": "https://www.kenhub.com/en/library/anatomy/larynx"
+        },
+        {
+          "label": "TeachMeAnatomy — The Larynx",
+          "url": "https://teachmeanatomy.info/neck/viscera/larynx/"
+        }
+      ],
+      "heroStat": {
+        "value": "4 cm",
+        "label": "tall in adults"
+      }
+    },
+    {
+      "id": "pleura",
+      "systemId": "respiratory",
+      "name": "Pleura",
+      "region": "thorax",
+      "tagline": "The double membrane that lets your lungs slide and stay sealed.",
+      "summary": "Each lung lives inside a thin, double-layered bag called the pleura. The inner layer, the visceral pleura, clings to the lung's surface like cling film. The outer layer, the parietal pleura, lines the inside of your chest wall, the top of your diaphragm, and the space between your lungs. Between the two layers runs a film of fluid, far thinner than a drop, that lets them slide over each other.\n\nThat sliding matters because your lungs have no muscles of their own. They are inflated by your diaphragm and rib cage, and the pleura couples them to the chest wall: as your ribs lift, the outer layer pulls the inner one, and the lung stretches with it. The same sealed space helps keep the lung from collapsing. If air leaks between the layers, the seal breaks and the lung can shrink away from the chest wall, a condition called pneumothorax.",
+      "functions": [
+        {
+          "title": "Cut friction",
+          "detail": "A thin fluid film lets the lung surface glide against the chest wall thousands of times a day without wearing itself down."
+        },
+        {
+          "title": "Link lung to chest wall",
+          "detail": "The sealed layers transmit the pull of your ribs and diaphragm directly to the lung, so the lung expands when your chest does."
+        },
+        {
+          "title": "Hold the lung open",
+          "detail": "Pressure inside the pleural space is lower than inside the lung, and that gentle suction resists collapse."
+        },
+        {
+          "title": "Keep trouble contained",
+          "detail": "The pleural cavity acts as a boundary that can limit where an infection or a leak spreads."
+        }
+      ],
+      "location": "A continuous membrane lining each lung and the inside of the chest wall, folding back on itself where the lung meets the mediastinum and diaphragm.",
+      "size": "The two layers lie almost against each other, separated by only a few milliliters of fluid spread across the whole inner surface of the chest.",
+      "facts": [
+        "Only the outer, parietal layer carries pain fibers; the surface of the lung itself cannot feel pain, which is why pleurisy hurts sharply with each breath.",
+        "The pleural space is a potential space rather than an open cavity: in health, its two layers are separated only by a film of fluid.",
+        "A small amount of air in that space can make a lung pull away from the chest wall, because the seal is what holds it open."
+      ],
+      "conditions": [
+        {
+          "name": "Pleurisy",
+          "description": "Inflamed pleural layers rub together, producing a sharp pain that catches with each deep breath or cough."
+        },
+        {
+          "name": "Pleural effusion",
+          "description": "Fluid collects between the layers and presses on the lung, so that side of the chest expands less fully."
+        },
+        {
+          "name": "Pneumothorax",
+          "description": "Air leaks into the pleural space and breaks the seal, letting part or all of a lung collapse inward."
+        }
+      ],
+      "relatedOrgans": [
+        "lungs",
+        "diaphragm",
+        "ribcage"
+      ],
+      "keywords": [
+        "pleural cavity",
+        "membrane",
+        "friction",
+        "pneumothorax",
+        "effusion"
+      ],
+      "sources": [
+        {
+          "label": "TeachMeAnatomy — The Pleurae",
+          "url": "https://teachmeanatomy.info/thorax/organs/pleurae/"
+        },
+        {
+          "label": "Kenhub — Pleura",
+          "url": "https://www.kenhub.com/en/library/anatomy/pleura"
+        }
+      ],
+      "heroStat": {
+        "value": "2",
+        "label": "layers of membrane"
+      }
+    }
+  ],
+  "lesson": {
+    "id": "lesson-respiratory",
+    "title": "A breath from the outside in",
+    "subtitle": "Follow one lungful of air from your throat to your bloodstream, and back out again.",
+    "durationMin": 9,
+    "level": "beginner",
+    "steps": [
+      {
+        "title": "Start with a breath",
+        "body": "Right now, without deciding to, you are breathing. Your chest is rising and falling about a dozen times a minute, and each cycle moves roughly half a liter of air. That air is not empty: it carries oxygen, the fuel your cells run on, and it picks up carbon dioxide, the exhaust they produce. Everything that follows is a journey from the outside world to the bloodstream and back. Put one hand on your belly and take a slow breath. Feel that? That is your diaphragm, the muscle that starts the whole trip.",
+        "keyPoint": "Every breath is a round trip between the air and your blood."
+      },
+      {
+        "title": "The gatekeeper",
+        "body": "The air has already been warmed by your nose and throat. Now it meets the larynx, a cartilage box about the size of a walnut sitting at the top of your windpipe. It does two jobs at once, and they compete. It holds your vocal folds, two bands of tissue that vibrate as air passes and give you a voice. It also guards the airway: when you swallow, it lifts and tips a flap called the epiglottis over the opening, so food slides into the esophagus instead. Try humming while swallowing and you will feel the conflict. Next, the air moves down the one tube that serves both lungs.",
+        "organId": "larynx",
+        "keyPoint": "The larynx is a gatehouse: it makes sound and blocks the wrong traffic."
+      },
+      {
+        "title": "Down the windpipe",
+        "body": "Below the larynx, the airway becomes the trachea, a tube about as wide as your thumb and roughly 10 to 12 centimeters long. If it were soft, every breath would suck it shut. Instead, a stack of 16 to 20 C-shaped cartilage rings holds it open, which is why you can feel a firm ridge in the front of your throat. The open back of each ring faces your esophagus, so a swallowed bite can press into it without blocking your air. The lining is busy, too: sticky mucus catches dust, and tiny cilia sweep it upward. Then the tube forks.",
+        "organId": "trachea",
+        "keyPoint": "Cartilage keeps the windpipe open; mucus and cilia keep it clean."
+      },
+      {
+        "title": "A tree inside you",
+        "body": "At the level of your breastbone, the trachea splits into two main bronchi, one heading into each lung. From there the branching repeats, roughly 23 generations of tubes getting narrower at every fork. The right bronchus is wider, shorter, and more vertical than the left, which is why a swallowed peanut tends to end up on the right side. Cartilage keeps the larger branches open, but it thins as the tubes shrink: rings become plates, then patches, then nothing. What replaces it is muscle. The next stretch is where that muscle really matters.",
+        "organId": "bronchi",
+        "keyPoint": "Air reaches every lobe through a tree that forks about 23 times."
+      },
+      {
+        "title": "The narrowest twigs",
+        "body": "By the time the airways are under a millimeter wide, they are called bronchioles, and they have lost their cartilage entirely. A thin cuff of smooth muscle wraps each one, and that cuff can tighten or relax in seconds. This is your body's throttle. During exercise, adrenaline widens the tubes so more air can reach the depths of the lung. In asthma, the same muscle cramps while the lining swells, and the whistle you hear is air forcing its way through. At the end of these twigs, the tubes finally open into the places where the real trade happens.",
+        "organId": "bronchioles",
+        "keyPoint": "Bronchioles are the throttle: muscle, not cartilage, sets their width."
+      },
+      {
+        "title": "Where the trade happens",
+        "body": "The tubes end in alveoli, roughly 300 million tiny sacs in an adult pair of lungs. Each one is smaller than a grain of sand, and each is wrapped in capillaries so narrow that red blood cells pass through in single file. Oxygen slips across the wall into the blood; carbon dioxide slips out. The barrier between air and blood is less than a micrometer thick, about one hundredth the width of a hair. Spread flat, this exchange surface would cover around 70 square meters. That is why you can climb stairs without thinking about chemistry.",
+        "organId": "alveoli",
+        "keyPoint": "Seventy square meters of membrane, folded into your chest."
+      },
+      {
+        "title": "Two sponges at work",
+        "body": "Zoom out and you see the whole organ: two spongy lungs filling your chest, the right with three lobes, the left with two and a notch where the heart presses in. They have no muscle of their own. Your diaphragm flattens and your ribs lift, the chest grows, pressure inside drops, and air pours in. Exhaling is mostly recoil, the lungs springing back like a stretched balloon. At full stretch they hold about 6 liters, though a quiet breath uses only a tenth of that. Notice how much of this happens without your permission.",
+        "organId": "lungs",
+        "keyPoint": "You do not suck air in; your chest expands and air rushes to fill it."
+      },
+      {
+        "title": "Keep exploring",
+        "body": "You have followed a breath from the larynx to the alveoli and back out. The pattern is worth keeping: a gatekeeper that protects the airway, a cartilage-reinforced pipe, a branching tree, muscular twigs that steer the flow, and millions of thin-walled sacs where gases cross. Around it all sits the pleura, the double membrane that lets the lungs slide and keeps them sealed to your chest wall. Open that entry next, then compare the lungs with the heart they work beside. Every cell in your body is downstream of the breath you just took.",
+        "keyPoint": "The pleura is the quiet partner that keeps the whole system sealed."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": "respiratory-q1",
+      "systemId": "respiratory",
+      "question": "Which muscle does most of the work of pulling air into your lungs?",
+      "options": [
+        "The heart",
+        "The diaphragm",
+        "The trachea",
+        "The liver"
+      ],
+      "answerIndex": 1,
+      "explanation": "The diaphragm is a dome-shaped muscle beneath the lungs. When it contracts it flattens, the chest cavity expands, and air rushes in to equalize the pressure.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "respiratory-q2",
+      "systemId": "respiratory",
+      "question": "Where does oxygen actually cross from the air into your blood?",
+      "options": [
+        "In the alveoli",
+        "In the bronchi",
+        "In the trachea",
+        "In the larynx"
+      ],
+      "answerIndex": 0,
+      "explanation": "Alveoli are the tiny air sacs at the end of the airway tree. Their walls are thin enough for oxygen to pass into surrounding capillaries and carbon dioxide to pass out.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "respiratory-q3",
+      "systemId": "respiratory",
+      "question": "Which structure is commonly called the voice box?",
+      "options": [
+        "The pleura",
+        "The bronchioles",
+        "The epiglottis",
+        "The larynx"
+      ],
+      "answerIndex": 3,
+      "explanation": "The larynx sits at the top of the trachea and holds the vocal folds. Air moving across those folds makes the sound that your mouth and tongue shape into speech.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "respiratory-q4",
+      "systemId": "respiratory",
+      "question": "Why is an inhaled object more likely to lodge in the right lung?",
+      "options": [
+        "The right lung is larger",
+        "The right main bronchus is wider, shorter, and more vertical",
+        "The left bronchus is blocked by the heart",
+        "The right lung has more lobes"
+      ],
+      "answerIndex": 1,
+      "explanation": "The right main bronchus leaves the trachea at a steeper angle and has a wider opening, so small inhaled objects tend to follow airflow and gravity into the right lung.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "respiratory-q5",
+      "systemId": "respiratory",
+      "question": "What keeps the trachea from collapsing when you breathe in?",
+      "options": [
+        "C-shaped rings of cartilage",
+        "A column of bone",
+        "Smooth muscle alone",
+        "Pressure from the pleura"
+      ],
+      "answerIndex": 0,
+      "explanation": "Cartilage rings hold the trachea open like the ribs of a vacuum hose. They are C-shaped rather than complete circles, so a swallowed bite can press into the soft back wall.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "respiratory-q6",
+      "systemId": "respiratory",
+      "question": "What is the main job of the pleura?",
+      "options": [
+        "To produce surfactant",
+        "To filter dust from incoming air",
+        "To let the lungs slide and stay sealed to the chest wall",
+        "To warm the air before it reaches the alveoli"
+      ],
+      "answerIndex": 2,
+      "explanation": "The pleura is a double membrane with a thin fluid film between its layers. It cuts friction as the lungs move and seals them to the chest wall so they stretch when your ribs lift.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "respiratory-q7",
+      "systemId": "respiratory",
+      "question": "Which comparison best describes the barrier between air and blood in an alveolus?",
+      "options": [
+        "About one millimeter thick",
+        "About as thick as a sheet of paper",
+        "Thicker than your skin",
+        "About one hundredth the width of a human hair"
+      ],
+      "answerIndex": 3,
+      "explanation": "The air-blood barrier is roughly half a micrometer thick, about one hundredth the width of a human hair. That thinness lets oxygen and carbon dioxide diffuse across in a fraction of a second.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "respiratory-q8",
+      "systemId": "respiratory",
+      "question": "Why does the left lung have two lobes instead of three?",
+      "options": [
+        "It contains fewer alveoli",
+        "The diaphragm pushes it upward",
+        "The heart takes up space on the left side",
+        "It is smaller in every adult"
+      ],
+      "answerIndex": 2,
+      "explanation": "The heart sits slightly left of center, so the left lung has a cardiac notch and only two lobes. The right lung has room for three.",
+      "difficulty": "hard"
+    }
+  ]
+}

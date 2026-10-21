@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Anatomy Atlas — Explore the Human Body in 3D</title>
+    <meta
+      name="description"
+      content="A free interactive 3D atlas of the human body. Rotate, zoom, and explore every organ and body system, then learn with guided lessons and quizzes."
+    />
+    <meta name="theme-color" content="#f4eee3" />
+    <meta name="color-scheme" content="light" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://anatomy-atlas-b2m.pages.dev/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://anatomy-atlas-b2m.pages.dev" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Anatomy Atlas" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="Anatomy Atlas — Explore the Human Body in 3D" />
+    <meta
+      property="og:description"
+      content="A free interactive 3D atlas of the human body. Rotate, zoom, and explore every organ and body system, then learn with guided lessons and quizzes."
+    />
+    <meta property="og:url" content="https://anatomy-atlas-b2m.pages.dev/" />
+    <meta property="og:image" content="https://anatomy-atlas-b2m.pages.dev/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Anatomy Atlas — a stylized human body with illuminated organs" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Anatomy Atlas — Explore the Human Body in 3D" />
+    <meta
+      name="twitter:description"
+      content="Rotate, zoom, and explore every organ and body system. Free guided lessons and quizzes."
+    />
+    <meta name="twitter:image" content="https://anatomy-atlas-b2m.pages.dev/og.png" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": ["WebApplication", "LearningResource"],
+        "name": "Anatomy Atlas",
+        "url": "https://anatomy-atlas-b2m.pages.dev/",
+        "description": "A free interactive 3D atlas of the human body with guided lessons, organ entries, and quizzes.",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any (runs in a web browser with WebGL)",
+        "browserRequirements": "Requires JavaScript and WebGL",
+        "isAccessibleForFree": true,
+        "educationalLevel": "Beginner to intermediate",
+        "about": { "@type": "AnatomicalSystem", "name": "Human anatomy" },
+        "image": "https://anatomy-atlas-b2m.pages.dev/og.png"
+      }
+    </script>
+    <style>
+      html { background: #f4eee3; }
+      #root { min-height: 100vh; }
+      .boot { position: fixed; inset: 0; display: grid; place-items: center; background: #f4eee3; z-index: 9999; transition: opacity .4s ease; }
+      .boot--done { opacity: 0; }
+      .boot__mark { width: 44px; height: 44px; border-radius: 50%; border: 1.5px solid #1e1b17; position: relative; animation: boot-pulse 1.4s ease-in-out infinite; }
+      .boot__mark::after { content: ""; position: absolute; inset: 9px; border-radius: 50%; background: #a63d2f; }
+      @keyframes boot-pulse { 0%, 100% { transform: scale(1); opacity: .9 } 50% { transform: scale(1.12); opacity: .55 } }
+      @media (prefers-reduced-motion: reduce) { .boot__mark { animation: none } }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div class="boot" id="boot"><div class="boot__mark" aria-hidden="true"></div></div>
+    <noscript>
+      <div style="padding: 48px; font-family: Georgia, serif; max-width: 640px; margin: 0 auto">
+        <h1>Anatomy Atlas</h1>
+        <p>This interactive 3D atlas needs JavaScript enabled. Please enable JavaScript to explore the human body.</p>
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

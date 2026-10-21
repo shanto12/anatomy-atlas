@@ -1,0 +1,187 @@
+/* ============================================================
+   Anatomy Atlas — page-level styles (placeholder foundation)
+   ============================================================ */
+
+/* ---------- home ---------- */
+.home-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
+  gap: clamp(32px, 5vw, 72px);
+  align-items: center;
+  padding-block: clamp(48px, 7vw, 96px);
+}
+
+.home-hero__copy .display {
+  margin-top: 22px;
+  max-width: 12ch;
+}
+
+.home-hero__copy .lede {
+  margin-top: 26px;
+}
+
+.home-stats {
+  display: flex;
+  gap: clamp(24px, 4vw, 48px);
+  margin-top: 56px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+
+.home-stats dt {
+  font-size: var(--text-xs);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.home-stats dd {
+  margin: 6px 0 0;
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 3.4vw, 2.8rem);
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.home-hero__stage {
+  position: relative;
+}
+
+.home-hero__stage .viewer-shell {
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-stage);
+  background: radial-gradient(circle at 50% 30%, #302a24, var(--stage) 70%);
+  min-height: 520px;
+}
+
+.home-hero__caption {
+  margin-top: 14px;
+  font-size: var(--text-xs);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-4);
+  text-align: center;
+}
+
+.home-cta {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: clamp(32px, 5vw, 56px);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-xl);
+  background: color-mix(in srgb, var(--white) 30%, transparent);
+}
+
+.home-cta .h2 {
+  margin-top: 16px;
+}
+
+.home-cta .lede {
+  margin-top: 16px;
+}
+
+/* ---------- system / organ pages ---------- */
+.organ-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  padding: 24px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.organ-facts .caps {
+  color: var(--ink-4);
+  margin-bottom: 8px;
+}
+
+.function-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 24px;
+  max-width: 72ch;
+}
+
+.function-list li {
+  padding-left: 22px;
+  position: relative;
+}
+
+.function-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--oxblood);
+}
+
+.about-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 20px;
+  padding-left: 20px;
+  list-style: decimal;
+}
+
+/* ---------- explore ---------- */
+.explore-page {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 380px);
+  min-height: calc(100vh - var(--header-h));
+}
+
+.explore-stage {
+  position: relative;
+  background: radial-gradient(circle at 50% 30%, #302a24, var(--stage) 72%);
+  min-height: 70vh;
+}
+
+.explore-stage .viewer-shell {
+  height: 100%;
+  min-height: 70vh;
+}
+
+.explore-panel {
+  padding: clamp(24px, 3vw, 40px);
+  border-left: 1px solid var(--line);
+  background: var(--paper);
+}
+
+/* ---------- responsive ---------- */
+@media (max-width: 1000px) {
+  .home-hero {
+    grid-template-columns: 1fr;
+  }
+  .home-hero__stage {
+    order: -1;
+  }
+  .home-hero__stage .viewer-shell {
+    min-height: 420px;
+  }
+  .explore-page {
+    grid-template-columns: 1fr;
+  }
+  .explore-panel {
+    border-left: 0;
+    border-top: 1px solid var(--line);
+  }
+}
+
+@media (max-width: 640px) {
+  .home-stats {
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .home-cta {
+    align-items: flex-start;
+  }
+}

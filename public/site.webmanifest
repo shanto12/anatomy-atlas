@@ -1,0 +1,12 @@
+{
+  "name": "Anatomy Atlas",
+  "short_name": "Anatomy Atlas",
+  "description": "An interactive 3D atlas of the human body with guided lessons and quizzes.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4eee3",
+  "theme_color": "#f4eee3",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

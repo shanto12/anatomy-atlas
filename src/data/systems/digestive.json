@@ -1,0 +1,938 @@
+{
+  "id": "digestive",
+  "name": "Digestive System",
+  "shortName": "Digestive",
+  "tagline": "A nine-meter journey from first bite to last stop.",
+  "summary": "Every meal begins a journey that will last a day or more. Your digestive system is a single muscular tube, about nine meters (30 feet) long, that runs from your lips to your anus. Along the way, food is crushed, soaked, churned, and broken into molecules small enough to slip through the gut wall into your blood and lymph.\n\nThe tube does most of the work itself, but it never works alone. Salivary glands wet each bite, the stomach adds acid and enzymes, the liver makes bile, the gallbladder stores it, and the pancreas sends a powerful enzyme cocktail. The small intestine, folded into a vast velvety surface, absorbs the useful pieces; the large intestine reclaims water and houses a microbial garden; the rectum holds what is left until you decide to let it go.\n\nDigestion is also a nervous and hormonal conversation. Stretch receptors, acidity, and the sight or smell of food trigger signals that speed up or slow down each segment. Nothing about this system is passive. It is a processing plant, a chemical refinery, and a sensory organ wrapped into one continuous, self-renewing tube, and it touches nearly every other system in your body.",
+  "color": "#9a6b3f",
+  "stats": [
+    {
+      "value": "9 m",
+      "label": "from mouth to anus"
+    },
+    {
+      "value": "30 sq m",
+      "label": "of absorbing surface"
+    },
+    {
+      "value": "~7 L",
+      "label": "of digestive juices a day"
+    }
+  ],
+  "functions": [
+    "Breaks food into molecules small enough to enter the bloodstream",
+    "Absorbs water, nutrients, vitamins, and minerals",
+    "Produces bile and enzymes that break down fats and proteins",
+    "Houses trillions of microbes that ferment leftovers and make vitamin K",
+    "Keeps harmful microbes and toxins from crossing the gut wall",
+    "Stores and eliminates waste on your schedule"
+  ],
+  "organs": [
+    {
+      "id": "mouth",
+      "systemId": "digestive",
+      "name": "Mouth",
+      "latin": "Cavitas oris",
+      "alsoKnownAs": [
+        "Oral cavity"
+      ],
+      "region": "head-neck",
+      "tagline": "The wet, muscular gateway where digestion begins.",
+      "summary": "Your mouth is the gateway of the digestive tract: a warm, wet cavity framed by lips, teeth, and jaws, with a muscular tongue resting on its floor. The roof is a hard bony palate in front and a softer one behind, and the whole space is lined with a mucous membrane that stays slick with saliva. It is small, but it holds the body's first tools for dismantling a meal.\n\nDigestion starts the moment you bite. Teeth shear and grind food into smaller pieces, the tongue rolls it into a ball called a bolus, and saliva soaks it with enzymes that begin splitting starch. Chewing also gives your brain time to register fullness, which is why a rushed meal can feel unsatisfying. Once you swallow, the bolus leaves the mouth and the rest of the tube takes over.",
+      "functions": [
+        {
+          "title": "Bites and grinds food",
+          "detail": "Teeth cut and crush each mouthful into smaller pieces, giving enzymes far more surface area to work on."
+        },
+        {
+          "title": "Starts starch digestion",
+          "detail": "Salivary amylase begins breaking starch into sugars while you chew, which is why a plain cracker can start to taste sweet."
+        },
+        {
+          "title": "Shapes a safe swallow",
+          "detail": "The tongue gathers food into a bolus and the epiglottis covers the airway, steering the bolus into the esophagus."
+        },
+        {
+          "title": "Senses and enjoys food",
+          "detail": "Taste buds and touch receptors check texture, temperature, and flavor, and help trigger saliva and digestive juices."
+        }
+      ],
+      "location": "It sits at the front of the face, bounded by the lips, cheeks, teeth, and the back of the throat.",
+      "size": "An adult mouth holds up to 32 teeth, and the tongue is roughly 10 centimeters (4 inches) long.",
+      "facts": [
+        "You grow two sets of teeth in a lifetime: 20 baby teeth and up to 32 adult teeth.",
+        "A plain cracker starts to taste sweet because salivary amylase is already turning its starch into sugar.",
+        "At the back of your throat, the paths for food and air cross, which is why swallowing needs a guard."
+      ],
+      "conditions": [
+        {
+          "name": "Dental caries",
+          "description": "Acid made by mouth bacteria dissolves tooth enamel, creating cavities. It is one of the most common chronic conditions worldwide."
+        },
+        {
+          "name": "Canker sores",
+          "description": "Small, painful ulcers appear inside the lips, cheeks, or tongue and usually heal on their own within a week or two."
+        },
+        {
+          "name": "Oral thrush",
+          "description": "A yeast called Candida overgrows on the tongue and inner cheeks, forming white patches. It is more common when the immune system is weakened."
+        }
+      ],
+      "relatedOrgans": [
+        "salivary-glands",
+        "tongue",
+        "esophagus"
+      ],
+      "keywords": [
+        "oral cavity",
+        "chewing",
+        "saliva",
+        "taste",
+        "teeth"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Mouth",
+          "url": "https://my.clevelandclinic.org/health/body/21765-mouth"
+        },
+        {
+          "label": "MedlinePlus — Mouth Disorders",
+          "url": "https://medlineplus.gov/mouthdisorders.html"
+        }
+      ],
+      "heroStat": {
+        "value": "32",
+        "label": "teeth in an adult"
+      }
+    },
+    {
+      "id": "salivary-glands",
+      "systemId": "digestive",
+      "name": "Salivary Glands",
+      "latin": "Glandulae salivariae",
+      "region": "head-neck",
+      "tagline": "Three pairs of glands that keep your mouth wet and ready.",
+      "summary": "Three pairs of major glands do the heavy lifting: the parotids in front of each ear, the submandibular glands under the jaw, and the sublinguals beneath the tongue. Hundreds of tiny minor glands dot the lips, cheeks, and palate. The parotid is the largest, but at rest the submandibular glands produce most of the flow.\n\nSaliva is about 99 percent water, yet the remaining fraction is a busy chemical toolkit. It moistens food so you can swallow, dissolves flavors so you can taste, and carries amylase, an enzyme that starts breaking starch into sugar. It also rinses teeth, neutralizes some acid, and carries antibodies and proteins that help repair small wounds. Without it, chewing and speaking would feel like trying to talk with a mouth full of cotton.",
+      "functions": [
+        {
+          "title": "Moistens and lubricates",
+          "detail": "Saliva wets dry food and coats the mouth and throat, making chewing, swallowing, and speaking comfortable."
+        },
+        {
+          "title": "Begins starch breakdown",
+          "detail": "Amylase in saliva starts splitting starch into smaller sugars before food ever reaches the stomach."
+        },
+        {
+          "title": "Protects teeth and tissue",
+          "detail": "Saliva rinses away food debris, neutralizes some acid, and carries antibodies and proteins that limit microbes."
+        },
+        {
+          "title": "Helps you taste",
+          "detail": "Food molecules must dissolve in saliva before they can reach taste buds, so saliva helps flavor register."
+        }
+      ],
+      "location": "The major glands cluster around the jaw and cheeks: the parotids in front of the ears, the submandibulars under the jaw, and the sublinguals beneath the tongue.",
+      "size": "The parotid glands are the largest, each roughly the size of a walnut, while the sublingual glands are small and almond-shaped.",
+      "facts": [
+        "The parotid glands sit just in front of your ears, which is why mumps swells the cheeks so dramatically.",
+        "At rest, the submandibular glands make most of your saliva; the parotids pitch in mainly when you eat.",
+        "Just smelling or thinking about food can start your salivary glands flowing before you taste a thing."
+      ],
+      "conditions": [
+        {
+          "name": "Dry mouth",
+          "description": "When glands make too little saliva, the mouth feels sticky and chewing, swallowing, and speaking can become uncomfortable. Many medicines and some illnesses can cause it."
+        },
+        {
+          "name": "Salivary stones",
+          "description": "Calcium-rich crystals can block a duct, causing the gland to swell and ache, especially around mealtimes when saliva flow increases."
+        },
+        {
+          "name": "Mumps",
+          "description": "A viral infection that swells the parotid glands, giving the cheeks a puffy look. Vaccination has made it uncommon in many countries."
+        }
+      ],
+      "relatedOrgans": [
+        "mouth",
+        "tongue",
+        "esophagus"
+      ],
+      "keywords": [
+        "saliva",
+        "amylase",
+        "parotid",
+        "digestion",
+        "mouth"
+      ],
+      "sources": [
+        {
+          "label": "TeachMeAnatomy — The Salivary Glands",
+          "url": "https://teachmeanatomy.info/head/organs/salivary-glands/"
+        },
+        {
+          "label": "MedlinePlus — Salivary Gland Disorders",
+          "url": "https://medlineplus.gov/salivaryglanddisorders.html"
+        }
+      ],
+      "heroStat": {
+        "value": "1.5 L",
+        "label": "of saliva a day"
+      }
+    },
+    {
+      "id": "esophagus",
+      "systemId": "digestive",
+      "name": "Esophagus",
+      "latin": "Oesophagus",
+      "alsoKnownAs": [
+        "Food pipe",
+        "Gullet"
+      ],
+      "region": "thorax",
+      "tagline": "A muscular chute that moves food without gravity.",
+      "summary": "The esophagus is a muscular tube about 25 centimeters (10 inches) long that links your throat to your stomach. It runs down the center of your chest, passes behind the heart, and slips through an opening in the diaphragm called the esophageal hiatus. When empty, its walls collapse against each other, so it looks more like a flattened ribbon than a pipe.\n\nYou do not need gravity to swallow. Rings of muscle above the food squeeze, and rings below relax, passing the bolus downward in a wave called peristalsis. A valve at the bottom, the lower esophageal sphincter, stays tight between meals to keep stomach acid where it belongs. Mucus keeps the lining slippery, and the trip takes only a few seconds. Next, the bolus drops into the stomach's acid bath.",
+      "functions": [
+        {
+          "title": "Carries food to the stomach",
+          "detail": "Powerful muscular waves push each bolus down the chest and through the diaphragm in a few seconds."
+        },
+        {
+          "title": "Keeps acid in its place",
+          "detail": "The lower esophageal sphincter stays closed between meals, protecting the delicate lining from stomach acid."
+        },
+        {
+          "title": "Lubricates the passage",
+          "detail": "Glands in the wall release mucus so food slides smoothly and the lining is not scraped."
+        }
+      ],
+      "location": "It begins below the pharynx, behind the trachea, and descends through the chest to the upper stomach just below the diaphragm.",
+      "size": "In adults it is about 25 centimeters (10 inches) long and roughly 2 centimeters (0.8 inches) wide.",
+      "facts": [
+        "Food covers the esophagus in a few seconds, even though the tube is about as long as your forearm.",
+        "You can swallow while lying down or even upside down, because peristalsis does not depend on gravity.",
+        "An empty esophagus is collapsed almost shut; it opens only when a bolus arrives."
+      ],
+      "conditions": [
+        {
+          "name": "Gastroesophageal reflux disease",
+          "description": "Stomach acid repeatedly splashes back into the esophagus, causing heartburn and sometimes a sour taste. Over time, the lining can become irritated."
+        },
+        {
+          "name": "Achalasia",
+          "description": "The lower esophageal sphincter fails to relax, so food and liquid pool in the esophagus instead of passing into the stomach."
+        }
+      ],
+      "relatedOrgans": [
+        "mouth",
+        "stomach",
+        "diaphragm"
+      ],
+      "keywords": [
+        "swallowing",
+        "peristalsis",
+        "food pipe",
+        "reflux",
+        "sphincter"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Esophagus",
+          "url": "https://my.clevelandclinic.org/health/body/21728-esophagus"
+        },
+        {
+          "label": "TeachMeAnatomy — The Esophagus",
+          "url": "https://teachmeanatomy.info/abdomen/gi-tract/oesophagus/"
+        }
+      ],
+      "heroStat": {
+        "value": "25 cm",
+        "label": "from throat to stomach"
+      }
+    },
+    {
+      "id": "stomach",
+      "systemId": "digestive",
+      "name": "Stomach",
+      "latin": "Gaster",
+      "region": "abdomen",
+      "tagline": "A churning acid bag that turns dinner into soup.",
+      "summary": "Your stomach is a J-shaped muscular bag in the upper left abdomen, tucked under the diaphragm and partly covered by the liver. Its inner surface is folded into ridges called rugae, which let it expand from about the size of your fist to roughly 1.5 liters after a large meal. The wall has three layers of muscle, more than most organs, so it can twist and churn.\n\nStomach acid, with a pH between about 1.5 and 3.5, kills many microbes and helps unfold proteins. Cells in the lining release pepsinogen, which acid turns into pepsin, an enzyme that snips proteins apart. A thick mucus layer keeps the acid from digesting the stomach itself, and the lining replaces its cells every few days. The result is chyme, a soupy paste that squirts through the pyloric sphincter into the small intestine.",
+      "functions": [
+        {
+          "title": "Stores a meal",
+          "detail": "Rugae let the stomach expand and hold food, releasing it gradually instead of dumping it all at once."
+        },
+        {
+          "title": "Churns food into chyme",
+          "detail": "Three layers of muscle twist and squeeze, mixing food with acid and enzymes until it becomes a soupy paste."
+        },
+        {
+          "title": "Starts protein digestion",
+          "detail": "Acid unfolds proteins and activates pepsin, which cuts them into shorter chains."
+        },
+        {
+          "title": "Kills many microbes",
+          "detail": "The strongly acidic environment disables or destroys many bacteria and other organisms swallowed with food."
+        },
+        {
+          "title": "Helps absorb vitamin B12",
+          "detail": "Parietal cells release intrinsic factor, a protein that escorts vitamin B12 through the small intestine."
+        }
+      ],
+      "location": "It lies in the upper left abdomen beneath the diaphragm, partly hidden behind the lower ribs and liver.",
+      "size": "Empty, it is about the size of your fist; after a large meal it can stretch to hold roughly 1.5 liters (about 1.6 quarts).",
+      "facts": [
+        "An empty stomach holds only about 50 milliliters, yet it can stretch to around 1.5 liters after a big meal.",
+        "Its lining sheds and replaces its cells every few days, which helps keep the stomach from digesting itself.",
+        "The stomach makes intrinsic factor, a protein your body needs to absorb vitamin B12."
+      ],
+      "conditions": [
+        {
+          "name": "Gastritis",
+          "description": "Inflammation of the stomach lining, often caused by infection with Helicobacter pylori or by irritation from alcohol or certain medicines."
+        },
+        {
+          "name": "Peptic ulcer",
+          "description": "A sore forms in the stomach lining or the first part of the small intestine, often where acid and pepsin wear through the protective mucus."
+        },
+        {
+          "name": "Gastroparesis",
+          "description": "The stomach empties more slowly than normal, causing fullness, nausea, and bloating after meals."
+        }
+      ],
+      "relatedOrgans": [
+        "esophagus",
+        "small-intestine",
+        "liver",
+        "pancreas"
+      ],
+      "keywords": [
+        "acid",
+        "chyme",
+        "pepsin",
+        "digestion",
+        "pylorus"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Stomach",
+          "url": "https://my.clevelandclinic.org/health/body/21758-stomach"
+        },
+        {
+          "label": "MedlinePlus — Stomach Disorders",
+          "url": "https://medlineplus.gov/stomachdisorders.html"
+        }
+      ],
+      "heroStat": {
+        "value": "1.5 L",
+        "label": "room after a meal"
+      }
+    },
+    {
+      "id": "liver",
+      "systemId": "digestive",
+      "name": "Liver",
+      "latin": "Hepar",
+      "region": "abdomen",
+      "tagline": "A quiet chemical refinery that touches almost everything you eat.",
+      "summary": "Your liver is the largest internal organ, a reddish-brown wedge weighing about 1.5 kilograms (3.3 pounds) in adults. It fills the upper right abdomen, tucked beneath the diaphragm and overlapping the stomach. Two main lobes, a larger right and a smaller left, are separated by a ligament, and a network of ducts carries bile out toward the gallbladder and intestine.\n\nThe liver is a chemical refinery with a dual blood supply: the hepatic artery brings oxygen-rich blood, while the portal vein delivers nutrient-laden blood from the gut. It stores sugar as glycogen, builds proteins such as albumin and clotting factors, breaks down drugs and toxins, and makes bile continuously. Remarkably, it can regrow lost tissue, which is why living donors can give part of their liver and both pieces recover. Most of what you absorb from the gut passes through it first.",
+      "functions": [
+        {
+          "title": "Makes bile",
+          "detail": "Liver cells produce bile continuously; it carries away waste and helps the small intestine emulsify fat."
+        },
+        {
+          "title": "Processes nutrients",
+          "detail": "Blood from the gut arrives loaded with sugars, amino acids, and fats, which the liver stores, reshapes, or releases."
+        },
+        {
+          "title": "Builds essential proteins",
+          "detail": "The liver makes albumin, which holds fluid in blood vessels, and many of the proteins that let blood clot."
+        },
+        {
+          "title": "Breaks down toxins and drugs",
+          "detail": "Enzymes in the liver chemically alter medicines, alcohol, and waste products so they can be excreted."
+        },
+        {
+          "title": "Stores energy and iron",
+          "detail": "The liver banks sugar as glycogen and holds iron and several vitamins for later use."
+        }
+      ],
+      "location": "It fills the upper right abdomen under the diaphragm, with its left lobe reaching across toward the stomach.",
+      "size": "In adults it weighs about 1.5 kilograms (3.3 pounds) and spans roughly 20 to 25 centimeters (8 to 10 inches) across.",
+      "facts": [
+        "A healthy liver holds roughly a pint of blood at any moment.",
+        "It handles roughly 1.5 liters of blood every minute, arriving through two separate supplies.",
+        "It makes bile around the clock, even when no food is on the way, and the gallbladder stores the surplus."
+      ],
+      "conditions": [
+        {
+          "name": "Fatty liver disease",
+          "description": "Fat builds up inside liver cells. It can be linked to excess weight and metabolic problems, or to heavy alcohol use."
+        },
+        {
+          "name": "Hepatitis",
+          "description": "Inflammation of the liver, usually caused by a virus but sometimes by drugs or by the immune system attacking liver tissue."
+        },
+        {
+          "name": "Cirrhosis",
+          "description": "Long-term injury replaces healthy liver tissue with scar tissue, which can interfere with blood flow and the liver's many jobs."
+        }
+      ],
+      "relatedOrgans": [
+        "gallbladder",
+        "pancreas",
+        "small-intestine",
+        "stomach"
+      ],
+      "keywords": [
+        "bile",
+        "detoxification",
+        "metabolism",
+        "glycogen",
+        "hepar"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Liver",
+          "url": "https://my.clevelandclinic.org/health/body/21481-liver"
+        },
+        {
+          "label": "NIDDK — Liver Disease",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease"
+        }
+      ],
+      "heroStat": {
+        "value": "500+",
+        "label": "jobs in one organ"
+      }
+    },
+    {
+      "id": "gallbladder",
+      "systemId": "digestive",
+      "name": "Gallbladder",
+      "latin": "Vesica biliaris",
+      "region": "abdomen",
+      "tagline": "A small bile reservoir that squeezes on fat's command.",
+      "summary": "The gallbladder is a small pear-shaped sac, about 7 to 10 centimeters (3 to 4 inches) long, tucked into a shallow fossa on the underside of the liver. Its wall is thin and muscular, and its neck narrows into the cystic duct, which joins the common hepatic duct to form the common bile duct. It holds only about 30 to 50 milliliters, less than a quarter cup.\n\nThe liver makes bile around the clock, but bile is only needed when fat arrives. Between meals, the gallbladder stores bile and pulls water out of it, concentrating it up to tenfold. When fatty food reaches the small intestine, a hormone called cholecystokinin signals the gallbladder to squeeze, sending a concentrated burst of bile through the cystic duct. Bile emulsifies fat, breaking it into tiny droplets that enzymes can attack. Remove the gallbladder and bile simply drips steadily instead.",
+      "functions": [
+        {
+          "title": "Stores bile",
+          "detail": "Between meals it collects bile made by the liver, keeping a supply ready for the next fatty meal."
+        },
+        {
+          "title": "Concentrates bile",
+          "detail": "Its lining removes water and salts, shrinking the bile volume and making it up to ten times more concentrated."
+        },
+        {
+          "title": "Releases bile on cue",
+          "detail": "The hormone cholecystokinin makes the gallbladder contract, sending a burst of bile into the small intestine."
+        }
+      ],
+      "location": "It sits in a shallow groove on the underside of the liver, near the right edge of the rib cage.",
+      "size": "It is about 7 to 10 centimeters (3 to 4 inches) long and holds only 30 to 50 milliliters (about 1 to 1.7 fluid ounces).",
+      "facts": [
+        "A gallbladder holds only about 30 to 50 milliliters of bile, yet it can concentrate that bile up to tenfold.",
+        "You can live without a gallbladder; after surgery, bile drips continuously into the small intestine instead of arriving in bursts.",
+        "Some gallstones stay silent for years and are found by accident on scans done for something else."
+      ],
+      "conditions": [
+        {
+          "name": "Gallstones",
+          "description": "Hard deposits of cholesterol or bile pigments form in the gallbladder. Many cause no symptoms, but a stone stuck in a duct can cause severe pain."
+        },
+        {
+          "name": "Cholecystitis",
+          "description": "Inflammation of the gallbladder, often triggered when a gallstone blocks the cystic duct and bile cannot escape."
+        }
+      ],
+      "relatedOrgans": [
+        "liver",
+        "pancreas",
+        "small-intestine"
+      ],
+      "keywords": [
+        "bile",
+        "gallstones",
+        "cholecystokinin",
+        "fat digestion"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Gallbladder",
+          "url": "https://my.clevelandclinic.org/health/body/21690-gallbladder"
+        },
+        {
+          "label": "MedlinePlus — Gallstones",
+          "url": "https://medlineplus.gov/gallstones.html"
+        }
+      ],
+      "heroStat": {
+        "value": "50 mL",
+        "label": "of bile stored"
+      }
+    },
+    {
+      "id": "pancreas",
+      "systemId": "digestive",
+      "name": "Pancreas",
+      "latin": "Pancreas",
+      "region": "abdomen",
+      "tagline": "Two glands in one: digestive juice and blood sugar control.",
+      "summary": "The pancreas is a soft, lobulated gland about 15 centimeters (6 inches) long, lying deep in the abdomen behind the stomach. It has a wide head cradled by the curve of the duodenum, a body, and a tapered tail that reaches toward the spleen. Because it sits so far back, problems there often feel like pain boring into the back.\n\nMost of the pancreas is exocrine tissue: clusters of cells that make digestive enzymes and release about 1.5 liters of alkaline juice a day into the duodenum. These enzymes arrive inactive, so they do not digest the gland that made them; they are switched on only in the intestine. Scattered among them are the islets of Langerhans, about 1 to 2 percent of the organ, which release insulin and glucagon to steady your blood sugar. One organ, two entirely different jobs.",
+      "functions": [
+        {
+          "title": "Makes digestive enzymes",
+          "detail": "Acinar cells release enzymes that break down fats, proteins, and carbohydrates in the small intestine."
+        },
+        {
+          "title": "Neutralizes stomach acid",
+          "detail": "Pancreatic juice is rich in bicarbonate, which raises the pH of chyme so intestinal enzymes can work."
+        },
+        {
+          "title": "Regulates blood sugar",
+          "detail": "Islet cells release insulin to lower glucose and glucagon to raise it, keeping energy delivery steady."
+        },
+        {
+          "title": "Supports fat digestion",
+          "detail": "Pancreatic lipase is a main enzyme for splitting fat droplets after bile has emulsified them."
+        }
+      ],
+      "location": "It lies deep in the upper abdomen behind the stomach, stretching from the duodenum toward the spleen.",
+      "size": "It is about 15 centimeters (6 inches) long and weighs roughly 70 to 100 grams (2.5 to 3.5 ounces).",
+      "facts": [
+        "The pancreas makes its digestive enzymes in an inactive form, so they cannot digest the organ that built them.",
+        "Only about 1 to 2 percent of the pancreas makes hormones such as insulin; the rest is devoted to digestive juice.",
+        "Bile and pancreatic juice meet at the same small gateway into the duodenum."
+      ],
+      "conditions": [
+        {
+          "name": "Acute pancreatitis",
+          "description": "Digestive enzymes become active inside the pancreas and irritate it, causing sudden severe pain. Gallstones and heavy alcohol use are common causes."
+        },
+        {
+          "name": "Chronic pancreatitis",
+          "description": "Repeated inflammation leaves scar tissue, so the gland makes fewer enzymes and less insulin over time."
+        },
+        {
+          "name": "Pancreatic cancer",
+          "description": "A cancer that begins in the pancreas and often causes few early symptoms, which is why it is frequently found late."
+        }
+      ],
+      "relatedOrgans": [
+        "liver",
+        "gallbladder",
+        "small-intestine",
+        "stomach"
+      ],
+      "keywords": [
+        "enzymes",
+        "insulin",
+        "glucagon",
+        "digestion",
+        "blood sugar"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Pancreas",
+          "url": "https://my.clevelandclinic.org/health/body/21743-pancreas"
+        },
+        {
+          "label": "NIDDK — Pancreatitis",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/pancreatitis"
+        }
+      ],
+      "heroStat": {
+        "value": "1.5 L",
+        "label": "of juice a day"
+      }
+    },
+    {
+      "id": "small-intestine",
+      "systemId": "digestive",
+      "name": "Small Intestine",
+      "latin": "Intestinum tenue",
+      "alsoKnownAs": [
+        "Small bowel"
+      ],
+      "region": "abdomen",
+      "tagline": "A coiled, velvety tube where absorption actually happens.",
+      "summary": "The small intestine is a coiled tube about 6 meters (20 feet) long and only 2.5 centimeters (1 inch) wide, packed into the central abdomen. It has three sections: the C-shaped duodenum, the jejunum, and the ileum. Its inner lining is velvet-like, covered in millions of finger-shaped villi, each cell topped with microscopic microvilli.\n\nThose folds and fingers multiply the absorptive surface to roughly 30 square meters, about the floor area of a small studio apartment. Here, bile and pancreatic enzymes finish the job, and the resulting sugars, amino acids, and fats cross into blood and lymph. By the time food reaches the end of the ileum, more than 90 percent of its usable nutrients have been taken. What remains is watery waste, handed to the large intestine. The stomach started the breakdown; this is where the body actually collects the payoff.",
+      "functions": [
+        {
+          "title": "Finishes digestion",
+          "detail": "Bile and pancreatic juice arrive in the duodenum, while brush border enzymes complete the breakdown of sugars and proteins."
+        },
+        {
+          "title": "Absorbs nutrients",
+          "detail": "Villi and microvilli pull sugars, amino acids, fats, vitamins, and minerals into blood and lymph."
+        },
+        {
+          "title": "Absorbs vitamin B12",
+          "detail": "The ileum, with help from intrinsic factor, takes up vitamin B12 and recycles bile salts."
+        },
+        {
+          "title": "Sends waste onward",
+          "detail": "Muscular waves move leftover fluid and fiber into the colon for the next stage."
+        }
+      ],
+      "location": "It coils through the central abdomen, framed by the large intestine, with the duodenum tucked behind the stomach.",
+      "size": "It is about 6 meters (20 feet) long and 2.5 centimeters (1 inch) wide in adults.",
+      "facts": [
+        "Its lining is folded into millions of villi and microvilli, creating about 30 square meters of absorbing surface.",
+        "More than 90 percent of the nutrients you take from food are absorbed here, not in the stomach.",
+        "Its lining replaces itself every few days, shedding cells that have touched food."
+      ],
+      "conditions": [
+        {
+          "name": "Celiac disease",
+          "description": "An immune reaction to gluten damages the villi, flattening them and reducing the surface available for absorbing nutrients."
+        },
+        {
+          "name": "Crohn's disease",
+          "description": "Chronic inflammation can affect any part of the digestive tract, often the end of the small intestine, causing pain and diarrhea."
+        },
+        {
+          "name": "Small bowel obstruction",
+          "description": "A blockage from scar tissue, a hernia, or a tumor stops food and fluid from moving through, causing cramping and swelling."
+        }
+      ],
+      "relatedOrgans": [
+        "stomach",
+        "pancreas",
+        "liver",
+        "large-intestine"
+      ],
+      "keywords": [
+        "villi",
+        "absorption",
+        "duodenum",
+        "jejunum",
+        "ileum"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Small Intestine",
+          "url": "https://my.clevelandclinic.org/health/body/22135-small-intestine"
+        },
+        {
+          "label": "TeachMeAnatomy — The Small Intestine",
+          "url": "https://teachmeanatomy.info/abdomen/gi-tract/small-intestine/"
+        }
+      ],
+      "heroStat": {
+        "value": "30 sq m",
+        "label": "of absorbing surface"
+      }
+    },
+    {
+      "id": "large-intestine",
+      "systemId": "digestive",
+      "name": "Large Intestine",
+      "latin": "Intestinum crassum",
+      "alsoKnownAs": [
+        "Colon",
+        "Large bowel"
+      ],
+      "region": "abdomen",
+      "tagline": "The water-reclaiming colon and its resident microbial garden.",
+      "summary": "The large intestine, also called the colon, is a wider, shorter tube than the small intestine: about 1.5 meters (5 feet) long and 6 centimeters (2.4 inches) across. It frames the abdomen like a picture frame, rising on the right, crossing under the stomach, and descending on the left. It begins at the cecum, a pouch that carries the appendix, and ends at the rectum.\n\nBy the time waste arrives, most nutrients are gone, but plenty of water and salts remain. The colon reclaims much of that water, turning liquid slurry into soft, formed stool. It also houses trillions of bacteria that ferment fiber, produce some vitamin K and B vitamins, and compete with harmful microbes. Muscular waves move the contents slowly, segment by segment, over roughly a day or more. The final product waits in the rectum until you are ready.",
+      "functions": [
+        {
+          "title": "Reclaims water",
+          "detail": "The colon absorbs water and salts from liquid waste, turning it into soft, formed stool."
+        },
+        {
+          "title": "Hosts gut bacteria",
+          "detail": "Trillions of microbes ferment fiber, release beneficial compounds, and help crowd out harmful organisms."
+        },
+        {
+          "title": "Makes some vitamins",
+          "detail": "Bacteria in the colon produce vitamin K and several B vitamins that the body can absorb."
+        },
+        {
+          "title": "Stores and moves waste",
+          "detail": "Slow waves push stool toward the rectum, which holds it until the urge to go arrives."
+        }
+      ],
+      "location": "It frames the abdomen, rising up the right side, crossing beneath the stomach, and descending on the left into the pelvis.",
+      "size": "It is about 1.5 meters (5 feet) long and 6 centimeters (2.4 inches) wide, wider than the small intestine.",
+      "facts": [
+        "The colon is only about a quarter as long as the small intestine, but roughly twice as wide.",
+        "Its resident bacteria make some vitamin K, which the body can absorb and use for clotting.",
+        "The appendix dangles from the cecum, the pouch where the colon begins."
+      ],
+      "conditions": [
+        {
+          "name": "Constipation",
+          "description": "Stool moves slowly and becomes hard and difficult to pass. Low fiber intake, dehydration, and inactivity can contribute."
+        },
+        {
+          "name": "Diverticulitis",
+          "description": "Small pouches in the colon wall become inflamed or infected, causing pain, often in the lower left abdomen."
+        },
+        {
+          "name": "Colorectal cancer",
+          "description": "Cancer arises from the lining of the colon or rectum, often starting as a small growth called a polyp."
+        }
+      ],
+      "relatedOrgans": [
+        "small-intestine",
+        "rectum",
+        "stomach"
+      ],
+      "keywords": [
+        "colon",
+        "water absorption",
+        "gut bacteria",
+        "stool",
+        "fiber"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Large Intestine",
+          "url": "https://my.clevelandclinic.org/health/body/22134-colon-large-intestine"
+        },
+        {
+          "label": "TeachMeAnatomy — The Colon",
+          "url": "https://teachmeanatomy.info/abdomen/gi-tract/large-intestine/"
+        }
+      ],
+      "heroStat": {
+        "value": "1.5 m",
+        "label": "of colon"
+      }
+    },
+    {
+      "id": "rectum",
+      "systemId": "digestive",
+      "name": "Rectum",
+      "latin": "Rectum",
+      "region": "pelvis",
+      "tagline": "The final holding room before waste leaves the body.",
+      "summary": "The rectum is the last stretch of the large intestine, about 12 to 15 centimeters (5 to 6 inches) long. It begins where the sigmoid colon ends and curves down along the sacrum, the triangular bone at the base of the spine, before continuing as the anal canal. Despite its name, which comes from the Latin for straight, it is distinctly curved.\n\nFor most of the day the rectum is empty. When a mass movement pushes stool into it, stretch receptors in its wall fire, and you feel the urge to go. Two rings of muscle guard the exit: the internal anal sphincter, which you cannot consciously control, and the external anal sphincter, which you can. This arrangement lets you decide when and where. If you ignore the signal, the stool can be stored temporarily, but the urge tends to return.",
+      "functions": [
+        {
+          "title": "Stores stool",
+          "detail": "The rectum holds waste until enough gathers to stretch its wall and trigger the urge to defecate."
+        },
+        {
+          "title": "Signals fullness",
+          "detail": "Stretch receptors send messages to the brain, letting you judge whether to go now or wait."
+        },
+        {
+          "title": "Controls release",
+          "detail": "The internal sphincter relaxes automatically while the external sphincter, under conscious control, can delay release."
+        }
+      ],
+      "location": "It sits in the pelvis, curving down along the sacrum behind the bladder and reproductive organs.",
+      "size": "It is about 12 to 15 centimeters (5 to 6 inches) long in adults.",
+      "facts": [
+        "The name rectum comes from the Latin for straight, but the organ actually curves around the tailbone.",
+        "The rectum stays mostly empty until a mass movement pushes stool into it and stretch receptors fire.",
+        "Two sphincters guard the exit: an inner one you cannot control and an outer one you can."
+      ],
+      "conditions": [
+        {
+          "name": "Hemorrhoids",
+          "description": "Swollen veins around the anus and lower rectum can itch, ache, or bleed, especially after straining."
+        },
+        {
+          "name": "Proctitis",
+          "description": "Inflammation of the rectal lining causes discomfort, bleeding, or a constant urge to pass stool."
+        }
+      ],
+      "relatedOrgans": [
+        "large-intestine",
+        "small-intestine"
+      ],
+      "keywords": [
+        "defecation",
+        "sphincter",
+        "stool",
+        "rectal"
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic — Rectum",
+          "url": "https://my.clevelandclinic.org/health/body/24785-rectum-function"
+        },
+        {
+          "label": "TeachMeAnatomy — The Rectum",
+          "url": "https://teachmeanatomy.info/abdomen/gi-tract/rectum/"
+        }
+      ],
+      "heroStat": {
+        "value": "15 cm",
+        "label": "of final storage"
+      }
+    }
+  ],
+  "lesson": {
+    "id": "lesson-digestive",
+    "title": "One meal, nine meters: a tour of digestion",
+    "subtitle": "Follow a single bite from your lips to the last stop and see who does what.",
+    "durationMin": 9,
+    "level": "beginner",
+    "steps": [
+      {
+        "title": "A nine-meter conversation",
+        "body": "Imagine swallowing a grape. Over the next day or so, that grape will be crushed, soaked in acid, sprayed with enzymes, stripped of its useful molecules, and reduced to waste. Your digestive tract is a single tube about nine meters long, and every part has a specialty. Some parts grind, some secrete, some absorb, and some simply wait. The tube is also selective: it lets sugars and amino acids through while keeping bacteria and half-digested proteins out. As you follow the grape, notice how many organs contribute a chemical or a squeeze. The first stop is the mouth, where the whole performance begins."
+      },
+      {
+        "title": "The mouth gets to work",
+        "body": "Put a cracker in your mouth and hold it there. After a minute it starts to taste sweet, because salivary amylase is already snipping starch into sugar. Your teeth do the mechanical work, shearing and grinding food into pieces with more surface area for enzymes to attack. Your tongue shapes the mess into a round bolus and pushes it toward the back of your throat. Chewing also slows you down, giving stretch signals from the stomach time to register. When you swallow, a flap called the epiglottis tips over the airway so the bolus can pass safely. Next, it enters a muscular chute.",
+        "organId": "mouth",
+        "keyPoint": "Digestion begins in the mouth, before you swallow a single bite."
+      },
+      {
+        "title": "The food pipe",
+        "body": "Your esophagus is not a passive drain. Its wall contains two layers of muscle, circular and longitudinal, that squeeze in sequence behind the bolus. This wave, peristalsis, is strong enough to move food even if you are lying down or upside down. At the bottom, the lower esophageal sphincter acts like a drawstring, staying closed so acid stays in the stomach. When it relaxes at the wrong moment, you feel the burn of reflux. The esophagus adds mucus but no enzymes; it is a corridor, not a kitchen. A few seconds later, the bolus drops into the stomach.",
+        "organId": "esophagus",
+        "keyPoint": "Peristalsis moves food by muscle power, not by gravity."
+      },
+      {
+        "title": "The churning bag",
+        "body": "The stomach is a muscular bag that does two jobs at once: it stores a meal and starts digesting it. Three layers of muscle twist and churn the contents, while glands release acid and pepsinogen. Acid unfolds proteins and kills many microbes; pepsin then cuts the proteins into shorter chains. A mucus layer keeps the stomach from digesting itself, and its lining renews every few days. The stomach also makes intrinsic factor, which your body needs to absorb vitamin B12. After an hour or two, the meal has become chyme, a soupy paste. A ring of muscle called the pylorus lets it out in squirts.",
+        "organId": "stomach",
+        "keyPoint": "The stomach stores, churns, and starts protein digestion all at once."
+      },
+      {
+        "title": "The liver and its sidekick",
+        "body": "Most of what you absorb from the gut travels first to the liver through the portal vein; fats take a slower route through lymph. This reddish-brown organ is a refinery: it stores glucose, builds proteins, breaks down drugs, and makes bile. Bile is not an enzyme; it is a detergent that breaks fat into tiny droplets so enzymes can reach it. The liver makes bile continuously, but between meals the gallbladder stores it and concentrates it. When fat arrives in the small intestine, a hormone called cholecystokinin makes the gallbladder squeeze. The result is a bitter, greenish burst that turns a slick of oil into an emulsion. Now the pancreas adds its own chemistry.",
+        "organId": "liver",
+        "keyPoint": "The liver makes bile; the gallbladder stores and concentrates it."
+      },
+      {
+        "title": "The enzyme factory",
+        "body": "The pancreas hides behind the stomach, which is why its problems can feel like back pain. Most of it is devoted to digestion: each day it releases about 1.5 liters of alkaline juice packed with enzymes for fats, proteins, and carbohydrates. Those enzymes are made in inactive form and switched on only after they reach the duodenum, a safety measure that keeps the gland from digesting itself. Scattered through the tissue are tiny islands of endocrine cells that make insulin and glucagon, the hormones that control blood sugar. So the pancreas belongs to two systems at once. Its juice meets bile in the small intestine, where absorption begins.",
+        "organId": "pancreas",
+        "keyPoint": "The pancreas is a digestive gland and a hormone gland in one."
+      },
+      {
+        "title": "The absorbing surface",
+        "body": "Unfold the small intestine and it would stretch about six meters, but its real trick is microscopic. Its lining is covered in villi, and each villus is covered in microvilli, folding the surface again and again until it reaches roughly 30 square meters. Each villus contains a capillary and a lymphatic vessel, ready to carry away sugars, amino acids, and fats. This is where more than 90 percent of nutrient absorption happens. The duodenum receives bile and pancreatic juice; the jejunum absorbs most nutrients; the ileum finishes and reclaims vitamin B12 and bile salts. What is left is watery and fiber-rich. The colon takes it from here.",
+        "organId": "small-intestine",
+        "keyPoint": "Villi and microvilli turn a narrow tube into a huge absorbing surface."
+      },
+      {
+        "title": "The last stretch",
+        "body": "Two organs finish the route. The large intestine, about 1.5 meters long, reclaims water and salts and houses trillions of bacteria that ferment fiber and make some vitamin K. The rectum, the final 12 to 15 centimeters, stores stool until stretch receptors trigger the urge to go. Two sphincters, one involuntary and one under your control, set the timing. Zoom out and the whole journey is one continuous tube: about nine meters, roughly a day, and a relay of organs handing off a single meal. Open the colon and rectum models next, then try the quiz and see which handoffs you remember."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": "digestive-q1",
+      "systemId": "digestive",
+      "question": "Where does the chemical breakdown of starch begin?",
+      "options": [
+        "Stomach",
+        "Mouth",
+        "Small intestine",
+        "Liver"
+      ],
+      "answerIndex": 1,
+      "explanation": "Saliva contains amylase, an enzyme that starts splitting starch into sugar while you chew. The stomach's acid and the small intestine's enzymes continue the job later.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "digestive-q2",
+      "systemId": "digestive",
+      "question": "Which organ stores and concentrates bile between meals?",
+      "options": [
+        "Liver",
+        "Pancreas",
+        "Gallbladder",
+        "Stomach"
+      ],
+      "answerIndex": 2,
+      "explanation": "The liver makes bile continuously, but the gallbladder holds it and removes water, concentrating it up to tenfold until fat arrives in the small intestine.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "digestive-q3",
+      "systemId": "digestive",
+      "question": "Where does most nutrient absorption take place?",
+      "options": [
+        "Small intestine",
+        "Large intestine",
+        "Stomach",
+        "Esophagus"
+      ],
+      "answerIndex": 0,
+      "explanation": "The small intestine's villi and microvilli create a vast surface, and more than 90 percent of usable nutrients are absorbed there before waste moves on.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "digestive-q4",
+      "systemId": "digestive",
+      "question": "Which structure keeps stomach acid from flowing back into the esophagus?",
+      "options": [
+        "Pyloric sphincter",
+        "Epiglottis",
+        "Esophageal hiatus",
+        "Lower esophageal sphincter"
+      ],
+      "answerIndex": 3,
+      "explanation": "The lower esophageal sphincter stays closed between meals. When it relaxes at the wrong moment, acidic stomach contents can rise and cause the burning feeling of reflux.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "digestive-q5",
+      "systemId": "digestive",
+      "question": "What is the main job of the large intestine?",
+      "options": [
+        "Absorbing most sugars and amino acids",
+        "Reclaiming water and salts",
+        "Making bile",
+        "Producing insulin"
+      ],
+      "answerIndex": 1,
+      "explanation": "By the time waste reaches the colon, most nutrients are gone. The large intestine absorbs water and salts, turning liquid slurry into formed stool with help from gut bacteria.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "digestive-q6",
+      "systemId": "digestive",
+      "question": "Which organ produces both digestive enzymes and insulin?",
+      "options": [
+        "Liver",
+        "Gallbladder",
+        "Pancreas",
+        "Stomach"
+      ],
+      "answerIndex": 2,
+      "explanation": "The pancreas is mostly exocrine tissue that sends enzymes to the duodenum, but scattered islets of endocrine cells release insulin and glucagon to regulate blood sugar.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "digestive-q7",
+      "systemId": "digestive",
+      "question": "Which statement about the liver's blood supply is correct?",
+      "options": [
+        "It receives blood from both the hepatic artery and the portal vein",
+        "It receives blood only from the portal vein",
+        "It receives blood only from the hepatic artery",
+        "It receives oxygen only from the stomach"
+      ],
+      "answerIndex": 0,
+      "explanation": "The hepatic artery brings oxygen-rich blood, while the portal vein carries nutrient-laden blood from the gut. Most absorbed nutrients pass through the liver before reaching the rest of the body.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "digestive-q8",
+      "systemId": "digestive",
+      "question": "Which sequence correctly traces food through the digestive tract?",
+      "options": [
+        "Mouth, stomach, esophagus, small intestine, large intestine, rectum",
+        "Mouth, esophagus, small intestine, stomach, large intestine, rectum",
+        "Mouth, esophagus, stomach, large intestine, small intestine, rectum",
+        "Mouth, esophagus, stomach, small intestine, large intestine, rectum"
+      ],
+      "answerIndex": 3,
+      "explanation": "Food travels from the mouth into the esophagus, then the stomach, where it becomes chyme. The small intestine absorbs nutrients, the colon reclaims water, and the rectum stores waste.",
+      "difficulty": "hard"
+    }
+  ]
+}

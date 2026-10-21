@@ -1,0 +1,979 @@
+{
+  "id": "muscular",
+  "name": "Muscular System",
+  "shortName": "Muscular",
+  "tagline": "The living ropes that move you, brace you, and breathe for you.",
+  "summary": "Muscle is the body's living machinery, and it is everywhere you look: not just in your arms and legs, but in the walls of your blood vessels, your gut, and even the tiny muscles that focus your eyes. When people say the muscular system, they usually mean the 600-plus skeletal muscles that attach to bone and pull on it. They make up roughly 40 percent of an adult's body weight, which is why a trained body looks sculpted rather than skeletal.\n\nSkeletal muscle is built in layers. Bundles of fibers, each finer than a thread, are wrapped in connective tissue and gathered into a belly that tapers into tendons. A tendon anchors the muscle to bone across a joint, so when the fibers shorten by a fraction of their length, the bone swings through a wide arc. These muscles work in pairs: one bends a joint while its partner straightens it.\n\nTwo other muscle types keep you alive without a thought. Smooth muscle slowly squeezes blood vessels and pushes food through the intestine, while cardiac muscle contracts rhythmically in your heart. Together these tissues move you, warm you, and hold you together, and they respond to use. Load them with movement and they grow stronger; leave them idle and they waste away. That adaptability is the muscular system's quiet superpower.",
+  "color": "#b5523b",
+  "stats": [
+    {
+      "value": "600+",
+      "label": "skeletal muscles in your body"
+    },
+    {
+      "value": "~40%",
+      "label": "of your body weight is muscle"
+    },
+    {
+      "value": "1 mm",
+      "label": "your smallest muscle, in your ear"
+    }
+  ],
+  "functions": [
+    "Moves you by pulling on bones across joints",
+    "Keeps you upright against gravity",
+    "Generates heat when you shiver",
+    "Pushes food through your gut and blood through your vessels",
+    "Shapes your body and guards your joints",
+    "Lets you breathe by changing the size of your chest"
+  ],
+  "organs": [
+    {
+      "id": "deltoid",
+      "systemId": "muscular",
+      "name": "Deltoid",
+      "latin": "Musculus deltoideus",
+      "alsoKnownAs": [
+        "Shoulder cap",
+        "Delts"
+      ],
+      "region": "upper-limb",
+      "tagline": "The triangular cap that lets you lift your arm out to the side.",
+      "summary": "The deltoid is the triangular muscle that gives your shoulder its rounded cap. It has three parts that converge from the collarbone, the acromion, and the spine of the shoulder blade onto a rough patch on the outer upper arm called the deltoid tuberosity. Because the three parts pull from different angles, they can act almost like three muscles in one.\n\nThe middle part lifts your arm out to the side, the front part swings it forward, and the back part pulls it behind you. Lifting your arm overhead is a relay: a small muscle above the joint starts the motion, then the deltoid takes over. It also steadies the head of the arm bone in its shallow socket. Without a working deltoid, the shoulder would hang low and the arm would be hard to raise. It is the muscle you feel burning when you hold your arms out and make slow circles.",
+      "functions": [
+        {
+          "title": "Lifts the arm sideways",
+          "detail": "The middle fibers abduct the arm, carrying it from your side up toward shoulder height and beyond."
+        },
+        {
+          "title": "Swings the arm forward and back",
+          "detail": "Front fibers flex the shoulder for reaching, while back fibers extend it for pushing and rowing."
+        },
+        {
+          "title": "Steadies the shoulder joint",
+          "detail": "The muscle wraps the head of the humerus and helps keep it centered in its shallow socket."
+        },
+        {
+          "title": "Carries loads at your side",
+          "detail": "Holding a heavy bag, the deltoid works to keep the arm from being pulled out of its socket."
+        }
+      ],
+      "location": "It caps the shoulder joint, wrapping from the collarbone and shoulder blade down to the outer upper arm.",
+      "size": "Its fibers fan across roughly the width of your palm and thin into a flat tendon no wider than two fingers.",
+      "facts": [
+        "The name comes from the Greek letter delta, because the muscle's outline looks like a triangle.",
+        "It is a favorite site for injections because its thick middle part is easy to reach and holds medicine in muscle tissue.",
+        "Its three parts can be trained at different angles because their fibers pull in different directions."
+      ],
+      "conditions": [
+        {
+          "name": "Deltoid strain",
+          "description": "Overstretching or tearing of the muscle fibers, often after heavy lifting or a sudden pull on the arm, causing pain and weakness when raising the arm."
+        },
+        {
+          "name": "Axillary nerve injury",
+          "description": "The nerve that powers the deltoid can be stretched by a shoulder dislocation or a fracture, leaving the muscle weak and the shoulder rounded."
+        },
+        {
+          "name": "Subacromial bursitis",
+          "description": "The fluid-filled sac beneath the deltoid can become inflamed, making it painful to lift the arm out to the side."
+        }
+      ],
+      "relatedOrgans": [
+        "scapula",
+        "clavicle",
+        "humerus"
+      ],
+      "keywords": [
+        "shoulder",
+        "abduction",
+        "deltoid",
+        "arm",
+        "axillary nerve"
+      ],
+      "sources": [
+        {
+          "label": "TeachMeAnatomy — Deltoid",
+          "url": "https://teachmeanatomy.info/encyclopaedia/d/deltoid/"
+        },
+        {
+          "label": "Cleveland Clinic — Deltoid muscles",
+          "url": "https://my.clevelandclinic.org/health/body/21875-deltoid-muscles"
+        }
+      ],
+      "heroStat": {
+        "value": "3 parts",
+        "label": "front, side, and back"
+      }
+    },
+    {
+      "id": "pectoralis-major",
+      "systemId": "muscular",
+      "name": "Pectoralis Major",
+      "latin": "Musculus pectoralis major",
+      "alsoKnownAs": [
+        "Pecs",
+        "Chest muscle"
+      ],
+      "region": "thorax",
+      "tagline": "The broad fan across your chest that pulls your arm inward.",
+      "summary": "Your pectoralis major is the broad, fan-shaped muscle under the skin of your chest. It begins in several strips along the collarbone, the breastbone, and the upper ribs, then sweeps outward and gathers into a single tendon that attaches to the upper arm. The lower edge of the fan folds upward, which is why the muscle looks like a wide triangle rather than a flat sheet.\n\nIts main job is to pull the arm across the body and rotate it inward, the motion of a hug or a swimming stroke. The upper fibers also lift the arm forward, which is why a bench press works the chest so hard. Because the tendon crosses the front of the shoulder joint, the pectoralis major helps hold the arm bone in place. Push against a heavy door and you will feel it flatten and tighten beneath your hand.",
+      "functions": [
+        {
+          "title": "Pulls the arm across the chest",
+          "detail": "Adduction brings the arm inward, the motion of a hug, a push-up, or a swimming stroke."
+        },
+        {
+          "title": "Rotates the arm inward",
+          "detail": "Medial rotation turns the forearm and hand toward the body, as when you reach across to scratch your back."
+        },
+        {
+          "title": "Raises the arm forward",
+          "detail": "The clavicular fibers lift the arm in front of you, helping with overhead reaching and lifting."
+        },
+        {
+          "title": "Helps you breathe hard",
+          "detail": "When you are out of breath, the pectoralis major can pull the ribs upward and assist the diaphragm."
+        }
+      ],
+      "location": "It spreads across the front of the chest, from the collarbone and breastbone to the upper arm.",
+      "size": "The fan is about as wide as your hand at the breastbone and narrows to a tendon about two fingers wide at the armpit.",
+      "facts": [
+        "The pectoralis major and the smaller pectoralis minor beneath it are two separate muscles.",
+        "Some people are born without a pectoralis major on one side, a condition called Poland syndrome.",
+        "Its tendon twists almost 180 degrees before attaching to the arm bone, so the lower fibers end up higher on the bone."
+      ],
+      "conditions": [
+        {
+          "name": "Pectoralis major strain",
+          "description": "A stretch or tear of the chest muscle, most often during heavy pushing or a sudden pull, causing pain near the armpit and weakness in the hug motion."
+        },
+        {
+          "name": "Pectoralis major tear",
+          "description": "A complete rupture usually happens at the tendon near the arm bone, often during bench pressing, and can leave a visible dent in the chest."
+        },
+        {
+          "name": "Poland syndrome",
+          "description": "A rare condition present at birth in which the pectoralis major is missing or underdeveloped on one side, sometimes with differences in the hand."
+        }
+      ],
+      "relatedOrgans": [
+        "sternum",
+        "ribcage",
+        "humerus"
+      ],
+      "keywords": [
+        "chest",
+        "pushing",
+        "adduction",
+        "pecs",
+        "hug"
+      ],
+      "sources": [
+        {
+          "label": "TeachMeAnatomy — Pectoralis major",
+          "url": "https://teachmeanatomy.info/encyclopaedia/p/pectoralis-major/"
+        },
+        {
+          "label": "MedlinePlus — Sprains and strains",
+          "url": "https://medlineplus.gov/sprainsandstrains.html"
+        }
+      ],
+      "heroStat": {
+        "value": "2 heads",
+        "label": "one broad chest fan"
+      }
+    },
+    {
+      "id": "rectus-abdominis",
+      "systemId": "muscular",
+      "name": "Rectus Abdominis",
+      "latin": "Musculus rectus abdominis",
+      "alsoKnownAs": [
+        "Abs",
+        "Six-pack muscle"
+      ],
+      "region": "abdomen",
+      "tagline": "The strap of muscle that braces your trunk and builds your abs.",
+      "summary": "Rectus abdominis is the long, flat strap of muscle that runs straight down the front of your belly. It starts at the pubic bone and climbs to the breastbone and the lower ribs, widening as it goes. Three or four bands of tough connective tissue cross it horizontally, dividing the muscle into the blocks people call a six-pack.\n\nThe muscle bends your trunk forward, the way you curl up from lying down, and it braces your spine when you lift something heavy. It also squeezes the abdominal contents, raising the pressure inside your belly when you cough, laugh, or push. Two sheets of fascia wrap it like a corset, and a seam of tissue called the linea alba separates the left and right halves. Every one of those blocks is part of the same muscle, not a separate one.",
+      "functions": [
+        {
+          "title": "Curls the trunk forward",
+          "detail": "It bends your spine and hips, the motion of a sit-up or rising from bed."
+        },
+        {
+          "title": "Braces the core",
+          "detail": "Contracting it stiffens the trunk so forces pass safely through the spine when you lift."
+        },
+        {
+          "title": "Raises abdominal pressure",
+          "detail": "It squeezes the belly contents, raising pressure inside the abdomen during coughing, laughing, and pushing."
+        },
+        {
+          "title": "Steadies the pelvis",
+          "detail": "It helps tilt and hold the pelvis while you walk, run, and kick."
+        }
+      ],
+      "location": "It runs vertically down the front of the abdomen, from the pubic bone to the breastbone.",
+      "size": "Each half is a flat strap about three fingers wide, wrapped in a sheath that is strongest near the midline.",
+      "facts": [
+        "The six-pack is a single muscle crossed by bands of tendon; the blocks are not separate muscles.",
+        "Everyone has the bands; whether you can see them depends on body fat, not on doing more sit-ups.",
+        "Your rectus abdominis has no direct bony attachment to your spine, so it braces the trunk through pressure and fascia."
+      ],
+      "conditions": [
+        {
+          "name": "Diastasis recti",
+          "description": "The gap between the two halves of the muscle widens, often after pregnancy, leaving a soft ridge down the middle of the belly."
+        },
+        {
+          "name": "Abdominal strain",
+          "description": "A pulled abdominal muscle causes pain with curling, coughing, or laughing, and is common in sports that involve twisting."
+        },
+        {
+          "name": "Ventral hernia",
+          "description": "A weakness in the abdominal wall lets a loop of intestine bulge through, appearing as a lump under the skin."
+        }
+      ],
+      "relatedOrgans": [
+        "pelvis",
+        "sternum",
+        "diaphragm"
+      ],
+      "keywords": [
+        "abs",
+        "core",
+        "six-pack",
+        "trunk",
+        "linea alba"
+      ],
+      "sources": [
+        {
+          "label": "TeachMeAnatomy — Rectus abdominis",
+          "url": "https://teachmeanatomy.info/encyclopaedia/r/rectus-abdominis/"
+        },
+        {
+          "label": "Cleveland Clinic — Abdominal muscles",
+          "url": "https://my.clevelandclinic.org/health/body/21755-abdominal-muscles"
+        }
+      ],
+      "heroStat": {
+        "value": "6 blocks",
+        "label": "from one single muscle"
+      }
+    },
+    {
+      "id": "trapezius",
+      "systemId": "muscular",
+      "name": "Trapezius",
+      "latin": "Musculus trapezius",
+      "alsoKnownAs": [
+        "Traps",
+        "Shrug muscle"
+      ],
+      "region": "thorax",
+      "tagline": "The kite-shaped muscle that shrugs, steadies, and turns your head.",
+      "summary": "The trapezius is a large, kite-shaped muscle that covers much of your upper back and neck. It starts along the base of the skull, the ligament at the back of the neck, and the bumps of the spine from the neck down to the middle of the back. From there its fibers fan out to the collarbone, the shoulder blade, and the ridge across the shoulder blade.\n\nIts upper fibers lift your shoulder when you shrug, the middle fibers squeeze the shoulder blades together, and the lower fibers pull them down and help rotate them upward when you reach overhead. Working together, the three parts steady the shoulder blade so the arm can move with control. The trapezius is unusual because it is powered by a cranial nerve, the spinal accessory nerve, rather than by spinal nerves alone. It is the muscle that aches after a long day at a desk.",
+      "functions": [
+        {
+          "title": "Shrugs the shoulders",
+          "detail": "Upper fibers lift the shoulder blade, as when you carry a heavy backpack."
+        },
+        {
+          "title": "Squeezes the shoulder blades",
+          "detail": "Middle fibers pull the scapulae toward the spine, helping you sit and stand taller."
+        },
+        {
+          "title": "Rotates the shoulder blade upward",
+          "detail": "Lower fibers help turn the socket upward so the arm can reach overhead."
+        },
+        {
+          "title": "Turns and tilts the neck",
+          "detail": "Working on one side, the muscle helps rotate and side-bend the head."
+        }
+      ],
+      "location": "It lies just under the skin of the upper back and neck, spanning from the skull to the middle of the back.",
+      "size": "The two muscles together form a kite that spans from the base of your skull to the middle of your back, about the length of your forearm and hand.",
+      "facts": [
+        "Its name comes from the trapezoid shape formed by the two muscles together.",
+        "It is one of the few muscles controlled by a cranial nerve, the spinal accessory nerve.",
+        "The lower fibers pull the shoulder blade down while the upper fibers lift it, so the muscle can work against itself to rotate the blade."
+      ],
+      "conditions": [
+        {
+          "name": "Trapezius strain",
+          "description": "Stretched fibers in the upper back or neck cause aching and stiffness, often after prolonged desk work or a sudden lift."
+        },
+        {
+          "name": "Myofascial pain",
+          "description": "Tight bands in the muscle, called trigger points, can refer pain up the neck and into the head."
+        },
+        {
+          "name": "Spinal accessory nerve injury",
+          "description": "Damage to the nerve that drives the trapezius weakens the shrug and can make the shoulder blade drift outward."
+        }
+      ],
+      "relatedOrgans": [
+        "scapula",
+        "clavicle",
+        "vertebral-column"
+      ],
+      "keywords": [
+        "traps",
+        "shoulder blade",
+        "neck",
+        "shrug",
+        "posture"
+      ],
+      "sources": [
+        {
+          "label": "TeachMeAnatomy — Trapezius",
+          "url": "https://teachmeanatomy.info/encyclopaedia/t/trapezius/"
+        },
+        {
+          "label": "Cleveland Clinic — Trapezius muscle",
+          "url": "https://my.clevelandclinic.org/health/body/21563-trapezius-muscle"
+        }
+      ],
+      "heroStat": {
+        "value": "3 zones",
+        "label": "shrug, squeeze, lower"
+      }
+    },
+    {
+      "id": "biceps-brachii",
+      "systemId": "muscular",
+      "name": "Biceps Brachii",
+      "latin": "Musculus biceps brachii",
+      "alsoKnownAs": [
+        "Biceps",
+        "Two-headed arm muscle"
+      ],
+      "region": "upper-limb",
+      "tagline": "The two-headed muscle that bends your elbow and turns your palm up.",
+      "summary": "The biceps brachii is the muscle that pops up on the front of your upper arm when you make a fist and bend your elbow. It has two heads: a long head that starts on the rim of the shoulder socket and a short head that starts on a bony hook at the front of the shoulder blade. Both bellies merge into one tendon that grips the radius, the bone on the thumb side of your forearm.\n\nThe biceps bends your elbow, but its specialty is turning your palm to face upward, a motion called supination. That is why it feels strongest when you lift a heavy box with your palms up. It also helps lift your arm at the shoulder. Because its long tendon runs through the shoulder joint, it can be irritated by repeated overhead work. Flex your arm now and you are watching two heads of one muscle work as a team.",
+      "functions": [
+        {
+          "title": "Bends the elbow",
+          "detail": "It is a powerful flexor of the elbow, especially when your palm faces up."
+        },
+        {
+          "title": "Turns the palm upward",
+          "detail": "Supination is its specialty; the biceps is the strongest supinator of the forearm."
+        },
+        {
+          "title": "Lifts the arm",
+          "detail": "It assists shoulder flexion, helping you bring your hand toward your face."
+        },
+        {
+          "title": "Steadies the shoulder",
+          "detail": "The long head tendon passes through the joint and helps stabilize the head of the arm bone."
+        }
+      ],
+      "location": "It sits on the front of the upper arm, between the shoulder and the elbow.",
+      "size": "Its belly is about the length of your hand, roughly 12 cm (5 in), and tapers into tendons at both ends.",
+      "facts": [
+        "Biceps means two heads, and both heads start at the shoulder but from different points.",
+        "It is a stronger supinator than elbow flexor, so turning a stubborn jar lid uses it more than lifting the jar does.",
+        "The long head tendon runs inside the shoulder joint, which is why shoulder problems can cause pain in the front of the arm."
+      ],
+      "conditions": [
+        {
+          "name": "Biceps tendinitis",
+          "description": "The tendon at the shoulder or elbow becomes inflamed, causing pain with lifting and overhead reaching."
+        },
+        {
+          "name": "Distal biceps tear",
+          "description": "The tendon at the elbow can snap during a sudden heavy lift, making the muscle belly ball up toward the shoulder."
+        },
+        {
+          "name": "SLAP tear",
+          "description": "The long head tendon attaches to a ring of cartilage in the shoulder socket that can tear, causing deep shoulder pain and clicking."
+        }
+      ],
+      "relatedOrgans": [
+        "humerus",
+        "radius-ulna",
+        "scapula"
+      ],
+      "keywords": [
+        "biceps",
+        "elbow",
+        "supination",
+        "arm",
+        "flexion"
+      ],
+      "sources": [
+        {
+          "label": "TeachMeAnatomy — Biceps brachii",
+          "url": "https://teachmeanatomy.info/encyclopaedia/b/biceps-brachii/"
+        },
+        {
+          "label": "Cleveland Clinic — Arm muscles",
+          "url": "https://my.clevelandclinic.org/health/body/22312-arm-muscles"
+        }
+      ],
+      "heroStat": {
+        "value": "2 heads",
+        "label": "one elbow bender"
+      }
+    },
+    {
+      "id": "gluteus-maximus",
+      "systemId": "muscular",
+      "name": "Gluteus Maximus",
+      "latin": "Musculus gluteus maximus",
+      "alsoKnownAs": [
+        "Glutes",
+        "Largest muscle"
+      ],
+      "region": "pelvis",
+      "tagline": "The biggest muscle in your body, built for climbing and standing tall.",
+      "summary": "The gluteus maximus is the largest and heaviest muscle in your body. It forms the shape of your buttock, stretching from the back of the pelvis and the tailbone to the upper femur and a thick band of fascia that runs down the outside of the thigh. Its fibers run at a steep diagonal, which gives it enormous leverage.\n\nIt extends your hip, driving you up stairs, out of a chair, and up a hill. It also rotates your thigh outward and, through the iliotibial band, helps steady the knee. In walking it works less than you might think; in sprinting and climbing it works hard. Humans have a much larger gluteus maximus than our ape relatives, and its size is thought to reflect our upright posture and long-distance running.",
+      "functions": [
+        {
+          "title": "Extends the hip",
+          "detail": "It drives your leg backward to stand up, climb stairs, and sprint."
+        },
+        {
+          "title": "Rotates the thigh outward",
+          "detail": "Its diagonal fibers turn the thigh and lower leg outward, a motion used when you cross your legs."
+        },
+        {
+          "title": "Steadies the knee",
+          "detail": "Through the iliotibial band it helps control the knee during running and landing."
+        },
+        {
+          "title": "Pads the sitting bones",
+          "detail": "Its bulk cushions your pelvis when you sit, though a soft chair does much of that work for you."
+        }
+      ],
+      "location": "It forms the bulk of the buttock, behind the pelvis and hip joint.",
+      "size": "It is the body's largest muscle, a slab several centimeters thick that spans the entire buttock.",
+      "facts": [
+        "It is the largest muscle in the human body, but it does surprisingly little during a slow walk.",
+        "Our gluteus maximus is far larger than that of chimpanzees, and its size is linked to upright running.",
+        "The muscle attaches partly to the iliotibial band, a long strip of fascia that helps stabilize the knee."
+      ],
+      "conditions": [
+        {
+          "name": "Gluteal strain",
+          "description": "A stretch or tear of the buttock muscle, usually from sprinting or sudden direction changes, causing pain with hip extension."
+        },
+        {
+          "name": "Gluteal tendinopathy",
+          "description": "The tendons that attach the gluteal muscles to the femur become irritated, causing pain on the outside of the hip, especially when lying on that side."
+        },
+        {
+          "name": "Deep gluteal syndrome",
+          "description": "The sciatic nerve can be compressed by muscles deep in the buttock, causing pain that travels down the leg."
+        }
+      ],
+      "relatedOrgans": [
+        "pelvis",
+        "femur",
+        "hamstrings"
+      ],
+      "keywords": [
+        "glutes",
+        "hip",
+        "buttock",
+        "extension",
+        "running"
+      ],
+      "sources": [
+        {
+          "label": "TeachMeAnatomy — Gluteus maximus",
+          "url": "https://teachmeanatomy.info/encyclopaedia/g/gluteus-maximus/"
+        },
+        {
+          "label": "Cleveland Clinic — Gluteal muscles",
+          "url": "https://my.clevelandclinic.org/health/body/gluteal-muscles-glutes"
+        }
+      ],
+      "heroStat": {
+        "value": "Largest",
+        "label": "muscle in your body"
+      }
+    },
+    {
+      "id": "quadriceps",
+      "systemId": "muscular",
+      "name": "Quadriceps",
+      "latin": "Musculus quadriceps femoris",
+      "alsoKnownAs": [
+        "Quads",
+        "Front thigh muscles"
+      ],
+      "region": "lower-limb",
+      "tagline": "Four muscles on the front of your thigh that straighten your knee.",
+      "summary": "The quadriceps femoris is not one muscle but four that share a single tendon. The rectus femoris runs down the middle of the front thigh, while the vastus lateralis, vastus medialis, and vastus intermedius wrap around the femur beneath it. All four join the quadriceps tendon, which encloses the kneecap and continues to the shin bone.\n\nTogether they straighten your knee, the motion that kicks a ball, climbs a step, and absorbs your landing. The rectus femoris crosses both the hip and the knee, so it also helps lift your thigh. The kneecap acts like a pulley, increasing the tendon's leverage. This is the bulkiest muscle group in the body, and it is why the front of your thigh looks so different from the back.",
+      "functions": [
+        {
+          "title": "Straightens the knee",
+          "detail": "All four muscles pull through the kneecap to extend the knee, the motion of kicking a ball."
+        },
+        {
+          "title": "Lifts the thigh",
+          "detail": "The rectus femoris also flexes the hip, helping you step up or kick."
+        },
+        {
+          "title": "Absorbs landings",
+          "detail": "The group lengthens under load to slow your body as you land from a jump."
+        },
+        {
+          "title": "Holds the kneecap in line",
+          "detail": "The vastus medialis helps keep the patella tracking toward the center of the knee."
+        }
+      ],
+      "location": "It fills the front of the thigh, from hip to kneecap.",
+      "size": "The four bellies together form the bulkiest muscle group in the body, wrapping the femur from hip to knee.",
+      "facts": [
+        "The quadriceps is four muscles, but only the rectus femoris crosses the hip joint.",
+        "The kneecap is a sesamoid bone embedded in the quadriceps tendon, and it improves the tendon's leverage.",
+        "The vastus lateralis is the largest of the four and generates much of the force in a jump."
+      ],
+      "conditions": [
+        {
+          "name": "Quadriceps strain",
+          "description": "A pulled thigh muscle, most often in the rectus femoris, causes pain and weakness when kicking or sprinting."
+        },
+        {
+          "name": "Patellofemoral pain",
+          "description": "Pain around the kneecap is common when the quadriceps pull unevenly or the knee is loaded in a bent position."
+        },
+        {
+          "name": "Quadriceps tendon tear",
+          "description": "A partial or complete tear above the kneecap makes it hard to straighten the knee and can cause the knee to give way."
+        }
+      ],
+      "relatedOrgans": [
+        "femur",
+        "patella",
+        "hamstrings"
+      ],
+      "keywords": [
+        "quads",
+        "thigh",
+        "knee",
+        "extension",
+        "patella"
+      ],
+      "sources": [
+        {
+          "label": "TeachMeAnatomy — Quadriceps femoris",
+          "url": "https://teachmeanatomy.info/encyclopaedia/q/quadriceps-femoris/"
+        },
+        {
+          "label": "Cleveland Clinic — Quad muscles",
+          "url": "https://my.clevelandclinic.org/health/body/22816-quad-muscles"
+        }
+      ],
+      "heroStat": {
+        "value": "4 in 1",
+        "label": "muscles, one tendon"
+      }
+    },
+    {
+      "id": "hamstrings",
+      "systemId": "muscular",
+      "name": "Hamstrings",
+      "alsoKnownAs": [
+        "Hams",
+        "Back thigh muscles"
+      ],
+      "region": "lower-limb",
+      "tagline": "Three muscles behind the thigh that drive you forward and slow you down.",
+      "summary": "The hamstrings are three muscles that run down the back of your thigh: the biceps femoris on the outside, and the semitendinosus and semimembranosus on the inside. All three begin at the ischial tuberosity, the bony knob you sit on, and cross the knee to attach to the tibia and fibula. Their tendons are the tough cords you can feel behind your knee.\n\nThey bend the knee and extend the hip, so they power every stride and control the leg as it swings forward. During a sprint, they alternate between shortening hard and lengthening under load, which is why they are among the most commonly strained muscles in sport. The name comes from butchers, who hung hams of pork by these very tendons. Sit on your hands and lean forward; the pull you feel under your sitting bones is the hamstrings at work.",
+      "functions": [
+        {
+          "title": "Bends the knee",
+          "detail": "They flex the knee, drawing the heel toward the buttock as you prepare to step."
+        },
+        {
+          "title": "Extends the hip",
+          "detail": "They drive the thigh backward in walking, running, and jumping, working with the glutes."
+        },
+        {
+          "title": "Controls the leg's swing",
+          "detail": "They lengthen under load to slow the shin before the foot lands."
+        },
+        {
+          "title": "Rotates the lower leg",
+          "detail": "When the knee is bent, they can turn the shin inward or outward."
+        }
+      ],
+      "location": "They run down the back of the thigh, from the sitting bone to the back of the knee.",
+      "size": "The three muscles together form a band about as wide as your hand, with the biceps femoris the thickest of the group.",
+      "facts": [
+        "The name comes from butchers, who hung hams of pork by these tendons.",
+        "They cross two joints, so they affect both the hip and the knee.",
+        "In a sprint, they can be injured when they lengthen while contracting, which is why strains happen during acceleration."
+      ],
+      "conditions": [
+        {
+          "name": "Hamstring strain",
+          "description": "A tear in one of the three muscles, usually during sprinting, causes sudden pain at the back of the thigh."
+        },
+        {
+          "name": "Proximal hamstring avulsion",
+          "description": "The tendons can pull away from the sitting bone during a fall or a forceful stretch, causing deep buttock pain."
+        },
+        {
+          "name": "Hamstring tendinopathy",
+          "description": "The tendon near the sitting bone becomes irritated, causing pain that worsens with sitting or running."
+        }
+      ],
+      "relatedOrgans": [
+        "pelvis",
+        "femur",
+        "quadriceps"
+      ],
+      "keywords": [
+        "hamstrings",
+        "thigh",
+        "sprint",
+        "hip",
+        "knee"
+      ],
+      "sources": [
+        {
+          "label": "TeachMeAnatomy — Hamstrings",
+          "url": "https://teachmeanatomy.info/lower-limb/muscles/thigh/hamstrings/"
+        },
+        {
+          "label": "Cleveland Clinic — Hamstring muscles",
+          "url": "https://my.clevelandclinic.org/health/body/21904-hamstring-muscles"
+        }
+      ],
+      "heroStat": {
+        "value": "3 muscles",
+        "label": "behind each thigh"
+      }
+    },
+    {
+      "id": "gastrocnemius",
+      "systemId": "muscular",
+      "name": "Gastrocnemius",
+      "latin": "Musculus gastrocnemius",
+      "alsoKnownAs": [
+        "Calf muscle",
+        "Gastroc"
+      ],
+      "region": "lower-limb",
+      "tagline": "The two-headed calf muscle that launches you onto your toes.",
+      "summary": "The gastrocnemius is the muscle that gives your calf its bulge. It has two heads, one starting above each femoral condyle at the back of the knee, which merge into a broad belly and then into the Achilles tendon. That tendon is the thickest in the body, and it anchors the muscle to the heel bone.\n\nWhen the gastrocnemius shortens, it points your toes and lifts your heel, the motion that carries you up onto tiptoe and pushes you forward in a run. Because it crosses the knee as well as the ankle, it also assists in bending the knee. A deeper muscle called the soleus lies beneath it, and together they form the triceps surae. Stand on the edge of a step and rise onto your toes, and you can feel this muscle do its work.",
+      "functions": [
+        {
+          "title": "Points the toes",
+          "detail": "Plantarflexion lifts your heel and pushes you forward, the motion of standing on tiptoe."
+        },
+        {
+          "title": "Powers push-off",
+          "detail": "It stores and releases energy in the Achilles tendon with every step."
+        },
+        {
+          "title": "Assists knee flexion",
+          "detail": "Because it crosses the knee as well as the ankle, it helps bend the joint when you lift your heel."
+        },
+        {
+          "title": "Pumps blood upward",
+          "detail": "Calf contraction squeezes deep veins, helping blood return to the heart against gravity."
+        }
+      ],
+      "location": "It forms the bulging upper half of the calf, below the back of the knee.",
+      "size": "Its two bellies together are about as long as your hand in a relaxed leg and flatten into a tendon above the heel.",
+      "facts": [
+        "Its name comes from the Greek words for belly and leg, because it makes the calf look like a belly.",
+        "It is built for quick, powerful pushes, which is why the calf burns during repeated jumps.",
+        "The Achilles tendon it feeds into is the strongest tendon in the body, able to withstand loads several times body weight."
+      ],
+      "conditions": [
+        {
+          "name": "Calf strain",
+          "description": "A sudden stretch can tear fibers in the calf, often called tennis leg, causing sharp pain and a feeling of being kicked."
+        },
+        {
+          "name": "Achilles tendinopathy",
+          "description": "The tendon below the calf becomes thickened and painful with repeated loading."
+        },
+        {
+          "name": "Achilles rupture",
+          "description": "A complete tear can make an audible pop and leave you unable to push off on that leg."
+        }
+      ],
+      "relatedOrgans": [
+        "femur",
+        "hamstrings",
+        "quadriceps"
+      ],
+      "keywords": [
+        "calf",
+        "achilles",
+        "toes",
+        "push-off",
+        "ankle"
+      ],
+      "sources": [
+        {
+          "label": "TeachMeAnatomy — Gastrocnemius",
+          "url": "https://teachmeanatomy.info/encyclopaedia/g/gastrocnemius/"
+        },
+        {
+          "label": "Cleveland Clinic — Calf muscle",
+          "url": "https://my.clevelandclinic.org/health/body/21662-calf-muscle"
+        }
+      ],
+      "heroStat": {
+        "value": "2 heads",
+        "label": "on every calf"
+      }
+    },
+    {
+      "id": "diaphragm",
+      "systemId": "muscular",
+      "name": "Diaphragm",
+      "latin": "Diaphragma",
+      "alsoKnownAs": [
+        "Breathing muscle",
+        "The dome"
+      ],
+      "region": "thorax",
+      "tagline": "The dome beneath your lungs that pulls in every breath.",
+      "summary": "The diaphragm is a dome-shaped sheet of muscle that separates your chest from your abdomen. It attaches around the lower ribs, the breastbone, and the lumbar spine, and its fibers converge on a central tendon that sits just below the heart. At rest it curves upward like an upside-down bowl.\n\nWhen it contracts, the dome flattens downward, enlarging the chest cavity and drawing air into the lungs. It is the main muscle of quiet breathing, working about 20,000 times a day without your notice. It also helps raise pressure inside the abdomen for coughing and lifting, and it squeezes the esophagus to help keep stomach contents down. The phrenic nerve, which runs from the neck, is its main nerve supply, and damage to it can leave half the dome paralyzed.",
+      "functions": [
+        {
+          "title": "Draws air into the lungs",
+          "detail": "Contraction flattens the dome and lowers pressure in the chest, pulling air in."
+        },
+        {
+          "title": "Drives quiet breathing",
+          "detail": "It does most of the work of breathing at rest, with help from the intercostal muscles."
+        },
+        {
+          "title": "Raises abdominal pressure",
+          "detail": "It pushes down on the belly during coughing, lifting, and childbirth, adding force to the effort."
+        },
+        {
+          "title": "Guards the esophagus",
+          "detail": "Its crura form a sling that helps prevent stomach contents from rising."
+        }
+      ],
+      "location": "It stretches across the bottom of the rib cage, separating the chest from the abdomen.",
+      "size": "It is a thin sheet only a few millimeters thick, spanning the width of the rib cage like a drumhead.",
+      "facts": [
+        "It is the main muscle of breathing, but it also helps you cough, laugh, and push.",
+        "Its nerve supply comes from the neck, which is why irritation there can be felt as shoulder pain.",
+        "Hiccups are sudden involuntary contractions of the diaphragm followed by a quick closure of the vocal cords."
+      ],
+      "conditions": [
+        {
+          "name": "Hiatal hernia",
+          "description": "Part of the stomach slides up through the opening in the diaphragm, which can cause heartburn and a feeling of fullness."
+        },
+        {
+          "name": "Diaphragm paralysis",
+          "description": "Damage to the phrenic nerve or the muscle itself can weaken one side of the dome, causing shortness of breath when lying flat or exerting."
+        },
+        {
+          "name": "Hiccups",
+          "description": "Brief involuntary contractions of the diaphragm, followed by a sudden closure of the vocal cords, produce the familiar sound."
+        }
+      ],
+      "relatedOrgans": [
+        "ribcage",
+        "lungs",
+        "rectus-abdominis",
+        "esophagus"
+      ],
+      "keywords": [
+        "breathing",
+        "diaphragm",
+        "lungs",
+        "phrenic nerve",
+        "dome"
+      ],
+      "sources": [
+        {
+          "label": "TeachMeAnatomy — Diaphragm",
+          "url": "https://teachmeanatomy.info/thorax/muscles/diaphragm/"
+        },
+        {
+          "label": "Cleveland Clinic — Diaphragm",
+          "url": "https://my.clevelandclinic.org/health/body/21578-diaphragm"
+        }
+      ],
+      "heroStat": {
+        "value": "20,000",
+        "label": "contractions a day"
+      }
+    }
+  ],
+  "lesson": {
+    "id": "lesson-muscular",
+    "title": "The pull of a lifetime: a tour of your muscles",
+    "subtitle": "From your shoulder cap to the muscle that breathes for you, follow the pull.",
+    "durationMin": 8,
+    "level": "beginner",
+    "steps": [
+      {
+        "title": "Your body's living ropes",
+        "body": "Reach out and touch your opposite shoulder. Under your fingers is a rope of tissue that just changed length on command, pulling one bone toward another across a joint. That is the whole trick of skeletal muscle: it can only pull, never push, so it works in teams. One muscle bends a joint while its partner straightens it, and your brain chooses which to fire. You have more than 600 of these muscles, from the broad slab of your gluteus maximus to the tiny stapedius in your ear. We will start at the shoulder, work our way down, and finish with the one muscle you never have to think about."
+      },
+      {
+        "title": "The shoulder cap",
+        "body": "Lift your arm straight out to the side and hold it there. The rounded cap on top of your shoulder is the deltoid, and right now its middle fibers are working hard to keep your arm level. It has three parts, each pulling the upper arm from a different angle: front, side, and back. That arrangement lets one muscle swing your arm forward, out, and behind you. The deltoid also hugs the head of the arm bone, helping keep it seated in a socket shallower than a saucer. Next, follow the pull inward to the broad muscle crossing your chest.",
+        "organId": "deltoid",
+        "keyPoint": "Three fiber angles let one shoulder muscle push, pull, and lift."
+      },
+      {
+        "title": "The pushing fan",
+        "body": "Put your palms together and press. The wide fan across your chest tightens, pulling your arms toward the midline. That is the pectoralis major, and its fibers begin on the collarbone, breastbone, and upper ribs before converging into a single tendon on the arm. It adducts the arm, rotates it inward, and helps lift it forward. Because it crosses the front of the shoulder, it also adds stability. Boxers train it for punching, swimmers use it for the pull through water, and anyone pushing a heavy door uses it without thinking. Slide your hand down your side now, to the arm that does the pulling.",
+        "organId": "pectoralis-major",
+        "keyPoint": "The chest fan does the hugging motion and helps you breathe hard."
+      },
+      {
+        "title": "The two-headed lifter",
+        "body": "Bend your elbow and watch the front of your arm rise. The biceps brachii has two heads at the shoulder that join into one belly, then one tendon that grips the radius. It bends the elbow, but its real talent is supination, turning your palm to face the ceiling. Try opening a tight jar with your palm down, then with your palm up; the second is easier because the biceps is doing more of the work. Its long tendon threads through the shoulder joint, which is why shoulder pain can show up as pain in the front of the arm. Now drop your hand to your belly and feel the corset underneath.",
+        "organId": "biceps-brachii",
+        "keyPoint": "The biceps is the body's strongest palm-up muscle, not just an elbow bender."
+      },
+      {
+        "title": "Your inner corset",
+        "body": "Cough gently. The muscle that jumps under your hand is rectus abdominis, a long strap running from your pubic bone to your breastbone. It is one muscle, not six, crossed by bands of tendon that create the blocks people call a six-pack. It curls your trunk forward, braces your spine when you lift, and squeezes your belly to raise pressure when you cough or laugh. Two layers of fascia wrap it like a corset, and a pale seam called the linea alba divides left from right. Stand up and feel it engage, then follow the pull around to the back of your hip.",
+        "organId": "rectus-abdominis",
+        "keyPoint": "A six-pack is one muscle marked by tendon bands, not six separate muscles."
+      },
+      {
+        "title": "The climbing engine",
+        "body": "Stand up from a chair without using your hands. The muscle that launches you is the gluteus maximus, the largest and heaviest muscle in your body. It stretches from the back of your pelvis and tailbone to the femur and a long band of fascia down the outside of the thigh. It extends the hip, rotates the thigh outward, and steadies the knee through that band. Walking on flat ground barely asks it to work; climbing stairs, sprinting, and standing up demand almost everything it has. Our ancestors' upright stride helped shape its size. Now go down one more joint, to the muscle that never stops.",
+        "organId": "gluteus-maximus",
+        "keyPoint": "The biggest muscle in your body is built for climbing, not sitting."
+      },
+      {
+        "title": "The muscle you forget",
+        "body": "Breathe in slowly and watch your belly rise. The muscle doing most of the work is the diaphragm, a dome of tissue under your lungs. When it contracts, it flattens and drops, enlarging the chest and pulling air in. It does this roughly 20,000 times a day, and you never feel it until something interrupts it, like a hiccup. It also presses down on your abdomen when you cough or lift, and its crura form a sling around the esophagus. Its nerve comes from your neck, which is why a diaphragm problem can be felt in the shoulder. One last stop: put the pieces together.",
+        "organId": "diaphragm",
+        "keyPoint": "The diaphragm is a muscle you drive thousands of times a day without noticing."
+      },
+      {
+        "title": "Keep exploring",
+        "body": "Ten muscles, one idea: skeletal muscle pulls, and your skeleton redirects that pull into movement. The deltoid lifts, the pectoralis major adducts, the biceps bends and supinates, the rectus abdominis braces, the gluteus maximus drives, and the diaphragm breathes. Behind them sit the trapezius, which steadies the shoulder blade, the quadriceps and hamstrings, which drive and control each stride, and the gastrocnemius, which launches every step. None of them works alone; each relies on partners, tendons, and nerves. Pick one muscle you felt today and explore its entry next. Then try the quiz and see which connections stuck."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": "muscular-q1",
+      "systemId": "muscular",
+      "question": "Which part of the deltoid lifts your arm out to the side?",
+      "options": [
+        "Front fibers",
+        "Middle fibers",
+        "Back fibers",
+        "All three equally"
+      ],
+      "answerIndex": 1,
+      "explanation": "The middle, or lateral, fibers of the deltoid abduct the arm, lifting it away from the body. The front fibers flex the shoulder and the back fibers extend it.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "muscular-q2",
+      "systemId": "muscular",
+      "question": "Which muscle separates your chest cavity from your abdomen?",
+      "options": [
+        "Diaphragm",
+        "Rectus abdominis",
+        "Trapezius",
+        "Pectoralis major"
+      ],
+      "answerIndex": 0,
+      "explanation": "The diaphragm is a dome-shaped muscle that attaches to the lower ribs and spine and forms the floor of the chest, separating it from the abdominal cavity.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "muscular-q3",
+      "systemId": "muscular",
+      "question": "What is the biceps brachii especially good at doing?",
+      "options": [
+        "Straightening the elbow",
+        "Lifting the shoulder blade",
+        "Turning the palm upward",
+        "Extending the hip"
+      ],
+      "answerIndex": 2,
+      "explanation": "The biceps bends the elbow, but its specialty is supination, turning the palm to face upward. It is the strongest supinator of the forearm.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "muscular-q4",
+      "systemId": "muscular",
+      "question": "Which quadriceps muscle also crosses the hip joint?",
+      "options": [
+        "Vastus lateralis",
+        "Vastus medialis",
+        "Vastus intermedius",
+        "Rectus femoris"
+      ],
+      "answerIndex": 3,
+      "explanation": "The rectus femoris begins on the pelvis and crosses both the hip and the knee, so it helps flex the hip as well as extend the knee. The vastus muscles cross only the knee.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "muscular-q5",
+      "systemId": "muscular",
+      "question": "What do the hamstrings do at the knee?",
+      "options": [
+        "Bend it",
+        "Straighten it",
+        "Rotate the kneecap",
+        "Lock it in place"
+      ],
+      "answerIndex": 0,
+      "explanation": "All three hamstrings cross the back of the knee and flex it, drawing the heel toward the buttock. They also extend the hip and can rotate the bent lower leg.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "muscular-q6",
+      "systemId": "muscular",
+      "question": "Why is the gluteus maximus so important for climbing stairs?",
+      "options": [
+        "It bends the knee",
+        "It lifts the shoulder blade",
+        "It extends the hip",
+        "It points the toes"
+      ],
+      "answerIndex": 2,
+      "explanation": "The gluteus maximus is a powerful hip extensor. Standing up, climbing, and sprinting all depend on it driving the thigh backward.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "muscular-q7",
+      "systemId": "muscular",
+      "question": "Why does a six-pack look like separate blocks?",
+      "options": [
+        "The muscle is split into six separate muscles",
+        "Bands of tendon cross a single muscle",
+        "Fat pads sit between muscle strips",
+        "The linea alba divides it into six parts"
+      ],
+      "answerIndex": 1,
+      "explanation": "Rectus abdominis is one long muscle. Three or four bands of tendon cross it, dividing the surface into blocks that become visible when body fat is low.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "muscular-q8",
+      "systemId": "muscular",
+      "question": "Which statement about the gastrocnemius is correct?",
+      "options": [
+        "It has two heads and crosses both the knee and the ankle",
+        "It has one head and crosses only the ankle",
+        "It attaches to the heel through the patellar tendon",
+        "It is a smooth muscle found in the calf"
+      ],
+      "answerIndex": 0,
+      "explanation": "The gastrocnemius has medial and lateral heads that begin above the knee and join the Achilles tendon. Because it crosses two joints, it helps bend the knee and point the ankle.",
+      "difficulty": "hard"
+    }
+  ]
+}

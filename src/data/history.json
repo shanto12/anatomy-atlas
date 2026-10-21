@@ -1,0 +1,96 @@
+[
+  {
+    "year": "c. 1550 BCE",
+    "title": "Ebers Papyrus records early anatomy",
+    "description": "Dated to about 1550 BCE, the Ebers Papyrus is among the oldest surviving medical texts. It names the heart, vessels, liver, and other organs, connects the heart with vessels throughout the body, and combines remedies with observations of disease. Its anatomy reflects embalming practice and bedside experience rather than systematic dissection, but it shows Egyptian healers already mapping internal structures and their relationships."
+  },
+  {
+    "year": "c. 400 BCE",
+    "title": "Hippocratic writings make medicine natural",
+    "description": "Greek physicians of the fifth and fourth centuries BCE produced the Hippocratic Corpus, some sixty treatises on disease, prognosis, and the natural causes of illness. On the Sacred Disease argues that epilepsy arises in the brain, not from divine punishment. Because Greek custom discouraged human dissection, the corpus's anatomy is speculative, yet its insistence on observation and natural explanation set the intellectual foundation for later anatomy.",
+    "figure": "Hippocrates"
+  },
+  {
+    "year": "c. 300 BCE",
+    "title": "Herophilus and Erasistratus dissect humans",
+    "description": "At Alexandria, under the early Ptolemies, Herophilus of Chalcedon and Erasistratus of Ceos undertook the first systematic human dissections in the Greek world, later reports also alleging vivisection. Herophilus described the brain's ventricles, distinguished cerebrum from cerebellum, traced nerves and named the duodenum; Erasistratus studied the heart valves and vessels. Their work briefly made anatomy an empirical science before Galen's authority eclipsed it.",
+    "figure": "Herophilus"
+  },
+  {
+    "year": "c. 160",
+    "title": "Galen systematizes anatomy from animals",
+    "description": "Claudius Galen of Pergamon, physician to gladiators and later to Roman emperors, built the most influential anatomical synthesis of antiquity. Restricted largely to animal dissection, he extrapolated from Barbary macaques, pigs, and oxen, and his writings, especially On Anatomical Procedures, became unquestioned authority for fourteen centuries. Animal-derived errors such as a porous heart septum and a five-lobed liver persisted in European medicine until Vesalius challenged them.",
+    "figure": "Galen"
+  },
+  {
+    "year": "1242",
+    "title": "Ibn al-Nafis describes pulmonary circulation",
+    "description": "Working in Cairo, the Syrian physician Ibn al-Nafis challenged Galen in his commentary on Avicenna's Canon. He argued that blood passes from the right ventricle through the pulmonary artery to the lungs, where it mixes with air and returns to the left ventricle, denying Galen's invisible pores in the heart's septum. He also described the coronary vessels nourishing the heart. His correction of pulmonary circulation anticipated European discoveries by four centuries.",
+    "figure": "Ibn al-Nafis"
+  },
+  {
+    "year": "1543",
+    "title": "Vesalius corrects Galen through dissection",
+    "description": "At Padua, Andreas Vesalius dissected human cadavers himself and published De humani corporis fabrica in Basel in 1543, a lavishly illustrated seven-book survey. He corrected Galenic errors such as the five-lobed liver, the rete mirabile, and the porous septum, and insisted that anatomy rest on direct observation. The Fabrica became the foundation of modern anatomy and made the dissecting table, not ancient text, the ultimate authority on the body.",
+    "figure": "Andreas Vesalius"
+  },
+  {
+    "year": "1628",
+    "title": "Harvey proves the circulation of the blood",
+    "description": "William Harvey's Exercitatio de Motu Cordis (Frankfurt, 1628) demonstrated that the heart acts as a pump driving a closed circulation: blood flows from arteries into veins and returns to the right atrium. Harvey reasoned from ligatures, dissections, and the sheer volume of blood moved, refuting Galen's ebb-and-flow. Capillaries, the missing link, were seen by Malpighi in 1661, confirming his scheme.",
+    "figure": "William Harvey"
+  },
+  {
+    "year": "1674",
+    "title": "Leeuwenhoek reveals the microscopic body",
+    "description": "Antonie van Leeuwenhoek, a Delft draper with no university training, ground tiny single-lens microscopes and reported his findings to the Royal Society. In the 1670s he described red blood cells, protozoa, bacteria, and sperm, and he observed blood flowing through capillaries in living tissue. His lenses revealed a microscopic anatomy invisible to the naked eye, helping found microbiology and opening the study of living cells.",
+    "figure": "Antonie van Leeuwenhoek"
+  },
+  {
+    "year": "1761",
+    "title": "Morgagni founds pathological anatomy",
+    "description": "Giovanni Battista Morgagni's De Sedibus et Causis Morborum (Venice, 1761) paired meticulous clinical histories with autopsy findings across some seven hundred cases. By showing that symptoms corresponded to specific lesions in particular organs, the Padua professor founded pathological anatomy. Disease could now be located in the body rather than explained by humoral imbalance, redirecting medicine toward structural diagnosis and setting the stage for cellular pathology.",
+    "figure": "Giovanni Battista Morgagni"
+  },
+  {
+    "year": "1858",
+    "title": "Gray's Anatomy standardizes the subject",
+    "description": "Henry Gray and illustrator Henry Vandyke Carter published Anatomy: Descriptive and Surgical in London in 1858. Its concise text and precise dissection-oriented illustrations made it the standard English-language anatomy reference, reprinted and revised for over a century as Gray's Anatomy. By standardizing nomenclature and presenting the body systematically for students and surgeons, the book shaped how generations of physicians learned anatomy.",
+    "figure": "Henry Gray"
+  },
+  {
+    "year": "1895",
+    "title": "Röntgen discovers X-rays",
+    "description": "On 8 November 1895, Wilhelm Conrad Röntgen at Würzburg observed unknown rays passing through opaque objects and famously made a radiograph of his wife's hand. Within months physicians were using X-rays to see bones, fractures, and foreign bodies in living patients. Röntgen received the first Nobel Prize in Physics in 1901. His discovery turned anatomy from a study of cadavers into a living, clinical discipline.",
+    "figure": "Wilhelm Conrad Röntgen"
+  },
+  {
+    "year": "1953",
+    "title": "Watson and Crick reveal the double helix",
+    "description": "In April 1953 James Watson and Francis Crick published the double-helix structure of DNA in Nature, using Rosalind Franklin's X-ray diffraction photographs and Erwin Chargaff's base ratios. The model explained how genetic information is copied and passed on. Suddenly the molecular basis of heredity, and of anatomy at its smallest scale, was legible, opening the way to genetic medicine and to understanding how bodies are built.",
+    "figure": "James Watson and Francis Crick"
+  },
+  {
+    "year": "1971",
+    "title": "First CT scan images the living brain",
+    "description": "In October 1971, the first clinical computed tomography scan was performed at Atkinson Morley's Hospital in London using Godfrey Hounsfield's EMI scanner. By rotating an X-ray source and reconstructing cross-sectional images mathematically, CT showed soft tissue and bone in unprecedented detail without superimposition. Hounsfield shared the 1979 Nobel Prize in Physiology or Medicine with Allan Cormack, whose mathematics had made reconstruction possible.",
+    "figure": "Godfrey Hounsfield"
+  },
+  {
+    "year": "1977",
+    "title": "First MRI scan of a human body",
+    "description": "In July 1977 Raymond Damadian's team produced the first magnetic resonance image of a human body, scanning a colleague's chest over several hours with their machine, Indomitable. Paul Lauterbur and Peter Mansfield had already shown how magnetic field gradients encode spatial information, work that made MRI practical and earned them the 2003 Nobel Prize. Unlike CT, MRI uses no ionizing radiation and excels at soft tissue.",
+    "figure": "Raymond Damadian"
+  },
+  {
+    "year": "2003",
+    "title": "Human Genome Project maps our DNA",
+    "description": "The Human Genome Project, an international consortium launched in 1990, published a draft of the human genome in 2001 and declared the sequence essentially complete in 2003. Costing about $3 billion, it identified roughly 20,000 protein-coding genes, far fewer than expected, and provided the reference map underlying modern genetics. Anatomy now extends to the molecular instructions that build and maintain every tissue.",
+    "figure": "Francis Collins"
+  },
+  {
+    "year": "2024",
+    "title": "Complete fly brain connectome published",
+    "description": "In 2024 the FlyWire consortium published the first complete connectome of the adult fruit fly brain, mapping roughly 140,000 neurons and about 50 million synapses. Earlier efforts, including the Human Connectome Project and Janelia's hemibrain, had charted coarse human connections and partial insect circuits. Connectomics extends anatomy to its finest scale: the neural circuits through which brains sense, move, and remember."
+  }
+]
