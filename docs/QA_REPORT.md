@@ -3,7 +3,8 @@
 **Owner:** qa-dev · **Repo:** `/Users/shanto/Documents/deepseek-harness/default-workspace/anatomy-atlas`
 **Verdict:** **PASS — SHIPPED & LIVE-VERIFIED.** No product defects remain in the frozen build; all automated
 gates are green and the deployed production build passes live verification.
-**Live URL:** https://anatomy-atlas-b2m.pages.dev · **Cloudflare deployment:** `89309a61` · **Source commit:** `c740ce7`
+**Live URL:** https://anatomy-atlas-b2m.pages.dev · **Final Cloudflare deployment:** `dde5bdc5`
+(earlier verified deployments: `89309a61`, `ac970b9a`) · **Source commit:** `c740ce7` + targeted QA-reviewed patches
 **Content snapshot:** 12 systems, 95 organs, 12 lessons (96 steps), 96 quiz questions, 120 glossary terms,
 80 facts, 16 history events, 7 regions.
 
@@ -166,7 +167,7 @@ No application source file was modified by QA.
 
 ## 8. Sign-off
 
-**PASS — SHIP.** Verified against the live deployment on 2026-10-21.
+**PASS — SHIP.** Verified against the final live deployment (`dde5bdc5`) on 2026-10-21.
 
 ### Live production verification (deployed build, not local)
 
@@ -180,9 +181,12 @@ node scripts/verify-live.mjs https://anatomy-atlas-b2m.pages.dev
 | All 13 key routes + intentional 404: HTTP 200, non-empty title/h1, primary nav | **14/14 PASS** |
 | Console errors / uncaught page errors / failed requests | **0 / 0 / 0** |
 | Horizontal overflow at 1280px | none |
-| Route screenshots | 12/14 captured; 2 warnings (`/systems/cardiovascular`, `/explore?organ=heart` — headless full-page screenshot timed out on the live WebGL canvas; functional checks still passed) |
+| Route screenshots | 14/14 captured on the final run (earlier run had 2 headless full-page screenshot timeouts on heavy WebGL pages; functional checks passed) |
 | Home resource weight | 551 KB JS across 4 files (8 resources) |
 | Real-WebGL smoke on live build (`/`, `/organs/heart`, `/explore?organ=heart`) | all `data-webgl="ready"`, canvas visible, Heart panel on the deep link, 0 console errors — `test-results/live/webgl-live-*.png` |
+| Focused live axe re-check of the interactive 3D stage (`/systems/cardiovascular`, `/organs/heart`, real WebGL, Chromium) | **0 serious/critical, 0 violations total, 0 console/page errors**, `webgl=ready` — `test-results/live/a11y-live-*.png` |
+| Focused live axe re-check of patched learning/quiz routes (`/learn`, `/learn/lesson-cardiovascular`, `/quiz`, `/quiz/cardiovascular`, `/quiz/final`) | **0 serious/critical, 0 violations total, 0 console/page errors** — `test-results/live/a11y-live-*.png` |
+| Review-driven patch re-check (deployment `ac970b9a`, local focused suite) | learning + quiz 39/39 PASS, including new regressions: start-vs-continue prompt, organ-only progress does not unlock "next lesson", step meter counts steps read, completion focus/announcement + quiz CTA promotion, first quiz attempt "New best"; axe 0 serious; reduced motion clean on `/learn`, `/learn/lesson-cardiovascular`, `/quiz` |
 
 Live report: `test-results/live-report.json` · screenshots: `test-results/live/*.png`.
 
